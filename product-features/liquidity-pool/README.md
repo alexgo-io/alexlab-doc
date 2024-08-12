@@ -6,7 +6,7 @@
 
 Liquidity pools are crowdfunded collections of crypto assets held in a smart contract, designed to provide liquidity for decentralized exchanges (DEXs) and support various decentralized finance (DeFi) protocols.
 
-While their applications are multiple, ranging from lending and borrowing platforms to algorithmic protocols for stablecoins, their primary use is on DEXs. In this case, liquidity pools enable users to trade crypto assets without the need for a centralized intermediary, serving as reserves of assets that users can trade against.
+While their applications are diverse, ranging from lending and borrowing platforms to algorithmic protocols for stablecoins, their primary use is on DEXs. In this case, liquidity pools enable users to trade crypto assets without the need for a centralized intermediary, serving as reserves of assets that users can trade against.
 
 ### Their role in Automated Market Makers (AMMs)
 
