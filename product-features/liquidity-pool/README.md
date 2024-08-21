@@ -42,8 +42,8 @@ You can become a liquidity provider on ALEX by submitting two tokens to a liquid
 
 ### Example
 
-- **Becoming a Liquidity Provider:** Suppose you want to provide liquidity for the STX/ALEX pool. If each token is valued at \$1, you would add 10 ALEX and 10 STX to the pool, since liquidity is added in equal parts.
-- **Getting LP Tokens in return:** Let's say you receive 100 LP tokens in representation of your share of the pool's funds. These 100 LP tokens also represent a total value of \$20 (10 ALEX + 10 STX, each valued at \$1).
+- **Becoming a Liquidity Provider:** Suppose you want to provide liquidity for the STX-ALEX pool. If each token is valued at \$1, you would add 10 ALEX and 10 STX to the pool, since liquidity is added in equal parts.
+- **Getting LP Token in return:** Let's say you receive 100 LP tokens in representation of your share of the pool's funds. These 100 LP tokens also represent a total value of \$20 (10 ALEX + 10 STX, each valued at \$1).
 - **Earnings from trades:** As other users trade within the pool, the pool collects a 0.5% fee per transaction. Of this, 50% is reinvested into the pool.
 - **Removing Liquidity:** You can remove your liquidity at any time. When you decide to do so, you can reduce your position by redeeming your LP tokens. If you return your 100 LP tokens, you will receive a greater amount of ALEX and STX than you initially provided, reflecting your earnings. These earning are proportional to the LP token amount redeemed and thus proportional your share of the pool’s funds; meaning the more liquidiy you provide, the greater the earnings.
 
@@ -52,9 +52,9 @@ If you want to potentially earn higher returns as a liquidity provider, you can 
 {% endhint %}
 
 {% hint style="success" %}
-Check out the [STX/ALEX Liquidity Pool](https://app.alexlab.co/pool/token-amm-pool-v2-01:token-wstx,age000-governance-token,1e8) on the ALEX Lab platform to explore real-time information and stats. You should be able to understand displayed info after this section.
+Check out the [STX-ALEX Liquidity Pool](https://app.alexlab.co/pool/token-amm-pool-v2-01:token-wstx,age000-governance-token,1e8) on the ALEX Lab platform to explore real-time information and stats. You should be able to understand displayed info after this section.
 {% endhint %}
 
-### 🙋 First time as liquidity provider? 
+## 🙋 First time as liquidity provider? 
 
 Visit our how-to sections for a step-by-step guide on [How to Add/Remove Liquidity](https://docs.alexlab.co/how-to/how-to-add-remove-liquidity). 
