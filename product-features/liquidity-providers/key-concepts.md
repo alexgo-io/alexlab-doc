@@ -20,7 +20,7 @@ Smart contracts manage all trades executed within the AMM, including aspects suc
 
 ## ALEX Liquidity Pools
 
-The ALEX decentralized exchange is AMM-based and consists of a set of smart contracts built on top of the Stacks network. Each liquidity pool is composed of funds from a specific pair of cryptocurrencies, vwhich are locked into a smart contract by voluntary depositors. These pools enable users to perform trustless swaps between the token pairs.
+The ALEX decentralized exchange is AMM-based and consists of a set of smart contracts built on top of the Stacks network. Each liquidity pool is composed of funds from a specific pair of cryptocurrencies, which are locked into a smart contract by voluntary depositors. These pools enable users to perform trustless swaps between the token pairs.
 
 For example, if a user wants to trade Stacks' native currency (STX) for ALEX's governance token (ALEX), they would interact with the STX - ALEX liquidity pool on ALEX's smart contracts. For more details on how to execute such swaps, refer to the [Token Swaps](../token-swaps/) section.
 

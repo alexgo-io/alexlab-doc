@@ -6,6 +6,10 @@ description: >-
 
 # How to add/remove liquidity
 
+When **adding liquidity**, you will deposit an equivalent value of both tokens into the pool. In return, you’ll receive LP tokens, which represent your share of that specific liquidity pool.
+
+When **removing liquidity**, you will transfer your LP tokens back to the ALEX smart contract and receive your original funds plus any fees accrued while holding those LP tokens.
+
 ## :palm\_up\_hand: :moneybag: Adding Liquidity
 
 ### Step 1
@@ -14,6 +18,8 @@ Go to [https://app.alexlab.co/](https://app.alexlab.co/) and click on navbar's S
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
+### Step 2
+
 All available pools will be displayed including information such as:
 
 * **Trading Pair:** The token pair that constitute liquidity pools to which you can add liquidity.
@@ -21,11 +27,13 @@ All available pools will be displayed including information such as:
 * **Volume:** The trading volume between the token pair over the last 7 days.
 * **Fee Rebate:** Potential LP earnings from swap fees over a year, based on the last week's average. This metric, also known as Pool APR, reflects the potential profitability of participating in a pool over a year, assuming similar trading activity continues.&#x20;
 
-### Step 2
-
 Select the token pair to which you want to add liquidity from the displayed list. Note you can sort by pool metrics.
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-2-select-pool.png" alt=""><figcaption><p>Selected STX - ALEX liquidity pool as example.</p></figcaption></figure>
+
+{% hint style="warning" %}
+When hovering over a pool, you might notice a "+LP" button. This is just a visual indicator highlighting the selected pool. Clicking it will take you to the same screen as clicking anywhere on the pool's row.
+{% endhint %}
 
 ### Step 3
 
@@ -34,6 +42,14 @@ After selecting a pool, you will be taken to a control panel for that specific l
 When you set the amount for one token, the corresponding amount for the other token is automatically calculated, as liquidity must be provided in equal value for both tokens.
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-3-pool-control-panel.png" alt=""><figcaption><p>Control panel example for STX - ALEX liquidity pool. Amount is set to 4 STX and ALEX token amount is automatically determined.</p></figcaption></figure>
+
+{% hint style="info" %}
+Clicking the "Max" button will automatically set the amount to your total available balance.
+{% endhint %}
+
+{% hint style="warning" %}
+The APR metric is the same as the displayed in the Fee Rebate column on the previous step.
+{% endhint %}
 
 ### Step 4
 
@@ -79,7 +95,7 @@ Wait for the transaction to be confirmed on the network.&#x20;
 {% hint style="info" %}
 Recommended to track transaction status:
 
-* Turn on Telegram notifications, you will get notified when the transaction is confirmed.&#x20;
+* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
 * Searching for the transaction on [explorer](https://explorer.hiro.so/txid/0x588d949ea697b325237eb20d5d3a6af5f6f496668cf0c7428ba79068573efba9?chain=mainnet). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
@@ -113,7 +129,11 @@ After successfully adding liquidity, you will be able to see your LP tokens and 
 * The **My Pool Share** reflects your contribution, as a percentage, to the pool’s liquidity for reference.
 * The **Indicative Value** changes depending on the price action of both assets, which may result in changing values.
 
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-8-my-liquidity.png" alt=""><figcaption><p>"My Liquidity" panel. You can also find it in <a href="https://app.alexlab.co/pool">https://app.alexlab.co/pool</a>. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-8-my-liquidity.png" alt=""><figcaption><p>"My Liquidity" panel.</p></figcaption></figure>
+
+{% hint style="info" %}
+You can find the "My Liquidity" panel above the Liquidity Pool control panel (shown in Step 3). A summarized version is also available under the Swap -> Pool tab or at https://app.alexlab.co/pool.
+{% endhint %}
 
 ## :palm\_down\_hand: :moneybag: Removing liquidity
 
@@ -123,9 +143,10 @@ As when adding liquidity, go to [https://app.alexlab.co/](https://app.alexlab.co
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
-You will be able to see your liquidity in the main "Pool" panel.
+You will be able to see there your liquidity in the main "Pool" panel.
+There you will find the "My Liquidity" panel summarazing all your pool contributions.
 
-<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-1-my-liquidity-main-panel.png" alt=""><figcaption><p>The pools where you are providing liquidity are displayed here.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-1-my-liquidity-main-panel.png" alt=""><figcaption><p>The pools where you are providing liquidity are displayed here. There is only one in this example.</p></figcaption></figure>
 
 ### Step 2
 
@@ -141,9 +162,13 @@ Once in the panel of the pool, select the "Remove Liquidity" tab.
 
 ### Step 4
 
-Enter the amount of LP tokens you would like to withdraw and hit the "Remove" button.
+For this step, it's important to have in mind that the LP tokens you hold represent your share of the pool's funds. By entering the LP token amount, you're specifying the portion of the pooled funds you want to withdraw. Clicking the "Max" button sets your entire LP token balance, indicating you want to remove all liquidity from the pool.
 
-<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-4-enter-amount.png" alt="" width="375"><figcaption></figcaption></figure>
+When you enter the amount of LP tokens, you are specifiyng amount you will transfer to ALEX smart contract in order to receive your funds and any accrued fees in return. These fees are the ones accrued while holding those LP tokens.
+
+Once you have decided the LP token amount, click the "Remove" button.
+
+<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-4-enter-amount.png" alt="" width="375"><figcaption><p>Example of removing all liquidity; the amount matches the LP token balance.</p></figcaption></figure>
 
 ### Step 5
 
@@ -166,7 +191,7 @@ Wait for the transaction to be confirmed on the network.&#x20;
 {% hint style="info" %}
 Recommended to track transaction status:
 
-* Turn on Telegram notifications, you will get notified when the transaction is confirmed.&#x20;
+* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
 * Searching for the transaction on [explorer](https://explorer.hiro.so/txid/0xd34372393d5467dc5a0e161beeb3d376222690d24ab964edbd7f5bc80835559b). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
