@@ -6,7 +6,7 @@ description: >-
 
 # How to add/remove liquidity
 
-When **adding liquidity**, you will deposit an equivalent value of both tokens into the pool. In return, you’ll receive LP tokens, which represent your share of that specific liquidity pool.
+When **adding liquidity**, you will deposit an equivalent value of both tokens into the pool. In return, you'll receive LP tokens, which represent your share of that specific liquidity pool.
 
 When **removing liquidity**, you will transfer your LP tokens back to the ALEX smart contract and receive your original funds plus any fees accrued while holding those LP tokens.
 
@@ -73,7 +73,7 @@ After clicking "Confirm", you will need to confirm the transaction in your walle
 To be completely sure, you can check:
 
 * Transaction is requested by **"Alex app" (app.alexlab.co)**
-* The amounts you will transfer to the smart contract, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions). Note that one transfer amount is exactly determined (STX in the example) while the other's is less than or equal to. This is because the potential slippage variation, and here we can see the exact upper bound. If this conditions are not met, the transaction will abort.
+* The amounts you will transfer to the smart contract, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions). Note that one transfer amount is exactly determined (STX in the example) while the other is subject to a "less than or equal to" condition. This accounts the potential slippage variation, and here you can see the exact upper bound. If these conditions are not met, the transaction will abort.
 {% endhint %}
 
 <div>
@@ -96,7 +96,7 @@ Wait for the transaction to be confirmed on the network.&#x20;
 Recommended to track transaction status:
 
 * Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Searching for the transaction on [explorer](https://explorer.hiro.so/txid/0x588d949ea697b325237eb20d5d3a6af5f6f496668cf0c7428ba79068573efba9?chain=mainnet). &#x20;
+* Search for the transaction on [explorer](https://explorer.hiro.so/txid/0x588d949ea697b325237eb20d5d3a6af5f6f496668cf0c7428ba79068573efba9?chain=mainnet). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
 
@@ -122,12 +122,12 @@ Recommended to track transaction status:
 
 ### Step 8
 
-After successfully adding liquidity, you will be able to see your LP tokens and further information in "My Liquidity" panel.
+After successfully adding liquidity, you will be able to see your LP tokens and related details in "My Liquidity" panel.
 
-* **My LP** are your LP token holdings for the pool. Note LP tokens are specific por each pool.
-* The **Pooled** amount represents the total token holdings of the liquidity pool.
-* The **My Pool Share** reflects your contribution, as a percentage, to the pool’s liquidity for reference.
-* The **Indicative Value** changes depending on the price action of both assets, which may result in changing values.
+* **My LP** are your LP token holdings specific to the pool you contributed to. Each pool issues its own unique LP tokens.
+* The **Pooled** amount represents your total token holdings in the liquidity pool. Initially, reflects the amount you added and it increases over time due to accrued fees, showing your updated share of the pool's total liquidity.
+* The **My Pool Share** shows how much of the overall pool you own, as a percentage.
+* The **Indicative Value** reflects the value of your holdings in USD, which can change based on the price action of the underlying assets.
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-8-my-liquidity.png" alt=""><figcaption><p>"My Liquidity" panel.</p></figcaption></figure>
 
@@ -192,7 +192,7 @@ Wait for the transaction to be confirmed on the network.&#x20;
 Recommended to track transaction status:
 
 * Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Searching for the transaction on [explorer](https://explorer.hiro.so/txid/0xd34372393d5467dc5a0e161beeb3d376222690d24ab964edbd7f5bc80835559b). &#x20;
+* Search for the transaction on [explorer](https://explorer.hiro.so/txid/0xd34372393d5467dc5a0e161beeb3d376222690d24ab964edbd7f5bc80835559b). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
 
