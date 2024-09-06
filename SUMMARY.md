@@ -7,7 +7,7 @@
 * [🔃 Swap](product-features/swap.md)
 * [🐋 Liquidity Providers](product-features/liquidity-providers/README.md)
   * [Key concepts](product-features/liquidity-providers/key-concepts.md)
-  * [How to swap](product-features/liquidity-providers/how-to.md)
+  * [How to add/remove liquidity](product-features/liquidity-providers/how-to.md)
   * [FAQs](product-features/liquidity-providers/faqs.md)
 * [⚓ Stake](product-features/stake.md)
 * [☘️ Farm](product-features/farm.md)
