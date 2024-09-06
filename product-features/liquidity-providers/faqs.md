@@ -54,7 +54,7 @@ The fees are not directly transferred to the liquidity provider's (LP) wallet. I
 
 <details>
 
-<summary>How can I see how much fees I have gained so far as a liquidity provider?</summary>
+<summary>Where can I see the fees I've gained so far as a liquidity provider?</summary>
 
 You can view your accrued fees in the "My Liquidity" panel. To access it, navigate to the Swap -> Pool tab and select your pool of interest from the list. You'll also see a summarized version above the pool list.
 
