@@ -1,0 +1,3 @@
+redirects:
+  product-features/liquidity-pool: product-features/liquidity-providers/README.md
+  product-features/liquidity-pool/self-service-listing: product-features/self-service-listing.md
