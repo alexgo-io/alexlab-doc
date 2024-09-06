@@ -23,7 +23,6 @@
 
 * [👉 Set up Hiro Wallet](how-to/set-up-hiro-wallet.md)
 * [🔃 Swap](how-to/swap.md)
-* [🐳 How to Add/Remove Liquidity](how-to/how-to-add-remove-liquidity.md)
 * [⚓ Stake $ALEX](how-to/stake-usdalex/README.md)
   * [How to Use Auto Staking (minting AutoALEX)](how-to/stake-usdalex/how-to-use-auto-staking-minting-autoalex.md)
   * [How to Use Manual (Customized) Staking](how-to/stake-usdalex/how-to-use-manual-customized-staking.md)
