@@ -5,6 +5,10 @@ description: >-
 
 # How to swap
 
+When performing a token swap, you transfer an amount of the token you want to exchange (base token) to the ALEX smart contract. In return, you receive a pre-agreed amount of the desired token (target token) from the ALEX smart contract, all within a single swap transaction. The resulting balance changes will be reflected in your wallet.
+
+That said, let's get hands-on!
+
 ## :currency\_exchange: :moneybag: Trade one token for another
 
 ### Step 1
@@ -43,10 +47,10 @@ Check the transaction details by clicking the dropdown "Details" arrow below the
 
 * **Route:** The exchange route to convert from the base token into the target token. In the example we see STX -> ALEX, indicating it is a one-step or direct swap.&#x20;
 * **Liquidity Provider Fee:** The swap fee, which is shared between the ALEX protocol and the Liquidity Providers (LPs).&#x20;
-* **Slippage Tolerance:** The maximum percentage of price movement you’ll accept between the time you submit the transaction and its execution. The standard slippage tolerance is 4%, but you can select a custom percentage. If price movement exceeds the slippage tolerance, the transaction will be canceled.
+* **Slippage Tolerance:** The maximum percentage of price movement you'll accept between the time you submit the transaction and its execution. The standard slippage tolerance is 4%, but you can select a custom percentage. If price movement exceeds the slippage tolerance, the transaction will be canceled.
 * **Minimum Received:** The minimum amount of target token you will receive considering the maximum slippage variation.
 
-<figure><img src="../../.gitbook/assets/token-swaps/3-tx-details.png" alt="" width="375"><figcaption><p>wap panel with Transaction Details panel expanded.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/3-tx-details.png" alt="" width="375"><figcaption><p>Swap panel with Transaction Details panel expanded.</p></figcaption></figure>
 
 #### Transaction Settings
 
