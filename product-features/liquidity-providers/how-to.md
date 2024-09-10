@@ -8,7 +8,7 @@ description: >-
 
 When **adding liquidity**, you will deposit an equivalent value of both tokens into the pool. In return, you'll receive LP tokens, which represent your share of that specific liquidity pool.
 
-When **removing liquidity**, you will transfer your LP tokens back to the ALEX smart contract and receive your original funds plus any fees accrued while holding those LP tokens.
+When **removing liquidity**, you will transfer your LP tokens back to the ALEX smart contract and withdraw an equivalent value of the token pair plus any fees accrued while holding those LP tokens.
 
 ## :palm\_up\_hand: :moneybag: Adding Liquidity
 
@@ -53,7 +53,7 @@ The APR metric is the same as the displayed in the Fee Rebate column on the prev
 
 ### Step 4
 
-If you want to adjust slippage, select the "Settings" icon to open the Transaction Settings panel and set your desired tolerance. The default slippage tolerance is set to 4%, meaning your transaction will revert if the price changes unfavourably by more than this percentage. The displayed number of LP tokens you will receive is approximate due to this potential variation.
+If you want to adjust slippage, select the "Settings" icon to open the Transaction Settings panel and set your desired tolerance. The default slippage tolerance is set to 4%, meaning your transaction will revert if the exchange rate changes unfavourably by more than this percentage. The displayed number of LP tokens you will receive is approximate due to this potential variation.
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-4-settings-icon.png" alt="" width="375"><figcaption><p>Transaction Settings icon.</p></figcaption></figure>
 
