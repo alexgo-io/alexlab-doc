@@ -13,11 +13,11 @@ Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. 
 
 <div>
 
-<figure><img src="../../.gitbook/assets/1-swap-panel.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/1-swap-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/1-swap-tab.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/1-swap-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -31,9 +31,9 @@ Select the tokens you want to exchange and the amount.&#x20;
 * Below the amounts, you will find the current **exchange rate**, as well as the USD equivalent.
 * The central down-pointing arrow shows the **direction of the transaction**. In the below example, STX will be exchanged for ALEX. By clicking the arrow, you can quickly **invert** the order of the transaction: the base token becomes the quoted token and vice versa.
 
-<figure><img src="../../.gitbook/assets/2-enter-amount.png" alt="" width="375"><figcaption><p>Example of the Swap panel displaying exchange of 5 STX into ALEX governance tokens.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/2-enter-amount.png" alt="" width="375"><figcaption><p>Example of the Swap panel displaying exchange of 5 STX into ALEX governance tokens.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/2-select-token.png" alt="" width="375"><figcaption><p>Token search and selection panel. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/2-select-token.png" alt="" width="375"><figcaption><p>Token search and selection panel. </p></figcaption></figure>
 
 ### Step 3
 
@@ -46,21 +46,21 @@ Check the transaction details by clicking the dropdown "Details" arrow below the
 * **Slippage Tolerance:** The maximum percentage of price movement you’ll accept between the time you submit the transaction and its execution. The standard slippage tolerance is 4%, but you can select a custom percentage. If price movement exceeds the slippage tolerance, the transaction will be canceled.
 * **Minimum Received:** The minimum amount of target token you will receive considering the maximum slippage variation.
 
-<figure><img src="../../.gitbook/assets/3-tx-details.png" alt="" width="375"><figcaption><p>wap panel with Transaction Details panel expanded.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/3-tx-details.png" alt="" width="375"><figcaption><p>wap panel with Transaction Details panel expanded.</p></figcaption></figure>
 
 #### Transaction Settings
 
 If you want to adjust slippage tolerance, select the "Settings" icon to open the Transaction Settings panel. Set your desired tolerance and click "Confirm". This will determine your allowed range for price movement. Your transaction will revert if the price changes unfavourably by more than this percentage.&#x20;
 
-<figure><img src="../../.gitbook/assets/3-tx-settings-icon.png" alt="" width="375"><figcaption><p>Transaction Settings icon.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/3-tx-settings-icon.png" alt="" width="375"><figcaption><p>Transaction Settings icon.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/3-tx-settings.png" alt="" width="375"><figcaption><p>Transaction Settings panel example, with slippage tolerance set to 2%.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/3-tx-settings.png" alt="" width="375"><figcaption><p>Transaction Settings panel example, with slippage tolerance set to 2%.</p></figcaption></figure>
 
 ### Step 4
 
 Once you're ready to move ahead, select the "Swap" button which will bring up the Confirmation panel. This panel provides a final overview your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click "Confirm" 😎.
 
-<figure><img src="../../.gitbook/assets/4-confirmation-panel.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/4-confirmation-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Step 5
 
@@ -77,11 +77,11 @@ To be completely sure, you can check:
 
 <div>
 
-<figure><img src="../../.gitbook/assets/5-swap-helper-post-con.png" alt="" width="375"><figcaption><p>Transfer amounts involved and post conditions.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/5-swap-helper-post-con.png" alt="" width="375"><figcaption><p>Transfer amounts involved and post conditions.</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/5-swap-helper-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/5-swap-helper-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure>
 
 </div>
 
@@ -99,21 +99,21 @@ Recommended to track transaction status:
 
 <div>
 
-<figure><img src="../../.gitbook/assets/6-tg-tx-pending.png" alt="" width="345"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-pending.png" alt="" width="345"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/6-tg-tx-success.png" alt="" width="350"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-success.png" alt="" width="350"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure>
 
 </div>
 
 <div>
 
-<figure><img src="../../.gitbook/assets/6-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/6-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/6-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/6-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure>
 
 </div>
 
