@@ -15,7 +15,7 @@ layout:
 
 # :arrows_counterclockwise: Token Swaps
 
-Token swaps on ALEX are a simple way to trade one token for another via AMM liquidity pools on Stacks Bitcoin L2. Everything done on the app is routed directly through your wallet so you always have custody of your tokens.
+Token swaps on ALEX are a simple way to exchange one token for another using liquidity pools on the Stacks Bitcoin L2. Within the ALEX Lab App, you maintain complete control of your assets, as all transactions require your confirmation and are securely routed through your wallet. Discover just how easy it is to [trade on ALEX](https://app.alexlab.co/swap)!
 
 ## Choose where to start
 
