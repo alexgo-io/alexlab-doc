@@ -5,15 +5,13 @@ description: >-
 
 # Key concepts
 
-## What is a Token Swap?
+### Token Swap
 
 A Token Swap is the exchange or trade of a certain amount of one crypto asset for another. In ALEX Lab Platform, swaps are performed on the ALEX's decentralized exchange (DEX) and are facilitated by liquidity pools.
 
-## What is a Swap Transaction?
+### Swap Transaction
 
 The ALEX DEX operates through smart contracts built on the Stacks blockchain, so all interactions, including swaps, are carried out through blockchain transactions. When you confirm a swap transaction on the ALEX Lab Platform, you are submitting it to the Stacks network to interact with the ALEX DEX smart contract. Once the transaction confirmed, it means the swap was executed successfully. If the transaction is reverted, no funds will be lost.
-
-## Terms involved in a Token Swap
 
 ### Base Token
 
