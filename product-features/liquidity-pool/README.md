@@ -29,7 +29,7 @@ In exchange for providing funds to a pool, liquidity providers receive an amount
 For example, if a user holds 5% of the pool’s total funds, they will earn 5% of the transaction fees allocated to liquidity providers (the other portion goes to the platform). These earnings are withdrawn when the liquidity is removed.
 
 {% hint style="info" %}
-**How is this related to farming?** Liquidity providers can stake or lock up LP tokens to earn additional rewards. These rewards are separate from the earnings of liquidity provision. This process is referred to as [Yield Farming](../farm/).
+**How is this related to farming?** Liquidity providers can stake or lock up LP tokens to earn additional rewards. These rewards are separate from the earnings of liquidity provision. This process is referred to as [Yield Farming](../farm.md).
 {% endhint %}
 
 {% hint style="info" %}
@@ -48,7 +48,7 @@ You can become a liquidity provider on ALEX by submitting two tokens to a liquid
 * **Removing Liquidity:** You can remove your liquidity at any time. When you decide to do so, you can reduce your position by redeeming your LP tokens. If you return your 100 LP tokens, you will receive a greater amount of ALEX and STX than you initially provided, reflecting your earnings. These earning are proportional to the LP token amount redeemed and thus proportional your share of the pool’s funds; meaning the more liquidiy you provide, the greater the earnings.
 
 {% hint style="info" %}
-If you want to potentially earn higher returns as a liquidity provider, you can opt for [Yield Farming](../farm/). This involves staking or locking up your LP tokens for a fixed period to earn additional yield rewards. Alongside trading fees, you’ll receive ALEX platform incentive tokens. However, during farming, you cannot withdraw your LP tokens until the staking period ends.
+If you want to potentially earn higher returns as a liquidity provider, you can opt for [Yield Farming](../farm.md). This involves staking or locking up your LP tokens for a fixed period to earn additional yield rewards. Alongside trading fees, you’ll receive ALEX platform incentive tokens. However, during farming, you cannot withdraw your LP tokens until the staking period ends.
 {% endhint %}
 
 {% hint style="success" %}

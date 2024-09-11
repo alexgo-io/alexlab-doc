@@ -4,7 +4,7 @@
 
 Step 1: Select a pool that you have created. (Note: Only the pool creator can use Self-Service Farming to add farming.)
 
-Step 2: Deposit the total farming reward to your selected farm. (Note: Self-Service Farming only allows token Y to be added as the farming reward.) &#x20;
+Step 2: Deposit the total farming reward to your selected pool. (Note: Self-Service Farming only allows token Y to be added as the farming reward.) &#x20;
 
 Step 3: Choose the Reward Cycle Length. (This will determine the total length of farming that you've added, which will be distributed to farming users.)&#x20;
 
