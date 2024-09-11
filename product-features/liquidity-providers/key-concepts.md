@@ -35,3 +35,21 @@ For example, if a user holds 5% of the pool’s total funds, they will earn 5% o
 {% hint style="info" %}
 **Note:** The initials "LP" are used both to abbreviate "liquidity provider" and to refer to the tokens these users receive, which represent their share of the contributed funds in the pool.
 {% endhint %}
+
+## Impermanent Loss
+
+Impermanent loss in decentralized finance (DeFi) occurs when a liquidity provider (LP) supplies assets to a liquidity pool and the price of those assets changes relative to when they were deposited. This loss is termed "impermanent" because it only becomes permanent if the LP withdraws their funds when prices have diverged significantly.
+
+Here's how it works:
+
+- In most DeFi protocols, LPs provide two assets (e.g., STX and a stablecoin) in equal value to a liquidity pool.
+  </br>
+- If the price of one asset (e.g., STX) rises or falls relative to the other, arbitrage traders will trade against the pool, ensuring that the asset prices in the pool reflect current market conditions.
+  </br>
+- These trades lead to a different balance of assets in the pool (ratio). When the LP eventually withdraws their funds, they may receive a different amount of each asset than what they initially provided.
+  </br>
+- If the value of the assets in the pool has diverged significantly, the LP might have been better off simply holding the assets outside of the pool, resulting in a perceived **loss**.
+  </br>
+- This loss is termed **impermanent** because it can be mitigated if the token prices return to their original values. Additionally, this loss can be offset by trading fees earned from the pool, meaning the LP might still come out ahead if the accumulated fees exceed the loss.
+
+You can check a complete walkthrough example in the [FAQs page](faqs.md) -> _How does impermanent loss happen?_

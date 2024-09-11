@@ -77,3 +77,25 @@ Liquidity providers can stake or lock up their LP tokens for a fixed period of t
 Yes, you can remove liquidity at any time. However, if you've staked your LP tokens for farming, you won't be able to withdraw them until the staking period has ended.
 
 </details>
+
+<details>
+
+<summary>How does impermanent loss happen?</summary>
+
+Let's walk through an example of how impermanent loss might look for a liquidity provider (LP).
+
+Carol deposits 100 [STX](https://www.coingecko.com/en/coins/stacks) and 150 [sUSDT](https://www.coingecko.com/en/coins/bridged-tether-alex-bridge) into a liquidity pool. As with ALEX DEX's AMM, the deposited token pair must to be of equivalent value. This means that the price of STX is 1.5 sUSDT at the time of deposit, making her total deposit worth 300 USD.
+
+Now, let's assume the total pool size is 1,000 STX and 1,500 sUSDT, funded by Carol and other LPs. So Carol has a 10% share of the pool.
+
+Next, suppose the price of STX rises to 6 sUSDT. As this happens, arbitrage traders will add sUSDT to the pool and remove STX, adjusting the ratio to reflect the new market price. Since AMMs don't use order books, the asset's price in the pool is determined by the ratio between their balances.
+
+With the price change–STX is now 6 sUSDT– the pool now holds 500 STX and 3,000 sUSDT, thanks to the work of arbitrage traders.
+
+So, Carol decides to withdraw her funds. As we know from earlier, she's entitled to a 10% share of the pool. As a result, she can withdraw 50 STX and 300 sUSDT, which now totals 600 USD. At first glance, it looks like she's made a good profit on her initial 300 USD deposit, right?
+
+However, if Carol had simply held onto her 100 STX and 150 sUSDT, their combined value would now be 750 USD.
+
+This shows that Carol would have been better off holding her assets instead of providing liquidity. This is impermanent loss. With that said, this example doesn't account for the trading fees Carol would have earned as a liquidity provider, which could potentially offset or even exceed the loss, making liquidity provision profitable overall.
+
+</details>
