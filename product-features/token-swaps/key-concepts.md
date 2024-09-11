@@ -11,7 +11,7 @@ A Token Swap is the exchange or trade of a certain amount of one crypto asset fo
 
 ### Swap Transaction
 
-The ALEX DEX operates through smart contracts built on the Stacks blockchain, so all interactions, including swaps, are carried out through blockchain transactions. When you confirm a swap transaction on the ALEX Lab Platform, you are submitting it to the Stacks network to interact with the ALEX DEX smart contract. Once the transaction confirmed, it means the swap was executed successfully. If the transaction is reverted, no funds will be lost.
+The ALEX DEX operates through smart contracts built on the Stacks blockchain, so all interactions, including swaps, are carried out through blockchain transactions. When you confirm a swap transaction on the ALEX Lab Platform, you are submitting it to the Stacks network to interact with the ALEX DEX smart contract. Once the transaction is confirmed, it means the swap was executed successfully. If the transaction is reverted, no funds will be lost.
 
 ### Base Token
 
@@ -19,11 +19,11 @@ The token you currently hold and want to exchange. Is the token you will transfe
 
 ### Target Token
 
-Also know as the "quoted token", this is the token you will receive in the swap transaction in exchange for the base token.
+Also known as the "quoted token", this is the token you will receive in the swap transaction in exchange for the base token.
 
 ### Exchange Rate
 
-The exchange rate determines how many target tokens you would receive for one base token. On ALEX DEX, this rate is algoritmically determined by the ALEX Automated Market Maker (AMM) protocol and is updated after each swap.
+The exchange rate determines how many target tokens you would receive for one base token. On ALEX DEX, this rate is algorithmically determined by the [ALEX Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) protocol and is updated after each swap.
 
 ### Swap Fee
 
@@ -37,9 +37,9 @@ If a direct swap between your desired token pair isn't possible, ALEX DEX may us
 
 Since the exchange rate fluctuates due to ongoing trades and blockchain transactions are not instantaneous, the price at the moment of the swap transaction execution may differ from the price at the moment of submitting the transaction. This difference is called slippage and occurs when traders have to accept a different price than what they initially requested.
 
-### Slippage tolerance
+### Slippage Tolerance
 
-ALEX Lab Platform allows you to set a maximum percentage for slippage, which is the maximum price movement youare willing to accept between submission and execution of the swap transaction. The default slippage tolerance is 4%, but you can adjust this setting. If the price movement exceeds the slippage tolerance, the transaction will be canceled.
+ALEX Lab Platform allows you to set a maximum percentage for slippage, which is the maximum price movement you are willing to accept between submission and execution of the swap transaction. The default slippage tolerance is 4%, but you can adjust this setting. If the price movement exceeds the slippage tolerance, the transaction will be reverted.
 
 ### Price Impact
 
