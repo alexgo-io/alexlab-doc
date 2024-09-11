@@ -30,7 +30,7 @@ All available pools will be displayed including information such as:
 
 * **Trading Pair:** The token pair that constitute liquidity pools to which you can add liquidity.
 * **Liquidity:** The total liquidity in the pool, expressed in USD value.
-* **Volume:** The trading volume between the token pair over the last 7 days.
+* **Volume:** The trading volume between the token pair over the last 7 days. By hovering on the trading volume for a specific row/pool, the 24-hour volume is also displayed.
 * **Fee Rebate:** Potential LP earnings from swap fees over a year, based on the last week's average. This metric, also known as Pool APR, reflects the potential profitability of participating in a pool over a year, assuming similar trading activity continues.&#x20;
 
 Select the token pair to which you want to add liquidity from the displayed list. Note you can sort by pool metrics.
