@@ -12,6 +12,7 @@
   * [📝 Self Service Listing](product-features/self-service-listing.md)
 * [⚓ Stake](product-features/stake.md)
 * [☘️ Farm](product-features/farm.md)
+  * [Self-Service Farming](product-features/farm/self-service-farming.md)
 * [🚀 Launchpad](product-features/launchpad.md)
 * [📈 Analytics](product-features/analytics.md)
 
