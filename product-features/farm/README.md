@@ -16,5 +16,5 @@ You’re first going to need some "LP Tokens" to stake in a yield farm. Farms ca
 
 To acquire STX/ALEX-50-50 LP Tokens, you must first provide liquidity to the STX/ALEX liquidity pool.
 
-You could visit [Farm\&Harvest](../how-to/farm-and-harvest.md) in HOW TO section for details.
+You could visit [Farm\&Harvest](../../how-to/farm-and-harvest.md) in HOW TO section for details.
 
