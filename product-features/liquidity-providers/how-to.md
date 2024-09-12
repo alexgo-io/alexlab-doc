@@ -94,9 +94,11 @@ Wait for the transaction to be confirmed on the network.&#x20;
 Recommended to track transaction status:
 
 * Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Search for the transaction on [explorer](https://explorer.hiro.so/txid/0x588d949ea697b325237eb20d5d3a6af5f6f496668cf0c7428ba79068573efba9?chain=mainnet). &#x20;
+* Search for the transaction on [explorer](https://explorer.hiro.so). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
+
+<!-- Real tx: https://explorer.hiro.so/txid/0x588d949ea697b325237eb20d5d3a6af5f6f496668cf0c7428ba79068573efba9?chain=mainnet -->
 
 <div>
 
@@ -190,9 +192,11 @@ Wait for the transaction to be confirmed on the network.&#x20;
 Recommended to track transaction status:
 
 * Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Search for the transaction on [explorer](https://explorer.hiro.so/txid/0xd34372393d5467dc5a0e161beeb3d376222690d24ab964edbd7f5bc80835559b). &#x20;
+* Search for the transaction on [explorer](https://explorer.hiro.so). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
+
+<!-- Real tx: https://explorer.hiro.so/txid/0xd34372393d5467dc5a0e161beeb3d376222690d24ab964edbd7f5bc80835559b?chain=mainnet -->
 
 <div>
 

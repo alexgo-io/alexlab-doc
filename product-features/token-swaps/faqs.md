@@ -8,7 +8,7 @@ description: Common questions that may arise when trading tokens.
 
 <summary>Where does the swap fee go?</summary>
 
-From the total fee charged during a swap operation, a portion is rebated to users who provide liquidity to the pool (liquidity providers) , while the remaining part goes to the ALEX Lab Foundation. By default, this split is 50/50, but it may vary depending on the specific liquidity pool settings.
+From the total fee charged during a swap operation, a portion is rebated to users who provide liquidity to the pool (liquidity providers), while the remaining part goes to the ALEX Lab Foundation. By default, this split is 50/50, but it may vary depending on the specific liquidity pool settings.
 
 You can view these percentages in the Pool Info panel by navigating to the Swap -> Pool tab from the navbar and selecting your pool of interest from the list.
 

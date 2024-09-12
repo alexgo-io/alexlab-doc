@@ -30,7 +30,7 @@ Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. 
 Select the tokens you want to exchange and the amount.&#x20;
 
 * The token at the top is the **base** token, the token you currently hold and want to exchange.
-* The token below is the **quoted or target** token, the token you will receive in the trade.
+* The token below is the **quoted** or **target** token, the token you will receive in the trade.
 * The dropdown arrow next to the token symbol will open the **token search** and **selection panel**.
 * Below the amounts, you will find the current **exchange rate**, as well as the USD equivalent.
 * The central down-pointing arrow shows the **direction of the transaction**. In the below example, STX will be exchanged for ALEX. By clicking the arrow, you can quickly **invert** the order of the transaction: the base token becomes the quoted token and vice versa.
@@ -101,9 +101,11 @@ Wait for the transaction to be confirmed on the network.
 Recommended to track transaction status:
 
 * Turn on Telegram notifications, you will get notified when the transaction is confirmed.
-* Search for the transaction on [explorer](https://explorer.hiro.so/txid/0x4018603651b9fbed296a575b7eb7e08e12764e97faf7448a7862eccad26dfb35?chain=mainnet).
+* Search for the transaction on [explorer](https://explorer.hiro.so).
 * Check your address activity on the wallet.
 {% endhint %}
+
+<!-- Real tx: https://explorer.hiro.so/txid/0x4018603651b9fbed296a575b7eb7e08e12764e97faf7448a7862eccad26dfb35?chain=mainnet -->
 
 <div>
 
