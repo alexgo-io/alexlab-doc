@@ -50,7 +50,7 @@ Clicking the "Max" button will automatically set the amount to your total availa
 Check the transaction details by clicking the dropdown "Details" arrow below the amounts. This will expand a Details panel with relevant trading information.
 
 * **Route:** The exchange route to convert from the base token into the target token. In the example we see STX -> ALEX, indicating it is a one-step or direct swap.&#x20;
-* **Liquidity Provider Fee:** The swap fee, which is shared between the ALEX protocol and the Liquidity Providers (LPs).&#x20;
+* **Liquidity Provider Fee:** The swap fee, which is shared between the Liquidity Providers (LPs) and the ALEX Lab Platform.&#x20;
 * **Slippage Tolerance:** The maximum percentage of price movement you'll accept between the time you submit the transaction and its execution. The standard slippage tolerance is 4%, but you can select a custom percentage. If price movement exceeds the slippage tolerance, the transaction will be reverted.
 * **Minimum Received:** The minimum amount of target token you will receive considering the maximum slippage variation.
 
@@ -66,7 +66,7 @@ If you want to adjust slippage tolerance, select the "Settings" icon to open the
 
 ### Step 4
 
-Once you're ready to move ahead, select the "Swap" button which will bring up the Confirmation panel. This panel provides a final overview your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click "Confirm" 😎.
+Once you're ready to move ahead, select the "Swap" button which will bring up the Confirmation panel. This panel provides a final overview of your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click "Confirm" 😎.
 
 <figure><img src="../../.gitbook/assets/token-swaps/4-confirmation-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
