@@ -2,13 +2,13 @@
 description: All references are available from Stacks.org.
 ---
 
-# 🎣 Farm & Harvest
+# 🎣 How to farm & harvest
 
 ## Getting prepared
 
-Yield farming takes a little work to get set up.
+Yield Farming takes a few easy steps get set up.
 
-You’re going to need some "LP Tokens" to enter into a Farm with. Farms can only accept their own exact LP Token; for example, the STX-ALEX Farm will only accept STX-ALEX LP Tokens.
+You're first going to need some **LP Tokens** to stake in a farm. Farms can only accept their native LP Token, meaning the STX/ALEX Farm will only accept STX/ALEX-50-50 LP Tokens.
 
 Let's go through step by step.
 
