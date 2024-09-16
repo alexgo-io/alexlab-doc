@@ -17,7 +17,7 @@
   * [Key concepts](product-features/farming/key-concepts.md)
   * [How to farm & harvest](product-features/farming/how-to.md)
   * [FAQs](product-features/farming/faqs.md)
-  * [🧑‍🌾 Self-Service Farming](product-features/farming/self-service-farming.md)
+  * [🧑‍🌾 Self-Service Farming](product-features/self-service-farming.md)
 * [⚓ Stake](product-features/stake.md)
 * [🚀 Launchpad](product-features/launchpad.md)
 * [📈 Analytics](product-features/analytics.md)
