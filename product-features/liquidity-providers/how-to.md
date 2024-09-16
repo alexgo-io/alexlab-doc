@@ -8,13 +8,9 @@ description: >-
 
 When **adding liquidity**, you will deposit an equivalent value of both tokens into the pool. In return, you'll receive LP tokens, which represent your share of that specific liquidity pool.
 
-When **removing liquidity**, you will transfer your LP tokens back to the ALEX smart contract and withdraw an equivalent value of the token pair plus any fees accrued while holding those LP tokens. \
+When **removing liquidity**, you will transfer your LP tokens back to the ALEX smart contract and withdraw an equivalent value of the token pair plus any fees accrued while holding those LP tokens. Since the relative balance of the tokens in the liquidity pool may have changed since your initial deposit, you could experience what's known as [Impermanent Loss](key-concepts.md#impermanent-loss).
 
-{% hint style="warning" %}
-Since the relative balance of the tokens in the liquidity pool may have changed since your initial deposit, you might encounter what is referred to as [Impermanent Loss](key-concepts.md#impermanent-loss).
-{% endhint %}
-
-That said, let's get hands-on!
+Ready to start? Let's get hands-on!
 
 ## :palm\_up\_hand: :moneybag: Adding Liquidity
 
