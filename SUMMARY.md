@@ -5,8 +5,11 @@
 ## Product/ Features
 
 * [🔃 Swap](product-features/swap.md)
-* [🐋 Liquidity Pool](product-features/liquidity-pool/README.md)
-  * [😀 Self Service Listing](product-features/liquidity-pool/self-service-listing.md)
+* [🐋 Liquidity Providers](product-features/liquidity-providers/README.md)
+  * [Key concepts](product-features/liquidity-providers/key-concepts.md)
+  * [How to add/remove liquidity](product-features/liquidity-providers/how-to.md)
+  * [FAQs](product-features/liquidity-providers/faqs.md)
+  * [📝 Self Service Listing](product-features/self-service-listing.md)
 * [⚓ Stake](product-features/stake.md)
 * [☘️ Farm](product-features/farm.md)
   * [Self-Service Farming](product-features/farm/self-service-farming.md)
@@ -21,7 +24,6 @@
 
 * [👉 Set up Hiro Wallet](how-to/set-up-hiro-wallet.md)
 * [🔃 Swap](how-to/swap.md)
-* [🐳 How to Add/Remove Liquidity](how-to/how-to-add-remove-liquidity.md)
 * [⚓ Stake $ALEX](how-to/stake-usdalex/README.md)
   * [How to Use Auto Staking (minting AutoALEX)](how-to/stake-usdalex/how-to-use-auto-staking-minting-autoalex.md)
   * [How to Use Manual (Customized) Staking](how-to/stake-usdalex/how-to-use-manual-customized-staking.md)
