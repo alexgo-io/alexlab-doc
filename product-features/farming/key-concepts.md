@@ -43,10 +43,10 @@ $$
 \begin{equation}
 \textrm{Farmer Reward} = \frac{\textrm{Farmer Staked Amount}}{\textrm{Total Staked Amount}} \;
 \cdot \; \textrm{Total Rewards}
-\end{equation} 
+\end{equation}
 $$
 
-Each value in the equation applies to a specific cycle. For instance, $\textrm{Farmer Reward}$ refers to Farmer Cycle Reward and $\textrm{Total Staked Amount}$ refers to Total Cycle Staked Amount, with _Cycle_ applying to all terms.
+Each value in the equation applies to a specific cycle. For instance, Farmer Reward refers to Farmer Cycle Reward and Total Staked Amount refers to Total Cycle Staked Amount, with _Cycle_ applying to all terms.
 
 ### Farm APR
 
@@ -64,28 +64,28 @@ $$
 
 Where:
 
-* $\textrm{Total Rewards}$ refers to the rewards distributed in the cycle (including $ALEX and potentially other tokens) converted to USD value;
-* $\textrm{Total Staked Amount}$ is the total value of staked LP tokens in USD;
-* $\textrm{Annual Factor}$ is 100.15 (~ 100 cycles per year);
-* $100$ factor is used to express the APR as a percentage.
+* Total Rewards refers to the rewards distributed in the cycle (including $ALEX and potentially other tokens) converted to USD value;
+* Total Staked Amount is the total value of staked LP tokens in USD;
+* Annual Factor is 100.15 (~ 100 cycles per year);
+* 100 factor is used to express the APR as a percentage.
 
 ## My Farming Dashboard
 
 Once you have staked LP tokens into a farm, it's important to familiarize yourself with this dashboard. You can access it by clicking on a farm from the [ALEX Lab Farms page](https://app.alexlab.co/farm). Let's walk through all the farming metrics.
 
-#### Active farming LP
+### Active farming LP
 
 The tokens you have staked in the farm. When your staking period ends for a certain amount, those tokens will move from here to the [LP to claim](#lp-to-claim) section of the dashborad. If you staked multiple times at different cycles, the lock periods apply to each amount separately.
 
-#### Rewards to claim
+### Rewards to claim
 
 The rewards available for you to harvest. If you don't harvest, these rewards will accumulate over time. However, to maximize your returns, we recommend harvesting your rewards after every cycle ends. This way, you'll have them available to generate more rewards.
 
-#### LP to claim
+### LP to claim
 
 The tokens that have completed their staking period.These tokens are no longer in a farming state. To make them generate farming rewards again, you will have to withdraw and restake them.
 
-#### Cycles
+### Cycles
 
 Your active farming cycles. Here, there will be shown all the cycles during which you have LP tokens locked and earning rewards. For each cycle, you will find:
 
@@ -96,6 +96,6 @@ Your active farming cycles. Here, there will be shown all the cycles during whic
 
 For the _current_ cycle, all metrics are exact, as the staked tokens are already defined. For the _upcoming_ cycles, all metrics are estimates since we cannot predict how many LP tokens will be staked; we can only say how many LP tokens are commited so far for that cycle. This explains why the APR percentage appears higher for more distant cycles, due to the estimated total staked amount.
 
-#### Average APR
+### Average APR
 
 This metric represents the average of all your farming cycle APRs (both current and upcoming).
