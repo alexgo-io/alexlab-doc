@@ -6,9 +6,9 @@ description: >-
 
 # How to farm & harvest
 
-Yield farming takes a few easy steps to get set up.
+Yield farming takes a few easy steps to get set up. It works very similar to standard staking, with the key difference being that the tokens you stake are LP tokens. As in traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each cycle, you will have rewards available to harvest.
 
-First, you're going to need some LP tokens to stake in a farm. It is very important to understand that farms only accept their specific native LP tokens. For example, the STX-ALEX farm will only accept STX-ALEX LP tokens, which are the tokens you receive in exchange for providing liquidity to the STX-ALEX pool. There are different LP tokens corresponding to each liquidity pool on the ALEX Lab Platform.
+It is very important to understand that farms only accept their specific native LP tokens. For example, the STX-ALEX farm will only accept STX-ALEX LP tokens, which are the tokens you receive in exchange for providing liquidity to the STX-ALEX pool. There are different LP tokens corresponding to each liquidity pool on the ALEX Lab Platform.
 
 With this information in mind, choose the guide that best fits your needs.
 
@@ -88,7 +88,7 @@ Next, choose the number of reward cycles you want to lock your tokens into the f
 <figure><img src="../../.gitbook/assets/farming/add-lp-staking.png" alt="" width="375"><figcaption><p>Example with an amount of LP tokens to stake for 32 cycles.</p></figcaption></figure>
 
 {% hint style="info" %}
-Your staked amount will start generating yield from the next upcoming cycle, as the current cycle is a "cooldown" period. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to the this cooldown cycle. That's why 32-cycle staking is recommended.
+Your staked amount will start generating yield from the next upcoming cycle, as the current cycle is a "cooldown" period. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to this cooldown cycle. That's why 32-cycle staking is recommended.
 {% endhint %}
 
 ### Step 4

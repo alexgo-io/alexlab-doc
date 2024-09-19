@@ -1,20 +1,61 @@
 ---
-description: Add desc.
+description: Common questions you may have when dealing with farms.
 ---
 
 # FAQs
 
 <details>
 
-<summary>Question 1</summary>
+<summary>How is farming related to staking?</summary>
 
+Comming soon.
 
 </details>
 
 <details>
 
-<summary>Question 2</summary>
+<summary>What is harvesting?</summary>
 
+Comming soon.
 
 </details>
 
+<details>
+
+<summary>Does farming rewards accumulate?</summary>
+
+Comming soon.
+
+</details>
+
+<details>
+
+<summary>What is the cooldown period?</summary>
+
+Comming soon.
+
+</details>
+
+<details>
+
+<summary>Why is it more convenient to stake for longer periods?</summary>
+
+Comming soon.
+
+</details>
+
+<details>
+
+<summary>What can I do with the APower rewards?</summary>
+
+Comming soon.
+
+</details>
+
+<details>
+
+<summary>Why can't I see my LP tokens in the "My Liquidity" panel?</summary>
+
+If you have staked your LP tokens in a yield farm, they must be unstaked before they appear in the "My Liquidity" panel. You can access this panel by going to the Swap -> Pool tab. After selecting a pool from the list, it will appear just above the "Pool Info" panel.
+
+</details>
