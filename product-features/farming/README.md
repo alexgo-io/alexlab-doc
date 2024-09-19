@@ -29,4 +29,4 @@ To farm, you first deposit two tokens into a liquidity pool, receiving LP tokens
 
 ## Support
 
-For assistance, please reach out to our Community Managers on [Discord](https://discord.com/invite/alexlab) and [Telegram Channel](https://t.me/AlexCommunity).
+For assistance, please reach out to our Community Managers on [Discord](https://discord.com/invite/alexlab) and [Telegram Channel](https://t.me/AlexCommunity). You can also email us at [contact@alexgo.io](mailto:contact@alexgo.io).
