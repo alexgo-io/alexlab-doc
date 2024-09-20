@@ -51,7 +51,8 @@ Check the transaction details by clicking the dropdown "Details" arrow below the
 
 * **Route:** The exchange route to convert from the base token into the target token. In the example we see STX -> ALEX, indicating it is a one-step or direct swap.&#x20;
 * **Liquidity Provider Fee:** The swap fee, which is shared between the Liquidity Providers (LPs) and the ALEX Lab Platform.&#x20;
-* **Slippage Tolerance:** The maximum percentage of price movement you'll accept between the time you submit the transaction and its execution. The standard slippage tolerance is 4%, but you can select a custom percentage. If price movement exceeds the slippage tolerance, the transaction will be reverted.
+* **Price Impact:** How much your swap affects the exchange rate.
+* **Slippage Tolerance:** The maximum percentage of price movement you'll accept between the time you submit the transaction and its execution. The default slippage tolerance setting is 4%, but you can select a custom percentage. If price movement exceeds the slippage tolerance, the transaction will be reverted.
 * **Minimum Received:** The minimum amount of target token you will receive considering the maximum slippage variation.
 
 <figure><img src="../../.gitbook/assets/token-swaps/3-tx-details.png" alt="" width="375"><figcaption><p>Swap panel with Transaction Details panel expanded.</p></figcaption></figure>
@@ -100,8 +101,8 @@ Wait for the transaction to be confirmed on the network.
 {% hint style="info" %}
 Recommended to track transaction status:
 
-* Turn on Telegram notifications, you will get notified when the transaction is confirmed.
-* Search for the transaction on [explorer](https://explorer.hiro.so).
+* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 * Check your address activity on the wallet.
 {% endhint %}
 

@@ -15,7 +15,7 @@ The ALEX DEX operates through smart contracts built on the Stacks blockchain, so
 
 ### Base Token
 
-The token you currently hold and want to exchange. Is the token you will transfer to ALEX smart contract during the swap transaction.
+The token you currently hold and want to exchange. This is the token you will transfer to the ALEX smart contract during the swap transaction.
 
 ### Target Token
 
@@ -23,11 +23,11 @@ Also known as the "quoted token", this is the token you will receive in the swap
 
 ### Exchange Rate
 
-The exchange rate determines how many target tokens you would receive for one base token. On ALEX DEX, this rate is algorithmically determined by the [ALEX Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) protocol and is updated after each swap.
+The exchange rate determines how many target tokens you would receive for one base token. On the ALEX DEX, this rate is algorithmically determined by the [ALEX Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) protocol and is updated after each swap.
 
 ### Swap Fee
 
-Is the cost associated with performing a swap. It is deducted from the base token amount and is tipically set at 0.5%, though it can vary depending on the token pair (liquidity pool) involved.
+This is the cost associated with performing a swap. It is deducted from the base token amount and is tipically set at 0.5%, though it can vary depending on the token pair (liquidity pool) involved.
 
 ### Swap Route
 
@@ -43,4 +43,4 @@ ALEX Lab Platform allows you to set a maximum percentage for slippage, which is 
 
 ### Price Impact
 
-The price impact refers to how much a swap affects the exhange rate. You might encounter it expressed as a percentage. For small swaps, price impact is typically negligible. However, for larger swaps, the price impact increases as the trade size approaches the pool's liquidity. This is why having a slippage tolerance is so important.
+The price impact refers to how much a swap affects the exchange rate. You might encounter it expressed as a percentage. For small swaps, price impact is typically negligible. However, for larger swaps, the price impact increases as the trade size approaches the pool's liquidity.

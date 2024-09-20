@@ -94,7 +94,7 @@ Wait for the transaction to be confirmed on the network.&#x20;
 Recommended to track transaction status:
 
 * Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Search for the transaction on [explorer](https://explorer.hiro.so). &#x20;
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
 
@@ -192,7 +192,7 @@ Wait for the transaction to be confirmed on the network.&#x20;
 Recommended to track transaction status:
 
 * Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Search for the transaction on [explorer](https://explorer.hiro.so). &#x20;
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
 
