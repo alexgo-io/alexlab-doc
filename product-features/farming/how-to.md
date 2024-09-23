@@ -122,9 +122,11 @@ Wait for the transaction to be confirmed on the network.
 Recommended to track transaction status:
 
 * Turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot), you will get notified when the transaction is confirmed.
-* Search for the transaction on [explorer](https://explorer.hiro.so/).
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 * Check your address activity on the wallet.
 {% endhint %}
+
+<!-- Real tx: https://explorer.hiro.so/txid/0x0445e0ce8a1872e0aea18971e421fcc137048f91473ddbdf931c0660d5ed087c?chain=mainnet -->
 
 <div>
 
@@ -170,7 +172,7 @@ At the end of every staking cycle (525 blocks, approximately 3.5 days), rewards 
 2. You will find the **My Farms** panel which your active farms. Click on the farm you want to harvest, either from the panel or from the farm list.
 3. Expand the **My Farming** dashboard. If a cycle has ended, you will see rewards available to claim.
 4. Click on the "Harvest All" button and confirm the transaction on your wallet (just as you did in the previous guides).
-5. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [explorer](https://explorer.hiro.so/)
+5. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 6. Once the transaction is completed, the reward amounts will be reflected in your wallet balance. You can always check your balance also on the ALEX Lab App, located beside the "Wallet Manager" at the top menu bar.
 
 You can collect these rewards and use them for various purposes on the ALEX Lab Platform. For example, you can [stake](https://app.alexlab.co/stake) your $ALEX rewards manually to generate compounding interest. You can also use your APower rewards to increase your access to IDOs on the [ALEX Launchpad](https://app.alexlab.co/launchpad). You can even buy more LP tokens!
@@ -198,7 +200,7 @@ Let's go through it step-by-step:
 3. You will see the **My Farming** dashboard. Expand it to see all your farming details.
 4. Your LP tokens will automatically be available for withdrawal when your committed cycles end. You will find them under the **LP to claim** title on the dashboard.
 5. Click on the "Harvest All" button and confirm the transaction in your wallet (just as you did in the previous guides). This will return your LP tokens back to your possession and automatically collect any unharvested rewards.
-6. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [explorer](https://explorer.hiro.so/).
+6. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 7. Once the transaction is completed, you will see the changes reflected in your wallet balance and on the platform panels. In particular, you will see your LP token balance on the [Pool page](https://app.alexlab.co/pool) in the **My Liquidity** panel or by selecting the pool from the list. You can also check your balance on the ALEX Lab App, located beside the Wallet Manager at the top menu bar.
 
 If you want to farm your LP tokens again, remember: your staked amount will start generating yield from the next upcoming cycle, as the current cycle is in cooldown period. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to the cooldown period.
