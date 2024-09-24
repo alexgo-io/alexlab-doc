@@ -1,5 +1,7 @@
 ---
-description: All you need to know for successfully farming on ALEX Lab, from farm basics to dashboard metrics! 
+description: >-
+  All you need to know for successfully farming on ALEX Lab, from farm basics to
+  dashboard metrics!
 ---
 
 # Key concepts
@@ -10,10 +12,10 @@ Yield farming works very similar to standard staking, with the key difference be
 
 ### What are LP tokens?
 
-LP tokens are the tokens you receive when you provide funds to a liquidity pool. These tokens represent your share of the pool's assets. As a liquidity provider, you earn a portion of the fees charged to users who perform swaps within the pool. For a deeper understanding of these concepts, check out the [Liquidity Providers](../liquidity-providers/README.md) section of the docs.
+LP tokens are the tokens you receive when you provide funds to a liquidity pool. These tokens represent your share of the pool's assets. As a liquidity provider, you earn a portion of the fees charged to users who perform swaps within the pool. For a deeper understanding of these concepts, check out the [Liquidity Providers](../liquidity-providers/) section of the docs.
 
 {% hint style="warning" %}
-You may notice that farming often yields higher rewards than regular staking. Well, farming involves liquidity provision and comes with the risk of Impermanent Loss. It's not as scary as it sounds, but it is worth learning about the concept before you get started. You can learn more in the [Impermanent Loss subsection](../liquidity-providers/key-concepts.md#impermanent-loss) from the Liquidity Providers page.
+You may notice that farming often yields higher rewards than regular staking. Well, farming involves liquidity provision and comes with the risk of Impermanent Loss. It's not as scary as it sounds, but it is worth learning about the concept before you get started. Learn more in the [Impermanent Loss subsection](../liquidity-providers/key-concepts.md#impermanent-loss) from the Liquidity Providers page.
 {% endhint %}
 
 ### What exactly is a farm?
@@ -23,7 +25,7 @@ A farm is a staking pool for a specific LP token. Each liquidity pool has their 
 Farms are identified by these two attributes.
 
 * **Trading Pair:** The specific LP token that the farm accepts. To obtain these LP tokens, you will have to provide liquidity to the pool associated with the same trading pair.
-* **Token Rewards:** The token in which the farm rewards the stakers at the end of each cycle. This token is predefined by the farm. 
+* **Token Rewards:** The token in which the farm rewards the stakers at the end of each cycle. This token is predefined by the farm.
 
 Farms only accept LP tokens of one kind. For example, the STX-ALEX farm only accepts STX-ALEX LP tokens, which you receive in exchange for providing liquidity to the STX-ALEX pool.
 
@@ -42,10 +44,7 @@ Farms may offer different types of reward tokens, and each farm has a predetermi
 Rewards are distributed proportionally to each farmer based on their staked amount. This can be represented by the following equation:
 
 $$
-\begin{equation}
-\textrm{Farmer Reward} = \frac{\textrm{Farmer Staked Amount}}{\textrm{Total Staked Amount}} \;
-\cdot \; \textrm{Total Rewards}
-\end{equation}
+\begin{equation} \textrm{Farmer Reward} = \frac{\textrm{Farmer Staked Amount}}{\textrm{Total Staked Amount}} \; \cdot \; \textrm{Total Rewards}. \end{equation}
 $$
 
 Each value in the equation applies to a specific cycle.
@@ -59,27 +58,25 @@ The Farm APR metric reflects your potential annual earnings from farming, based 
 The Farm APR is calculated based on the rewards distributed in the current cycle:
 
 $$
-\begin{equation}
-\textrm{Farm APR} = \frac{\textrm{Total Rewards}}{\textrm{Total Staked Amount}} \;
-\cdot \; \textrm{Annual Factor} \;
-\cdot \; 100
-\end{equation} 
+\begin{equation} \textrm{Farm APR} = \frac{\textrm{Total Rewards}}{\textrm{Total Staked Amount}} \; \cdot \; \textrm{Annual Factor} \; \cdot \; 100. \end{equation}
 $$
 
-Where:
+Where
 
 * Total Rewards refers to the rewards distributed in the cycle (including $ALEX and potentially other tokens) converted to USD value;
 * Total Staked Amount is the total value of staked LP tokens in USD;
-* Annual Factor is 100.15 (~ 100 cycles per year);
+* Annual Factor is 100.15 (\~ 100 cycles per year);
 * 100 factor is used to express the APR as a percentage.
 
 ## My Farming Dashboard
 
 Once you have staked LP tokens into a farm, it's important to familiarize yourself with this dashboard. You can access it by clicking on a farm from the [ALEX Lab Farms page](https://app.alexlab.co/farm). Let's walk through all the farming metrics.
 
+<figure><img src="../../.gitbook/assets/farming/my-farming-dashboard-example.png" alt=""><figcaption><p>My Farming dashboard example for ALEX - LiALEX farm. This user has accumulated rewards from previous cycles that are available to claim. Also, there are no LP tokens that have completed their staking period and are ready for withdrawal (LP to claim).</p></figcaption></figure>
+
 ### Active farming LP
 
-The tokens you have staked in the farm. When your staking period ends for a certain amount, those tokens will move from here to the [LP to claim](#lp-to-claim) section of the dashborad. If you staked multiple times at different cycles, the lock periods apply to each amount separately.
+The tokens you have staked in the farm. When your staking period ends for a certain amount, those tokens will move from here to the [LP to claim](key-concepts.md#lp-to-claim) section of the dashborad. If you staked multiple times at different cycles, the lock periods apply to each amount separately.
 
 ### Average APR
 
@@ -97,9 +94,9 @@ The tokens that have completed their staking period. These tokens are no longer 
 
 Your active farming cycles. Here, there will be shown all the cycles during which you have LP tokens locked and earning rewards. For each cycle, you will find:
 
-- The **Cycle Number**, with a "current" or "upcoming" tag.
-- The **Farming Amount**, which indicates the amount you have staked in that cycle.
-- The **Farm APR**, calculated based on equation (2).
-- Your **Estimated Earnings**, derived from equation (1).
+* The **Cycle Number**, with a "current" or "upcoming" tag.
+* The **Farming Amount**, which indicates the amount you have staked in that cycle.
+* The **Farm APR**, calculated based on equation (2).
+* Your **Estimated Earnings**, derived from equation (1).
 
-For the _current_ cycle, all metrics are exact, as the staked tokens are already defined. For the _upcoming_ cycles, all metrics are estimates since we cannot predict how many LP tokens will be staked; we can only say how many LP tokens are commited so far for that cycle. This explains why the APR percentage appears higher for more distant cycles, due to the estimated total staked amount.
+For the **current cycle**, all metrics are exact, as the staked tokens are already defined. For the **upcoming cycles**, all metrics are estimates since we cannot predict how many LP tokens will be staked; we can only say how many LP tokens are commited so far for that cycle. This explains why the APR percentage appears higher for more distant cycles, due to the estimated total staked amount.
