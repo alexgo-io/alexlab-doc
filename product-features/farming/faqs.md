@@ -60,6 +60,8 @@ Comming soon.
 
 </details>
 
+<details>
+
 <summary>What can I do with my rewards?</summary>
 
 Comming soon.
@@ -71,5 +73,13 @@ Comming soon.
 <summary>Why can't I see my LP tokens in the "My Liquidity" panel?</summary>
 
 If you have staked your LP tokens in a yield farm, they must be unstaked before they appear in the "My Liquidity" panel. You can access this panel by going to the Swap -> Pool tab. After selecting a pool from the list, it will appear just above the "Pool Info" panel.
+
+</details>
+
+<details>
+
+<summary>Why does farming come with the risk of impermanent loss?</summary>
+
+Comming soon.
 
 </details>

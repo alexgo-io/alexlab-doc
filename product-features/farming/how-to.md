@@ -6,7 +6,7 @@ description: >-
 
 # How to farm & harvest
 
-Yield farming takes a few easy steps to get set up. It works very similar to standard staking, with the key difference being that the tokens you stake are LP tokens. As in traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each cycle, you will have rewards available to harvest.
+Yield farming takes a few easy steps to get set up. It works very similar to standard staking, with the key difference being that the tokens you stake are LP tokens. As in traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each (except for the first cooldown one), you will have rewards available to harvest.
 
 It is very important to understand that farms only accept their specific native LP tokens. For example, the STX-ALEX farm will only accept STX-ALEX LP tokens, which are the tokens you receive in exchange for providing liquidity to the STX-ALEX pool. There are different LP tokens corresponding to each liquidity pool on the ALEX Lab Platform.
 
