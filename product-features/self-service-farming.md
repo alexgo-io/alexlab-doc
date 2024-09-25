@@ -1,18 +1,95 @@
+---
+description: Add the farming feature to your pool and reward LPs with extra incentives!
+---
+
 # 🧑‍🌾 Self-Service Farming
 
-## Self-Service Farming Procedure
+{% hint style="warning" %}
+You can only add farming to liquidity pools that you have created via the ALEX Self-Service Listing. If you don't have your own pool yet and want to create one, check the [Self-Service Listing](self-service-listing.md) page to find out how.
+{% endhint %}
 
-Step 1: Select a pool that you have created. (Note: Only the pool creator can use Self-Service Farming to add farming.)
+## Getting started
 
-Step 2: Deposit the total farming reward to your selected pool. (Note: Self-Service Farming only allows token Y to be added as the farming reward.) &#x20;
+Before you start, familiarize yourself with the basic rules of Self-Service Farming.
 
-Step 3: Choose the Reward Cycle Length. (This will determine the total length of farming that you've added, which will be distributed to farming users.)&#x20;
+1. Only the pool creator can use Self-Service Farming to add farming to their pool.
+2. When creating a liquidity pool, an anchor token (Token X) and a listing token (Token Y) are defined. Self-Service Farming only allows the listing token to be used as the farming reward.
+3. The total amount of rewards for the entire farm lifecycle must be deposited at the time of farm creation.
+4. Before the first farming cycle starts, there is a "gathering" period. This period is the time between the farm's creation and the start of the first cycle. Farmers who stake their tokens during the gathering period are the ones who harvest the rewards associated with that initial cycle.
 
-\
+## Procedure
 
+### Step 1
 
-The Self-Service Farming won't commence immediately after your creation transaction is confirmed.
+Go to the [Farms page](https://app.alexlab.co/farm) and click on the "Create" button.
 
-The farming added will automatically begin at the cycle shown on the user interface when you add the farming reward on the Self-Service Farming page.
+<figure><img src="../.gitbook/assets/self-service-farming/create-farm-button.png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+In this guide we are assuming that you already have a pool, so select the "Creating a new farm" option and click "Continue".
+
+<figure><img src="../.gitbook/assets/self-service-farming/create-type-new-farm.png" alt="" width="375"><figcaption></figcaption></figure>
+
+### Step 2
+
+Select a pool from the ones you've created.
+
+<figure><img src="../.gitbook/assets/self-service-farming/step-1-select-a-pool.png" alt=""><figcaption></figcaption></figure>
+
+### Step 3
+
+Enter the total amount of rewards that will be distributed in your farm. This amount is deposited at farm creation. Also, remember that in Self-Service Farming, the reward token has to be the same as the listing token.
+
+<figure><img src="../.gitbook/assets/self-service-farming/enter-total-rewards-amount.png" alt=""><figcaption></figcaption></figure>
+
+### Step 4
+
+Select the **Reward Cycle Length**, which is the number of cycles in which your farm will be active and distributing rewards. This number along with the total farming rewards determine the **Est. Farming Rewards Per Cycle**.
+
+> In the example, total rewards is `15,000 DOGGY` and total cycles is `10` so `15,000 DOGGY / 10 = 1,500 DOGGY` are the farming reward per cycle.
+
+At this point, you will also be able to see the number of the cycles in which your farm will be open, displayed as **Farm Opening Cycle**. The Self-Service Farming won't commence immediately after your creation transaction is confirmed. Instead, farming will automatically begin at the first cycle shown, which is typically the next upcoming cycle. The time gap between the farm creation transaction is confirmed and the start of the first farming cycle is the so-called "gathering" period, during which the first users can start staking tokens in the farm.
+
+> In the example, the STX - DOGGY farm will be open from Cycle #63 to Cycle #72. The gathering period occurs before Cycle #63. The rewards associated with Cycle #63 will be available when it ends, and the users that will receive them are the ones who staked in the gathering period.
+
+<figure><img src="../.gitbook/assets/self-service-farming/step-2-add-farming-rewards.png" alt=""><figcaption></figcaption></figure>
+
+### Step 5
+
+Once you're ready to move ahead, select the "Submit Rewards" button which will bring up the Confirmation panel. This panel provides a final overview of the farm creation, allowing you to double-check the total rewards and the farm opening period. If everything looks good, click "Confirm" 😎.
+
+<figure><img src="../.gitbook/assets/self-service-farming/farm-create-confirmation-panel.png" alt="" width="371"><figcaption></figcaption></figure>
+
+### Step 6
+
+After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Remember, in this farm creation transaction, you are transferring the total amount of rewards to the ALEX smart contract.
+
+Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
+
+{% hint style="info" %}
+To be completely sure, you can check:
+
+* The transaction is requested by **"Alex app" (app.alexlab.co)**
+* The transfer amount, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions). Note that the amount you transfer to the smart contract is exactly determined (DOGGY in the example). If this condition is not met, the transaction will abort.
+{% endhint %}
+
+### Step 7
+
+Wait for the transaction to be confirmed on the network.
+
+{% hint style="info" %}
+Recommended to track transaction status:
+
+* Turn on Telegram notifications, you will get notified when the transaction is confirmed.
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
+* Check your address activity on the wallet.
+{% endhint %}
+
+### Step 8
+
+Once the transaction is completed, your farm will have been successfully created. Your farm will appear on the [Farms](https://app.alexlab.co/farm) page and from that moment is open to the first farmers who want to join during the gathering period.
+
+Thanks for launching your farm through ALEX Lab!
+
+## Support
+
+For assistance, please reach out to our Community Managers on [Discord](https://discord.com/invite/alexlab) and [Telegram Channel](https://t.me/AlexCommunity).
