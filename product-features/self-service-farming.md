@@ -1,5 +1,5 @@
 ---
-description: Add the farming feature to your pool and reward LPs with extra incentives!
+description: Add the farming feature to your pool and reward LPs with an additional yield!
 ---
 
 # 🧑‍🌾 Self-Service Farming
@@ -8,16 +8,25 @@ description: Add the farming feature to your pool and reward LPs with extra ince
 You can only add farming to liquidity pools that you have created via the ALEX Self-Service Listing. If you don't have your own pool yet and want to create one, check the [Self-Service Listing](self-service-listing.md) page to find out how.
 {% endhint %}
 
-## Getting started
+## 🚀 Getting started
+
+### How it works?
+
+- The pool owner creates the farm by specifying the number of cycles and depositing the total reward amount. These two inputs determine the rewards distributed per cycle, which are equal for each cycle.
+- The pool's liquidity providers stake their LP tokens in the newly created farm, earning rewards at the end of each cycle, just like any other farm within the ALEX Lab Platform.
+
+For further details on how farms operate within ALEX, refer to the [Farming Key concepts](farming/key-concepts.md) section of the docs.
+
+### Considerations
 
 Before you start, familiarize yourself with the basic rules of Self-Service Farming.
 
 1. Only the pool creator can use Self-Service Farming to add farming to their pool.
 2. When creating a liquidity pool, an anchor token (Token X) and a listing token (Token Y) are defined. Self-Service Farming only allows the listing token to be used as the farming reward.
 3. The total amount of rewards for the entire farm lifecycle must be deposited at the time of farm creation.
-4. Before the first farming cycle starts, there is a "gathering" period. This period is the time between the farm's creation and the start of the first cycle. Farmers who stake their tokens during the gathering period are the ones who harvest the rewards associated with that initial cycle.
+4. Before the first farming cycle starts, there is a "gathering" period. This period is the time between the farm's creation and the start of the first emission cycle. Farmers who stake their tokens during the gathering period are the ones who harvest the rewards associated with that initial cycle.
 
-## Procedure
+## 📝 Procedure
 
 ### Step 1
 
@@ -88,7 +97,7 @@ Recommended to track transaction status:
 
 Once the transaction is completed, your farm will have been successfully created. Your farm will appear on the [Farms](https://app.alexlab.co/farm) page and from that moment is open to the first farmers who want to join during the gathering period.
 
-Thanks for launching your farm through ALEX Lab!
+Thanks for launching your farm through ALEX Lab! 🌽 🌾 🚜 
 
 ## Support
 
