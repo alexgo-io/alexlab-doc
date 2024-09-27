@@ -12,7 +12,7 @@
   * [Key concepts](product-features/liquidity-providers/key-concepts.md)
   * [How to add/remove liquidity](product-features/liquidity-providers/how-to.md)
   * [FAQs](product-features/liquidity-providers/faqs.md)
-  * [📝 Self Service Listing](product-features/self-service-listing.md)
+  * [😀 Self Service Listing](product-features/self-service-listing.md)
 * [⚓ Stake](product-features/stake.md)
 * [☘️ Farm](product-features/farm.md)
   * [Self-Service Farming](product-features/farm/self-service-farming.md)

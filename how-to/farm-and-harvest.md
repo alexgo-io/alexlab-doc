@@ -25,7 +25,7 @@ Now that you've found a Farm to stake in, you will need to add liquidity to get 
 1. Click on the Pool tab on the top navigation bar.&#x20;
 2. Find the Pool linked with your selected farm then click in to add liquidity.
 
-This will open the Add Liquidity page for your Farm's pair. We have a [guide to adding liquidity](how-to-add-remove-liquidity.md) you can follow to get your LP Tokens.
+This will open the Add Liquidity page for your Farm's pair. We have a [guide to adding liquidity](broken-reference) you can follow to get your LP Tokens.
 
 ## Putting your LP Tokens into a farm
 
