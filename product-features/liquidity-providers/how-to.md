@@ -39,19 +39,17 @@ When hovering over a pool, you might notice a "+LP" button. This is just a visua
 
 ### Step 3
 
-After selecting a pool, you will be taken to a control panel for that specific liquidity pool, where you can add liquidity to the token pair and view more detailed metrics.&#x20;
+After selecting a pool, you will be taken to a control panel for that specific liquidity pool, where you can add liquidity to the token pair and view more detailed metrics[^1].&#x20;
 
 When you set the amount for one token, the corresponding amount for the other token is automatically calculated, as liquidity must be provided in equal value for both tokens.
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-3-pool-control-panel.png" alt=""><figcaption><p>Control panel example for STX - ALEX liquidity pool. Amount is set to 4 STX and ALEX token amount is automatically determined.</p></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Clicking the "Max" button will automatically set the amount to your total available balance.
 {% endhint %}
 
-{% hint style="warning" %}
-The APR metric is the same as the displayed in the Fee Rebate column on the previous step.
-{% endhint %}
+[^1]: The APR metric is the same as the displayed in the Fee Rebate column on the previous step.
 
 ### Step 4
 
@@ -98,9 +96,11 @@ Wait for the transaction to be confirmed on the network.&#x20;
 Recommended to track transaction status:
 
 * Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Search for the transaction on [explorer](https://explorer.hiro.so/txid/0x588d949ea697b325237eb20d5d3a6af5f6f496668cf0c7428ba79068573efba9?chain=mainnet). &#x20;
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
+
+<!-- Real tx: https://explorer.hiro.so/txid/0x588d949ea697b325237eb20d5d3a6af5f6f496668cf0c7428ba79068573efba9?chain=mainnet -->
 
 <div>
 
@@ -194,9 +194,11 @@ Wait for the transaction to be confirmed on the network.&#x20;
 Recommended to track transaction status:
 
 * Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Search for the transaction on [explorer](https://explorer.hiro.so/txid/0xd34372393d5467dc5a0e161beeb3d376222690d24ab964edbd7f5bc80835559b). &#x20;
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer). &#x20;
 * Check your address activity on the wallet.
 {% endhint %}
+
+<!-- Real tx: https://explorer.hiro.so/txid/0xd34372393d5467dc5a0e161beeb3d376222690d24ab964edbd7f5bc80835559b?chain=mainnet -->
 
 <div>
 

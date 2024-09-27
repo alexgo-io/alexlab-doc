@@ -15,7 +15,7 @@ layout:
 
 # 🐋 Liquidity Providers
 
-By adding liquidity to a pool, you will earn fees from all trades between a token pair proportional to your share of the pool. Fees are added to the pool, automatically accrued in real-time and can be claimed by withdrawing your liquidity.
+By adding liquidity to a pool, you will earn fees from all trades between a token pair proportional to your share of the pool. Fees are added to the pool, automatically accrued in real-time and can be claimed by withdrawing back your liquidity.
 
 ## Choose where to start
 

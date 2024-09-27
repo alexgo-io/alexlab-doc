@@ -4,7 +4,10 @@
 
 ## Product/ Features
 
-* [🔃 Swap](product-features/swap.md)
+* [🔄 Token Swaps](product-features/token-swaps/README.md)
+  * [Key concepts](product-features/token-swaps/key-concepts.md)
+  * [How to swap](product-features/token-swaps/how-to.md)
+  * [FAQs](product-features/token-swaps/faqs.md)
 * [🐋 Liquidity Providers](product-features/liquidity-providers/README.md)
   * [Key concepts](product-features/liquidity-providers/key-concepts.md)
   * [How to add/remove liquidity](product-features/liquidity-providers/how-to.md)
@@ -23,7 +26,6 @@
 ## How To
 
 * [👉 Set up Hiro Wallet](how-to/set-up-hiro-wallet.md)
-* [🔃 Swap](how-to/swap.md)
 * [⚓ Stake $ALEX](how-to/stake-usdalex/README.md)
   * [How to Use Auto Staking (minting AutoALEX)](how-to/stake-usdalex/how-to-use-auto-staking-minting-autoalex.md)
   * [How to Use Manual (Customized) Staking](how-to/stake-usdalex/how-to-use-manual-customized-staking.md)
