@@ -1,5 +1,6 @@
 ---
 description: All references are available from Stacks.org.
+hidden: true
 ---
 
 # 🎣 Farm & Harvest

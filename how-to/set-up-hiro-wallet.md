@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 👉 Set up Hiro Wallet
 
 ## **Installing Hiro Wallet**
