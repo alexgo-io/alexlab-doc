@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/alexlab_Doc_Cover.png
+cover: .gitbook/assets/alex_doc_cover.jpg
 coverY: 0
 ---
 
