@@ -70,9 +70,7 @@ From the screenshot above, the **Total Farming Rewards** is `15,000 DOGGY`, and 
 
 If the user submits, the farm will be created at Cycle #80, leaving 33 blocks for the gathering period (approximately 5 hours and 29 minutes). In these cases, it is recommended to wait for the next cycle, as inidicated in the alert box.
 
-If the user decides to proceed, the **Farm Opening Cycle** will run from Cycle #81 to Cycle #90.
-
-<!-- TODO: If the user decides to proceed, the **Farm Opening Cycle** will run from Cycle #81 to Cycle #90, lasting is approximately XX days. -->
+If the user decides to proceed, the **Farm Opening Cycle** will run from Cycle #81 to Cycle #90, lasting approximately 35 days.
 
 ### Step 5
 
