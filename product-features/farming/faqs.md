@@ -87,6 +87,8 @@ APower is the lottery ticket that allows you to take part in any future IDO roun
 
 Every IDO is unique, however, and may have a cap on the amount of APower that can be allocated. This is to prevent IDOs dominated by a small group of "whale" members.
 
+Full Medium post [here](https://medium.com/alexgobtc/what-is-alex-staking-power-and-how-do-i-use-it-1b3de3797fa2).
+
 </details>
 
 <details>

@@ -7,3 +7,5 @@ redirects:
   product-features/farm: product-features/farming/README.md
   product-features/farm/self-service-farming: product-features/self-service-farming.md
   how-to/farm-and-harvest: product-features/farming/how-to.md
+  product-features/stake: product-features/staking/README.md
+  how-to/stake-usdalex: product-features/staking/README.md
