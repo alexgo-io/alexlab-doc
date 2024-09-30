@@ -1,5 +1,6 @@
 ---
 description: This doc explains how to stake in ALEX with AutoALEX & Manual Staking option.
+hidden: true
 ---
 
 # ⚓ Stake $ALEX

@@ -1,5 +1,6 @@
 ---
 description: Maximizing Bitcoin Capital Efficiency
+hidden: true
 ---
 
 # 💰 Lend & Borrow

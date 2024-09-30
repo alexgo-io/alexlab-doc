@@ -62,7 +62,6 @@
 
 ## Detailed Information
 
-* [What is ALEX](detailed-information/what-is-alex.md)
 * [ALEX’s Automated Market Maker (AMM)](detailed-information/alexs-automated-market-maker-amm.md)
 * [What is ALEX Staking Power and How do I use it?](detailed-information/what-is-alex-staking-power-and-how-do-i-use-it.md)
 * [ALEX DAO](detailed-information/alex-dao.md)

@@ -30,7 +30,7 @@ Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. 
 Select the tokens you want to exchange and the amount.&#x20;
 
 * The token at the top is the **base** token, the token you currently hold and want to exchange.
-* The token below is the **quoted or target** token, the token you will receive in the trade.
+* The token below is the **quoted** or **target** token, the token you will receive in the trade.
 * The dropdown arrow next to the token symbol will open the **token search** and **selection panel**.
 * Below the amounts, you will find the current **exchange rate**, as well as the USD equivalent.
 * The central down-pointing arrow shows the **direction of the transaction**. In the below example, STX will be exchanged for ALEX. By clicking the arrow, you can quickly **invert** the order of the transaction: the base token becomes the quoted token and vice versa.
@@ -50,8 +50,9 @@ Clicking the "Max" button will automatically set the amount to your total availa
 Check the transaction details by clicking the dropdown "Details" arrow below the amounts. This will expand a Details panel with relevant trading information.
 
 * **Route:** The exchange route to convert from the base token into the target token. In the example we see STX -> ALEX, indicating it is a one-step or direct swap.&#x20;
-* **Liquidity Provider Fee:** The swap fee, which is shared between the ALEX protocol and the Liquidity Providers (LPs).&#x20;
-* **Slippage Tolerance:** The maximum percentage of price movement you'll accept between the time you submit the transaction and its execution. The standard slippage tolerance is 4%, but you can select a custom percentage. If price movement exceeds the slippage tolerance, the transaction will be reverted.
+* **Liquidity Provider Fee:** The swap fee, which is shared between the Liquidity Providers (LPs) and the ALEX Lab Platform.&#x20;
+* **Price Impact:** How much your swap affects the exchange rate.
+* **Slippage Tolerance:** The maximum percentage of price movement you'll accept between the time you submit the transaction and its execution. The default slippage tolerance setting is 4%, but you can select a custom percentage. If price movement exceeds the slippage tolerance, the transaction will be reverted.
 * **Minimum Received:** The minimum amount of target token you will receive considering the maximum slippage variation.
 
 <figure><img src="../../.gitbook/assets/token-swaps/3-tx-details.png" alt="" width="375"><figcaption><p>Swap panel with Transaction Details panel expanded.</p></figcaption></figure>
@@ -66,7 +67,7 @@ If you want to adjust slippage tolerance, select the "Settings" icon to open the
 
 ### Step 4
 
-Once you're ready to move ahead, select the "Swap" button which will bring up the Confirmation panel. This panel provides a final overview your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click "Confirm" 😎.
+Once you're ready to move ahead, select the "Swap" button which will bring up the Confirmation panel. This panel provides a final overview of your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click "Confirm" 😎.
 
 <figure><img src="../../.gitbook/assets/token-swaps/4-confirmation-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -100,10 +101,12 @@ Wait for the transaction to be confirmed on the network.
 {% hint style="info" %}
 Recommended to track transaction status:
 
-* Turn on Telegram notifications, you will get notified when the transaction is confirmed.
-* Search for the transaction on [explorer](https://explorer.hiro.so/txid/0x4018603651b9fbed296a575b7eb7e08e12764e97faf7448a7862eccad26dfb35?chain=mainnet).
+* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 * Check your address activity on the wallet.
 {% endhint %}
+
+<!-- Real tx: https://explorer.hiro.so/txid/0x4018603651b9fbed296a575b7eb7e08e12764e97faf7448a7862eccad26dfb35?chain=mainnet -->
 
 <div>
 

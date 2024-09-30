@@ -4,19 +4,7 @@
 
 _ALEX’s_ core product is essentially a zero-coupon bond in conventional finance. A key benefit of this product is reduced uncertainty about a loan’s interest rate, resulting in better financial planning. Specifically, prior to entering a loan contract, borrowers and lenders secure the loan’s interest rate and tenor on _ALEX_.
 
-## **1. Lending and Borrowing Process**
-
-Let’s start with a concrete example:
-
-Rachel has 100 USD. She wants to increase her 100 USD and thus chooses to lend her assets out. She decides to lend out her 100 USD for a fixed term of three months. Rachel goes to _ALEX’s_ interface and there she sees that “three-month ayUSD” is currently priced at 0.9 vs USD. Put simply, this means that 1 ayUSD gets her 0.9 USD. She takes her 100 USD and exchanges it for ayUSD. Given the current exchange rate, Rachel gets about 110 ayUSD. Now that three months have passed, Rachel can exchange her 110 ayUSD for USD again. The rate is 1 ayUSD to 1 USD. So Rachel gets 110 USD — that’s a gain of 10 USD over 3 months. Pretty sweet!
-
-Here is the general story:
-
-Borrowers and lenders enter a loan contract. Specifically, they swap a forward contract-based token called “ayToken” with “Token” — the underlying asset. For example, borrowers and lenders could swap ayUSD with USD but more generally, the lender lends out “Tokens” and obtains “ayToken” in return. The price of “Token” is lower than its par value. The contract starts when a lender deposits “Token” in an _ALEX_ pool. Then, upon expiration, the lender redeems the underlying asset, “Token”, at par value. Because the lender lent out their “Token” at a discounted price some time ago, and now redeems “Token” for par value, there is a profit.
-
-In mathematical terms, interest rate _r_ is calculated as \*pₜ =\*1/_eʳᵗ_ where _pₜ_ is the spot price of ayToken and the interest rate is assumed to be compound. The formula utilizes one of the most fundamental concepts in asset pricing in that the present value is the discounted future value. In our example, _t =_ 1 and _r_ = \*\*log 1/0.9 ≈ 10%.
-
-## **2. Automated Market Making (AMM) Protocol**
+## **1. Automated Market Making (AMM) Protocol**
 
 When designing AMM, _ALEX_ believes in the following:
 
@@ -36,7 +24,7 @@ where _x, y, t,_ and _L_ are, respectively, the balance of “Token”, the bala
 
 Our design depicts an AMM in the form of a generalized mean. It makes economic sense because the shape of the curve is decreasing and convex. It incorporates time to maturity _t_, which is explicitly built-in to derive ayToken’s spot price. &#x20;
 
-## **3. Liquidity Providers (LP) and Capital Efficiency**
+## **2. Liquidity Providers (LP) and Capital Efficiency**
 
 LPs deposit both ayToken and Token in a pool to facilitate trading activities. LPs are typically ready to market-make on all possible scenarios of interest rate movements ranging from _−∞_ to _+∞._ However\*,\* part of the interest rates curve or movements will never be considered by market participants. One example of this occurs when the interest rate is negative. Although negative rates can be introduced in the fiat world by central bankers as a monetary policy tool, yield farmers in the crypto world are still longing everything to be positive. In _ALEX_, a positive rate refers to the spot price of ayToken not exceeding 1 and ayToken reserve being larger than Token.
 
@@ -52,7 +40,7 @@ A numerical example provided in Table 1 shows capital efficiency with respect to
 
 ![https://miro.medium.com/max/1400/1\*1donSHtKYaEUb3Y7d9ZwbA.png](https://miro.medium.com/max/1400/1\*1donSHtKYaEUb3Y7d9ZwbA.png)
 
-## **4. Yield Curve and Yield Farming**
+## **3. Yield Curve and Yield Farming**
 
 By expressing interest rate as _pₜ =1/eʳᵗ_, i.e. r = (-1/_t)_ log _pₜ_, we can obtain a series of interest rates from trading pool prices with respect to various maturities based on which we are able to build a yield curve. The yield curve is the benchmark tool for modeling risk-free rates in conventional finance. The shape of the curve dictates the expectation of future interest rate paths, which helps market participants understand market behaviors and trends. Currently, we might be able to build a Bitcoin yield curve from Bitcoin futures listed on Chicago Mercantile Exchange (CME). However, not only is the exchange heavily regulated, its trading volume is skewed to the very short-dated front-end contracts lasting several months only. _ALEX_ aims to offer futures contracts up to 1y when the platform goes live. Should markets mature, _ALEX_ may extend to longer tenors.
 

@@ -10,4 +10,4 @@ Lisa Protocol([https://www.lisalab.io/](https://www.lisalab.io/)) is now providi
 
 The protocol rewards are provided in the form of more $ALEX as well as [$APower](https://medium.com/alexgobtc/what-is-alex-staking-power-and-how-do-i-use-it-1b3de3797fa2) which is only available to stakers to be used in the ALEX launchpad.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>ALEX Staking</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>ALEX Staking</p></figcaption></figure>
