@@ -1,4 +1,4 @@
-# Self-Service Farming
+# 🧑‍🌾 Self-Service Farming
 
 ## Self-Service Farming Procedure
 
