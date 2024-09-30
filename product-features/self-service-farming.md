@@ -24,7 +24,7 @@ Before you start, familiarize yourself with the basic rules of Self-Service Farm
 1. Only the pool creator can use Self-Service Farming to add farming to their pool.
 2. When creating a liquidity pool, an anchor token (Token X) and a listing token (Token Y) are defined. Self-Service Farming only allows the listing token to be used as the farming reward.
 3. The total amount of rewards for the entire farm lifecycle must be deposited at the time of farm creation.
-4. Before the first farming cycle starts, there is a "gathering" period. This period is the time between the farm's creation and the start of the first emission cycle. Farmers who stake their tokens during the gathering period are the ones who harvest the rewards associated with that initial cycle.
+4. A "gathering" period occurs between the creation of the farm and the start of the first emission cycle. Farmers who stake their LP tokens during this period will be eligible to receive the farming rewards associated with the first emission cycle.
 
 ## 📝 Procedure
 
@@ -52,15 +52,27 @@ Enter the total amount of rewards that will be distributed in your farm. This am
 
 ### Step 4
 
-Select the **Reward Cycle Length**, which is the number of cycles in which your farm will be active and distributing rewards. This number along with the total farming rewards determine the **Est. Farming Rewards Per Cycle**.
+Select the **Reward Cycle Length**, which is the number of cycles in which your farm will be active and distributing rewards. This number, along with the total farming rewards, determines the **Est. Farming Rewards Per Cycle**.
 
-> In the example, total rewards is `15,000 DOGGY` and total cycles is `10` so `15,000 DOGGY / 10 = 1,500 DOGGY` are the farming reward per cycle.
+At this point, you will also be able to see the number of the cycles in which your farm will be officially open, displayed as **Farm Opening Cycle**. The farm will be created instantly once the farm creation transaction is confirmed. However, the **Emission Start Cycle** will be the next upcoming cycle.
 
-At this point, you will also be able to see the number of the cycles in which your farm will be open, displayed as **Farm Opening Cycle**. The Self-Service Farming won't commence immediately after your creation transaction is confirmed. Instead, farming will automatically begin at the first cycle shown, which is typically the next upcoming cycle. The time gap between the farm creation transaction is confirmed and the start of the first farming cycle is the so-called "gathering" period, during which the first users can start staking tokens in the farm.
+The time gap between the farm creation and the start of the first emission cycle is the so-called "gathering" period, during which users can begin staking their LP tokens in the farm.
 
-> In the example, the STX - DOGGY farm will be open from Cycle #63 to Cycle #72. The gathering period occurs before Cycle #63. The rewards associated with Cycle #63 will be available when it ends, and the users that will receive them are the ones who staked in the gathering period.
+{% hint style="danger" %}
+**Caution:** To maximize the gathering period, it is advisable to create your farm at the start of a new farming cycle.
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/self-service-farming/step-2-add-farming-rewards.png" alt=""><figcaption></figcaption></figure>
+
+#### Example
+
+From the screenshot above, the **Total Farming Rewards** is `15,000 DOGGY`, and **Reward Cycle Length** is `10`, meaning that `15,000 DOGGY / 10 = 1,500 DOGGY` will be the **Farming Rewards Per Cycle**.
+
+If the user submits, the farm will be created at Cycle #80, leaving 33 blocks for the gathering period (approximately 5 hours and 29 minutes). In these cases, it is recommended to wait for the next cycle, as inidicated in the alert box.
+
+If the user decides to proceed, the **Farm Opening Cycle** will run from Cycle #81 to Cycle #90.
+
+<!-- TODO: If the user decides to proceed, the **Farm Opening Cycle** will run from Cycle #81 to Cycle #90, lasting is approximately XX days. -->
 
 ### Step 5
 
