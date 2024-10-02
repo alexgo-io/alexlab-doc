@@ -4,6 +4,8 @@ description: Common questions you might have as a liquidity provider.
 
 # FAQs
 
+## Liquidity Pools & Providers
+
 <details>
 
 <summary>What is the difference between swap fee and fee rebate?</summary>
@@ -99,3 +101,91 @@ However, if Carol had simply held onto her 100 STX and 150 sUSDT, their combined
 This shows that Carol would have been better off holding her assets instead of providing liquidity. This is impermanent loss. With that said, this example doesn't account for the trading fees Carol would have earned as a liquidity provider, which could potentially offset or even exceed the loss, making liquidity provision profitable overall.
 
 </details>
+
+<details>
+
+<summary>Can I create my own pool?</summary>
+
+Yes! [Self-Service Listing](../self-service-listing.md) allows you to create your own trading pool on ALEX DEX. This feature lets you list your token for permissionless trading against an anchor token, typically one with a stable value, providing a reliable reference point for pricing your token.
+
+</details>
+
+## Self-Service Listing
+
+<details>
+
+<summary>Which are the anchor tokens supported?</summary>
+
+Native STX currency, ALEX token and aBTC token.
+
+</details>
+
+<details>
+
+<summary>Is there a minimum liquidity amount for the anchor token?</summary>
+
+Yes. Initial liquidity of the anchor token must be a minimum of 1,800 STX or the equivalent value in in ALEX or aBTC tokens.
+
+</details>
+
+<details>
+
+<summary>How is the listed token initial price determined?</summary>
+
+The initial price is determined by the initial liquidity provided by the creator. The ratio between the pair of funds determines the price relationship between both tokens. 
+
+For instance, if the creator provides 8,000 listing tokens and 2,000 anchor tokens, that means the initial ratio is 4:1. Note that pool ratios are calculated as the minimal expression of the fraction between the token balances. In this case, is 8,000 / 2,000.
+
+We can think of this initial ratio in two ways (and they are both equivalent):
+
+- 4 listing tokens equals 1 anchor token.
+- 1 listing token equals 0.25 anchor tokens.
+
+</details>
+
+<details>
+
+<summary>How does the price of the listing token change once the pool is created?</summary>
+
+Once the pool is created, the price discovery phase starts. Users can permissionlessly trade the pair of assets, and the [Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) algorithm will determine the price dynamics of the newly listed token. For further information on this topic please refer to the [ALEXGo Trading Pool documentation](https://docs.alexgo.io/automated-market-making/trading-pool).
+
+</details>
+
+<details>
+
+<summary>Is there some requirement to make the listed token visible in ALEX Token List?</summary>
+
+Yes. ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
+
+Once that is done, you can click "Customer Support" on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) and submit the social media information, such as X accont, Discord, official website, etc.
+
+</details>
+
+<!-- 
+
+Wrapped contract FAQs, maybe necessary in the future.
+
+<details>
+
+<summary>Why is the wrapped token version necessary?</summary>
+
+Wrapped tokens are “pass-through” tokens that do not retain economics and its purpose is ease of developers and security. ALEX is responsible for deploying wrapped contracts.
+
+It is more a technical thing and it is not relevant from user perspective rather than it involves a whole step in the procedure and takes some time.
+
+</details>
+
+<details>
+
+<summary>Is it possible to avoid wrapped contract deployment?</summary>
+
+Yes. However this may not speed the waiting time and requires some conditions in the token contract. 
+
+You won't need a wrapped version of the token if this two conditions are met:
+
+1. Your token contract complies with ALEX's fungible token trait. This trait is the regular SIP-10 Standard Token Trait plus the helper functions for 8-digit fixed notation. See source code on [explorer](https://explorer.hiro.so/txid/0xd8d41e686264b1f8f7b3bd13016f00baf69d98c89c2aa588b5b96b5164d83e1d?chain=mainnet).
+2. Your token has 8 decimals. 
+
+</details> 
+
+-->
