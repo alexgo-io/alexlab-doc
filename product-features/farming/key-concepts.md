@@ -43,7 +43,7 @@ Let's put it on an example. Say you stake for 1 cycle at a time. When the cycle 
 
 ### Reward distribution
 
-Each farm offers a specific type of reward, which is defined at creation time and cannot be changed. Also, each farm has a predefined amount of rewards that will be distributed over its entire lifetime. For simplicity, we can assume that the total rewards distributed to stakers during each cycle remains constant. At the end of each cycle, the rewards are available to be harvested by the farmers (stakers).
+Each farm offers a specific reward token and has a predefined total reward amount, which will be distributed over the farm's lifetime. These attributes are defined by the farm owner at creation time and cannot be changed. For simplicity, we can assume that the amount of rewards distributed to stakers during each cycle remains constant. At the end of each cycle, the rewards are available to be harvested by the farmers (stakers).
 
 Rewards are distributed proportionally to each farmer based on their staked amount. This can be represented by the following equation:
 
