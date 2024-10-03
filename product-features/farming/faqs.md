@@ -32,7 +32,7 @@ Yes, farming rewards accumulate over time. It is not mandatory to harvest your r
 
 <summary>What is the cooldown period?</summary>
 
-The cooldown period refers to the time between when your LP tokens are staked into the farm and when a new farming cycle begins. Essentially, it is the remaining time (measured in Stacks blocks) of the current staking cycle. This implies that your staked tokens won't start generating reward immediately but in next upcoming cycle. For more details, check the [Cycles and Cooldown Period](key-concepts.md#cycles-and-cooldown-period) section of the Key concepts page.
+The cooldown period refers to the time between when your LP tokens are staked into the farm and when a new farming cycle begins. Essentially, it is the remaining time (measured in Stacks blocks) of the current staking cycle. This implies that your staked tokens won't start generating rewards immediately but in next upcoming cycle. For more details, check the [Cycles and Cooldown Period](key-concepts.md#cycles-and-cooldown-period) section of the Key concepts page.
 
 </details>
 
@@ -61,12 +61,12 @@ You have several options for your rewards: you can hold them, trade them, or gen
 
 <summary>How can I restake my rewards in the farm?</summary>
 
-Restaking your rewards in the farm is an effective strategy for generating compound interest, but not as straight forward. To restake, you will need to transform your rewards into LP tokens first. There are two scenarios to consider:
+Reinvesting your rewards in the farm is an effective strategy to achieve compound interest, but it requires a few extra steps. To restake, you will need to transform your rewards into LP tokens first. There are two scenarios to consider.
 
 * **Case 1:** The reward token is one of the trading pair tokens.&#x20;
 * **Case 2:** The reward token is none of the trading pair tokens.
 
-Here are the steps to "re-farm" your rewards:
+Here are the steps to restake your farming rewards:
 
 1. [Swap](https://app.alexlab.co/swap) the rewards in order to obtain the liquidity pool trading pair tokens. This may involve one swap for Case 1 and two swaps for Case 2.
 2. [Provide liquidity](https://app.alexlab.co/pool) to the pool associated with the trading pair to receive LP tokens.

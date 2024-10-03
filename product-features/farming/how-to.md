@@ -175,7 +175,7 @@ At the end of every staking cycle (525 blocks, approximately 3.5 days), rewards 
 5. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 6. Once the transaction is completed, the reward amounts will be reflected in your wallet balance. You can always check your balance also on the ALEX Lab App, located beside the "Wallet Manager" at the top menu bar.
 
-You can collect these rewards and use them for various purposes on the ALEX Lab Platform. For example, you can [stake](https://app.alexlab.co/stake) your $ALEX rewards manually to generate compounding interest. You can also use your APower rewards to increase your access to IDOs on the [ALEX Launchpad](https://app.alexlab.co/launchpad). You can even buy more LP tokens!
+You can collect these rewards and use them for various purposes on the ALEX Lab Platform. For example, you can [stake](https://app.alexlab.co/stake) your $ALEX rewards manually to generate compounding interest. You can also use your APower rewards to increase your access to IDOs on the [ALEX Launchpad](https://app.alexlab.co/launchpad). You can even obtain more LP tokens!
 
 ### How often should I harvest my rewards?
 
