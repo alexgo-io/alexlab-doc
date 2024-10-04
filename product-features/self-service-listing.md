@@ -12,15 +12,15 @@ description: Create your own pool and make your token tradeable on ALEX decentra
 
 ### How it works?
 
-Self-Service Listing allows you to **create your own liquidity pool** on the ALEX DEX, enabling the permissionless trade of the **listed token** against a so-called **anchor token** within the exchange. The anchor token is typically one with a stable value, providing a reliable reference point for defining the price of the newly listed token.
+Self-Service Listing allows you to **create your own liquidity pool** on the ALEX DEX, enabling the **permissionless trade** of the **listed token** with an **anchor token** within the exchange. The anchor token is typically one with a stable value, providing a reliable reference point for defining the price of the newly listed token.
 
-Pool creation typically takes between 24 to 48 hours. Once the pool is created, the price discovery phase begins: users can start trading the listed token with the anchor token and viceversa. Users interested in providing liquidity will be able to do it as in any other ALEX pool.
+Pool creation usually takes between 24 to 48 hours. Once the pool is created and live, the price discovery phase begins: users can start trading the listed token against the anchor token and viceversa. Users interested in providing liquidity can contribute to the pool like any other ALEX pool.
 
 {% hint style="info" %}
-**Avaiblable Anchor Tokens:** Native _STX_ currency, _ALEX_ token and _aBTC_ token.
+Avaiblable Anchor Tokens: Native _STX_ currency, _ALEX_ token and _aBTC_ token.
 {% endhint %}
 
-The trading pool is ruled by [ALEX Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) algorithm which determines the exchange rate (price) and balances dynamic.
+The trading pool operates under the [ALEX Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) algorithm, which dynamically determines the exchange rate (price) based on the trades.
 
 ### Minimum requirements
 
@@ -54,13 +54,13 @@ With that said, let's get hands-on!
 
 ### Step 0: Go to Self-Service Listing page
 
-Go to the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) at the ALEX Lab App. You can also reach it by going to the [app.alexlab.co](https://app.alexlab.co) main page and navigating to the `Swap` -> `Pool` tab. Once in the Pool main page, hit the `+ Create` button and select the `Creating a new pool` option.
+Head to the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) at the ALEX Lab App. Alternatively, you can access it via the [app.alexlab.co](https://app.alexlab.co) homepage by navigating to the `Swap` -> `Pool` tab. Once on the Pool main page, hit the `+ Create` button and select the `Creating a new pool` option.
 
 <figure><img src="../.gitbook/assets/self-service-listing/main-page.png" alt="Self-Service Listing page" width=""><figcaption></figcaption></figure>
 
 ### Step 1: Submit token information & deposit the anchor token
 
-In this step, you will set up the pool trading pair and config params. Within this same transaction, you will transfer the anchor token balance :anchor:.
+In this step, you will set up the pool trading pair and configuration parameters. As part of this same transaction, you will transfer the anchor token's initial liquidity :moneybag: :anchor:.
 
 <figure><img src="../.gitbook/assets/self-service-listing/step-1-submit.png" alt="Self-Service Listing page" width=""><figcaption></figcaption></figure>
 
@@ -68,7 +68,7 @@ In this step, you will set up the pool trading pair and config params. Within th
 
 <summary>Step 1.1: Input the SIP-10 token contract address</summary>
 
-Provide the listed token contract address. Remember that it must accomplish with the [SIP-010 Fungible Token Standard](https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md) trait. In the example, its `SP108J6F4C7JD93BGJ91TEB5D3CFB5XW39QHDJ3MV.rabby-token`.
+Provide the listed token contract address. Ensure it complies with the [SIP-010 Fungible Token Standard](https://github.com/stacksgov/sips/blob/main/sips/sip-010/sip-010-fungible-token-standard.md) trait. In the example, the contract address is `SP108J6F4C7JD93BGJ91TEB5D3CFB5XW39QHDJ3MV.rabby-token`.
 
 </details>
 
@@ -76,7 +76,7 @@ Provide the listed token contract address. Remember that it must accomplish with
 
 <summary>Step 1.2: Confirm token information provided by the contract</summary>
 
-Check the that information provided by the contract is correct. In the example would be:
+Verify that the token information retrieved from the contract is correct. In the example:
 
 - **Token name** -> `RABBY Token`
 - **Token symbol** -> `RABBY`
@@ -90,7 +90,7 @@ Check the that information provided by the contract is correct. In the example w
 
 <summary>Step 1.3: Set the initial liquidity and price</summary>
 
-Enter the initial balances of the tokens. You can try different amounts and see how the exchange rate variates. However, we recommend making the calculations previously.
+Enter the initial balances for both tokens. You can experiment with different amounts to observe how the exchange rate changes, though we recommend calculating these values beforehand.
 
 In the screenshot example, this is:
 
@@ -98,7 +98,7 @@ In the screenshot example, this is:
 - **Listing Token 🚀** (a.k.a `token-y`) -> `200,000 RABBY`
 - **Exchange Rate ⚖️** -> `1 RABBY = 0.02 STX ($0.03)`
 
-Once the pool opens, the exchange rate of the AMM pool will be automatically re-balanced as users trade the tokens.
+Once the pool opens, the AMM algorithm will automatically rebalance the exchange rate as users trade the tokens.
 
 </details>
 
@@ -106,20 +106,9 @@ Once the pool opens, the exchange rate of the AMM pool will be automatically re-
 
 <summary>Step 1.4: Advanced pool settings (optional)</summary>
 
-This step is optional, as you can keep the default settings. A brief explanation of each setting is explained below.
+This step is optional, as the default settings are usually sufficient.
 
-TODO:
-
-- `factor`:
-- `fee-rate-x`:
-- `fee-rate-y`:
-- `max-in-ratio`:
-- `max-out-ratio`:
-- `threshold-x`:
-- `threshold-y`:
-- `start-block`:
-
-For a more detailed treatment of the subject, please refer to the [ALEXGo Trading Pool documentation](https://docs.alexgo.io/automated-market-making/trading-pool) documentation.
+However, we recomend consulting the [ALEXGo Technical documentation](https://docs.alexgo.io/automated-market-making/trading-pool) before making customizations. If you have any questions, feel free to reach out via [Discord](https://discord.com/invite/alexlab) or [Telegram Channel](https://t.me/AlexCommunity).
 
 </details>
 
@@ -127,26 +116,57 @@ For a more detailed treatment of the subject, please refer to the [ALEXGo Tradin
 
 <summary>Step 1.5: Submit transaction</summary>
 
+Keep in mind that as part of this same transaction, you will transfer the anchor token's initial liquidity. By confirming the transaction, you are accepting the transfer of specific amount of anchor tokens from your wallet to the ALEX smart contract.
+
+Click `Submit` and scroll through the wallet transaction window, ensuring the parameters and transfer amount are correct. If everything looks good, confirm the transaction on your wallet. This will allow your wallet to sign and broadcast the transaction.
+
+{% hint style="info" %}
+Recommended to track transaction status:
+
+* Turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot), you will get notified when the transaction is confirmed.
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
+* Check your address activity on the wallet.
+{% endhint %}
+
 </details>
 
-### Step 2
+### Step 2: Contract creation
 
-<!-- 2) User waits for token confirmation from ALEX side (this involves deploying the wrapped version, but the user doesn't get to know this detail) -->
+Once the transaction from Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
 
-Wait for the wrapped token contract creation (around 24-48 hours).
+### Step 3: Deposit listing token
 
-### Step 3
+Once the `Contract ready ✅` checkbox is marked as done, you're ready to deposit the listing token balance. This step involves interacting with a smart contract, so be sure to review the transaction details, paying particular attention to the amount to transfer. By accepting this transaction, you agree to transfer the initial liquidity of the listing token from your wallet to the ALEX smart contract.
 
-<!-- 3) User deposits the listed token balance. -->
+### Step 4: Pool creation success
 
-Deposit the listing token :rocket: and the pool will be automatically created on ALEX's AMM DEX. The new pool will be listed as an ALEX Pool in the Self Listed tab on [app.alexlab.co/pool](https://app.alexlab.co/pool).
+Once the `Deposit Listing Token ✅` transaction is completed and the `Open pool ✅` checkbox is marked as done, your pool will be automatically ready for use. TThe new pool will appear as an ALEX Pool under the `Self Listed` tab on [app.alexlab.co/pool](https://app.alexlab.co/pool).
 
-🤝 After this step, you (and everyone) can start trading your token in ALEX DEX 🤝
+🤝 After completing this step, you (and everyone) can start trading your token on ALEX DEX 🤝
 
-### Step 4 
+<figure><img src="../.gitbook/assets/self-service-listing/pool-creation-successful.jpg" alt="Pool creation successful" width=""><figcaption><p>Pool creation successful.</p></figcaption></figure>
 
-<!-- 4) Once this tx is confirmed, the pool is automatically created and available? (if start-block is configured "On finalization") Or there is a waiting period here? -->
+{% hint style="warning" %}
+If you have added a custom `start-block` configuration, the pool will be unavailabe until that block is reached.
+{% endhint %}
 
-### Step 5
+### Step 5: Provide additional token information (optional)
 
-Provide additional token information and make your token visible on the ALEX Token List at [app.alexlab.co/token-list](https://app.alexlab.co/token-list). To do so, click "Customer Support" on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) and submit the social media information, such as X accont, Discord, official website, etc.
+To make your token visible on the ALEX Token List at [app.alexlab.co/token-list](https://app.alexlab.co/token-list), provide additional token information. Click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice ](https://t.me/ALEXselfservice) to submit the information (e.g. X accont, Discord, official website).
+
+ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
+
+Thanks for creating your pool on the ALEX DEX 🎉 📈 
+
+<!-- 
+Summarized Steps:
+
+1) User submits token information, balances and config params. Within this same transaction, transfers the anchor token balance.
+
+2) User waits for token confirmation from ALEX side (this involves deploying the wrapped version, but the user doesn't get to know this detail).
+
+3) User deposits the listed token balance.
+
+4) Once this tx is confirmed, the pool is automatically created and available? (if start-block is configured "On finalization")
+
+-->

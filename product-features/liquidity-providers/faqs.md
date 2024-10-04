@@ -147,7 +147,7 @@ We can think of this initial ratio in two ways (and they are both equivalent):
 
 <summary>How does the price of the listing token change once the pool is created?</summary>
 
-Once the pool is created, the price discovery phase starts. Users can permissionlessly trade the pair of assets, and the [Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) algorithm will determine the price dynamics of the newly listed token. For further information on this topic please refer to the [ALEXGo Trading Pool documentation](https://docs.alexgo.io/automated-market-making/trading-pool).
+Once the pool is created, the price discovery phase begins. Users can permissionlessly trade the pair of assets, and the [Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) algorithm will determine the price dynamics of the newly listed token. For further information on this topic please refer to the [ALEXGo Trading Pool documentation](https://docs.alexgo.io/automated-market-making/trading-pool).
 
 </details>
 
@@ -157,7 +157,15 @@ Once the pool is created, the price discovery phase starts. Users can permission
 
 Yes. ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
 
-Once that is done, you can click "Customer Support" on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) and submit the social media information, such as X accont, Discord, official website, etc.
+Once that is done, click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice ](https://t.me/ALEXselfservice) to submit your information (e.g. X accont, Discord, official website).
+
+</details>
+
+<details>
+
+<summary>What is a wrapped version of a token contract?</summary>
+
+Wrapped token contracts refer to "pass-through" tokens that don't retain economics; their purpose is to simplify development and enhance security. ALEX is responsible for deploying wrapped contracts. As its primarily technical, it is not relevant from a user perspective rather than it involves a whole step in the procedure and takes some time.
 
 </details>
 
@@ -165,15 +173,7 @@ Once that is done, you can click "Customer Support" on the [Self-Service Listing
 
 Wrapped contract FAQs, maybe necessary in the future.
 
-<details>
 
-<summary>Why is the wrapped token version necessary?</summary>
-
-Wrapped tokens are “pass-through” tokens that do not retain economics and its purpose is ease of developers and security. ALEX is responsible for deploying wrapped contracts.
-
-It is more a technical thing and it is not relevant from user perspective rather than it involves a whole step in the procedure and takes some time.
-
-</details>
 
 <details>
 
