@@ -16,6 +16,8 @@ Self-Service Listing allows you to **create your own liquidity pool** on the ALE
 
 Pool creation usually takes between 24 to 48 hours. Once the pool is created and live, the price discovery phase begins: users can start trading the listed token against the anchor token and viceversa. Users interested in providing liquidity can contribute to the pool like any other ALEX pool.
 
+The pool owner is the initial liquidity provider and will receive the corresponding LP tokens upon successful pool creation. Once the pool is live and operational, the owner can withdraw funds just like any other liquidity provider.
+
 {% hint style="info" %}
 Avaiblable Anchor Tokens: Native _STX_ currency, _ALEX_ token and _aBTC_ token.
 {% endhint %}
@@ -140,9 +142,9 @@ Once the `Contract ready ✅` checkbox is marked as done, you're ready to deposi
 
 ### Step 4: Pool creation success
 
-Once the `Deposit Listing Token ✅` transaction is completed and the `Open pool ✅` checkbox is marked as done, your pool will be automatically ready for use. TThe new pool will appear as an ALEX Pool under the `Self Listed` tab on [app.alexlab.co/pool](https://app.alexlab.co/pool).
+Once the `Deposit Listing Token ✅` transaction is completed and the `Open pool ✅` checkbox is marked as done, your pool will be automatically ready for use. The new pool will appear as an ALEX Pool under the `Self Listed` tab on [app.alexlab.co/pool](https://app.alexlab.co/pool).
 
-🤝 After completing this step, you (and everyone) can start trading your token on ALEX DEX 🤝
+🤝 After completing this step, you (and everyone) can start trading the token pair on ALEX DEX 🤝
 
 <figure><img src="../.gitbook/assets/self-service-listing/pool-creation-successful.jpg" alt="Pool creation successful" width=""><figcaption><p>Pool creation successful.</p></figcaption></figure>
 
@@ -153,6 +155,8 @@ If you have added a custom `start-block` configuration, the pool will be unavail
 ### Step 5: Provide additional token information (optional)
 
 To make your token visible on the ALEX Token List at [app.alexlab.co/token-list](https://app.alexlab.co/token-list), provide additional token information. Click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice ](https://t.me/ALEXselfservice) to submit the information (e.g. X accont, Discord, official website).
+
+<figure><img src="../.gitbook/assets/self-service-listing/token-list.png" alt="Token List example" width=""><figcaption><p>Token List example.</p></figcaption></figure>
 
 ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
 
