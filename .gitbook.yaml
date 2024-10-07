@@ -1,7 +1,7 @@
 redirects:
-  product-features/liquidity-pool: product-features/liquidity-providers/README.md
+  product-features/liquidity-pool: product-features/liquidity-pools/README.md
   product-features/liquidity-pool/self-service-listing: product-features/self-service-listing.md
-  how-to/how-to-add-remove-liquidity: product-features/liquidity-providers/how-to.md
+  how-to/how-to-add-remove-liquidity: product-features/liquidity-pools/how-to.md
   product-features/swap: product-features/token-swaps/README.md
   how-to/swap: product-features/token-swaps/how-to.md
   product-features/farm: product-features/farming/README.md

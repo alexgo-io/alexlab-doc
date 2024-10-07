@@ -48,7 +48,7 @@ The liquidity pool for the pair **Listed Token :rocket: - Anchor Token :anchor:*
 
 </details>
 
-🔎 For more details, check the [FAQs](liquidity-providers/faqs.md#self-service-listing) section.
+🔎 For more details, check the [FAQs](./liquidity-pools/faqs.md#self-service-listing) section.
 
 With that said, let's get hands-on!
 
