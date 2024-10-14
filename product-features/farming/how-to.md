@@ -154,7 +154,7 @@ After successfully staking your LP tokens in a farm, you will be able to see you
 
 <figure><img src="../../.gitbook/assets/farming/my-farms.png" alt=""><figcaption><p>Example of the "My Farms" panel. Here you will find all your active farms; click on any of them for detailed information.</p></figcaption></figure>
 
-By clicking on a farm, you will access the "My Farming" dashboard for that specific farm, which includes detailed metrics. On the right side of the dashborad, you will see that the current cycle has no earnings and no farming tokens. This is due to the cooldown period, farming will start in the next upcoming cycle. This is why it's convenient to stake for long periods: every time you stake, you must wait for the current cycle to end before you start generating rewards in the next cycle.
+By clicking on a farm, you will access the "My Farming" dashboard for that specific farm, which includes detailed metrics. On the right side of the dashborad, you will see that the current cycle has no earnings and no farming tokens. The reason you can't join the current reward cycle is that it had already started prior to your participation. However, once you successfully stake your LP into the farm, it gets registered for the next cycle. This assures you a proportional share of the farm rewards based on the number of LP tokens you have staked. This is why it's convenient to stake for long periods: every time you stake, you must wait for the current cycle to end before you start generating rewards in the next cycle.
 
 For more info on the "My Farming" dashboard and metrics, we recommend reading the [Key concepts](key-concepts.md) page.
 
