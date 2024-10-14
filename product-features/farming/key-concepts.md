@@ -35,7 +35,7 @@ Farming is measured in cycles. **One cycle** is 525 Stacks blocks, which is appr
 
 Your staked tokens will start generating yield in the next upcoming cycle, which means there will be no reward during the time gap between when you stake and when the upcoming cycle starts. To maximize your earnings, it's best to stake for longer cycle periods, avoiding gaps in rewards due to the cooldown. That's why 32-cycle staking is recommended.
 
-Let's put it on an example. Say you stake for 1 cycle at a time. When the cycle ends, you can claim the rewards associated to that cycle. To keep generating rewards, you will have to withdraw your LP tokens and restake them. But when you stake them again, that current cycle is in cooldown, so you will have to wait for the next one to obtain rewards. Over 100 cycles, this method would cause you to miss rewards for about 50 cycles. In contrast, if you stake for 32 cycles, you will only miss rewards for 3 cycles.
+Let's use an example. Assume you stake for one cycle at a time. When that cycle ends, you can claim the rewards associated with that cycle. To continue generating rewards, you will have to withdraw your LP tokens and restake them. However, when you restake them, the current cycle will not be eligible for you to earn rewards. Therefore, you will have to wait until the next cycle to acquire rewards. Over 100 cycles, this method would cause you to miss rewards for about 50 cycles. In contrast, if you stake for 32 cycles, you will only miss rewards for 3 cycles.
 
 ### Reward distribution
 
