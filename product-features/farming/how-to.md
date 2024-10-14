@@ -203,6 +203,6 @@ Let's go through it step-by-step:
 6. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 7. Once the transaction is completed, you will see the changes reflected in your wallet balance and on the platform panels. In particular, you will see your LP token balance on the [Pool page](https://app.alexlab.co/pool) in the **My Liquidity** panel or by selecting the pool from the list. You can also check your balance on the ALEX Lab App, located beside the Wallet Manager at the top menu bar.
 
-If you want to farm your LP tokens again, remember: your staked amount will start generating yield from the next upcoming cycle, as the current cycle is in cooldown period. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to the cooldown period.
+If you want to farm your LP tokens again, remember: your staked amount will start generating yield from the next upcoming cycle. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to the cooldown period.
 
 Thanks for farming on ALEX Lab! 🧑‍🌾
