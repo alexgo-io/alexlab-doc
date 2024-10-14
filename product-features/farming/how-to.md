@@ -88,7 +88,7 @@ Next, choose the number of reward cycles you want to lock your tokens into the f
 <figure><img src="../../.gitbook/assets/farming/add-lp-staking.png" alt="" width="375"><figcaption><p>Example with an amount of LP tokens to stake for 32 cycles.</p></figcaption></figure>
 
 {% hint style="info" %}
-Your staked amount will start generating yield from the next upcoming cycle, as the current cycle is in "cooldown" period. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to this cooldown cycle. That's why 32-cycle staking is recommended.
+Your staked amount will start generating yield from the next upcoming cycle, as the current cycle is in "cooldown" period. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to this cooldown cycle. That's why 32-cycle staking is recommended if your goal is to maximize earnings.
 {% endhint %}
 
 ### Step 4
