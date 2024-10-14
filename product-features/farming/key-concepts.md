@@ -39,7 +39,7 @@ Let's use an example. Assume you stake for one cycle at a time. When that cycle 
 
 ### Reward distribution
 
-Farms may offer different types of reward tokens, and each farm has a predetermined amount of rewards. For simplicity, we can assume that the total rewards distributed to stakers during each cycle remains constant. At the end of each cycle, the rewards are available to be harvested by the farmers (stakers).
+Farms may offer different types of reward tokens, and each farm has a predetermined amount of rewards. For simplicity, we can assume that the total rewards distributed to stakers during each cycle remains constant. At the end of each cycle, the rewards are available to be harvested by the farmers (stakers) in proportion to their share of LP tokens within that cycle.
 
 Rewards are distributed proportionally to each farmer based on their staked amount. This can be represented by the following equation:
 
