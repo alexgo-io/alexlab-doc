@@ -189,7 +189,7 @@ Happy Farming! 🥕 🥬 🍅
 
 Withdrawing you LP tokens takes just a few steps. The important thing is when to do it.
 
-When farming, you are commit to locking up your tokens for a predefined period (reward cycles, each one ~3.5 days). Once these cycles conclude, you will be able to unstake them and regain control over your LP tokens.
+When farming, you commit to locking up your tokens for a predefined period (reward cycles, each cycle contains 525 Stacks blocks, an estimation of ~3.5 days per cycle). Once these cycles conclude, you will be able to unstake them and regain control over your LP tokens.
 
 If you staked multiple times at different moments, the lock periods apply to each amount separately.
 
