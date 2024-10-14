@@ -196,8 +196,8 @@ If you staked multiple times at different moments, the lock periods apply to eac
 Let's go through it step-by-step:
 
 1. Go to the [Farms page](https://app.alexlab.co/farm) on ALEX Lab App, which you can access through the Earn -> Farm tab.
-2. Find the farm from which you want to withdraw LP tokens and click on it.
-3. You will see the **My Farming** dashboard. Expand it to see all your farming details.
+2. You will see the **My Farming** dashboard. Expand it to see all your farming details.
+3. Find the farm from which you want to withdraw LP tokens and click on it.
 4. Your LP tokens will automatically be available for withdrawal when your committed cycles end. You will find them under the **LP to claim** title on the dashboard.
 5. Click on the "Harvest All" button and confirm the transaction in your wallet (just as you did in the previous guides). This will return your LP tokens back to your possession and automatically collect any unharvested rewards.
 6. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
