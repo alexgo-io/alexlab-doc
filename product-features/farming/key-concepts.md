@@ -49,7 +49,7 @@ $$
 
 Each value in the equation applies to a specific cycle.
 
-When there are two reward tokens (e.g. $ALEX and APower), the formula is applied separately for each token, resulting in two Farmer Reward amounts, one for each reward token.
+When there are two reward tokens (e.g., $ALEX and APower), the formula is applied separately for each token, resulting in two **Farming Reward** amounts, one for each reward token.
 
 ### Farm APR
 
