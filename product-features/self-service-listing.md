@@ -16,7 +16,7 @@ layout:
     visible: true
 ---
 
-# 😀 Self Service Listing
+# 📝 Self-Service Listing
 
 ## Self-Service Listing Procedure
 
@@ -32,7 +32,7 @@ Step 5: Provide additional token information
 
 ***
 
-## Example:  Self-service listing for “STX-PEPE” pool
+## Example: Self-service listing for “STX-PEPE” pool
 
 ### Step1：Submit the token information & deposit the anchor token
 
@@ -40,7 +40,7 @@ Step 5: Provide additional token information
 
 (e.g. Token PEPE： SP1Z92MPDQEWZXW36VX71Q25HKF5K2EPCJ304F275.tokensoft-token-v4k68639zxz)
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### **Step 1.2 Confirm token information provided by the contract**
 
@@ -94,7 +94,7 @@ Click to submit Pool information and deposit the initial liquidity of the Anchor
 
 * Once the pool contract is created, 'Contract Ready' status will display 'Ready'.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 ### Step3：Deposit Token X
 
@@ -105,13 +105,13 @@ Click to submit Pool information and deposit the initial liquidity of the Anchor
        PEPE needs to deposit 1,000,000 $PEPE token
       ```
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 ### Step4：Open Pool
 
 Once the 'Open Pool' status appears as "Succeeded," it indicates that the pool has been launched and is listed under ALEX Pool -> self-service pool ([https://app.alexlab.co/pool](https://app.alexlab.co/pool) ). You can now proceed with trading your token on the ALEX DEX.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 ### **Step5：Provide additional token information**
 

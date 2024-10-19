@@ -4,3 +4,6 @@ redirects:
   how-to/how-to-add-remove-liquidity: product-features/liquidity-providers/how-to.md
   product-features/swap: product-features/token-swaps/README.md
   how-to/swap: product-features/token-swaps/how-to.md
+  product-features/farm: product-features/farming/README.md
+  product-features/farm/self-service-farming: product-features/self-service-farming.md
+  how-to/farm-and-harvest: product-features/farming/how-to.md

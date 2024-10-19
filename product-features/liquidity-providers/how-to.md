@@ -31,10 +31,10 @@ All available pools will be displayed including information such as:
 
 Select the token pair to which you want to add liquidity from the displayed list. Note you can sort by pool metrics.
 
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-2-select-pool.png" alt=""><figcaption><p>Selected STX - ALEX liquidity pool as example.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-2-select-pool.png" alt=""><figcaption><p>Selected STX-ALEX liquidity pool as example.</p></figcaption></figure>
 
 {% hint style="warning" %}
-When hovering over a pool, you might notice a "+LP" button. This is just a visual indicator highlighting the selected pool. Clicking it will take you to the same screen as clicking anywhere on the pool's row.
+When hovering over a pool, you might notice a "+LP" button. This serves as a visual indicator for the selected pool. Clicking it will take you to the same screen as clicking anywhere on the pool's row.
 {% endhint %}
 
 ### Step 3
@@ -43,17 +43,17 @@ After selecting a pool, you will be taken to a control panel for that specific l
 
 When you set the amount for one token, the corresponding amount for the other token is automatically calculated, as liquidity must be provided in equal value for both tokens.
 
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-3-pool-control-panel.png" alt=""><figcaption><p>Control panel example for STX - ALEX liquidity pool. Amount is set to 4 STX and ALEX token amount is automatically determined.</p></figcaption></figure>
+**Need tokens?** Visit the [Token Swaps](../token-swaps/) docs section and to learn how to exchange tokens on ALEX Lab platform.
+
+<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-3-pool-control-panel.png" alt=""><figcaption><p>Control panel example for STX-ALEX liquidity pool. Amount is set to 4 STX and ALEX token amount is automatically determined.</p></figcaption></figure>
 
 {% hint style="warning" %}
 Clicking the "Max" button will automatically set the amount to your total available balance.
 {% endhint %}
 
-[^1]: The APR metric is the same as the displayed in the Fee Rebate column on the previous step.
-
 ### Step 4
 
-If you want to adjust slippage, select the "Settings" icon to open the Transaction Settings panel and set your desired tolerance. The default slippage tolerance is set to 4%, meaning your transaction will revert if the exchange rate changes unfavourably by more than this percentage. The displayed number of LP tokens you will receive is approximate due to this potential variation.
+If you want to adjust slippage, select the "Settings" icon to open the Transaction Settings panel and set your desired tolerance. The default slippage tolerance for non-stable swap token pairs is set to 4%, meaning your transaction will revert if the exchange rate changes unfavourably by more than this percentage. The displayed number of LP tokens you will receive is approximate due to this potential variation.
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-4-settings-icon.png" alt="" width="375"><figcaption><p>Transaction Settings icon.</p></figcaption></figure>
 
@@ -145,16 +145,15 @@ As when adding liquidity, go to [https://app.alexlab.co/](https://app.alexlab.co
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
-You will be able to see there your liquidity in the main "Pool" panel.
-There you will find the "My Liquidity" panel summarazing all your pool contributions.
+Once you're on the Pool page, you'll find the "My Liquidity" panel at the top of the pool list. This panel provides a summary of all your pool contributions.
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-1-my-liquidity-main-panel.png" alt=""><figcaption><p>The pools where you are providing liquidity are displayed here. There is only one in this example.</p></figcaption></figure>
 
 ### Step 2
 
-Select the pool you would like to remove liquidity from.
+Select the pool you would like to remove liquidity from, either through the "My Liquidity" panel or directly from the pool list.
 
-<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-2-select-pool.png" alt=""><figcaption><p>STX - ALEX pool selection.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-2-select-pool.png" alt=""><figcaption><p>STX-ALEX pool selection.</p></figcaption></figure>
 
 ### Step 3
 
@@ -225,3 +224,5 @@ Recommended to track transaction status:
 Once the transaction is completed, you will see the changes reflected in the "My Liquidity" panel, and the updated token balances should appear in your wallet.
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-8-my-liquidity.png" alt=""><figcaption></figcaption></figure>
+
+[^1]: The APR metric is the same as the displayed in the Fee Rebate column on the previous step.
