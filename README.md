@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/alex_doc_cover.jpg
+cover: .gitbook/assets/alexlab_doc_cover.jpg
 coverY: 0
 ---
 
@@ -22,4 +22,4 @@ ALEX offers a suite of DeFi opportunities that includes:
 
 Just as Bitcoin is the “gold standard” of crypto, ALEX will become gold standard of DeFi.
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/alexlab_landing_page.png" alt=""><figcaption></figcaption></figure>
