@@ -83,9 +83,9 @@ ALEX Staking Power, or APower, is a non-transferrable and non-tradable token. It
 1. **Stake $ALEX (1x Multiplier)**
 2. **Stake LP tokens through Yield Farming (0.3x Multiplier)**
 
-APower is the lottery ticket that allows you to take part in any future IDO rounds on our [Launchpad](https://app.alexlab.co/launchpad). There is no maximum amount of APower an address can earn over a period of time. If you are interested in frequently participating in IDOs, staking $ALEX would generate APower fastest.
+APower is the access token for participating in the "Community Round" of any future IDO on our [Launchpad](https://app.alexlab.co/launchpad). IDO tickets allocated to this round can only be purchased by utilizing APower. There is no maximum amount of APower an address can earn over a period of time. If you are interested in frequently participating in IDOs, staking $ALEX would generate APower fastest.
 
-Every IDO is unique, however, and may have a cap on the amount of APower that can be allocated. This is to prevent IDOs dominated by a small group of "whale" members.
+Every IDO is unique, however, and may have a cap on the amount of APower that can be utilized to allocate IDO tickets. This prevents IDOs from being dominated by a small group of "whale" members.
 
 </details>
 
@@ -93,7 +93,7 @@ Every IDO is unique, however, and may have a cap on the amount of APower that ca
 
 <summary>What happens to my LP tokens when I stake them?</summary>
 
-When you stake your LP tokens in a yield farm, they are technically not in your possession anymore. During farming, LP tokens are locked in the ALEX smart contract. Although they belong to you and you are the only one authorized to withdraw them, they are not held in your wallet during the lock-up period.
+When you stake your LP tokens in a yield farm, they are technically transferred from your wallet to the farming smart contract.
 
 </details>
 

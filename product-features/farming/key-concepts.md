@@ -35,7 +35,7 @@ Farms only accept LP tokens of one kind. For example, the STX-ALEX farm only acc
 
 ### Cycles and cooldown period
 
-Farming is measured in cycles. **One cycle** is 525 Stacks blocks, which is approximately **3.5 days**. This means that when you stake tokens in a farm, you need to specify the number of cycles you want to lock up your tokens in the farm. Rewards are distributed after a cycle ends.
+Farming is measured in cycles. **One cycle** is 525 Stacks blocks(After Stacks Nakamoto release, the farming cycle will be counted based on tenure height), which is approximately **3.5 days** or 525 Bitcoin blocks. This means that when you stake tokens in a farm, you need to specify the number of cycles you want to lock up your tokens in the farm. Rewards are distributed after a cycle ends.
 
 Your staked tokens will start generating yield on the next upcoming cycle, meaning that there is a **cooldown period** between the time you stake and the start of a new cycle. To maximize your earnings, it's best to stake for longer cycle periods, avoiding gaps in rewards due to the cooldown. That's why 32-cycle staking is recommended.
 

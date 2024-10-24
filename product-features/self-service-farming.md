@@ -10,7 +10,7 @@ You can only add farming to liquidity pools that you have created via the ALEX S
 
 ## 🚀 Getting started
 
-### How it works?
+### How It Works
 
 - The pool owner creates the farm by specifying the number of cycles and depositing the total reward amount. These two inputs determine the rewards distributed per cycle, which are equal for each cycle.
 - The pool's liquidity providers stake their LP tokens in the newly created farm, earning rewards at the end of each cycle, just like any other farm within the ALEX Lab Platform.
@@ -68,7 +68,7 @@ The time gap between the farm creation and the start of the first emission cycle
 
 From the screenshot above, the **Total Farming Rewards** is `15,000 DOGGY`, and **Reward Cycle Length** is `10`, meaning that `15,000 DOGGY / 10 = 1,500 DOGGY` will be the **Farming Rewards Per Cycle**.
 
-If the user submits, the farm will be created at Cycle #80, leaving 33 blocks for the gathering period (approximately 5 hours and 29 minutes). In these cases, it is recommended to wait for the next cycle, as inidicated in the alert box.
+If the user submits, the farm will be created at Cycle #80, leaving 33 blocks for the gathering period (approximately 5 hours and 29 minutes). In these cases, it is recommended to wait for the next cycle, as indicated in the alert box. This prevents LP tokens from being committed to the farm too late for the next reward distribution cycle.
 
 If the user decides to proceed, the **Farm Opening Cycle** will run from Cycle #81 to Cycle #90, lasting approximately 35 days.
 
