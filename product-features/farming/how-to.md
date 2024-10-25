@@ -6,7 +6,7 @@ description: >-
 
 # How to farm & harvest
 
-Yield farming takes a few easy steps to get set up. It works very similar to standard staking, with the key difference being that the tokens you stake are LP tokens. As in traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each (except for the first cooldown one), you will have rewards available to harvest.
+Yield farming takes a few easy steps to get set up. It works very similar to standard staking, with the key difference being that the tokens you stake are LP tokens. As with traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each cycle (except for the first cooldown one), you will have rewards available to harvest.
 
 It is very important to understand that farms only accept their specific native LP tokens. For example, the STX-ALEX farm will only accept STX-ALEX LP tokens, which are the tokens you receive in exchange for providing liquidity to the STX-ALEX pool. There are different LP tokens corresponding to each liquidity pool on the ALEX Lab Platform.
 
@@ -88,7 +88,7 @@ Next, choose the number of reward cycles you want to lock your tokens into the f
 <figure><img src="../../.gitbook/assets/farming/add-lp-staking.png" alt="" width="375"><figcaption><p>Example with an amount of LP tokens to stake for 32 cycles.</p></figcaption></figure>
 
 {% hint style="info" %}
-Your staked amount will start generating yield from the next upcoming cycle, as the current cycle is in "cooldown" period. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to this cooldown cycle. That's why 32-cycle staking is recommended.
+Your staked amount will start generating yield from the next upcoming cycle, as the current cycle is in "cooldown" period. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to this cooldown cycle. That's why 32-cycle staking is recommended if your goal is to maximize earnings.
 {% endhint %}
 
 ### Step 4
@@ -154,7 +154,7 @@ After successfully staking your LP tokens in a farm, you will be able to see you
 
 <figure><img src="../../.gitbook/assets/farming/my-farms.png" alt=""><figcaption><p>Example of the "My Farms" panel. Here you will find all your active farms; click on any of them for detailed information.</p></figcaption></figure>
 
-By clicking on a farm, you will access the "My Farming" dashboard for that specific farm, which includes detailed metrics. On the right side of the dashborad, you will see that the current cycle has no earnings and no farming tokens. This is due to the cooldown period, farming will start in the next upcoming cycle. This is why it's convenient to stake for long periods: every time you stake, you must wait for the current cycle to end before you start generating rewards in the next cycle.
+By clicking on a farm, you will access the "My Farming" dashboard for that specific farm, which includes detailed metrics. On the right side of the dashborad, you will see that the current cycle has no earnings and no farming tokens. The reason you can't join the current reward cycle is that it had already started prior to your participation. However, once you successfully stake your LP into the farm, it gets registered for the next cycle. This assures you a proportional share of the farm rewards based on the number of LP tokens you have staked. This is why it's convenient to stake for long periods: every time you stake, you must wait for the current cycle to end before you start generating rewards in the next cycle.
 
 For more info on the "My Farming" dashboard and metrics, we recommend reading the [Key concepts](key-concepts.md) page.
 
@@ -189,20 +189,20 @@ Happy Farming! 🥕 🥬 🍅
 
 Withdrawing you LP tokens takes just a few steps. The important thing is when to do it.
 
-When farming, you are commit to locking up your tokens for a predefined period (reward cycles, each one ~3.5 days). Once these cycles conclude, you will be able to unstake them and regain control over your LP tokens.
+When farming, you commit to locking up your tokens for a predefined period (reward cycles, each cycle contains 525 Stacks blocks, an estimation of ~3.5 days per cycle). Once these cycles conclude, you will be able to unstake them and regain control over your LP tokens.
 
 If you staked multiple times at different moments, the lock periods apply to each amount separately.
 
 Let's go through it step-by-step:
 
 1. Go to the [Farms page](https://app.alexlab.co/farm) on ALEX Lab App, which you can access through the Earn -> Farm tab.
-2. Find the farm from which you want to withdraw LP tokens and click on it.
-3. You will see the **My Farming** dashboard. Expand it to see all your farming details.
+2. You will see the **My Farming** dashboard. Expand it to see all your farming details.
+3. Find the farm from which you want to withdraw LP tokens and click on it.
 4. Your LP tokens will automatically be available for withdrawal when your committed cycles end. You will find them under the **LP to claim** title on the dashboard.
 5. Click on the "Harvest All" button and confirm the transaction in your wallet (just as you did in the previous guides). This will return your LP tokens back to your possession and automatically collect any unharvested rewards.
 6. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 7. Once the transaction is completed, you will see the changes reflected in your wallet balance and on the platform panels. In particular, you will see your LP token balance on the [Pool page](https://app.alexlab.co/pool) in the **My Liquidity** panel or by selecting the pool from the list. You can also check your balance on the ALEX Lab App, located beside the Wallet Manager at the top menu bar.
 
-If you want to farm your LP tokens again, remember: your staked amount will start generating yield from the next upcoming cycle, as the current cycle is in cooldown period. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to the cooldown period.
+If you want to farm your LP tokens again, remember: your staked amount will start generating yield from the next upcoming cycle. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to the cooldown period.
 
 Thanks for farming on ALEX Lab! 🧑‍🌾
