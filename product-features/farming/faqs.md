@@ -95,6 +95,8 @@ Every IDO is unique, however, and may have a cap on the amount of APower that ca
 
 When you stake your LP tokens in a yield farm, they are technically transferred from your wallet to the farming smart contract.
 
+<!-- Extended answer: When you stake your LP tokens in a yield farm, they are technically not in your possession anymore. During farming, LP tokens are locked in the ALEX smart contract. Although they belong to you and you are the only one authorized to withdraw them, they are not held in your wallet during the lock-up period. -->
+
 </details>
 
 <details>
