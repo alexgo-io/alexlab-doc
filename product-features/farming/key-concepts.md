@@ -8,7 +8,7 @@ description: >-
 
 ## Farm basics
 
-Yield farming works very similar to standard staking, with the key difference being that the tokens you stake are LP tokens. As in traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each cycle, you will have rewards available to harvest[^1].
+Yield farming works in a very similar way to standard staking, with the key difference being that the tokens you stake are LP tokens. As in traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each cycle, you will have rewards available to harvest[^1].
 
 ### What are LP tokens?
 
