@@ -8,7 +8,7 @@ description: >-
 
 ## Farm basics
 
-Yield farming works in a very similar way to standard staking, with the key difference being that the tokens you stake are LP tokens. As in traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each cycle, you will have rewards available to harvest.
+Yield farming works in a very similar way to standard staking, with the key difference being that the tokens you stake are LP tokens. As in traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each cycle, you will have rewards available to harvest[^1].
 
 ### What are LP tokens?
 
@@ -25,21 +25,25 @@ A farm is a staking pool for a specific LP token. Each liquidity pool has their 
 Farms are identified by these two attributes.
 
 * **Trading Pair:** The specific LP token that the farm accepts. To obtain these LP tokens, you will have to provide liquidity to the pool associated with the same trading pair.
-* **Token Rewards:** The token in which the farm rewards the stakers at the end of each cycle. This token is predefined by the farm.
+* **Token Rewards:** The token in which the farm rewards the stakers at the end of each cycle. This token is predefined by the farm and cannot be changed. Some farms may offer two kind of reward tokens.
 
 Farms only accept LP tokens of one kind. For example, the STX-ALEX farm only accepts STX-ALEX LP tokens, which you receive in exchange for providing liquidity to the STX-ALEX pool.
 
+{% hint style="info" %}
+**Smart Contacts.** During farming, LP tokens are locked in the ALEX smart contract. Although they belong to you and only you have the authority to withdraw them, they are not held by your address during the lock-up period. As a result, you won't be able to view your LP tokens in the My Liquidity panel on the [ALEX Lab Pools page](https://app.alexlab.co/pool) during staking.
+{% endhint %}
+
 ### Cycles and cooldown period
 
-Farming is measured in cycles. **One cycle** is 525 Stacks blocks, which is approximately **3.5 days**. This means that when you stake tokens in a farm, you need to specify the number of cycles you want to lock up your tokens in the farm. Rewards are distributed after a cycle ends.
+Farming is measured in cycles. **One cycle** is 525 Stacks blocks (after Stacks Nakamoto release, the farming cycle will be counted based on tenure height), which is approximately **3.5 days** or **525 Bitcoin blocks**. This means that when you stake tokens in a farm, you need to specify the number of cycles you want to lock up your tokens in the farm. Rewards are distributed after a cycle ends.
 
-Your staked tokens will start generating yield on the next upcoming cycle, meaning that there is a **cooldown period** between the time you stake and the start of a new cycle. To maximize your earnings, it's best to stake for longer cycle periods, avoiding gaps in rewards due to the cooldown. That's why 32-cycle staking is recommended.
+Your staked tokens will start generating yield in the next upcoming cycle, which means there will be no reward during the time gap between when you stake and when the upcoming cycle starts. To maximize your earnings, it's best to stake for longer cycle periods, avoiding gaps in rewards due to the cooldown. That's why 32-cycle staking is recommended.
 
-Let's put it on an example. Say you stake for 1 cycle at a time. When the cycle ends, you can claim the rewards associated to that cycle. To keep generating rewards, you will have to withdraw your LP tokens and restake them. But when you stake them again, that current cycle is in cooldown, so you will have to wait for the next one to obtain rewards. Over 100 cycles, this method would cause you to miss rewards for about 50 cycles. In contrast, if you stake for 32 cycles, you will only miss rewards for 3 cycles.
+Let's use an example. Assume you stake for one cycle at a time. When that cycle ends, you can claim the rewards associated with that cycle. To continue generating rewards, you will have to withdraw your LP tokens and restake them. However, when you restake them, the current cycle will not be eligible for you to earn rewards. Therefore, you will have to wait until the next cycle to acquire rewards. Over 100 cycles, this method would cause you to miss rewards for about 50 cycles. In contrast, if you stake for 32 cycles, you will only miss rewards for 3 cycles.
 
 ### Reward distribution
 
-Farms may offer different types of reward tokens, and each farm has a predetermined amount of rewards. For simplicity, we can assume that the total rewards distributed to stakers during each cycle remains constant. At the end of each cycle, the rewards are available to be harvested by the farmers (stakers).
+Farms may offer different types of reward tokens, and each farm has a predetermined amount of rewards. For simplicity, we can assume that the total rewards distributed to stakers during each cycle remains constant. At the end of each cycle, the rewards are available to be harvested by the farmers (stakers) in proportion to their share of LP tokens within that cycle.
 
 Rewards are distributed proportionally to each farmer based on their staked amount. This can be represented by the following equation:
 
@@ -49,7 +53,7 @@ $$
 
 Each value in the equation applies to a specific cycle.
 
-When there are two reward tokens (e.g. $ALEX and APower), the formula is applied separately for each token, resulting in two Farmer Reward amounts, one for each reward token.
+When there are two reward tokens (e.g., $ALEX and APower), the formula is applied separately for each token, resulting in two **Farming Reward** amounts, one for each reward token.
 
 ### Farm APR
 
@@ -100,3 +104,5 @@ Your active farming cycles. Here, there will be shown all the cycles during whic
 * Your **Estimated Earnings**, derived from equation (1).
 
 For the **current cycle**, all metrics are exact, as the staked tokens are already defined. For the **upcoming cycles**, all metrics are estimates since we cannot predict how many LP tokens will be staked; we can only say how many LP tokens are commited so far for that cycle. This explains why the APR percentage appears higher for more distant cycles, due to the estimated total staked amount.
+
+[^1]: Except for the cycle in which you stake, which is within a cooldown period (explained in section in below).
