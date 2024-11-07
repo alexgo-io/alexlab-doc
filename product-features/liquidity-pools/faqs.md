@@ -168,24 +168,3 @@ Once that is done, click on `Customer Support` on the [Self-Service Listing page
 Wrapped token contracts refer to "pass-through" tokens that don't retain economics; their purpose is to simplify development and enhance security. ALEX is responsible for deploying wrapped contracts. As its primarily technical, it is not relevant from a user perspective other than it involves a whole step in the procedure and takes some time.
 
 </details>
-
-<!-- 
-
-Wrapped contract FAQs, maybe necessary in the future.
-
-
-
-<details>
-
-<summary>Is it possible to avoid wrapped contract deployment?</summary>
-
-Yes. However, this may not speed up the waiting time and requires some conditions in the token contract. 
-
-You won't need a wrapped version of the token if these two conditions are met:
-
-1. Your token contract complies with ALEX's fungible token trait. This trait is the regular SIP-10 Standard Token Trait plus the helper functions for 8-digit fixed notation. See source code on [explorer](https://explorer.hiro.so/txid/0xd8d41e686264b1f8f7b3bd13016f00baf69d98c89c2aa588b5b96b5164d83e1d?chain=mainnet).
-2. Your token has 8 decimals. 
-
-</details> 
-
--->
