@@ -153,7 +153,7 @@ Once the pool is created, the price discovery phase begins. Users can permission
 
 <details>
 
-<summary>Is there some requirement to make the listed token visible on [ALEX Token List](https://app.alexlab.co/token-list)?</summary>
+<summary>Is there some requirement to make the listed token visible on <a href="https://app.alexlab.co/token-list">ALEX Token List</a>?</summary>
 
 Yes. ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
 

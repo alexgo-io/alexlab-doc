@@ -19,7 +19,7 @@ Pool creation usually takes between 24 to 48 hours. Once the pool is created and
 The pool owner is the initial liquidity provider and will receive the corresponding LP tokens upon successful pool creation. Once the pool is live and operational, the owner can withdraw funds just like any other liquidity provider.
 
 {% hint style="info" %}
-Avaiblable Anchor Tokens: Native _STX_ token, _ALEX_ token and _aBTC_ token.
+Avaiblable Anchor Tokens: Native STX token, ALEX token and aBTC token.
 {% endhint %}
 
 The trading pool operates under the [ALEX Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) algorithm, which dynamically determines the exchange rate (price) based on the trades.
@@ -28,7 +28,7 @@ The trading pool operates under the [ALEX Automated Market Maker (AMM)](../../de
 
 👉 **Token Deployment.** Ensure your token is deployed on the Stacks blockchain, as you will need to provide the token contract.
 
-👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native token _STX_, _ALEX_ token, or _aBTC_ token. Ensure you have at least 1,800 _STX_ or an equivalent value in _ALEX_ or _aBTC_ token to create the pool—this is the minimum anchor token liquidity.
+👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native token STX, ALEX token, or aBTC token. Ensure you have at least 1,800 STX or an equivalent value in ALEX or aBTC token to create the pool—this is the minimum anchor token liquidity.
 
 👉 **Determine Initial Price.** Decide the initial price for your listing token in terms of anchor token units. This should answer the question: how many anchor tokens do users need to buy one listed token?
 
