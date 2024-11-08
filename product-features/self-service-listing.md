@@ -19,16 +19,16 @@ Pool creation usually takes between 24 to 48 hours. Once the pool is created and
 The pool owner is the initial liquidity provider and will receive the corresponding LP tokens upon successful pool creation. Once the pool is live and operational, the owner can withdraw funds just like any other liquidity provider.
 
 {% hint style="info" %}
-Avaiblable Anchor Tokens: Native _STX_ currency, _ALEX_ token and _aBTC_ token.
+Avaiblable Anchor Tokens: Native _STX_ token, _ALEX_ token and _aBTC_ token.
 {% endhint %}
 
 The trading pool operates under the [ALEX Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) algorithm, which dynamically determines the exchange rate (price) based on the trades.
 
 ### Minimum requirements
 
-👉 **Token Deployment.** Have your token deployed on Stacks blockchain since you will need to provide the token contract.
+👉 **Token Deployment.** Ensure your token is deployed on the Stacks blockchain, as you will need to provide the token contract.
 
-👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native currency _STX_, _ALEX_ token, or _aBTC_ token. Ensure you have at least 1,800 _STX_ or an equivalent value in _ALEX_ or _aBTC_ token to create the pool—this is the minimum anchor token liquidity.
+👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native token _STX_, _ALEX_ token, or _aBTC_ token. Ensure you have at least 1,800 _STX_ or an equivalent value in _ALEX_ or _aBTC_ token to create the pool—this is the minimum anchor token liquidity.
 
 👉 **Determine Initial Price.** Decide the initial price for your listing token in terms of anchor token units. This should answer the question: how many anchor tokens do users need to buy one listed token?
 
@@ -108,9 +108,7 @@ Once the pool opens, the AMM algorithm will automatically rebalance the exchange
 
 <summary>Step 1.4: Advanced pool settings (optional)</summary>
 
-This step is optional, as the default settings are usually sufficient.
-
-However, we recomend consulting the [ALEXGo Technical documentation](https://docs.alexgo.io/automated-market-making/trading-pool) before making customizations. If you have any questions, feel free to reach out via [Discord](https://discord.com/invite/alexlab) or [Telegram Channel](https://t.me/AlexCommunity).
+This step is optional, as the default settings are usually sufficient. If you have questions to ask before customization, reach out via [Discord](https://discord.com/invite/alexlab) or [Telegram](https://t.me/AlexCommunity).
 
 </details>
 
@@ -167,10 +165,10 @@ Summarized Steps:
 
 1) User submits token information, balances and config params. Within this same transaction, transfers the anchor token balance.
 
-2) User waits for token confirmation from ALEX side (this involves deploying the wrapped version, but the user doesn't get to know this detail).
+2) User waits for token confirmation from ALEX side.
 
 3) User deposits the listed token balance.
 
-4) Once this tx is confirmed, the pool is automatically created and available? (if start-block is configured "On finalization")
+4) Once this tx is confirmed, the pool is automatically created and available (if start-block is configured "On finalization").
 
 -->
