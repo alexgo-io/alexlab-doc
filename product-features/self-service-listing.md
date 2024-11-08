@@ -10,7 +10,7 @@ description: Create your own pool and make your token tradeable on ALEX decentra
 
 ## 🚀 Getting Started
 
-### How it works?
+### How does it work?
 
 Self-Service Listing allows you to **create your own liquidity pool** on the ALEX DEX, enabling the **permissionless trade** of the **listed token** with an **anchor token** within the exchange. The anchor token is typically one with a stable value, providing a reliable reference point for defining the price of the newly listed token.
 
@@ -106,7 +106,27 @@ Once the pool opens, the AMM algorithm will automatically rebalance the exchange
 
 <details>
 
-<summary>Step 1.4: Advanced pool settings (optional)</summary>
+<summary> Step 1.4: Initial LP Lock Settings</summary>
+
+When a new Self-Service Listing Pool is created, a pop-up will appear, allowing the creator to lock or burn the entire LP token upon pool creation. Pool creators can select one, both or none of the options:
+
+- **Initial LP Smart Contract Lock 🔒** : Locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim after maturity. This prevents unauthorized withdrawals and protects liquidity providers from rug pulls.
+
+- **Initial LP Burn 🔥** : Permanently burns a portion of tokens, reducing the total supply and minimizing the risk of token manipulation. It uses the native Stacks function `ft_burn` to ensure that the burnt tokens can never be recovered or withdrawn.
+
+<figure><img src="../.gitbook/assets/self-service-listing/lp-lock-settings-1.png" alt="LP Lock Settings labels" width=""><figcaption></figcaption></figure>
+
+In both cases, there will be highlighted labels that display the setting selected by the pool creator. This way, liquidity providers will know if the initial LP tokens have been locked and/or burnt, or if neither option has been applied.
+
+<figure><img src="../.gitbook/assets/self-service-listing/lp-lock-settings-2.png" alt="LP Lock Settings labels" width=""><figcaption></figcaption></figure>
+
+Projects and their communities can benefit from these transparent locking and burning mechanisms since they safeguard their investments from rug pulls and unauthorized withdrawals.
+
+</details>
+
+<details>
+
+<summary>Step 1.5: Advanced pool settings (optional)</summary>
 
 This step is optional, as the default settings are usually sufficient.
 
@@ -116,7 +136,7 @@ However, we recommend consulting the [ALEXGo Technical documentation](https://do
 
 <details>
 
-<summary>Step 1.5: Submit transaction</summary>
+<summary>Step 1.6: Submit transaction</summary>
 
 Keep in mind that as part of this same transaction, you will transfer the anchor token's initial liquidity. By confirming the transaction, you are accepting the transfer of specific amount of anchor tokens from your wallet to the ALEX smart contract.
 
