@@ -12,10 +12,10 @@ Yield farming works in a very similar way to standard staking, with the key diff
 
 ### What are LP tokens?
 
-LP tokens are the tokens you receive when you provide funds to a liquidity pool. These tokens represent your share of the pool's assets. As a liquidity provider, you earn a portion of the fees charged to users who perform swaps within the pool. For a deeper understanding of these concepts, check out the [Liquidity Providers](../liquidity-providers/) section of the docs.
+LP tokens are the tokens you receive when you provide funds to a liquidity pool. These tokens represent your share of the pool's assets. As a liquidity provider, you earn a portion of the fees charged to users who perform swaps within the pool. For a deeper understanding of these concepts, check out the [Liquidity Providers](../liquidity-pools/) section of the docs.
 
 {% hint style="warning" %}
-You may notice that farming often yields higher rewards than regular staking. Well, farming involves liquidity provision and comes with the risk of Impermanent Loss. It's not as scary as it sounds, but it is worth learning about the concept before you get started. Learn more in the [Impermanent Loss subsection](../liquidity-providers/key-concepts.md#impermanent-loss) from the Liquidity Providers page.
+You may notice that farming often yields higher rewards than regular staking. Well, farming involves liquidity provision and comes with the risk of Impermanent Loss. It's not as scary as it sounds, but it is worth learning about the concept before you get started. Learn more in the [Impermanent Loss subsection](../liquidity-pools/key-concepts.md#impermanent-loss) from the Liquidity Pools page.
 {% endhint %}
 
 ### What exactly is a farm?

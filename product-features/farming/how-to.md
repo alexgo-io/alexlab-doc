@@ -50,12 +50,12 @@ Now that you've chosen a farm to stake in, you'll need LP tokens, which are obta
 
 1. Click on the Pool tab in the top navigation bar.
 
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
 2. Find the pool that matches the **Trading Pair** you noted before. This is the liquidity pool linked to the farm you've selected.&#x20;
 3. Click on the pool. This will open the pool control panel, where you can add liquidity.&#x20;
 
-We have a [Guide to Adding Liquidity](../liquidity-providers/how-to.md#adding-liquidity) that you can follow to obtain LP tokens.
+We have a [Guide to Adding Liquidity](../liquidity-pools/how-to.md#adding-liquidity) that you can follow to obtain LP tokens.
 
 ## :sunflower: How to put LP tokens in a farm (stake)
 
@@ -181,7 +181,7 @@ You can collect these rewards and use them for various purposes on the ALEX Lab 
 
 To maximize your returns, it is best to harvest your rewards at the end of every cycle. This way, you have them available to generate more rewards! 🤩
 
-For example, you can manually stake your \$ALEX rewards to generate compounding interest. If your rewards are another token, you can still [swap](https://app.alexlab.co/swap) and convert them to \$ALEX. Another option would be to use your rewards to buy more LP tokens and benefit from being a [liquidity provider](../liquidity-providers/README.md).
+For example, you can manually stake your \$ALEX rewards to generate compounding interest. If your rewards are another token, you can still [swap](https://app.alexlab.co/swap) and convert them to \$ALEX. Another option would be to use your rewards to buy more LP tokens and benefit from being a [liquidity provider](../liquidity-pools/README.md).
 
 Happy Farming! 🥕 🥬 🍅
 

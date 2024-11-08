@@ -8,7 +8,7 @@ description: Common questions you may have when dealing with farms.
 
 <summary>How is farming related to staking?</summary>
 
-Yield farming is a specific type of staking. In farming, you stake **LP tokens**, the tokens received in exchange for providing liquidity to a trading pool. This means that farmers are also [liquidity providers](../liquidity-providers/) (LPs). So while both farming and staking involve locking up tokens to earn rewards, farming always requires participation in a liquidity pool first.
+Yield farming is a specific type of staking. In farming, you stake **LP tokens**, the tokens received in exchange for providing liquidity to a trading pool. This means that farmers are also [liquidity providers](../liquidity-pools/) (LPs). So while both farming and staking involve locking up tokens to earn rewards, farming always requires participation in a liquidity pool first.
 
 </details>
 
@@ -117,6 +117,6 @@ The risk of Impermanent Loss is associated with providing liquidity. To farm, yo
 
 When you provide liquidity, you add assets to a liquidity pool. The market prices of those assets can fluctuate. Impermanent Loss occurs when the prices of the assets change unfavorably compared to their value at the time of deposit. This loss is termed "impermanent" because it only becomes permanent if the LP withdraws their funds when prices have diverged significantly.
 
-For further information, please refer to the [Impermanent Loss subsection](../liquidity-providers/key-concepts.md#impermanent-loss) on the Liquidity Providers page.
+For further information, please refer to the [Impermanent Loss subsection](../liquidity-pools/key-concepts.md#impermanent-loss) on the Liquidity Pools page.
 
 </details>

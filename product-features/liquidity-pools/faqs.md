@@ -1,8 +1,10 @@
 ---
-description: Common questions you might have as a liquidity provider.
+description: Common questions you might have as a liquidity provider or pool creator.
 ---
 
 # FAQs
+
+## Liquidity Pools & Providers
 
 <details>
 
@@ -12,7 +14,7 @@ The **swap fee** is the total fee charged to users for executing a token swap. I
 
 On the other hand, the **fee rebate** is the portion of the swap fee that is distributed to liquidity providers as a reward for supplying liquidity to the pool. The remaining portion of the swap fee goes to the ALEX Lab Foundation. You can also find the fee rebate percentage in the Pool Info panel.
 
-![Pool Info panel, with highligthed "Fees" box](../../.gitbook/assets/liquidity-providers/faqs-pool-info-panel-fees.png)
+![Pool Info panel, with highligthed "Fees" box](../../.gitbook/assets/liquidity-pools/faqs-pool-info-panel-fees.png)
 
 </details>
 
@@ -97,5 +99,72 @@ So, Carol decides to withdraw her funds. As we know from earlier, she's entitled
 However, if Carol had simply held onto her 100 STX and 150 sUSDT, their combined value would now be 750 USD.
 
 This shows that Carol would have been better off holding her assets instead of providing liquidity. This is impermanent loss. With that said, this example doesn't account for the trading fees Carol would have earned as a liquidity provider, which could potentially offset or even exceed the loss, making liquidity provision profitable overall.
+
+</details>
+
+<details>
+
+<summary>Can I create my own pool?</summary>
+
+Yes! [Self-Service Listing](../self-service-listing.md) allows you to create your own trading pool on ALEX DEX. This feature lets you list your token for permissionless trading against an anchor token, typically one with a stable value, providing a reliable reference point for pricing your token.
+
+</details>
+
+## Self-Service Listing
+
+<details>
+
+<summary>Which are the anchor tokens supported?</summary>
+
+Native STX token, ALEX token and aBTC token.
+
+</details>
+
+<details>
+
+<summary>Is there a minimum liquidity amount for the anchor token?</summary>
+
+Yes. Initial liquidity of the anchor token must be a minimum of 1,800 STX or the equivalent value in ALEX or aBTC tokens.
+
+</details>
+
+<details>
+
+<summary>How is the listed token initial price determined?</summary>
+
+The initial price is determined by the initial liquidity provided by the creator. The ratio between the pair of funds determines the price relationship between both tokens. 
+
+For instance, if the creator provides 8,000 listing tokens and 2,000 anchor tokens, that means the initial ratio is 4:1. Note that pool ratios are calculated as the minimal expression of the fraction between the token balances. In this case, is 8,000 / 2,000.
+
+We can think of this initial ratio in two ways (and they are both equivalent):
+
+- 4 listing tokens equals 1 anchor token.
+- 1 listing token equals 0.25 anchor tokens.
+
+</details>
+
+<details>
+
+<summary>How does the price of the listing token change once the pool is created?</summary>
+
+Once the pool is created, the price discovery phase begins. Users can permissionlessly trade the pair of assets, and the [Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) algorithm will determine the price dynamics of the newly listed token. For further information on this topic please refer to the [ALEXGo Trading Pool documentation](https://docs.alexgo.io/automated-market-making/trading-pool).
+
+</details>
+
+<details>
+
+<summary>Is there some requirement to make the listed token visible on <a href="https://app.alexlab.co/token-list">ALEX Token List</a>?</summary>
+
+Yes. ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
+
+Once that is done, click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice ](https://t.me/ALEXselfservice) to submit your information (e.g. X accont, Discord, official website).
+
+</details>
+
+<details>
+
+<summary>What is a wrapped version of a token contract?</summary>
+
+Wrapped token contracts refer to "pass-through" tokens that don't retain economics; their purpose is to simplify development and enhance security. ALEX is responsible for deploying wrapped contracts. As its primarily technical, it is not relevant from a user perspective other than it involves a whole step in the procedure and takes some time.
 
 </details>
