@@ -106,26 +106,6 @@ Once the pool opens, the AMM algorithm will automatically rebalance the exchange
 
 <details>
 
-<summary> Step 1.4: Initial LP Lock Settings</summary>
-
-When a new Self-Service Listing Pool is created, a pop-up will appear, allowing the creator to lock or burn the entire LP token upon pool creation. Pool creators can select one, both or none of the options:
-
-- **Initial LP Smart Contract Lock 🔒** : Locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim after maturity. This prevents unauthorized withdrawals and protects liquidity providers from rug pulls.
-
-- **Initial LP Burn 🔥** : Permanently burns a portion of tokens, reducing the total supply and minimizing the risk of token manipulation. It uses the native Stacks function `ft_burn` to ensure that the burnt tokens can never be recovered or withdrawn.
-
-<figure><img src="../.gitbook/assets/self-service-listing/lp-lock-settings-1.png" alt="LP Lock Settings labels" width=""><figcaption></figcaption></figure>
-
-In both cases, there will be highlighted labels that display the setting selected by the pool creator. This way, liquidity providers will know if the initial LP tokens have been locked and/or burnt, or if neither option has been applied.
-
-<figure><img src="../.gitbook/assets/self-service-listing/lp-lock-settings-2.png" alt="LP Lock Settings labels" width=""><figcaption></figcaption></figure>
-
-Projects and their communities can benefit from these transparent locking and burning mechanisms since they safeguard their investments from rug pulls and unauthorized withdrawals.
-
-</details>
-
-<details>
-
 <summary>Step 1.5: Advanced pool settings (optional)</summary>
 
 This step is optional, as the default settings are usually sufficient.
@@ -152,15 +132,31 @@ Recommended to track transaction status:
 
 </details>
 
-### Step 2: Contract creation
+### Step 2: LP Lock Settings
+
+After submitting the Self-Service Listing Pool, a pop-up will appear, allowing the creator to lock or burn the LP tokens. Users are prompted to select one of three options:
+
+- **Do not lock LP 🔓**: There will be no lock-up period and Liquidity Providers will be able to withdraw their funds at any time.
+
+- **LP is locked for 6 months 🔒** : Locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim after maturity. This prevents unauthorized withdrawals and protects liquidity providers from rug pulls.
+
+- **Burn LP 🔥** : Permanently burns a portion of tokens, reducing the total supply and minimizing the risk of token manipulation. It uses the native Stacks function `ft_burn` to ensure that the burnt tokens can never be recovered or withdrawn.
+
+<figure><img src="../.gitbook/assets/self-service-listing/lock-lp-1.png" alt="LP Lock Settings labels" width=""><figcaption></figcaption></figure>
+
+In case of locking or burning tokens, there will be a highlighted banner that displays the setting selected by the pool creator. This way, Liquidity Providers will know if the initial LP tokens have been locked or burnt, or if neither option has been applied.
+
+Projects and their communities can benefit from these transparent locking and burning mechanisms since they safeguard their investments from rug pulls and unauthorized withdrawals.
+
+### Step 3: Contract creation
 
 Once the transaction from Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
 
-### Step 3: Deposit listing token
+### Step 4: Deposit listing token
 
 Once the `Contract ready ✅` checkbox is marked as done, you're ready to deposit the listing token balance. This step involves interacting with a smart contract, so be sure to review the transaction details, paying particular attention to the amount to transfer. By accepting this transaction, you agree to transfer the initial liquidity of the listing token from your wallet to the ALEX smart contract.
 
-### Step 4: Pool creation success
+### Step 5: Pool creation success
 
 Once the `Deposit Listing Token ✅` transaction is completed and the `Open pool ✅` checkbox is marked as done, your pool will be automatically ready for use. The new pool will appear as an ALEX Pool under the `Self Listed` tab on [app.alexlab.co/pool](https://app.alexlab.co/pool).
 
@@ -187,10 +183,12 @@ Summarized Steps:
 
 1) User submits token information, balances and config params. Within this same transaction, transfers the anchor token balance.
 
-2) User waits for token confirmation from ALEX
+2) User selects LP Lock settings
 
-3) User deposits the listed token balance.
+3) User waits for token confirmation from ALEX
 
-4) Once this tx is confirmed, the pool is automatically created and available (if start-block is configured "On finalization").
+4) User deposits the listed token balance.
+
+5) Once this tx is confirmed, the pool is automatically created and available (if start-block is configured "On finalization").
 
 -->
