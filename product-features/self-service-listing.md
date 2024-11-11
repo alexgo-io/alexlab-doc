@@ -132,7 +132,7 @@ Recommended to track transaction status:
 
 </details>
 
-### Step 2: LP Lock Settings
+### Step 2: LP Lock & Burn Settings
 
 After submitting the Self-Service Listing Pool, a pop-up will appear, allowing the creator to lock or burn the LP tokens. Users are prompted to select one of three options:
 
