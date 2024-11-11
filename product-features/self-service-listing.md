@@ -106,7 +106,7 @@ Once the pool opens, the AMM algorithm will automatically rebalance the exchange
 
 <details>
 
-<summary>Step 1.5: Advanced pool settings (optional)</summary>
+<summary>Step 1.4: Advanced pool settings (optional)</summary>
 
 This step is optional, as the default settings are usually sufficient.
 
@@ -116,7 +116,7 @@ However, we recommend consulting the [ALEXGo Technical documentation](https://do
 
 <details>
 
-<summary>Step 1.6: Submit transaction</summary>
+<summary>Step 1.5: Submit transaction</summary>
 
 Keep in mind that as part of this same transaction, you will transfer the anchor token's initial liquidity. By confirming the transaction, you are accepting the transfer of specific amount of anchor tokens from your wallet to the ALEX smart contract.
 
