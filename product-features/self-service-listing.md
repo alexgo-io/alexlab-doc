@@ -54,7 +54,7 @@ With that said, let's get hands-on!
 
 ## 🛠️  Procedure
 
-### Step 0: Go to Self-Service Listing page
+### Step 0: Go to the Self-Service Listing page
 
 Head to the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) at the ALEX Lab App. Alternatively, you can access it via the [app.alexlab.co](https://app.alexlab.co) homepage by navigating to the `Swap` -> `Pool` tab. Once on the Pool main page, hit the `+ Create` button and select the `Creating a new pool` option.
 
