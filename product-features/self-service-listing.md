@@ -140,7 +140,7 @@ After submitting the Self-Service Listing Pool, a pop-up will appear, allowing t
 
 - **LP is locked for 6 months 🔒** : This is the default option. It locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim after maturity. This prevents unauthorized withdrawals and protects liquidity providers from rug pulls.
 
-- **Burn LP 🔥** : Permanently burns a portion of tokens using the native Stacks function `ft_burn`. This option ensures that the burnt tokens can never be recovered or withdrawn. Since the initial liquidity vanishes, this option protects future liquidity providers from rug pulls and enhances trust and transparency.
+- **Burn LP 🔥** : Permanently burns a portion of tokens, ensuring that they can never be recovered or withdrawn. Since the initial liquidity vanishes, this option protects future liquidity providers from rug pulls and enhances trust and transparency.
 
 <figure><img src="../.gitbook/assets/self-service-listing/lock-lp-1.png" alt="LP Lock Settings labels" width=""><figcaption></figcaption></figure>
 
@@ -166,7 +166,7 @@ Once the `Deposit Listing Token ✅` transaction is completed and the `Open pool
 If you have added a custom `start-block` configuration, the pool will be unavailabe until that block is reached.
 {% endhint %}
 
-### Step 5: Provide additional token information (optional)
+### Step 6: Provide additional token information (optional)
 
 To make your token visible on the ALEX Token List at [app.alexlab.co/token-list](https://app.alexlab.co/token-list), provide additional token information. Click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice ](https://t.me/ALEXselfservice) to submit the information (e.g. X accont, Discord, official website).
 
