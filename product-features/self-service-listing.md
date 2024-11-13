@@ -146,8 +146,6 @@ After submitting the Self-Service Listing Pool, a pop-up will appear, allowing t
 
 In case of locking or burning tokens, there will be a highlighted banner that displays the setting selected by the pool creator. This way, liquidity providers will know if the initial LP tokens have been locked or burnt, or if neither option has been applied.
 
-Projects and their communities can benefit from these transparent locking and burning mechanisms since they safeguard their investments from rug pulls and unauthorized withdrawals.
-
 ### Step 3: Contract creation
 
 Once the transaction from Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
