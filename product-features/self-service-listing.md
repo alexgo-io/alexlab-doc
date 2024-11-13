@@ -134,17 +134,17 @@ Recommended to track transaction status:
 
 ### Step 2: LP Lock & Burn Settings
 
-After submitting the Self-Service Listing Pool, a pop-up will appear, allowing the creator to lock or burn the LP tokens. Users are prompted to select one of three options:
+After submitting the Self-Service Listing Pool, a pop-up will appear, allowing the creator to lock or burn the LP tokens, or to leave the liquidity pool unlocked. By default, the Self-Service Listing Pool is set to be locked for 6 months, as it is the recommended option. Users are prompted to select one of three settings:
 
-- **Do not lock LP 🔓**: There will be no lock-up period and Liquidity Providers will be able to withdraw their funds at any time.
+- **Do not lock LP 🔓**: There will be no lock-up period and the initial liquidity provider will receive the corresponding LP tokens once the pool is live and operational. Since the pool is unlocked, the owner will be able to withdraw liquidity at any time. 
 
-- **LP is locked for 6 months 🔒** : Locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim after maturity. This prevents unauthorized withdrawals and protects liquidity providers from rug pulls.
+- **LP is locked for 6 months 🔒** : This is the default option. It locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim after maturity. This prevents unauthorized withdrawals and protects liquidity providers from rug pulls.
 
-- **Burn LP 🔥** : Permanently burns a portion of tokens, reducing the total supply and minimizing the risk of token manipulation. It uses the native Stacks function `ft_burn` to ensure that the burnt tokens can never be recovered or withdrawn.
+- **Burn LP 🔥** : Permanently burns a portion of tokens using the native Stacks function `ft_burn`. This option ensures that the burnt tokens can never be recovered or withdrawn. Since the initial liquidity vanishes, this option protects future liquidity providers from rug pulls and enhances trust and transparency.
 
 <figure><img src="../.gitbook/assets/self-service-listing/lock-lp-1.png" alt="LP Lock Settings labels" width=""><figcaption></figcaption></figure>
 
-In case of locking or burning tokens, there will be a highlighted banner that displays the setting selected by the pool creator. This way, Liquidity Providers will know if the initial LP tokens have been locked or burnt, or if neither option has been applied.
+In case of locking or burning tokens, there will be a highlighted banner that displays the setting selected by the pool creator. This way, liquidity providers will know if the initial LP tokens have been locked or burnt, or if neither option has been applied.
 
 Projects and their communities can benefit from these transparent locking and burning mechanisms since they safeguard their investments from rug pulls and unauthorized withdrawals.
 
