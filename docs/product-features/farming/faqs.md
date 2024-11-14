@@ -32,7 +32,7 @@ Yes, farming rewards accumulate over time. It is not mandatory to harvest your r
 
 <summary>What is the cooldown period?</summary>
 
-The cooldown period refers to the time between when your LP tokens are staked into the farm and when a new farming cycle begins. Essentially, it is the remaining time (measured in Stacks blocks) of the current staking cycle. This implies that your staked tokens won't start generating reward immediately but in next upcoming cycle. For more details, check the [Cycles and Cooldown Period](key-concepts.md#cycles-and-cooldown-period) section of the Key concepts page.
+The cooldown period refers to the time between when your LP tokens are staked into the farm and when a new farming cycle begins. Essentially, it is the remaining time (measured in Stacks blocks) of the current staking cycle. This implies that your staked tokens won't start generating rewards immediately but in next upcoming cycle. For more details, check the [Cycles and Cooldown Period](key-concepts.md#cycles-and-cooldown-period) section of the Key concepts page.
 
 </details>
 
@@ -61,12 +61,12 @@ You have several options for your rewards: you can hold them, trade them, or gen
 
 <summary>How can I restake my rewards in the farm?</summary>
 
-Restaking your rewards in the farm is an effective strategy for generating compound interest, but not as straight forward. To restake, you will need to transform your rewards into LP tokens first. There are two scenarios to consider:
+Reinvesting your rewards in the farm is an effective strategy to achieve compound interest, but it requires a few extra steps. To restake, you will need to transform your rewards into LP tokens first. There are two scenarios to consider.
 
 * **Case 1:** The reward token is one of the trading pair tokens.&#x20;
 * **Case 2:** The reward token is none of the trading pair tokens.
 
-Here are the steps to "re-farm" your rewards:
+Here are the steps to restake your farming rewards:
 
 1. [Swap](https://app.alexlab.co/swap) the rewards in order to obtain the liquidity pool trading pair tokens. This may involve one swap for Case 1 and two swaps for Case 2.
 2. [Provide liquidity](https://app.alexlab.co/pool) to the pool associated with the trading pair to receive LP tokens.
@@ -83,9 +83,9 @@ ALEX Staking Power, or APower, is a non-transferrable and non-tradable token. It
 1. **Stake $ALEX (1x Multiplier)**
 2. **Stake LP tokens through Yield Farming (0.3x Multiplier)**
 
-APower is the lottery ticket that allows you to take part in any future IDO rounds on our [Launchpad](https://app.alexlab.co/launchpad). There is no maximum amount of APower an address can earn over a period of time. If you are interested in frequently participating in IDOs, staking $ALEX would generate APower fastest.
+APower is the access token for participating in the "Community Round" of any future IDO on our [Launchpad](https://app.alexlab.co/launchpad). IDO tickets allocated to this round can only be purchased by utilizing APower. There is no maximum amount of APower an address can earn over a period of time. If you are interested in frequently participating in IDOs, staking $ALEX would generate APower fastest.
 
-Every IDO is unique, however, and may have a cap on the amount of APower that can be allocated. This is to prevent IDOs dominated by a small group of "whale" members.
+Every IDO is unique, however, and may have a cap on the amount of APower that can be utilized to allocate IDO tickets. This prevents IDOs from being dominated by a small group of "whale" members.
 
 Full Medium post [here](https://medium.com/alexgobtc/what-is-alex-staking-power-and-how-do-i-use-it-1b3de3797fa2).
 
@@ -95,7 +95,9 @@ Full Medium post [here](https://medium.com/alexgobtc/what-is-alex-staking-power-
 
 <summary>What happens to my LP tokens when I stake them?</summary>
 
-When you stake your LP tokens in a yield farm, they are technically not in your possession anymore. During farming, LP tokens are locked in the ALEX smart contract. Although they belong to you and you are the only one authorized to withdraw them, they are not held in your wallet during the lock-up period.
+When you stake your LP tokens in a yield farm, they are technically transferred from your wallet to the farming smart contract.
+
+<!-- Extended answer: When you stake your LP tokens in a yield farm, they are technically not in your possession anymore. During farming, LP tokens are locked in the ALEX smart contract. Although they belong to you and you are the only one authorized to withdraw them, they are not held in your wallet during the lock-up period. -->
 
 </details>
 
