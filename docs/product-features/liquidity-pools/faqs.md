@@ -78,7 +78,7 @@ Liquidity providers can stake or lock up their LP tokens for a fixed period of t
 
 Yes, you can remove liquidity at any time. However, if you've staked your LP tokens for farming, you won't be able to withdraw them until the staking period has ended.
 
-For removing liquidity from pools created under Self-Service Listing, please refer to the [Self-Service Listing Documentation](../self-service-listing.md).
+For removing liquidity from pools **you have created**, please refer to the [Self-Service Listing Documentation](../self-service-listing.md).
 
 </details>
 
