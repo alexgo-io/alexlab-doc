@@ -1,25 +1,22 @@
----
-cover: .gitbook/assets/alexlab_doc_cover.jpg
-coverY: 0
----
+# ALEX Lab Foundation Docs
 
-# What is ALEX
+This repository hosts the documentation website. It is built using [Gitbook](https://www.gitbook.com/).
 
-ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with XLink, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.&#x20;
+![ALEX Lab Foundation Banner](./docs/.gitbook/assets/alexlab_doc_cover_github.jpg)
 
-We’re creating a seamless user experience, enabling one-click trading and asset transfer across blockchains that abstract away wallet and network complexity. All roads lead to Bitcoin, and all roads on Bitcoin meet on ALEX.
+The ALEX Lab Foundation is a non-profit organization supporting the governance and growth of the ALEX DeFi protocol. 
 
-There is close to $1T of capital asleep in Bitcoin wallets, this is an ocean of money that ALEX seeks to awaken. ALEX unlocks the potential of Bitcoin by taking the ultimate store of value and building on top of it the first truly permissionless, trustless and decentralized financial service for the people.
+🔗 [alexlab.co](https://alexlab.co/) \
+👾 [app.alexlab.co](https://app.alexlab.co/)
 
-ALEX offers a suite of DeFi opportunities that includes:
+## What is ALEX
 
-* Discover and participate in the IDO rounds of emerging projects through the Launchpad
-* AMM DEX with deep liquidity
-* Earn exciting returns through providing liquidity, $ALEX staking, and yield farming
-* Cross-chain bridging through XLink from Bitcoin L1, to L2s and EVM chains.
-* Liquid token staking through LISA.
-* Advanced order-book DEX allows limited orders and market orders.
+ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with XLink, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.
 
-Just as Bitcoin is the “gold standard” of crypto, ALEX will become gold standard of DeFi.
+🔗 [alexgo.io](https://alexgo.io/) \
+🌉 [xlink.network](https://www.xlink.network/) \
+🌸 [lisalab.io](https://www.lisalab.io/)
 
-<figure><img src=".gitbook/assets/alexlab_landing_page.png" alt=""><figcaption></figcaption></figure>
+## Contributing
+
+🌟 Please refer to the guideline [here](./CONTRIBUTING.md).

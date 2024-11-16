@@ -17,9 +17,19 @@ layout:
 
 By adding liquidity to a pool, you will earn fees from all trades between a token pair proportional to your share of the pool. Fees are added to the pool, automatically accrued in real-time and can be claimed by withdrawing back your liquidity.
 
-## Choose where to start
+## Explore
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Key concepts</td><td><a href="key-concepts.md">key-concepts.md</a></td><td><a href="../../.gitbook/assets/cards/key-concepts.png">cards/key-concepts.png</a></td></tr><tr><td>How to add/remove liquidity</td><td><a href="how-to.md">how-to.md</a></td><td><a href="../../.gitbook/assets/cards/how-to.png">cards/how-to.png</a></td></tr><tr><td>FAQs</td><td><a href="faqs.md">faqs.md</a></td><td><a href="../../.gitbook/assets/cards/faqs.png">cards/faqs.png</a></td></tr></tbody></table>
+{% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
+{% content-ref url="how-to.md" %} [how-to.md](how-to.md) {% endcontent-ref %}
+{% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
+
+<!-- 
+
+Old cards layout, in case we want to revert it
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Key concepts</td><td><a href="key-concepts.md">key-concepts.md</a></td><td><a href="../../.gitbook/assets/cards/key-concepts.png">cards/key-concepts.png</a></td></tr><tr><td>How to add/remove liquidity</td><td><a href="how-to.md">how-to.md</a></td><td><a href="../../.gitbook/assets/cards/how-to.png">cards/how-to.png</a></td></tr><tr><td>FAQs</td><td><a href="faqs.md">faqs.md</a></td><td><a href="../../.gitbook/assets/cards/faqs.png">cards/faqs.png</a></td></tr></tbody></table> 
+
+-->
 
 ### Looking to create your own pool?
 

@@ -23,19 +23,13 @@
   * [🧑‍🏫 How to stake](product-features/staking/how-to.md)
   * [❓ FAQs](product-features/staking/faqs.md)
 * [🚀 Launchpad](product-features/launchpad.md)
-* [📈 Analytics](product-features/analytics.md)
 
 ## Resources
 
 * [🔗 Official Links](resources/official-links.md)
+* [🪙 Token List](https://app.alexlab.co/token-list)
+* [🔮 ALEX Ecosystem Explorer](https://app.alexlab.co/explorer)
 * [✅ Security Audit](resources/security-audit.md)
-* 🪙 Token List
-  * [$SLIME](token-list/usdslime.md)
-  * [\$MIA & \$NYC](token-list/usdmia-and-usdnyc.md)
-  * [$USDA](token-list/usdusda.md)
-  * [$BANANA](token-list/usdbanana.md)
-  * [$xBTC](token-list/usdxbtc.md)
-  * [$xUSD](token-list/usdxusd.md)
 * 📃 Whitepapers
   * [Whitepaper (1): Automated Market Making of the Yield Token Pool](whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md)
   * [Whitepaper (2): Automated Market Making of the Collateral Rebalancing Pooltitled](whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md)
