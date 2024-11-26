@@ -37,7 +37,7 @@ Old cards layout, in case we want to revert it
 
 -->
 
-### Looking to create your own farm?
+### Looking to Create Your Own Farm?
 
 Farming can be added to pools you have created to reward liquidity providers with additional yield. Visit the dedicated page for more details.
 

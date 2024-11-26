@@ -4,15 +4,15 @@ description: >-
   AMMs, and their function within the ALEX decentralized exchange.
 ---
 
-# Key concepts
+# Key Concepts
 
-## What are Liquidity Pools?
+## What Are Liquidity Pools?
 
 Liquidity pools are crowdfunded collections of crypto assets held in a smart contract, designed to provide liquidity for decentralized exchanges (DEXs) and support various decentralized finance (DeFi) protocols.
 
 While their applications are diverse, ranging from lending and borrowing platforms to algorithmic protocols for stablecoins, their primary use is on DEXs. In this case, liquidity pools enable users to trade crypto assets without the need for a centralized intermediary, serving as reserves of assets that users can trade against.
 
-## Their role in Automated Market Makers (AMMs)
+## Their Role in Automated Market Makers (AMMs)
 
 Automated Market Makers (AMMs) are the predominant type of decentralized exchange (DEX). While other DEX designs exist, AMM-based DEXs have become extremely popular. These exchanges operate using liquidity pools and algorithmic mechanisms to determine prices and facilitate the trading of crypto assets between peers.
 

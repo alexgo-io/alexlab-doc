@@ -2,6 +2,10 @@
 
 * [What is ALEX](README.md)
 
+## Wallet Guides
+
+## Explore
+
 ## Features
 
 * [🔄 Token Swaps](product-features/token-swaps/README.md)

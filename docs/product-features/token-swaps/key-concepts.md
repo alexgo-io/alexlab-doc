@@ -3,7 +3,7 @@ description: >-
   Learn the key terms involved in ALEX swap operations.
 ---
 
-# Key concepts
+# Key Concepts
 
 ### Token Swap
 

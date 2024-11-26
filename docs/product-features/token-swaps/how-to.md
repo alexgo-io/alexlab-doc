@@ -3,7 +3,7 @@ description: >-
   This guide will showcase how to swap two tokens on ALEX Lab App.
 ---
 
-# How to swap
+# How to Swap
 
 When performing a token swap, you transfer an amount of the token you want to exchange (base token) to the ALEX smart contract. In return, you receive a pre-agreed amount of the desired token (target token) from the ALEX smart contract, all within a single swap transaction. The resulting balance changes will be reflected in your wallet.
 
@@ -11,7 +11,7 @@ That said, let's get hands-on!
 
 ## :currency\_exchange: :moneybag: Trade one token for another
 
-### Step 1
+### Step 1: Go to the Swap Panel
 
 Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. You can also navigate to it by clicking the "Swap" tab on the top menu bar.
 
@@ -25,7 +25,7 @@ Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. 
 
 </div>
 
-### Step 2
+### Step 2: Select Token Pair
 
 Select the tokens you want to exchange and the amount.&#x20;
 
@@ -43,7 +43,7 @@ Clicking the "Max" button will automatically set the amount to your total availa
 
 <figure><img src="../../.gitbook/assets/token-swaps/2-select-token.png" alt="" width="375"><figcaption><p>Token search and selection panel. </p></figcaption></figure>
 
-### Step 3
+### Step 3: Review Transaction Details & Adjust Settings (Optional)
 
 #### Transaction Details
 
@@ -65,13 +65,13 @@ If you want to adjust slippage tolerance, select the "Settings" icon to open the
 
 <figure><img src="../../.gitbook/assets/token-swaps/3-tx-settings.png" alt="" width="375"><figcaption><p>Transaction Settings panel example, with slippage tolerance set to 2%.</p></figcaption></figure>
 
-### Step 4
+### Step 4: Confirm Swap
 
 Once you're ready to move ahead, select the "Swap" button which will bring up the Confirmation panel. This panel provides a final overview of your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click "Confirm" 😎.
 
 <figure><img src="../../.gitbook/assets/token-swaps/4-confirmation-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Step 5
+### Step 5: Confirm Transaction
 
 After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
@@ -94,7 +94,7 @@ To be completely sure, you can check:
 
 </div>
 
-### Step 6 <a href="#step-7" id="step-7"></a>
+### Step 6: Wait for Confirmation <a href="#step-7" id="step-7"></a>
 
 Wait for the transaction to be confirmed on the network.
 
@@ -128,7 +128,7 @@ Recommended to track transaction status:
 
 </div>
 
-### Step 7
+### Step 7: View Updated Balance
 
 Once the transaction is completed, you will see the balance updated in your wallet.&#x20;
 

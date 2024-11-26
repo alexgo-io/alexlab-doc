@@ -2,7 +2,7 @@
 description: This is how you stake ALEX into atALEX
 ---
 
-# How to Use Auto Staking (minting AutoALEX)
+# How to Use Auto Staking (Minting AutoALEX)
 
 1.Go to the “Stake” page [here](https://app.alexlab.co/stake)
 

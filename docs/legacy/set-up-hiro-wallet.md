@@ -2,7 +2,7 @@
 hidden: true
 ---
 
-# 👉 Set up Hiro Wallet
+# 👉 Set Up Hiro Wallet
 
 ## **Installing Hiro Wallet**
 

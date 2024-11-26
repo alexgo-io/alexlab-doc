@@ -3,7 +3,7 @@ cover: .gitbook/assets/alexlab_doc_cover.jpg
 coverY: 0
 ---
 
-# What is ALEX
+# What Is ALEX?
 
 ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with XLink, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.&#x20;
 
