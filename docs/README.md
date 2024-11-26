@@ -9,6 +9,8 @@ ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bi
 
 We’re creating a seamless user experience, enabling one-click trading and asset transfer across blockchains that abstract away wallet and network complexity. All roads lead to Bitcoin, and all roads on Bitcoin meet on ALEX.
 
+The governance, research and support of the ALEX DeFi protocol is provided by **The ALEX Lab Foundation**. It is a non-profit organization focused on governing decentralized finance (DeFi) on the Bitcoin network and it serves as a platform for consensus building among $ALEX holders.
+
 There is close to $1T of capital asleep in Bitcoin wallets, this is an ocean of money that ALEX seeks to awaken. ALEX unlocks the potential of Bitcoin by taking the ultimate store of value and building on top of it the first truly permissionless, trustless and decentralized financial service for the people.
 
 ALEX offers a suite of DeFi opportunities that includes:
