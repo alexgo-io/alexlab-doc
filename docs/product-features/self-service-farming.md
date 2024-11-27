@@ -93,7 +93,7 @@ To be completely sure, you can check:
 
 ### Step 7: Wait for Confirmation
 
-Wait for the transaction to be confirmed on the network.
+It may take up to 20–40 minutes for changes to be visible on ALEX and in your wallet.
 
 {% hint style="info" %}
 Recommended to track transaction status:

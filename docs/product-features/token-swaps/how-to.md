@@ -96,7 +96,7 @@ To be completely sure, you can check:
 
 ### Step 6: Wait for Confirmation <a href="#step-7" id="step-7"></a>
 
-Wait for the transaction to be confirmed on the network.
+You may need to wait between 20-40 minutes for your balance to update in your wallet and on ALEX.
 
 {% hint style="info" %}
 Recommended to track transaction status:

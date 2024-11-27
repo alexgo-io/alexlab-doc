@@ -88,7 +88,7 @@ To be completely sure, you can check:
 
 ### Step 7: Wait for Confirmation
 
-Wait for the transaction to be confirmed on the network.&#x20;
+You may need to wait between 20-40 minutes for your balance to update in your wallet and on ALEX.&#x20;
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-7-tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -185,7 +185,7 @@ After clicking "Confirm", you will need to confirm the transaction in your walle
 
 ### Step 7: Wait for Confirmation
 
-Wait for the transaction to be confirmed on the network.&#x20;
+You may need to wait between 20-40 minutes for your balance to update in your wallet and on ALEX.&#x20;
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-7-tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
 

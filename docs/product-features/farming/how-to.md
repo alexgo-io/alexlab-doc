@@ -114,7 +114,7 @@ To be completely sure, you can check:
 
 ### Step 6: Wait for Confirmation
 
-Wait for the transaction to be confirmed on the network.
+It may take up to 20–40 minutes for changes to be visible on ALEX and in your wallet.
 
 <figure><img src="../../.gitbook/assets/farming/tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -200,7 +200,7 @@ Let's go through it step-by-step:
 3. Find the farm from which you want to withdraw LP tokens and click on it.
 4. Your LP tokens will automatically be available for withdrawal when your committed cycles end. You will find them under the **LP to claim** title on the dashboard.
 5. Click on the "Harvest All" button and confirm the transaction in your wallet (just as you did in the previous guides). This will return your LP tokens back to your possession and automatically collect any unharvested rewards.
-6. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
+6. The transaction may take between 20-40 minutes to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 7. Once the transaction is completed, you will see the changes reflected in your wallet balance and on the platform panels. In particular, you will see your LP token balance on the [Pool page](https://app.alexlab.co/pool) in the **My Liquidity** panel or by selecting the pool from the list. You can also check your balance on the ALEX Lab App, located beside the Wallet Manager at the top menu bar.
 
 If you want to farm your LP tokens again, remember: your staked amount will start generating yield from the next upcoming cycle. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to the cooldown period.

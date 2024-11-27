@@ -36,6 +36,10 @@ For example, if a user holds 5% of the pool’s total funds, they will earn 5% o
 **Note:** The initials "LP" are used both to abbreviate "liquidity provider" and to refer to the tokens these users receive, which represent their share of the contributed funds in the pool.
 {% endhint %}
 
+## My Liquidity
+
+Whenever you select a pool, you will be able to see the liquidity you've added in the "My Liquidity" section. You can access it by clicking on any pool from the [ALEX Lab Pool page](https://app.alexlab.co/pool).
+
 ## Impermanent Loss
 
 Impermanent loss in decentralized finance (DeFi) occurs when a liquidity provider (LP) supplies assets to a liquidity pool and the price of those assets changes relative to when they were deposited. This loss is termed "impermanent" because it only becomes permanent if the LP withdraws their funds when prices have diverged significantly.
