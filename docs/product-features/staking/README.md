@@ -1,3 +1,18 @@
+---
+description: Stake your ALEX tokens and start earning rewards!
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+---
+
 # ⚓ Stake
 
 ALEX staking involves “locking up” your $ALEX token on the platform for an amount of time (”rewards cycles”) in exchange for earning protocol rewards.&#x20;
