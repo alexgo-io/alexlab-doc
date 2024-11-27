@@ -24,7 +24,7 @@ Harvesting refers to the act of **claiming your staking rewards**. When you clai
 
 <summary>Do staking rewards accumulate?</summary>
 
-Yes, staking rewards accumulate over time. It is not mandatory to harvest your rewards at the end of each cycle, you can claim them whenever you choose. Also, when you withdraw (unstake) your $ALEX or atALEX, any unharvested rewards will automatically be withdrawn as well.
+Yes, staking rewards accumulate over time. It is not mandatory to harvest your rewards at the end of each cycle, you can claim them whenever you choose. Also, when you withdraw (unstake) your $ALEX or LiALEX, any unharvested rewards will automatically be withdrawn as well.
 
 </details>
 
@@ -46,7 +46,7 @@ Because of the cooldown period. If you plan to stake for multiple cycles, it is 
 
 For example, if you want to farm for 12 cycles and choose to stake three times for 4-cycle periods, you will miss out on rewards for 3 cycles. This happens because each time you withdraw and restake, you enter a cooldown period. In contrast, if you stake directly for the full 12 cycles, you will only miss rewards for 1 cycle, the very first one.
 
-The more cycles you choose to stake for, the less cool-down cycles you will have in the middle. To avoid cool-down cycles altogether, you may use Auto Staking with atAlex.
+The more cycles you choose to stake for, the less cool-down cycles you will have in the middle. To avoid cool-down cycles altogether, you may use Liquid Staking with LiAlex.
 
 </details>
 
