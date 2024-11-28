@@ -25,6 +25,10 @@ Lisa Protocol([https://www.lisalab.io/](https://www.lisalab.io/)) is now providi
 
 The protocol rewards are provided in the form of more $ALEX as well as [APower](faqs.md#what-is-apower) which is only available to stakers to be used in the ALEX launchpad.
 
+{% hint style="info" %}
+**What is APower?** APower is the lottery ticket that allows you to take part in any future IDO rounds on our Launchpad. It is a non-transferrable and non-tradable token that is earned by staking. Learn more on the [FAQs](faqs.md#what-is-apower) page.
+{% endhint %}
+
 ## Explore
 
 {% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
