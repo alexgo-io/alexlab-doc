@@ -58,7 +58,7 @@ You will be prompted to confirm that the selected settings are correct. Please v
 
 Your Stacks wallet will validate your identity and ask you to confirm the transaction. After that, wait for your transaction to be confirmed on the network.
 
-<figure><img src="../../.gitbook/assets/farming/tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/farming/stake-tokens-function-args.png" alt="" width="375"><figcaption><p>Wallet pop-up with function arguments and confirmation button.</p></figcaption></figure>
 
 A "Transaction Mining..." pop-up should appear on the top right corner of your screen, followed by "Transaction Successful" a few moments later. 
 
