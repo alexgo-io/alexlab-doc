@@ -117,9 +117,9 @@ After clicking "Confirm", you will need to confirm the transaction in your walle
 
 Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
-<figure><img src="../../.gitbook/assets/staking/stake-harvest-confirm-wallet.png" alt="" width="375"><figcaption><p>Transaction preview displayed on Leather wallet</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/staking/stake-harvest-confirm-wallet.png" alt="" width="344"><figcaption><p>Transaction preview displayed on Leather wallet</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/staking/stake-harvest-wallet-confirm-2.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/staking/stake-harvest-wallet-confirm-2.png" alt="" width="344"><figcaption><p>Function arguments and confirmation button</p></figcaption></figure>
 
 ### Step 5: Check Transaction Status
 
