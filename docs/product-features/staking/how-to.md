@@ -56,7 +56,7 @@ You will be prompted to confirm that the selected settings are correct. Please v
 
 <figure><img src="../../.gitbook/assets/staking/stake-confirm.png" alt=""><figcaption></figcaption></figure>
 
-### Step 5: Confirm Transaction on your Wallet
+### Step 5: Confirm Transaction on Your Wallet
 
 Your Stacks wallet will validate your identity and ask you to confirm the transaction. After that, wait for your transaction to be confirmed on the network.
 
