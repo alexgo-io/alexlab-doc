@@ -168,8 +168,8 @@ Farming will earn you rewards over time.
 
 At the end of every staking cycle (525 blocks, approximately 3.5 days), rewards will be available to harvest. To claim your rewards, follow these steps:
 
-1. Go to the [Farms page](https://app.alexlab.co/farm) on ALEX Lab App, which you can access through the Earn -> Farm tab.&#x20;
-2. You will find the **My Farms** panel which your active farms. Click on the farm you want to harvest, either from the panel or from the farm list.
+1. Go to the [Farms page](https://app.alexlab.co/farm) on the ALEX Lab App, which you can access through the Earn -> Farm tab.&#x20;
+2. You will find the **My Farms** panel with your active farms. Click on the farm you want to harvest, either from the panel or from the farm list.
 3. Expand the **My Farming** dashboard. If a cycle has ended, you will see rewards available to claim.
 4. Click on the "Harvest All" button and confirm the transaction on your wallet (just as you did in the previous guides).
 5. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
