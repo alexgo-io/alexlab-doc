@@ -30,9 +30,25 @@ Harvesting refers to the act of **claiming your staking rewards**. When you clai
 
 <details>
 
+<summary>Can I only collect a portion of my rewards?</summary>
+
+No. If your staking period has ended, all the rewards and APower you have accrued, as well as the $ALEX you've staked, will be transferred to your wallet. You will be able to re-stake them on the next cycle, after the current one ends. If a cycle has ended but you've staked your $ALEX for longer, you will be able to claim your rewards but not your staked ALEX tokens, which will remain locked-up until the staking period you selected expires. If you wish to avoid cooldown periods and manual staking, you can use the **Auto Staking** function with [LiALEX](key-concepts.md#liquid-staking).
+
+</details>
+
+<details>
+
 <summary>Do staking rewards accumulate?</summary>
 
 Yes, staking rewards accumulate over time. It is not mandatory to harvest your rewards at the end of each cycle, you can claim them whenever you choose. Also, when you withdraw (unstake) your $ALEX or LiALEX, any unharvested rewards will automatically be withdrawn as well.
+
+</details>
+
+<details>
+
+<summary>Can I claim my rewards after every cycle?</summary>
+
+Yes, rewards can be claimed after every cycle concludes, even if you've staked your $ALEX for several cycles. Bear in mind that, although you can claim rewards, your staked tokens can only be withdrawn after the selected cycles expire.
 
 </details>
 
@@ -55,14 +71,6 @@ Because of the cooldown period. If you plan to stake for multiple cycles, it is 
 Lets suppose you want to stake for 12 cycles and choose to stake thrice for 4-cycle periods, you will miss out on rewards for 3 cycles. This happens because each time you withdraw and restake, you enter a cooldown period. In contrast, if you stake directly for the full 12 cycles, you will only miss rewards for 1 cycle, the very first one.
 
 The more cycles you choose to stake for, the less cool-down cycles you will have in the middle. To avoid cool-down cycles altogether, you may use [Liquid Staking with LiAlex](key-concepts.md#liquid-staking).
-
-</details>
-
-<details>
-
-<summary>Can I claim my rewards after every cycle?</summary>
-
-Yes, rewards can be claimed after every cycle concludes, even if you've staked your $ALEX for several cycles. Bear in mind that, although you can claim rewards, your staked tokens can only be withdrawn after the selected cycles expire.
 
 </details>
 
