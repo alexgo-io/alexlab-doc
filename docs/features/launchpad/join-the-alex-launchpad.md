@@ -124,7 +124,7 @@ Some of the requirements we look for from projects looking to raise with the ALE
 * (Optional) Revenue data of your projects&#x20;
 * All IDO terms has be to agreed on.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-11-29 at 3.35.37 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ALEX_IDO_TERMS_a (3).png" alt=""><figcaption></figcaption></figure>
 
 ### ALEX Launchpad IDO Terms
 
@@ -172,8 +172,9 @@ Once we receive the completed Blocksurvey form, we'll arrange a call to:
 
 * Get to know you and your team better (preferably with video enabled)
 * Discuss your current milestones, CEX listing strategies, onboarded partners, product functionality, and IDO terms.
+* Breakdown how the Launchpad user experience works—for your users and our users.
 
-After this call, you'll have a clear understanding of the process, terms of the IDO, and an opportunity to ask any initial questions or seek clarifications.
+After this call, you'll have a clear understanding of the process, terms of the IDO, how the Launchpad works, and an opportunity to ask any initial questions or seek clarifications.
 
 #### #4: Agreement to the IDO Terms
 
@@ -206,7 +207,7 @@ Users vote with their ALEX or LiALEX tokens, which are non-transferable and earn
 
 We'll coordinate with you to set the launch date and configure settings for Community, Whitelist, and Public Round portions.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-12-06 at 11.22.28 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ALEX_Launchpad_Marketing.png" alt=""><figcaption></figcaption></figure>
 
 #### #8: Launchpad Marketing (Pre, During, and Post)
 
@@ -227,6 +228,18 @@ During the co-marketing phase, we will host an AMA in the form of 𝕏 Spaces, a
 #### #9: Launchpad Goes Live!
 
 Once all preparations are complete, the IDO officially commences at the scheduled time. Investors can then participate in the token sale, marking the beginning of your project's fundraising phase on the ALEX Launchpad.
+
+During the launchpad, you can decide to have up to three phases:
+
+* **Community Launch:** Open to anyone with APower on a first-come, first-served (FCFS) basis.
+* **Public Launch:** Open to anyone, does not require Apower to participate, and is conducted through a fair random number drawing process.
+* **Whitelist Launch:** This phase is optional and allows the project team to whitelist specific addresses (community members, KOLs, partners, etc.) for marketing purposes. This can be set up either at the start of the IDO or later on.
+
+These phases are optional, depending on how you would ideally want your IDO round to be.
+
+{% hint style="info" %}
+During the Launchpad call in [#id-3-initial-call-brief-process-and-terms](join-the-alex-launchpad.md#id-3-initial-call-brief-process-and-terms "mention"), we will dive deep into the Launchpad mechanism: **IDO Lottery, Launchpad phases and fair random number drawing process.**
+{% endhint %}
 
 Each step ensures that your project is vetted, prepared, and promoted effectively within the ALEX ecosystem, leading up to a successful token launch.&#x20;
 
