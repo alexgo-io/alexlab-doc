@@ -2,22 +2,13 @@
 
 ## Staking Basics
 
-Staking consists of locking your ALEX tokens temporarily to secure the network and earn rewards in return. In a Proof of Stake (PoS) consensus mechanism, such as the one used by ALEX Lab, validators stake their tokens as collateral and earn rewards in the form of newly minted tokens and transaction fees. 
+Staking consists of locking your ALEX tokens temporarily to earn ALEX and APower tokens as rewards. Users can stake their tokens to earn passive income in the form of newly minted tokens and transaction fees. 
 
 The ALEX staking pool offers two main options, each one rewarding stakers with a different token: manual staking with $ALEX or liquid staking with LiALEX. 
 
-### Proof of Stake (PoS)
-
-Proof of Stake (PoS) is a consensus mechanism for processing transactions and securing a blockchain network. Unlike Proof of Work (PoW), which requires miners to expend computational effort to solve a cryprographic puzzle, PoS selects validators based on their stake in the network: the larger their stake, the more likely they are to be selected for validation. 
-
-The ALEX Lab network is secured by validators and delegators. 
-
-* **Validators:**  They are node operators that verify transactions and create new blocks while staking their own $ALEX. The stake acts as collateral, encouraging validators to behave honestly, since they risk losing their staked tokens if they validate fraudulent blocks.
-* **Delegators:** They lock up their $ALEX for a predetermined period and delegate their stake to validators. This way, they can earn a portion of rewards from transaction fees without meeting the full requirements of validators. 
-
 ### Rewards
 
-Staking rewards are the compensation that validators and delegators receive in return for their contribution to the network's security. They are obtained from transaction fees and newly minted tokens. 
+Staking rewards are the compensation that you can receive in return for locking up your $ALEX tokens for a certain amount of staking cycles. The longer you stake your $ALEX, the greater the rewards. They are obtained from transaction fees and newly minted tokens. 
 
 The network calculates each participant's reward share based on their staked amount. Rewards are either automatically reinvested in the case of **Liquid Staking** or can be claimed after **every cycle** in the case of **Manual Staking.** This means that, even if you decided to stake your tokens for 8 cycles, you will be able to claim rewards after each cycle concludes. 
 
@@ -38,7 +29,7 @@ The APY (Annual Percentage Yield) reflects your potential earnings from staking 
 
 Staking is measured in cycles. Cycles are **525 Stacks blocks** or about **3.5 days long**, and both manual and auto-staking receive rewards when each cycle concludes. When you decide to stake your ALEX tokens, you need to select the amount of cycles you wish to stake for. In the case of **Manual Staking**, your $ALEX won't be accessible during that period. 
 
-After the chosen cycles expire, you can claim your rewards and withdraw your staked tokens, or re-stake them for however many cycles you choose. Bear in mind that, once your custom-selected number of cycles ends, there will be a **cooldown cycle** with no rewards received, after which you may re-stake and resume earning rewards. For that reason, if you stake ythe longer you stake, the fewer cool-down cycles you will have, resulting in greater returns overall.
+After the chosen cycles expire, you can claim your rewards and withdraw your staked tokens, or re-stake them for however many cycles you choose. Bear in mind that, once your custom-selected number of cycles ends, there will be a **cooldown cycle** with no rewards received, after which you may re-stake and resume earning rewards. For that reason, the longer you stake, the fewer cool-down cycles you will have, resulting in greater returns overall.
 
 ## Manual Staking
 

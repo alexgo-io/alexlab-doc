@@ -19,7 +19,7 @@ ALEX staking involves “locking up” your ALEX tokens on the platform for an a
 
 You can think of $ALEX staking as depositing money into an interest-earning account. The longer you keep the money in the account, the more interest you earn. Similarly, the longer you stake $ALEX, the more rewards you earn.
 
-ALEX provides two different forms of staking to suit every user's need: [Manual Staking]() with $ALEX and [Liquid Staking]() with LiALEX. &#x20;
+ALEX provides two different forms of staking to suit every user's need: [Manual Staking]() with $ALEX and [Liquid Staking](https://app.lisalab.io/li/alex/staking) with LiALEX. &#x20;
 
 Lisa Protocol([https://www.lisalab.io/](https://www.lisalab.io/)) is now providing liquid staking for ALEX Staking ($LiALEX)&#x20;
 

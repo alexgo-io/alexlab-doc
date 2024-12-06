@@ -25,10 +25,10 @@ On the right-hand side of **My Staking**, you will see the "Cycles" section, whi
 #### Staking Metrics
 
 * **Manual Staking:** The amount of $ALEX you are currently staking.&#x20;
-* **APR:** The Annual Percentage Rate of your investment. It is the interest you would earn by staking for one year
+* **APR:** The Annual Percentage Rate of your investment. It is the interest you would earn by staking for one year.
 * **Liquid Staking:** The amount of $ALEX you are currently staking through LISA.
 * **APY:** The Annual Percentage Yield of your investment. It is the interest you would earn by staking for one year, including compounding interest from re-staking your rewards.
-* **APower to be Distributed**: The amount of APower you will earn as a result of your investment.
+* **APower to be Distributed:** The amount of APower you will earn as a result of your investment.
 
 #### Cycles
 
@@ -58,7 +58,7 @@ You will be prompted to confirm that the selected settings are correct. Please v
 
 ### Step 5: Confirm Transaction on Your Wallet
 
-Your Stacks wallet will validate your identity and ask you to confirm the transaction. After that, wait for your transaction to be confirmed on the network.
+Your Stacks wallet will request your password and ask you to confirm the transaction. After that, wait for your transaction to be confirmed on the network.
 
 <figure><img src="../../.gitbook/assets/farming/stake-tokens-function-args.png" alt="" width="375"><figcaption><p>Wallet pop-up with function arguments and confirmation button.</p></figcaption></figure>
 

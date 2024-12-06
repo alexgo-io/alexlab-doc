@@ -2,17 +2,9 @@
 
 <details>
 
-<summary>How does staking help validate transactions?</summary>
-
-In a Proof of Stake (PoS) network, validators lock up a certain amount of tokens as proof of their good faith. They are selected to validate transactions according to how many tokens they have staked in the network. Delegators don't perform the operations necessary to validate transactions, and instead stake tokens which are 'delegated' to validators. In exchange for this, they receive a portion of the rewards accrued to validators. If a blockchain has a large amount of staked tokens, that means that there is a large base of good-faith actors behind the network, which is proof its security.
-
-</details>
-
-<details>
-
 <summary>How is staking different from farming?</summary>
 
-Staking involves holding cryptocurrency from a PoS network in a wallet to help validate transactions. It is generally safer and the returns tend to be lower, as it only involves holding tokens in a wallet.
+Staking involves locking cryptocurrency in a smart contract for a set amount of time in exchange for rewards. During that period, the tokens won't be accessible to the user. It is generally safer and the returns tend to be lower.
 
 Farming involves lending or staking crypto holdings in DeFi protocols to supply liquidity. The tokens must be deposited into a liquidity pool, and depositors receive LP tokens, representing their share of the pool. They can earn additional tokens by participating in DeFi activities such as lending, borrowing, or trading. 
 

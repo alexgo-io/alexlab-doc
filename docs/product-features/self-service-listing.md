@@ -19,7 +19,7 @@ Pool creation usually takes between 24 to 48 hours. Once the pool is created and
 The pool owner is the initial liquidity provider and will receive the corresponding LP tokens upon successful pool creation. Once the pool is live and operational, the owner can withdraw funds just like any other liquidity provider.
 
 {% hint style="info" %}
-Avaiblable Anchor Tokens: Native _STX_ token, _ALEX_ token and _aBTC_ token.
+Avaiblable Anchor Tokens: Native STX token, ALEX token and aBTC token.
 {% endhint %}
 
 The trading pool operates under the [ALEX Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) algorithm, which dynamically determines the exchange rate (price) based on the trades.
@@ -28,7 +28,7 @@ The trading pool operates under the [ALEX Automated Market Maker (AMM)](../../de
 
 👉 **Token Deployment.** Ensure your token is deployed on the Stacks blockchain, as you will need to provide the token contract.
 
-👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native token _STX_, _ALEX_ token, or _aBTC_ token. Ensure you have at least 1,800 _STX_ or an equivalent value in _ALEX_ or _aBTC_ token to create the pool—this is the minimum anchor token liquidity.
+👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native token STX, ALEX token, or aBTC token. Ensure you have at least 1,800 STX or an equivalent value in ALEX or aBTC token to create the pool—this is the minimum anchor token liquidity.
 
 👉 **Determine Initial Price.** Decide the initial price for your listing token in terms of anchor token units. This should answer the question: how many anchor tokens do users need to buy one listed token?
 
@@ -138,7 +138,7 @@ After submitting the Self-Service Listing Pool, a pop-up will appear, allowing t
 
 - **Do not lock LP 🔓**: There will be no lock-up period and the initial liquidity provider (the pool creator) will receive the corresponding LP tokens once the pool is live and operational. Since the pool is unlocked, the owner will be able to withdraw liquidity at any time. 
 
-- **LP is locked for 6 months 🔒** : This is the default option. It locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim after maturity. When the period concludes, the pool owner can withdraw liquidity as any other provider. This prevents unexpected withdrawals and protects liquidity providers from rug pulls.
+- **LP is locked for 6 months 🔒** : This is the default option. It locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim upon maturity. When the period concludes, the pool owner can withdraw liquidity as any other provider. This prevents unexpected withdrawals and protects liquidity providers from rug pulls.
 
 - **Burn LP 🔥** : Permanently burns a portion of tokens, ensuring that they can never be recovered or withdrawn. Since the initial liquidity vanishes, this option protects future liquidity providers from rug pulls and enhances trust and transparency.
 
@@ -148,7 +148,7 @@ In case of locking or burning tokens, there will be a highlighted banner that di
 
 ### Step 3: Contract creation
 
-Once the transaction from Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
+Once the transaction you executed in Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
 
 ### Step 4: Deposit listing token
 
