@@ -2,7 +2,7 @@
 description: Common questions you might have as a liquidity provider or pool creator.
 ---
 
-# FAQs
+# ❓ FAQs
 
 ## Liquidity Pools & Providers
 
@@ -14,7 +14,7 @@ The **swap fee** is the total fee charged to users for executing a token swap. I
 
 On the other hand, the **fee rebate** is the portion of the swap fee that is distributed to liquidity providers as a reward for supplying liquidity to the pool. The remaining portion of the swap fee goes to the ALEX Lab Foundation. You can also find the fee rebate percentage in the Pool Info panel.
 
-![Pool Info panel, with highligthed "Fees" box](../../.gitbook/assets/liquidity-pools/faqs-pool-info-panel-fees.png)
+<img src="../../../.gitbook/assets/liquidity-pools/faqs-pool-info-panel-fees.png" alt="Pool Info panel, with highligthed &#x22;Fees&#x22; box" data-size="original">
 
 </details>
 
@@ -68,7 +68,7 @@ In this panel, the **Pooled** amount reflects your total token holdings in the l
 
 <summary>How is liquidity provision related to farming?</summary>
 
-Liquidity providers can stake or lock up their LP tokens for a fixed period of time (a selected number of ALEX cycles) to earn additional rewards. These rewards are separate from the earnings generated through liquidity provision, that come from swap operations fees (trading fees). This process is known as Yield Farming, or simply 'Farming'. For more details, explore the [ALEX Farming](../farm.md) feature.
+Liquidity providers can stake or lock up their LP tokens for a fixed period of time (a selected number of ALEX cycles) to earn additional rewards. These rewards are separate from the earnings generated through liquidity provision, that come from swap operations fees (trading fees). This process is known as Yield Farming, or simply 'Farming'. For more details, explore the [ALEX Farming](../../../product-features/farm.md) feature.
 
 </details>
 
@@ -132,14 +132,14 @@ Yes. Initial liquidity of the anchor token must be a minimum of 1,800 STX or the
 
 <summary>How is the listed token initial price determined?</summary>
 
-The initial price is determined by the initial liquidity provided by the creator. The ratio between the pair of funds determines the price relationship between both tokens. 
+The initial price is determined by the initial liquidity provided by the creator. The ratio between the pair of funds determines the price relationship between both tokens.
 
 For instance, if the creator provides 8,000 listing tokens and 2,000 anchor tokens, that means the initial ratio is 4:1. Note that pool ratios are calculated as the minimal expression of the fraction between the token balances. In this case, is 8,000 / 2,000.
 
 We can think of this initial ratio in two ways (and they are both equivalent):
 
-- 4 listing tokens equals 1 anchor token.
-- 1 listing token equals 0.25 anchor tokens.
+* 4 listing tokens equals 1 anchor token.
+* 1 listing token equals 0.25 anchor tokens.
 
 </details>
 
@@ -157,7 +157,7 @@ Once the pool is created, the price discovery phase begins. Users can permission
 
 Yes. ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
 
-Once that is done, click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice ](https://t.me/ALEXselfservice) to submit your information (e.g. X accont, Discord, official website).
+Once that is done, click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice ](https://t.me/ALEXselfservice)to submit your information (e.g. X accont, Discord, official website).
 
 </details>
 

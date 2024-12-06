@@ -1,9 +1,8 @@
 ---
-description: >-
-  Learn the key terms involved in ALEX swap operations.
+description: Learn the key terms involved in ALEX swap operations.
 ---
 
-# Key concepts
+# 💡 Key concepts
 
 ### Token Swap
 

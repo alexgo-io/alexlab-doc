@@ -16,7 +16,7 @@ ALEX’s algorithmic engine and diversified pools minimize the risk of a borrowe
 
 Protocols for loanable funds (PLF) enable borrowing and lending activities. Examples PLFs are Compound and Aave on Ethereum. The lender provides a token in need and earns interest in return. The borrower deposits collateral and gets access to a preferred asset. The borrower must pay back the borrowed asset in due time. Protocols enabling this borrowing and lending functionality are incredibly useful. Simply, they enable the present consumption on future earnings. This idea is powerful, and has been at the core of DeFi’s rise, including the rise of protocols such as Uniswap.
 
-![https://miro.medium.com/max/1400/1\*Dj-HeVOc9nH1C7GNnbIBLw.gif](https://miro.medium.com/max/1400/1\*Dj-HeVOc9nH1C7GNnbIBLw.gif)
+![https://miro.medium.com/max/1400/1\*Dj-HeVOc9nH1C7GNnbIBLw.gif](https://miro.medium.com/max/1400/1*Dj-HeVOc9nH1C7GNnbIBLw.gif)
 
 Simulation of ALEX’s AMM of Collateral Rebalancing Pool during high market volatility
 
@@ -50,23 +50,23 @@ GMMMs were first introduced by Balancer. A GMMM represents an extension to the A
 
 Mathematically, a GMMM consisting of two assets can be expressed as follows:
 
-![https://miro.medium.com/max/1400/1\*EhhHu9KcyuSFrdqVY9Wc0A.png](https://miro.medium.com/max/1400/1\*EhhHu9KcyuSFrdqVY9Wc0A.png)
+![https://miro.medium.com/max/1400/1\*EhhHu9KcyuSFrdqVY9Wc0A.png](https://miro.medium.com/max/1400/1*EhhHu9KcyuSFrdqVY9Wc0A.png)
 
-where _x(t)_ and _y(t)_ are the balance of the risky asset and the riskless asset respectively, whereas _w_ₓ\*(_t_)\* and _w_ᵧ\*(_t_)\* are the corresponding weights and _w_ₓ\*(_t_) + w_ᵧ_(_t_) =_1. L_(_t_)\* is the invariant constant, which remains unchanged when weights are fixed in between rebalancing time.
+where _x(t)_ and _y(t)_ are the balance of the risky asset and the riskless asset respectively, whereas _&#x77;_&#x2093;\*(_t_)\* and _&#x77;_&#x1D67;\*(_t_)\* are the corresponding weights and _&#x77;_&#x2093;\*(_t_) + &#x77;_&#x1D67;_(_t_) =_1. L_(_t_)\* is the invariant constant, which remains unchanged when weights are fixed in between rebalancing time.
 
-Prices _p_ₓ\*(_t_)\* and _p_c\*(_t_)\*, which share the same numeraire such as USD, satisfy the following no-arbitrage condition:
+Prices _&#x70;_&#x2093;\*(_t_)\* and _&#x70;_&#x63;\*(_t_)\*, which share the same numeraire such as USD, satisfy the following no-arbitrage condition:
 
-![https://miro.medium.com/max/1400/1\*qHqjeSZsCNNm9MAoJju7xQ.png](https://miro.medium.com/max/1400/1\*qHqjeSZsCNNm9MAoJju7xQ.png)
+![https://miro.medium.com/max/1400/1\*qHqjeSZsCNNm9MAoJju7xQ.png](https://miro.medium.com/max/1400/1*qHqjeSZsCNNm9MAoJju7xQ.png)
 
-Denote the pool values as _v(t)=x(t)p_ₓ(t)+_y(t)pᵥ(t)._ Combining with a no-arbitrage condition, we can show that:
+Denote the pool values as _v(t)=x(t)&#x70;_&#x2093;(t)+_y(t)pᵥ(t)._ Combining with a no-arbitrage condition, we can show that:
 
-![https://miro.medium.com/max/1400/1\*S0o0Uy1ArP01mZEQUeX5sw.png](https://miro.medium.com/max/1400/1\*S0o0Uy1ArP01mZEQUeX5sw.png)
+![https://miro.medium.com/max/1400/1\*S0o0Uy1ArP01mZEQUeX5sw.png](https://miro.medium.com/max/1400/1*S0o0Uy1ArP01mZEQUeX5sw.png)
 
 This means that a pool’s weight represents the underlying asset value in proportion to the pool’s value.
 
-Lastly, GMMM is related to the generalized mean AMM employed in the Yield Token Pool by setting _w_ₓ(t)=_w_ᵧ(t)=0.5 because:
+Lastly, GMMM is related to the generalized mean AMM employed in the Yield Token Pool by setting _&#x77;_&#x2093;(t)=_&#x77;_&#x1D67;(t)=0.5 because:
 
-![https://miro.medium.com/max/1400/1\*lglIssQwvz2taKXnkT0H9A.png](https://miro.medium.com/max/1400/1\*lglIssQwvz2taKXnkT0H9A.png)
+![https://miro.medium.com/max/1400/1\*lglIssQwvz2taKXnkT0H9A.png](https://miro.medium.com/max/1400/1*lglIssQwvz2taKXnkT0H9A.png)
 
 ## **Rebalancing Set-up and Collateral Pool Valuation**
 
@@ -74,15 +74,15 @@ In conventional finance, rebalancing results in updated allocation of underlying
 
 Assume the loan is borrowed at time 0 and returned at time T. There are k-1 rebalancing events throughout the life time of the loan:
 
-![https://miro.medium.com/max/1232/1\*iH5-4FbUQ\_5gz2yUKqCF5A.png](https://miro.medium.com/max/1232/1\*iH5-4FbUQ\_5gz2yUKqCF5A.png)
+![https://miro.medium.com/max/1232/1\*iH5-4FbUQ\_5gz2yUKqCF5A.png](https://miro.medium.com/max/1232/1*iH5-4FbUQ_5gz2yUKqCF5A.png)
 
-At the start of the contract _t_₀=0, initially deposited risky asset is split into _x(t_₀) and _y(t_₀). The split may occur using any trading platform, including our in-house DEX.
+At the start of the contract _&#x74;_&#x2080;=0, initially deposited risky asset is split into _x(&#x74;_&#x2080;) and _y(&#x74;_&#x2080;). The split may occur using any trading platform, including our in-house DEX.
 
-At rebalancing time _t_ᵢ(\*i=1,2,\*⋯,_k_-1), price will deviate from the market as soon as weights are updated. Our system relies on arbitrageurs to align the price with the market by trading in the pool. This subsequently impacts token balances, the invariant constant, and portfolio value.
+At rebalancing time _&#x74;_&#x1D62;(\*i=1,2,\*⋯,_k_-1), price will deviate from the market as soon as weights are updated. Our system relies on arbitrageurs to align the price with the market by trading in the pool. This subsequently impacts token balances, the invariant constant, and portfolio value.
 
 The process is summarized below:
 
-![https://miro.medium.com/max/1400/1\*e6RykjNfAVbXIasML\_9tiQ.png](https://miro.medium.com/max/1400/1\*e6RykjNfAVbXIasML\_9tiQ.png)
+![https://miro.medium.com/max/1400/1\*e6RykjNfAVbXIasML\_9tiQ.png](https://miro.medium.com/max/1400/1*e6RykjNfAVbXIasML_9tiQ.png)
 
 ## **Dynamic Rebalancing**
 
@@ -90,21 +90,21 @@ ALEX’s rebalancing collateral pool is dynamic. It integrates the concept of as
 
 In the current version, a collateral pool’s allocation mechanism has close ties with option delta. Option delta measures the sensitivity of the option’s valuation to the underlying asset price movement. The delta of a call option ranges between 0 and 1 depending on an asset’s spot price and the option’s strike price, as shown in Figure 1. The higher the spot price, the larger the delta. Therefore, the more weight would be assigned to risky asset. When the strike price is set to be the same as asset spot price (at-the-money option), the delta is around 0.5. In ALEX’s design, this means holding an equal amount of the risky and of the riskless assets.
 
-[https://miro.medium.com/max/794/0\*mcJ5LmUNj\_xsGVm4](https://miro.medium.com/max/794/0\*mcJ5LmUNj\_xsGVm4)
+[https://miro.medium.com/max/794/0\*mcJ5LmUNj\_xsGVm4](https://miro.medium.com/max/794/0*mcJ5LmUNj_xsGVm4)
 
 In mathematical terms, option delta δ(t) is calculated from Black Scholes model as follows:
 
-![https://miro.medium.com/max/1400/1\*oWEaop1P3M0ytfDz72JQbQ.png](https://miro.medium.com/max/1400/1\*oWEaop1P3M0ytfDz72JQbQ.png)
+![https://miro.medium.com/max/1400/1\*oWEaop1P3M0ytfDz72JQbQ.png](https://miro.medium.com/max/1400/1*oWEaop1P3M0ytfDz72JQbQ.png)
 
 Ideally, the relative weights of the risky and riskless assets should be updated continuously to reflect spot price movements and delta changes. In practice, we are updating the weights periodically (e.g. daily). However as cryptoassets typically exhibit higher volatility than other asset classes, delta changes can be significantly different between time periods. Significant movements tend to imply considerable price deviations from the market after rebalancing. This leads to significant profits for arbitrageurs, but arbitrageurs’ gains are often a collateral pool losses. This is similar to impermanent loss. However, while impermanent loss is caused by token balances moving along an AMM curve, here it is caused by weight changes and the effort to preserve price.
 
-[https://miro.medium.com/max/940/0\*P-d-Fo0\_g7QIgqjS](https://miro.medium.com/max/940/0\*P-d-Fo0\_g7QIgqjS)
+[https://miro.medium.com/max/940/0\*P-d-Fo0\_g7QIgqjS](https://miro.medium.com/max/940/0*P-d-Fo0_g7QIgqjS)
 
-To mitigate the impact of weight changes, ALEX smooths the delta using an exponential moving average. At rebalancing time _t_ᵢ, the holding of a risky asset is calculated as
+To mitigate the impact of weight changes, ALEX smooths the delta using an exponential moving average. At rebalancing time _&#x74;_&#x1D62;, the holding of a risky asset is calculated as
 
-![https://miro.medium.com/max/882/1\*4IbQoNYoKw5SSvGgvUbpcA.png](https://miro.medium.com/max/882/1\*4IbQoNYoKw5SSvGgvUbpcA.png)
+![https://miro.medium.com/max/882/1\*4IbQoNYoKw5SSvGgvUbpcA.png](https://miro.medium.com/max/882/1*4IbQoNYoKw5SSvGgvUbpcA.png)
 
-where α is the smoothing factor. Allocation to the riskless asset is thus 1−_w_ₓ(_t_ᵢ). Figure 2 compares the risky asset weight and the option delta of a simulated bitcoin path over a three-month period.
+where α is the smoothing factor. Allocation to the riskless asset is thus 1−_&#x77;_&#x2093;(_&#x74;_&#x1D62;). Figure 2 compares the risky asset weight and the option delta of a simulated bitcoin path over a three-month period.
 
 In comparison with a collateral pool consisting of single asset, a collateral rebalancing pool could underperform when the market is risk-on and a risky asset exhibits strong upward price momentum. This is because holding a risky asset is a smoothed version of option delta, suggesting the asset’s weight hardly reaches 100%. However, when the market is tumbling and the risky asset depreciates, more weight is assigned to the riskless asset, reducing losses. This rebalancing slows down portfolio value depreciation. It also increases the chance of the loan staying afloat. Taken together, both these effects ensure robust performance with dynamic collateral pools across market conditions.
 
@@ -141,7 +141,7 @@ Most of the contents below are discussed in the main sections. Nonetheless, we l
 * **Rebalancing Frequency**: Theoretically, continuous rebalancing is preferred for price continuity. In practice, ALEX updates the weights periodically to avoid over-calibration.
 * **Smoothing Factor of Exponential Moving Average (EMA)**: EMA is an averaging method that places more weight on more recent observations. Assume y(t) is the observation value of y at time t, and that {y}(t) is the corresponding moving average, where α is the smoothing factor. Then:
 
-![https://miro.medium.com/max/706/1\*fHHgHEoR2HEb7EdnI8sokA.png](https://miro.medium.com/max/706/1\*fHHgHEoR2HEb7EdnI8sokA.png)
+![https://miro.medium.com/max/706/1\*fHHgHEoR2HEb7EdnI8sokA.png](https://miro.medium.com/max/706/1*fHHgHEoR2HEb7EdnI8sokA.png)
 
 ## **Flight to Quality**
 

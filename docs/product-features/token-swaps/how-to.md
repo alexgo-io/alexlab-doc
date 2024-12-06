@@ -1,9 +1,8 @@
 ---
-description: >-
-  This guide will showcase how to swap two tokens on ALEX Lab App.
+description: This guide will showcase how to swap two tokens on ALEX Lab App.
 ---
 
-# How to swap
+# 🧑‍🏫 How to swap
 
 When performing a token swap, you transfer an amount of the token you want to exchange (base token) to the ALEX smart contract. In return, you receive a pre-agreed amount of the desired token (target token) from the ALEX smart contract, all within a single swap transaction. The resulting balance changes will be reflected in your wallet.
 
@@ -15,19 +14,11 @@ That said, let's get hands-on!
 
 Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. You can also navigate to it by clicking the "Swap" tab on the top menu bar.
 
-<div>
-
-<figure><img src="../../.gitbook/assets/token-swaps/1-swap-panel.png" alt="" width="375"><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/token-swaps/1-swap-tab.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/token-swaps/1-swap-panel.png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/token-swaps/1-swap-tab.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Step 2
 
-Select the tokens you want to exchange and the amount.&#x20;
+Select the tokens you want to exchange and the amount.
 
 * The token at the top is the **base** token, the token you currently hold and want to exchange.
 * The token below is the **quoted** or **target** token, the token you will receive in the trade.
@@ -41,7 +32,7 @@ Select the tokens you want to exchange and the amount.&#x20;
 Clicking the "Max" button will automatically set the amount to your total available balance.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/token-swaps/2-select-token.png" alt="" width="375"><figcaption><p>Token search and selection panel. </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/token-swaps/2-select-token.png" alt="" width="375"><figcaption><p>Token search and selection panel.</p></figcaption></figure>
 
 ### Step 3
 
@@ -49,8 +40,8 @@ Clicking the "Max" button will automatically set the amount to your total availa
 
 Check the transaction details by clicking the dropdown "Details" arrow below the amounts. This will expand a Details panel with relevant trading information.
 
-* **Route:** The exchange route to convert from the base token into the target token. In the example we see STX -> ALEX, indicating it is a one-step or direct swap.&#x20;
-* **Liquidity Provider Fee:** The swap fee, which is shared between the Liquidity Providers (LPs) and the ALEX Lab Platform.&#x20;
+* **Route:** The exchange route to convert from the base token into the target token. In the example we see STX -> ALEX, indicating it is a one-step or direct swap.
+* **Liquidity Provider Fee:** The swap fee, which is shared between the Liquidity Providers (LPs) and the ALEX Lab Platform.
 * **Price Impact:** How much your swap affects the exchange rate.
 * **Slippage Tolerance:** The maximum percentage of price movement you'll accept between the time you submit the transaction and its execution. The default slippage tolerance setting is 4%, but you can select a custom percentage. If price movement exceeds the slippage tolerance, the transaction will be reverted.
 * **Minimum Received:** The minimum amount of target token you will receive considering the maximum slippage variation.
@@ -59,7 +50,7 @@ Check the transaction details by clicking the dropdown "Details" arrow below the
 
 #### Transaction Settings
 
-If you want to adjust slippage tolerance, select the "Settings" icon to open the Transaction Settings panel. Set your desired tolerance and click "Confirm". This will determine your allowed range for price movement. Your transaction will revert if the price changes unfavourably by more than this percentage.&#x20;
+If you want to adjust slippage tolerance, select the "Settings" icon to open the Transaction Settings panel. Set your desired tolerance and click "Confirm". This will determine your allowed range for price movement. Your transaction will revert if the price changes unfavourably by more than this percentage.
 
 <figure><img src="../../.gitbook/assets/token-swaps/3-tx-settings-icon.png" alt="" width="375"><figcaption><p>Transaction Settings icon.</p></figcaption></figure>
 
@@ -84,15 +75,7 @@ To be completely sure, you can check:
   * The amount the smart contract transfers to you (ALEX in the example) is subject to an "equal to or greater than" condition. This accounts the potential slippage variation, and here you can see the exact lower bound.
 {% endhint %}
 
-<div>
-
-<figure><img src="../../.gitbook/assets/token-swaps/5-swap-helper-post-con.png" alt="" width="375"><figcaption><p>Transfer amounts involved and post conditions.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/token-swaps/5-swap-helper-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/token-swaps/5-swap-helper-post-con.png" alt="" width="375"><figcaption><p>Transfer amounts involved and post conditions.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/token-swaps/5-swap-helper-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure></div>
 
 ### Step 6 <a href="#step-7" id="step-7"></a>
 
@@ -106,30 +89,12 @@ Recommended to track transaction status:
 * Check your address activity on the wallet.
 {% endhint %}
 
-<!-- Real tx: https://explorer.hiro.so/txid/0x4018603651b9fbed296a575b7eb7e08e12764e97faf7448a7862eccad26dfb35?chain=mainnet -->
+<div><figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-pending.png" alt="" width="345"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-success.png" alt="" width="350"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
 
-<div>
-
-<figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-pending.png" alt="" width="345"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-success.png" alt="" width="350"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../.gitbook/assets/token-swaps/6-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/token-swaps/6-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/token-swaps/6-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/token-swaps/6-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure></div>
 
 ### Step 7
 
-Once the transaction is completed, you will see the balance updated in your wallet.&#x20;
+Once the transaction is completed, you will see the balance updated in your wallet.
 
-Thank you for successfully swapping on ALEX! :arrows\_counterclockwise: :moneybag: :white\_check\_mark:&#x20;
+Thank you for successfully swapping on ALEX! :arrows\_counterclockwise: :moneybag: :white\_check\_mark:

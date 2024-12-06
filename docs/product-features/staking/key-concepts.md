@@ -1,3 +1,3 @@
-# Key concepts
+# 💡 Key concepts
 
 Comming soon.
