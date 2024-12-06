@@ -28,7 +28,7 @@ Welcome to the ALEX Launchpad — the best launchpad built on Bitcoin!
 
 ### What is the ALEX Launchpad?&#x20;
 
-The ALEX Launchpad is a community-based IDO integrated with [XLink](https://www.xlink.network/) to enable multichain support for projects to raise funds and launch their projects on up to 18 different networks.
+The ALEX Launchpad is a community-based IDO integrated with [XLink](https://www.xlink.network/) to enable multichain support for projects to raise funds and launch their projects on up to 18 different networks, including Bitcoin (BRC20, Runes), Stacks, Ethereum, BNB, Base, Core, Bsqure, BOB, Bitlayer, Merlin, AILayer, Mode, X Layer, Arbitrum, Aurora, Manta, Linea  and more to come.&#x20;
 
 <figure><img src="../../.gitbook/assets/Stacks_network (2).png" alt=""><figcaption></figcaption></figure>
 
