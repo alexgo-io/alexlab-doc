@@ -137,7 +137,7 @@ By launching on the ALEX you agree to the below terms:
    2. Note: Additional liquidity can be added by anyone after the launch.
 4. **Launchpad Fees:**&#x20;
    1. We charge a 0% service fee for listing
-   2. < 0.5% token supply for marketing budgets&#x20;
+   2. < 1.0% token supply for marketing budgets&#x20;
 
 Please review the above terms and reach out to the ALEX team with any questions or concerns by sending us a DM via our emails available in the[ Official Links](../../resources/official-links.md).
 
@@ -183,7 +183,7 @@ During or after the call, we'll confirm if you fully agree to the following IDO 
 * Raise a minimum of $100K.
 * Implement a buyback mechanism if the price falls below the IDO price within a week of launch.
 * Commit 10% of raised funds and 10% of total token supply for initial liquidity.
-* **Accept the fees terms:** 0 % service fee and <0.5% marketing budget of the token supply .
+* **Accept the fees terms:** 0 % service fee and <1.0% marketing budget of the token supply .
 
 By agreeing to these terms, you commit to fulfilling these obligations during and post-IDO.
 
