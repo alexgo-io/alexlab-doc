@@ -1,6 +1,6 @@
 # How to stake on ALEX
 
-Staking on ALEX takes a few easy steps. In short, it consists of locking up your tokens temporarily to help secure the ALEX network and gain rewards in return. In staking, time is measured in cycles, and at the end of each cycle, you will be able to harvest your rewards. 
+Staking on ALEX takes a few easy steps. In short, it consists of locking up your tokens temporarily to earn rewards. In staking, time is measured in cycles, and at the end of each cycle, you will be able to harvest your rewards. 
 
 This section explains how to stake your $ALEX manually. For liquid staking with LISA, please consult the [LISA Documentation](https://docs.lisalab.io/).
 
