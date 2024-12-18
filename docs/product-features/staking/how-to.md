@@ -1,5 +1,4 @@
-# How to stake on ALEX
-
+# 🧑‍🏫 How to stake
 Staking on ALEX takes a few easy steps. In short, it consists of locking up your tokens temporarily to earn rewards. In staking, time is measured in cycles, and at the end of each cycle, you will be able to harvest your rewards. 
 
 This section explains how to stake your $ALEX manually. For liquid staking with LISA, please consult the [LISA Documentation](https://docs.lisalab.io/).
@@ -142,7 +141,3 @@ Recommended to track transaction status:
 <figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-7-tg-tx-success.png" alt="" width="361"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure>
 
 </div>
-
-
-
-

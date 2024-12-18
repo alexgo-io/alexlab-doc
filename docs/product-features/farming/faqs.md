@@ -2,7 +2,7 @@
 description: Common questions you may have when dealing with farms.
 ---
 
-# FAQs
+# ❓ FAQs
 
 <details>
 
@@ -52,7 +52,7 @@ For example, if you want to farm for 12 cycles and choose to stake three times f
 
 You have several options for your rewards: you can hold them, trade them, or generate compound interest. Compound interest occurs when your rewards generate more rewards. Here are some ways to achieve this within the ALEX Lab Platform:
 
-* Stake the rewards on [ALEX Staking](../stake.md). You can even buy LiALEX for auto-compounding rewards, maximizing your long-term yield.
+* Stake the rewards on [ALEX Staking](../../../product-features/stake.md). You can even buy LiALEX for auto-compounding rewards, maximizing your long-term yield.
 * Provide liquidity to a pool to earn a share of the trading fees. To further enhance your yield, stake the LP tokens in a farm.
 
 </details>
@@ -63,7 +63,7 @@ You have several options for your rewards: you can hold them, trade them, or gen
 
 Reinvesting your rewards in the farm is an effective strategy to achieve compound interest, but it requires a few extra steps. To restake, you will need to transform your rewards into LP tokens first. There are two scenarios to consider.
 
-* **Case 1:** The reward token is one of the trading pair tokens.&#x20;
+* **Case 1:** The reward token is one of the trading pair tokens.
 * **Case 2:** The reward token is none of the trading pair tokens.
 
 Here are the steps to restake your farming rewards:
@@ -96,8 +96,6 @@ Full Medium post [here](https://medium.com/alexgobtc/what-is-alex-staking-power-
 <summary>What happens to my LP tokens when I stake them?</summary>
 
 When you stake your LP tokens in a yield farm, they are technically transferred from your wallet to the farming smart contract.
-
-<!-- Extended answer: When you stake your LP tokens in a yield farm, they are technically not in your possession anymore. During farming, LP tokens are locked in the ALEX smart contract. Although they belong to you and you are the only one authorized to withdraw them, they are not held in your wallet during the lock-up period. -->
 
 </details>
 

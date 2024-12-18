@@ -1,4 +1,4 @@
-# Key concepts
+# 💡 Key concepts
 
 ## Staking Basics
 

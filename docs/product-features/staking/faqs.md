@@ -1,4 +1,4 @@
-# FAQs
+# ❓ FAQs
 
 <details>
 
@@ -94,10 +94,3 @@ There is no maximum amount of APower an address can earn over a period of time. 
 LiALEX is the transferable utility token that allows you to maintain liquidity while staking your $ALEX. When you stake $ALEX through LISA, you mint LiALEX that allow you to participate in other DeFi activities, such as requesting stablecoin loans or investing them in farming pools. For more information, refer to the [LISA Documentation](https://docs.lisalab.io/)
 
 </details>
-
-<!--
-## What is the difference between APR and APY?
-
-How long should I stake my $ALEX for?
-
--->
