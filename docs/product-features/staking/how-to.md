@@ -58,7 +58,7 @@ You will be prompted to confirm that the selected settings are correct. Please v
 
 ### Step 5: Confirm Transaction on Your Wallet
 
-Your Stacks wallet will request your password and ask you to confirm the transaction. After that, wait for your transaction to be confirmed on the network.
+Your Stacks wallet will ask you to confirm the transaction. After that, wait for your transaction to be confirmed on the network.
 
 <figure><img src="../../.gitbook/assets/farming/stake-tokens-function-args.png" alt="" width="375"><figcaption><p>Wallet pop-up with function arguments and confirmation button.</p></figcaption></figure>
 
