@@ -32,7 +32,7 @@ Yes, farming rewards accumulate over time. It is not mandatory to harvest your r
 
 <summary>What is the cooldown period?</summary>
 
-The cooldown period refers to the time between when your LP tokens are staked into the farm and when a new farming cycle begins. Essentially, it is the remaining time (measured in Stacks blocks) of the current staking cycle. This implies that your staked tokens won't start generating rewards immediately but in next upcoming cycle. For more details, check the [Cycles and Cooldown Period](key-concepts.md#cycles-and-cooldown-period) section of the Key concepts page.
+The cooldown period refers to the time between when your LP tokens are staked into the farm and when a new farming cycle begins. Essentially, it is the remaining time (measured in Stacks blocks) of the current staking cycle. This implies that your staked tokens won't start generating rewards immediately, but in the next upcoming cycle. For more details, check the [Cycles and Cooldown Period](key-concepts.md#cycles-and-cooldown-period) section of the Key concepts page.
 
 </details>
 

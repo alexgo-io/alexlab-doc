@@ -12,7 +12,7 @@ description: >-
 
 ## 🚀 Getting Started
 
-### How it works?
+### How does it work?
 
 Self-Service Listing allows you to **create your own liquidity pool** on the ALEX DEX, enabling the **permissionless trade** of the **listed token** with an **anchor token** within the exchange. The anchor token is typically one with a stable value, providing a reliable reference point for defining the price of the newly listed token.
 
@@ -56,7 +56,7 @@ With that said, let's get hands-on!
 
 ## 🛠️ Procedure
 
-### Step 0: Go to Self-Service Listing page
+### Step 0: Go to the Self-Service Listing page
 
 Head to the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) at the ALEX Lab App. Alternatively, you can access it via the [app.alexlab.co](https://app.alexlab.co) homepage by navigating to the `Swap` -> `Pool` tab. Once on the Pool main page, hit the `+ Create` button and select the `Creating a new pool` option.
 
@@ -110,7 +110,9 @@ Once the pool opens, the AMM algorithm will automatically rebalance the exchange
 
 <summary>Step 1.4: Advanced pool settings (optional)</summary>
 
-This step is optional, as the default settings are usually sufficient. If you have questions to ask before customization, reach out via [Discord](https://discord.com/invite/alexlab) or [Telegram](https://t.me/AlexCommunity).
+This step is optional, as the default settings are usually sufficient.
+
+However, we recommend consulting the [ALEXGo Technical documentation](https://docs.alexgo.io/automated-market-making/trading-pool) before making customizations. If you have questions to ask before customization, reach out via [Discord](https://discord.com/invite/alexlab) or [Telegram](https://t.me/AlexCommunity).
 
 </details>
 
@@ -130,15 +132,29 @@ Recommended to track transaction status:
 
 </details>
 
-### Step 2: Contract creation
+### Step 2: Choose LP Lock & Burn Settings
 
-Once the transaction from Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
+After submitting the Self-Service Listing Pool, a pop-up will appear, allowing the creator to choose whether to lock or burn the initial LP tokens, or to leave the liquidity pool unlocked. By default, the Self-Service Listing Pool is set to be locked for 6 months, as it is the recommended option. Users are prompted to select one of three settings:
 
-### Step 3: Deposit listing token
+- **Do not lock LP 🔓**: There will be no lock-up period and the initial liquidity provider (the pool creator) will receive the corresponding LP tokens once the pool is live and operational. Since the pool is unlocked, the owner will be able to withdraw liquidity at any time. 
+
+- **LP is locked for 6 months 🔒** : This is the default option. It locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim upon maturity. When the period concludes, the pool owner can withdraw liquidity as any other provider. This prevents unexpected withdrawals and protects liquidity providers from rug pulls.
+
+- **Burn LP 🔥** : Permanently burns a portion of tokens, ensuring that they can never be recovered or withdrawn. Since the initial liquidity vanishes, this option protects future liquidity providers from rug pulls and enhances trust and transparency.
+
+<figure><img src="../.gitbook/assets/self-service-listing/lock-lp-1.png" alt="LP Lock Settings labels" width=""><figcaption></figcaption></figure>
+
+In case of locking or burning tokens, there will be a highlighted banner that displays the setting selected by the pool creator. This way, liquidity providers will know if the initial LP tokens have been locked or burnt, or if neither option has been applied.
+
+### Step 3: Contract creation
+
+Once the transaction you executed in Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
+
+### Step 4: Deposit listing token
 
 Once the `Contract ready ✅` checkbox is marked as done, you're ready to deposit the listing token balance. This step involves interacting with a smart contract, so be sure to review the transaction details, paying particular attention to the amount to transfer. By accepting this transaction, you agree to transfer the initial liquidity of the listing token from your wallet to the ALEX smart contract.
 
-### Step 4: Pool creation success
+### Step 5: Pool creation success
 
 Once the `Deposit Listing Token ✅` transaction is completed and the `Open pool ✅` checkbox is marked as done, your pool will be automatically ready for use. The new pool will appear as an ALEX Pool under the `Self Listed` tab on [app.alexlab.co/pool](https://app.alexlab.co/pool).
 
@@ -150,7 +166,7 @@ Once the `Deposit Listing Token ✅` transaction is completed and the `Open pool
 If you have added a custom `start-block` configuration, the pool will be unavailabe until that block is reached.
 {% endhint %}
 
-### Step 5: Provide additional token information (optional)
+### Step 6: Provide additional token information (optional)
 
 To make your token visible on the ALEX Token List at [app.alexlab.co/token-list](https://app.alexlab.co/token-list), provide additional token information. Click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice ](https://t.me/ALEXselfservice)to submit the information (e.g. X accont, Discord, official website).
 
@@ -158,4 +174,19 @@ To make your token visible on the ALEX Token List at [app.alexlab.co/token-list]
 
 ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
 
-Thanks for creating your pool on the ALEX DEX 🎉 📈
+Thanks for creating your pool on the ALEX DEX 🎉 📈 
+
+<!-- 
+Summarized Steps:
+
+1) User submits token information, balances and config params. Within this same transaction, transfers the anchor token balance.
+
+2) User selects LP Lock settings
+
+3) User waits for token confirmation from ALEX
+
+4) User deposits the listed token balance.
+
+5) Once this tx is confirmed, the pool is automatically created and available (if start-block is configured "On finalization").
+
+-->
