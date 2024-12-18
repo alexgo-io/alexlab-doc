@@ -1,3 +1,3 @@
-# How to stake on ALEX
+# 🧑‍🏫 How to stake
 
 Comming soon.

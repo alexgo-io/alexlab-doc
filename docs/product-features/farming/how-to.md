@@ -4,7 +4,7 @@ description: >-
   rewards and remove LP tokens from the farm.
 ---
 
-# How to farm & harvest
+# 🧑‍🏫 How to farm & harvest
 
 Yield farming takes a few easy steps to get set up. It works very similar to standard staking, with the key difference being that the tokens you stake are LP tokens. As with traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each cycle (except for the first cooldown one), you will have rewards available to harvest.
 
@@ -27,22 +27,22 @@ Before proceeding, choose a farm that aligns with your goals. Go to [https://app
 
 <figure><img src="../../.gitbook/assets/farming/farm-tab.png" alt="" width="563"><figcaption></figcaption></figure>
 
-You'll see a list of all the available farms along with key information. You can sort the farms by various metrics and scroll to explore different reward tokens offered.&#x20;
+You'll see a list of all the available farms along with key information. You can sort the farms by various metrics and scroll to explore different reward tokens offered.
 
 <figure><img src="../../.gitbook/assets/farming/farm-list.png" alt=""><figcaption></figcaption></figure>
 
 #### Farm Basics
 
-* **Trading Pair:** The specific LP token the farm accepts.&#x20;
+* **Trading Pair:** The specific LP token the farm accepts.
 * **Reward:** The earnings you obtain when harvesting the farm.
 
 #### Farm Metrics
 
 * **Liquidity:** The total USD value of the staked tokens in the farm.
 * **Farm APR:** Potential annual earnings from farming, based on the most recent cycle yields. This metric represents the potential profitability of participating in a farm over a year, assuming the total staked tokens remain similar to the last cycle.
-* **Fee Rebate:** Potential annual earnings from providing liquidity. Also known as Pool APR, it reflects the potential profitability of participating in a liquidity pool over a year, assuming similar trading activity continues. This value matches the one displayed on the ALEX Lab [Pool list](https://app.alexlab.co/pool).&#x20;
+* **Fee Rebate:** Potential annual earnings from providing liquidity. Also known as Pool APR, it reflects the potential profitability of participating in a liquidity pool over a year, assuming similar trading activity continues. This value matches the one displayed on the ALEX Lab [Pool list](https://app.alexlab.co/pool).
 
-Once you find a farm that fits your goals, note the **Trading Pair** (e.g., STX-aBTC)  as you will need it in the next step.
+Once you find a farm that fits your goals, note the **Trading Pair** (e.g., STX-aBTC) as you will need it in the next step.
 
 ### Providing liquidity to get LP tokens
 
@@ -50,10 +50,10 @@ Now that you've chosen a farm to stake in, you'll need LP tokens, which are obta
 
 1. Click on the Pool tab in the top navigation bar.
 
-<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
-2. Find the pool that matches the **Trading Pair** you noted before. This is the liquidity pool linked to the farm you've selected.&#x20;
-3. Click on the pool. This will open the pool control panel, where you can add liquidity.&#x20;
+2. Find the pool that matches the **Trading Pair** you noted before. This is the liquidity pool linked to the farm you've selected.
+3. Click on the pool. This will open the pool control panel, where you can add liquidity.
 
 We have a [Guide to Adding Liquidity](../liquidity-pools/how-to.md#adding-liquidity) that you can follow to obtain LP tokens.
 
@@ -63,7 +63,7 @@ If you have LP tokens, you're ready to start staking them in a farm and earning 
 
 ### Step 1
 
-Go to the [Farms page](https://app.alexlab.co/farm) and locate your farm of interest. You can access it by navigating to [https://app.alexlab.co/](https://app.alexlab.co/) and selecting the Earn -> Farm tab.&#x20;
+Go to the [Farms page](https://app.alexlab.co/farm) and locate your farm of interest. You can access it by navigating to [https://app.alexlab.co/](https://app.alexlab.co/) and selecting the Earn -> Farm tab.
 
 At the top of the farm list, you'll see the farms suggested by the ALEX Lab Platform based on your LP tokens balance. In the example below, the suggested farm is STX-ALEX. This indicated that the user has provided liquidity in the STX-ALEX pool and has LP tokens available for farming.
 
@@ -81,9 +81,9 @@ When hovering over a farm, you may notice a "+ Stake LP" button. This serves as 
 
 ### Step 3
 
-Once you have selected the farm, enter the amount of LP tokens you would like to stake, or click "Max" to use all available LP Tokens.&#x20;
+Once you have selected the farm, enter the amount of LP tokens you would like to stake, or click "Max" to use all available LP Tokens.
 
-Next, choose the number of reward cycles you want to lock your tokens into the farm. Each cycle is approximately 3.5 days. 
+Next, choose the number of reward cycles you want to lock your tokens into the farm. Each cycle is approximately 3.5 days.
 
 <figure><img src="../../.gitbook/assets/farming/add-lp-staking.png" alt="" width="375"><figcaption><p>Example with an amount of LP tokens to stake for 32 cycles.</p></figcaption></figure>
 
@@ -107,7 +107,7 @@ At this point, your Stacks wallet is interacting with ALEX smart contract and is
 To be completely sure, you can check:
 
 * Transaction is requested by **"Alex app" (app.alexlab.co)**
-* The amounts you will transfer to the smart contract, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions).&#x20;
+* The amounts you will transfer to the smart contract, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions).
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/farming/stake-tokens-function-args.png" alt="" width="375"><figcaption><p>Wallet pop-up with function arguments and confirmation button.</p></figcaption></figure>
@@ -121,32 +121,14 @@ Wait for the transaction to be confirmed on the network.
 {% hint style="info" %}
 Recommended to track transaction status:
 
-* Turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot), you will get notified when the transaction is confirmed.
+* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.
 * Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 * Check your address activity on the wallet.
 {% endhint %}
 
-<!-- Real tx: https://explorer.hiro.so/txid/0x0445e0ce8a1872e0aea18971e421fcc137048f91473ddbdf931c0660d5ed087c?chain=mainnet -->
+<div><figure><img src="../../.gitbook/assets/farming/tg-tx-pending.png" alt="" width="352"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/farming/tg-tx-success.png" alt="" width="358"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
 
-<div>
-
-<figure><img src="../../.gitbook/assets/farming/tg-tx-pending.png" alt="" width="352"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/farming/tg-tx-success.png" alt="" width="358"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../../.gitbook/assets/farming/leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/farming/leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed.</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/farming/leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/farming/leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed.</p></figcaption></figure></div>
 
 ### Step 7
 
@@ -168,11 +150,11 @@ Farming will earn you rewards over time.
 
 At the end of every staking cycle (525 blocks, approximately 3.5 days), rewards will be available to harvest. To claim your rewards, follow these steps:
 
-1. Go to the [Farms page](https://app.alexlab.co/farm) on ALEX Lab App, which you can access through the Earn -> Farm tab.&#x20;
+1. Go to the [Farms page](https://app.alexlab.co/farm) on ALEX Lab App, which you can access through the Earn -> Farm tab.
 2. You will find the **My Farms** panel which your active farms. Click on the farm you want to harvest, either from the panel or from the farm list.
 3. Expand the **My Farming** dashboard. If a cycle has ended, you will see rewards available to claim.
 4. Click on the "Harvest All" button and confirm the transaction on your wallet (just as you did in the previous guides).
-5. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
+5. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 6. Once the transaction is completed, the reward amounts will be reflected in your wallet balance. You can always check your balance also on the ALEX Lab App, located beside the "Wallet Manager" at the top menu bar.
 
 You can collect these rewards and use them for various purposes on the ALEX Lab Platform. For example, you can [stake](https://app.alexlab.co/stake) your $ALEX rewards manually to generate compounding interest. You can also use your APower rewards to increase your access to IDOs on the [ALEX Launchpad](https://app.alexlab.co/launchpad). You can even obtain more LP tokens!
@@ -181,7 +163,7 @@ You can collect these rewards and use them for various purposes on the ALEX Lab 
 
 To maximize your returns, it is best to harvest your rewards at the end of every cycle. This way, you have them available to generate more rewards! 🤩
 
-For example, you can manually stake your \$ALEX rewards to generate compounding interest. If your rewards are another token, you can still [swap](https://app.alexlab.co/swap) and convert them to \$ALEX. Another option would be to use your rewards to buy more LP tokens and benefit from being a [liquidity provider](../liquidity-pools/README.md).
+For example, you can manually stake your $ALEX rewards to generate compounding interest. If your rewards are another token, you can still [swap](https://app.alexlab.co/swap) and convert them to $ALEX. Another option would be to use your rewards to buy more LP tokens and benefit from being a [liquidity provider](../liquidity-pools/).
 
 Happy Farming! 🥕 🥬 🍅
 
@@ -189,7 +171,7 @@ Happy Farming! 🥕 🥬 🍅
 
 Withdrawing you LP tokens takes just a few steps. The important thing is when to do it.
 
-When farming, you are committed to locking up your tokens for a predefined period (reward cycles, each cycle contains 525 Stacks blocks, an estimation of ~3.5 days per cycle). Once these cycles conclude, you will be able to unstake them and regain control over your LP tokens.
+When farming, you are committed to locking up your tokens for a predefined period (reward cycles, each cycle contains 525 Stacks blocks, an estimation of \~3.5 days per cycle). Once these cycles conclude, you will be able to unstake them and regain control over your LP tokens.
 
 If you staked multiple times at different moments, the lock periods apply to each amount separately.
 
@@ -200,7 +182,7 @@ Let's go through it step-by-step:
 3. Find the farm from which you want to withdraw LP tokens and click on it.
 4. Your LP tokens will automatically be available for withdrawal when your committed cycles end. You will find them under the **LP to claim** title on the dashboard.
 5. Click on the "Harvest All" button and confirm the transaction in your wallet (just as you did in the previous guides). This will return your LP tokens back to your possession and automatically collect any unharvested rewards.
-6. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
+6. Wait for the transaction to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 7. Once the transaction is completed, you will see the changes reflected in your wallet balance and on the platform panels. In particular, you will see your LP token balance on the [Pool page](https://app.alexlab.co/pool) in the **My Liquidity** panel or by selecting the pool from the list. You can also check your balance on the ALEX Lab App, located beside the Wallet Manager at the top menu bar.
 
 If you want to farm your LP tokens again, remember: your staked amount will start generating yield from the next upcoming cycle. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to the cooldown period.

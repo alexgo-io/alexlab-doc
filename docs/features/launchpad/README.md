@@ -4,4 +4,4 @@ Our launchpad is where emerging projects on Stacks are connected with our core c
 
 If you are a project wishing to apply to our launchpad, please start by clicking [here](https://blocksurvey.io/survey/t/ae87cacb-d736-456d-a3b4-7e404e184ae8/r/l).
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
