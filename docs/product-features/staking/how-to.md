@@ -78,7 +78,7 @@ Recommended to track transaction status:
 * Check your address activity on the wallet.
 {% endhint %} 
 
-## :moneybag: Harvesting Your Staking Rewards (Manual Staking)
+## :moneybag: Harvesting Rewards (Manual Staking)
 
 Once your first staking cycle ends, you will be able to start harvesting your rewards. This section explains how to transfer your rewards to your wallet. To proceed to Liquid Staking with LiALEX, refer to the [Auto-Stake section](how-to.md#auto-stake-liquid-staking).
 
