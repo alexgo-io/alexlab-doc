@@ -1,4 +1,4 @@
-# How to stake on ALEX
+# How to Stake on ALEX
 
 Staking on ALEX requires a few easy steps. In short, it consists of locking up your tokens temporarily to earn rewards. In staking, time is measured in cycles, and at the end of each cycle, you will be able to harvest your rewards. At that point, you may choose to transfer rewards to your wallet or to proceed to Liquid Staking with LiALEX.
 
