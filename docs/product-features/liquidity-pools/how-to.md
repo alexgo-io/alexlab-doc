@@ -34,7 +34,7 @@ Select the token pair to which you want to add liquidity from the displayed list
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-2-select-pool.png" alt=""><figcaption><p>Selected STX-ALEX liquidity pool as example.</p></figcaption></figure>
 
 {% hint style="warning" %}
-When hovering over a pool, you might notice a `+LP` button. This serves as a visual indicator for the selected pool. Clicking it will take you to the same screen as clicking anywhere on the pool's row.
+When hovering over a pool, you might notice a +LP button. This serves as a visual indicator for the selected pool. Clicking it will take you to the same screen as clicking anywhere on the pool's row.
 {% endhint %}
 
 ### Step 3: Add Liquidity
@@ -61,7 +61,7 @@ If you want to adjust slippage, select the `Settings` icon to open the Transacti
 
 ### Step 5: Confirm Add Liquidity
 
-One you decide the amount, click the `Add` button. Confirmation panel will appear. Here you can double check balances, slippage and LP tokens. If everything it's okay, click `Confirm` :sunglasses:
+One you decide the amount, click the `Add` button. A  confirmation panel will appear. Here, you can double check balances, slippage and LP tokens. If everything is okay, click `Confirm` :sunglasses:
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-5-confirm-add-liquidity.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -72,7 +72,7 @@ After clicking `Confirm`, you will need to confirm the transaction in your walle
 {% hint style="info" %}
 To be completely sure, you can check:
 
-* Transaction is requested by **"ALEX app" (app.alexlab.co)**
+* Transaction is requested by **"Alex app" (app.alexlab.co)**
 * The amounts you will transfer to the smart contract, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions). Note that one transfer amount is exactly determined (STX in the example) while the other is subject to a "less than or equal to" condition. This accounts the potential slippage variation, and here you can see the exact upper bound. If these conditions are not met, the transaction will abort.
 {% endhint %}
 
@@ -124,7 +124,7 @@ Recommended to track transaction status:
 
 ### Step 8: View Added LP Tokens
 
-After successfully adding liquidity, you will be able to see your LP tokens and related details in "My Liquidity" panel.
+After successfully adding liquidity, you will be able to see your LP tokens and related details in **My Liquidity** panel.
 
 * **My LP** are your LP token holdings specific to the pool you contributed to. Each pool issues its own unique LP tokens.
 * The **Pooled** amount represents your total token holdings in the liquidity pool. Initially, reflects the amount you added and it increases over time due to accrued fees, showing your updated share of the pool's total liquidity.
@@ -134,7 +134,7 @@ After successfully adding liquidity, you will be able to see your LP tokens and 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-8-my-liquidity.png" alt=""><figcaption><p>"My Liquidity" panel.</p></figcaption></figure>
 
 {% hint style="info" %}
-You can find the **My Liquidity** panel above the Liquidity Pool control panel (shown in Step 3). A summarized version is also available under the `Swap` -> `Pool` tab or at https://app.alexlab.co/pool.
+You can find the "My Liquidity" panel above the Liquidity Pool control panel (shown in Step 3). A summarized version is also available under the `Swap` -> `Pool` tab or at https://app.alexlab.co/pool.
 {% endhint %}
 
 ## :palm\_down\_hand: :moneybag: Removing liquidity

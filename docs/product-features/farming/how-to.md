@@ -50,7 +50,7 @@ Now that you've chosen a farm to stake in, you'll need LP tokens, which are obta
 
 1. Click on the `Pool` tab in the top navigation bar.
 
-<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
 2. Find the pool that matches the **Trading Pair** you noted before. This is the liquidity pool linked to the farm you've selected.&#x20;
 3. Click on the pool. This will open the pool control panel, where you can add liquidity.&#x20;
@@ -93,7 +93,7 @@ Your staked amount will start generating yield from the next upcoming cycle, as 
 
 ### Step 4: Confirm Stake
 
-Once you have entered the amount, click the "Stake" button. Confirmation panel will appear. Here you can double check amount and reward cycles. If everything looks okay, click `Confirm` 😎
+Once you have entered the amount, click the `Stake` button. Confirmation panel will appear. Here you can double check amount and reward cycles. If everything looks okay, click `Confirm` 😎
 
 <figure><img src="../../.gitbook/assets/farming/confirm-staking-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -106,7 +106,7 @@ At this point, your Stacks wallet is interacting with the ALEX smart contract an
 {% hint style="info" %}
 To be completely sure, you can check:
 
-* Transaction is requested by **"ALEX app" (app.alexlab.co)**
+* Transaction is requested by **"Alex app" (app.alexlab.co)**
 * The amounts you will transfer to the smart contract, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions).&#x20;
 {% endhint %}
 
@@ -156,7 +156,7 @@ After successfully staking your LP tokens in a farm, you will be able to see you
 
 By clicking on a farm, you will access the **My Farming** dashboard for that specific farm, which includes detailed metrics. On the right side of the dashborad, you will see that the current cycle has no earnings and no farming tokens. The reason you can't join the current reward cycle is that it had already started prior to your participation. However, once you successfully stake your LP into the farm, it gets registered for the next cycle. This assures you a proportional share of the farm rewards based on the number of LP tokens you have staked. This is why it's convenient to stake for long periods: every time you stake, you must wait for the current cycle to end before you start generating rewards in the next cycle.
 
-For more info on the "My Farming" dashboard and metrics, we recommend reading the [Key concepts](key-concepts.md) page.
+For more info on the **My Farming** dashboard and metrics, we recommend reading the [Key concepts](key-concepts.md) page.
 
 <figure><img src="../../.gitbook/assets/farming/my-farming.png" alt=""><figcaption><p>Example of the "My Farming" dashboard for the STX-ALEX farm. The user has just staked, so it is in the cooldown period.</p></figcaption></figure>
 

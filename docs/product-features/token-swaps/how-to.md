@@ -13,7 +13,7 @@ That said, let's get hands-on!
 
 ### Step 1: Go to the Swap Panel
 
-Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. You can also navigate to it by clicking the "Swap" tab on the top menu bar.
+Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. You can also navigate to it by clicking the `Swap` tab on the top menu bar.
 
 <div>
 
@@ -38,7 +38,7 @@ Select the tokens you want to exchange and the amount.&#x20;
 <figure><img src="../../.gitbook/assets/token-swaps/2-enter-amount.png" alt="" width="375"><figcaption><p>Example of the Swap panel displaying exchange of 5 STX into ALEX governance tokens.</p></figcaption></figure>
 
 {% hint style="warning" %}
-Clicking the "Max" button will automatically set the amount to your total available balance.
+Clicking the `Max` button will automatically set the amount to your total available balance.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/token-swaps/2-select-token.png" alt="" width="375"><figcaption><p>Token search and selection panel. </p></figcaption></figure>
@@ -47,7 +47,7 @@ Clicking the "Max" button will automatically set the amount to your total availa
 
 #### Transaction Details
 
-Check the transaction details by clicking the dropdown "Details" arrow below the amounts. This will expand a Details panel with relevant trading information.
+Check the transaction details by clicking the dropdown `Details` arrow below the amounts. This will expand a Details panel with relevant trading information.
 
 * **Route:** The exchange route to convert from the base token into the target token. In the example we see STX -> ALEX, indicating it is a one-step or direct swap.&#x20;
 * **Liquidity Provider Fee:** The swap fee, which is shared between the Liquidity Providers (LPs) and the ALEX Lab Platform.&#x20;
@@ -78,7 +78,7 @@ After clicking `Confirm`, you will need to confirm the transaction in your walle
 {% hint style="info" %}
 To be completely sure, you can check:
 
-* The transaction is requested by **"ALEX app" (app.alexlab.co)**
+* The transaction is requested by **"Alex app" (app.alexlab.co)**
 * The transfer amounts, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions). If these conditions are not met, the transaction will abort. Note:
   * The amount you transfer to the smart contract is exactly determined (STX in the example).
   * The amount the smart contract transfers to you ($ALEX in the example) is subject to an "equal to or greater than" condition. This accounts the potential slippage variation, and here you can see the exact lower bound.
