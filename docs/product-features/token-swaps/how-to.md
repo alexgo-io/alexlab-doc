@@ -33,7 +33,7 @@ Select the tokens you want to exchange and the amount.&#x20;
 * The token below is the **quoted** or **target** token, the token you will receive in the trade.
 * The dropdown arrow next to the token symbol will open the **token search** and **selection panel**.
 * Below the amounts, you will find the current **exchange rate**, as well as the USD equivalent.
-* The central down-pointing arrow shows the **direction of the transaction**. In the below example, STX will be exchanged for ALEX. By clicking the arrow, you can quickly **invert** the order of the transaction: the base token becomes the quoted token and vice versa.
+* The central down-pointing arrow shows the **direction of the transaction**. In the below example, STX will be exchanged for $ALEX. By clicking the arrow, you can quickly **invert** the order of the transaction: the base token becomes the quoted token and vice versa.
 
 <figure><img src="../../.gitbook/assets/token-swaps/2-enter-amount.png" alt="" width="375"><figcaption><p>Example of the Swap panel displaying exchange of 5 STX into ALEX governance tokens.</p></figcaption></figure>
 
@@ -78,10 +78,10 @@ After clicking "Confirm", you will need to confirm the transaction in your walle
 {% hint style="info" %}
 To be completely sure, you can check:
 
-* The transaction is requested by **"Alex app" (app.alexlab.co)**
+* The transaction is requested by **"ALEX app" (app.alexlab.co)**
 * The transfer amounts, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions). If these conditions are not met, the transaction will abort. Note:
   * The amount you transfer to the smart contract is exactly determined (STX in the example).
-  * The amount the smart contract transfers to you (ALEX in the example) is subject to an "equal to or greater than" condition. This accounts the potential slippage variation, and here you can see the exact lower bound.
+  * The amount the smart contract transfers to you ($ALEX in the example) is subject to an "equal to or greater than" condition. This accounts the potential slippage variation, and here you can see the exact lower bound.
 {% endhint %}
 
 <div>

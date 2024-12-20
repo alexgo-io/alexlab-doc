@@ -72,7 +72,7 @@ After clicking "Confirm", you will need to confirm the transaction in your walle
 {% hint style="info" %}
 To be completely sure, you can check:
 
-* Transaction is requested by **"Alex app" (app.alexlab.co)**
+* Transaction is requested by **"ALEX app" (app.alexlab.co)**
 * The amounts you will transfer to the smart contract, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions). Note that one transfer amount is exactly determined (STX in the example) while the other is subject to a "less than or equal to" condition. This accounts the potential slippage variation, and here you can see the exact upper bound. If these conditions are not met, the transaction will abort.
 {% endhint %}
 

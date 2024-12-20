@@ -1,5 +1,5 @@
 ---
-description: This is how you stake ALEX with manual staking
+description: This is how you stake $ALEX with manual staking
 ---
 
 # How to Use Manual (Customized) Staking
@@ -9,7 +9,7 @@ description: This is how you stake ALEX with manual staking
 1. Go to the “Stake” page [here](https://app.alexlab.co/stake)
 2. Connect to your Stacks-compatible wallet by clicking the **Connect** button (top right-hand side).
 3. Go to the Staking panel section and turn on the “Customize” switch.
-4. Enter the amount of ALEX you wish to stake as well as select the number of staking cycles you’ll lock up your ALEX for.
+4. Enter the amount of $ALEX you wish to stake as well as select the number of staking cycles you’ll lock up your $ALEX for.
 5. Selecting the down arrow will show staking details such as:
 
 * Cycle numbers: how many staking cycles you are committing to

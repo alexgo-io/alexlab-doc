@@ -126,7 +126,7 @@ Native STX token, ALEX token and aBTC token.
 
 <summary>Is there a minimum liquidity amount for the anchor token?</summary>
 
-Yes. Initial liquidity of the anchor token must be a minimum of 1,800 STX or the equivalent value in ALEX or aBTC tokens.
+Yes. Initial liquidity of the anchor token must be a minimum of 1,800 STX or the equivalent value in $ALEX or aBTC tokens.
 
 </details>
 

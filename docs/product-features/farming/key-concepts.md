@@ -76,7 +76,7 @@ Where
 
 Once you have staked LP tokens into a farm, it's important to familiarize yourself with this dashboard. You can access it by clicking on a farm from the [ALEX Lab Farms page](https://app.alexlab.co/farm). Let's walk through all the farming metrics.
 
-<figure><img src="../../.gitbook/assets/farming/my-farming-dashboard-example.png" alt=""><figcaption><p>My Farming dashboard example for ALEX - LiALEX farm. This user has accumulated rewards from previous cycles that are available to claim. Also, there are no LP tokens that have completed their staking period and are ready for withdrawal (LP to claim).</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/farming/my-farming-dashboard-example.png" alt=""><figcaption><p>My Farming dashboard example for $ALEX - LiALEX farm. This user has accumulated rewards from previous cycles that are available to claim. Also, there are no LP tokens that have completed their staking period and are ready for withdrawal (LP to claim).</p></figcaption></figure>
 
 ### Active Farming LP
 
