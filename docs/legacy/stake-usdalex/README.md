@@ -17,7 +17,7 @@ Both auto-staking and manual staking receive rewards at the end of every cycle (
 
 The difference is Auto-staking is done through atALEX which automatically harvests and re-stakes your rewards, generating passive compound interest. For more information please see “[AutoALEX: The Power of Compound Interest](https://medium.com/alexgobtc/autoalex-the-power-of-compound-interest-eedb2b8535c5).”
 
-With manual staking, to generate compound interest, you must first harvest then re-stake your rewards. We have, however, created an “Auto Stake” function that will re-stake manual rewards into AutoALEX in a single transaction.
+With manual staking, to generate compound interest, you must first harvest then re-stake your rewards. We have, however, created an **Auto Stake** function that will re-stake manual rewards into AutoALEX in a single transaction.
 
 ![](https://miro.medium.com/max/1400/1\*KykQ83013jwS9KiiV\_cayw.png)
 
@@ -38,6 +38,6 @@ Stake your ALEX and manually harvest the reward after every cycle. The $ALEX sta
 
 * ✅The longer you stake, the fewer (cool down) cycles you will have, which produces a greater average APR.
 * ✅You must harvest rewards after every cycle, otherwise the rewards will just accumulate with no interest earned.
-* ✅“Auto Stake” now allows you to convert your cycle rewards into atALEX in a single transaction.
+* ✅**Auto Stake** now allows you to convert your cycle rewards into atALEX in a single transaction.
 * ❌ Liquidity: Manually staked $ALEX is locked up until the end of the rewards cycles.
 * ❌ Capital Efficiency: Manually staked $ALEX can not be used as collateral.

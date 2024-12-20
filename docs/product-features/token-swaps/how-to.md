@@ -59,7 +59,7 @@ Check the transaction details by clicking the dropdown "Details" arrow below the
 
 #### Transaction Settings
 
-If you want to adjust slippage tolerance, select the "Settings" icon to open the Transaction Settings panel. Set your desired tolerance and click "Confirm". This will determine your allowed range for price movement. Your transaction will revert if the price changes unfavourably by more than this percentage.&#x20;
+If you want to adjust slippage tolerance, select the `Settings` icon to open the Transaction Settings panel. Set your desired tolerance and click `Confirm`. This will determine your allowed range for price movement. Your transaction will revert if the price changes unfavourably by more than this percentage.&#x20;
 
 <figure><img src="../../.gitbook/assets/token-swaps/3-tx-settings-icon.png" alt="" width="375"><figcaption><p>Transaction Settings icon.</p></figcaption></figure>
 
@@ -67,13 +67,13 @@ If you want to adjust slippage tolerance, select the "Settings" icon to open the
 
 ### Step 4: Confirm Swap
 
-Once you're ready to move ahead, select the "Swap" button which will bring up the Confirmation panel. This panel provides a final overview of your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click "Confirm" 😎.
+Once you're ready to move ahead, select the `Swap` button which will bring up the Confirmation panel. This panel provides a final overview of your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click `Confirm` 😎.
 
 <figure><img src="../../.gitbook/assets/token-swaps/4-confirmation-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Step 5: Confirm Transaction
 
-After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
+After clicking `Confirm`, you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
 {% hint style="info" %}
 To be completely sure, you can check:

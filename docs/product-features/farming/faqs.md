@@ -105,7 +105,7 @@ When you stake your LP tokens in a yield farm, they are technically transferred 
 
 <summary>Why can't I see my LP tokens in the My Liquidity panel?</summary>
 
-Since LP tokens are held by the ALEX smart contract during farming, you must first unstake them from the farm for them to appear in the **My Liquidity** panel. To access this panel, navigate to the **Swap** > **Pool** tab. Once you select the desired pool from the list, it will appear just above the **Pool Info** panel.
+Since LP tokens are held by the ALEX smart contract during farming, you must first unstake them from the farm for them to appear in the **My Liquidity** panel. To access this panel, navigate to the `Swap` > `Pool` tab. Once you select the desired pool from the list, it will appear just above the **Pool Info** panel.
 
 </details>
 

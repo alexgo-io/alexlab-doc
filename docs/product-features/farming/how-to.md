@@ -23,7 +23,7 @@ With this information in mind, choose the guide that best fits your needs.
 
 ### Finding Your Farm
 
-Before proceeding, choose a farm that aligns with your goals. Go to [https://app.alexlab.co/](https://app.alexlab.co/) and navigate to the Earn -> Farm tab.
+Before proceeding, choose a farm that aligns with your goals. Go to [https://app.alexlab.co/](https://app.alexlab.co/) and navigate to the `Earn` -> `Farm` tab.
 
 <figure><img src="../../.gitbook/assets/farming/farm-tab.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -48,7 +48,7 @@ Once you find a farm that fits your goals, note the **Trading Pair** (e.g., STX-
 
 Now that you've chosen a farm to stake in, you'll need LP tokens, which are obtained by adding liquidity to a pool.
 
-1. Click on the Pool tab in the top navigation bar.
+1. Click on the `Pool` tab in the top navigation bar.
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@ If you have LP tokens, you're ready to start staking them in a farm and earning 
 
 ### Step 1: Go to the Farms Page
 
-Go to the [Farms page](https://app.alexlab.co/farm) and locate your farm of interest. You can access it by navigating to [https://app.alexlab.co/](https://app.alexlab.co/) and selecting the Earn -> Farm tab.&#x20;
+Go to the [Farms page](https://app.alexlab.co/farm) and locate your farm of interest. You can access it by navigating to [https://app.alexlab.co/](https://app.alexlab.co/) and selecting the `Earn` -> `Farm` tab.&#x20;
 
 At the top of the farm list, you'll see the farms suggested by the ALEX Lab Platform based on your LP tokens balance. In the example below, the suggested farm is STX-ALEX. This indicated that the user has provided liquidity in the STX-ALEX pool and has LP tokens available for farming.
 
@@ -76,12 +76,12 @@ Select the farm you want to stake in from the farm list.
 <figure><img src="../../.gitbook/assets/farming/select-farm.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-When hovering over a farm, you may notice a "+ Stake LP" button. This serves as a visual indicator for the selected farm. Clicking it will take you to the same screen as clicking anywhere on the farm's row.
+When hovering over a farm, you may notice a `+ Stake LP` button. This serves as a visual indicator for the selected farm. Clicking it will take you to the same screen as clicking anywhere on the farm's row.
 {% endhint %}
 
 ### Step 3: Farming Settings
 
-Once you have selected the farm, enter the amount of LP tokens you would like to stake, or click "Max" to use all available LP Tokens.&#x20;
+Once you have selected the farm, enter the amount of LP tokens you would like to stake, or click `Max` to use all available LP Tokens.&#x20;
 
 Next, choose the number of reward cycles you want to lock your tokens into the farm. Each cycle is approximately 3.5 days. 
 
@@ -93,13 +93,13 @@ Your staked amount will start generating yield from the next upcoming cycle, as 
 
 ### Step 4: Confirm Stake
 
-Once you have entered the amount, click the "Stake" button. Confirmation panel will appear. Here you can double check amount and reward cycles. If everything looks okay, click "Confirm" 😎
+Once you have entered the amount, click the "Stake" button. Confirmation panel will appear. Here you can double check amount and reward cycles. If everything looks okay, click `Confirm` 😎
 
 <figure><img src="../../.gitbook/assets/farming/confirm-staking-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Step 5: Confirm Transaction
 
-After clicking "Confirm", you will need to confirm the transaction in your wallet. Remember that farming locks up LP tokens in a smart contract for the selected number of reward cycles.
+After clicking `Confirm`, you will need to confirm the transaction in your wallet. Remember that farming locks up LP tokens in a smart contract for the selected number of reward cycles.
 
 At this point, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
@@ -150,11 +150,11 @@ Recommended to track transaction status:
 
 ### Step 7: View Active Farms
 
-After successfully staking your LP tokens in a farm, you will be able to see your active farms in the "My Farms" panel on the main [Farms page](https://app.alexlab.co/farm).
+After successfully staking your LP tokens in a farm, you will be able to see your active farms in the **My Farms** panel on the main [Farms page](https://app.alexlab.co/farm).
 
 <figure><img src="../../.gitbook/assets/farming/my-farms.png" alt=""><figcaption><p>Example of the "My Farms" panel. Here you will find all your active farms; click on any of them for detailed information.</p></figcaption></figure>
 
-By clicking on a farm, you will access the "My Farming" dashboard for that specific farm, which includes detailed metrics. On the right side of the dashborad, you will see that the current cycle has no earnings and no farming tokens. The reason you can't join the current reward cycle is that it had already started prior to your participation. However, once you successfully stake your LP into the farm, it gets registered for the next cycle. This assures you a proportional share of the farm rewards based on the number of LP tokens you have staked. This is why it's convenient to stake for long periods: every time you stake, you must wait for the current cycle to end before you start generating rewards in the next cycle.
+By clicking on a farm, you will access the **My Farming** dashboard for that specific farm, which includes detailed metrics. On the right side of the dashborad, you will see that the current cycle has no earnings and no farming tokens. The reason you can't join the current reward cycle is that it had already started prior to your participation. However, once you successfully stake your LP into the farm, it gets registered for the next cycle. This assures you a proportional share of the farm rewards based on the number of LP tokens you have staked. This is why it's convenient to stake for long periods: every time you stake, you must wait for the current cycle to end before you start generating rewards in the next cycle.
 
 For more info on the "My Farming" dashboard and metrics, we recommend reading the [Key concepts](key-concepts.md) page.
 
@@ -195,13 +195,13 @@ If you staked multiple times at different moments, the lock periods apply to eac
 
 Let's go through it step-by-step:
 
-1. Go to the [Farms page](https://app.alexlab.co/farm) on ALEX Lab App, which you can access through the Earn -> Farm tab.
+1. Go to the [Farms page](https://app.alexlab.co/farm) on ALEX Lab App, which you can access through the `Earn` -> `Farm` tab.
 2. You will see the **My Farming** dashboard. Expand it to see all your farming details.
 3. Find the farm from which you want to withdraw LP tokens and click on it.
 4. Your LP tokens will automatically be available for withdrawal when your committed cycles end. You will find them under the **LP to claim** title on the dashboard.
-5. Click on the "Harvest All" button and confirm the transaction in your wallet (just as you did in the previous guides). This will return your LP tokens back to your possession and automatically collect any unharvested rewards.
+5. Click on the `Harvest All` button and confirm the transaction in your wallet (just as you did in the previous guides). This will return your LP tokens back to your possession and automatically collect any unharvested rewards.
 6. The transaction may take between 20-40 minutes to be confirmed on the network. Remember, you can turn on [Telegram notifications](https://t.me/stacks\_tx\_notification\_bot) or search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
-7. Once the transaction is completed, you will see the changes reflected in your wallet balance and on the platform panels. In particular, you will see your LP token balance on the [Pool page](https://app.alexlab.co/pool) in the **My Liquidity** panel or by selecting the pool from the list. You can also check your balance on the ALEX Lab App, located beside the Wallet Manager at the top menu bar.
+7. Once the transaction is completed, you will see the changes reflected in your wallet balance and on the platform panels. In particular, you will see your LP token balance on the [Pool page](https://app.alexlab.co/pool) in the **My Liquidity** panel or by selecting the pool from the list. You can also check your balance on the ALEX Lab App, located beside the `Wallet Manager` at the top menu bar.
 
 If you want to farm your LP tokens again, remember: your staked amount will start generating yield from the next upcoming cycle. To maximize the APR you earn, it's best to stake for longer cycle periods to avoid missing out on any reward cycles due to the cooldown period.
 

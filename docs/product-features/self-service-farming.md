@@ -30,11 +30,11 @@ Before you start, familiarize yourself with the basic rules of Self-Service Farm
 
 ### Step 1: Go to the Farms Page
 
-Go to the [Farms page](https://app.alexlab.co/farm) and click on the "Create" button.
+Go to the [Farms page](https://app.alexlab.co/farm) and click on the `Create` button.
 
 <figure><img src="../.gitbook/assets/self-service-farming/create-farm-button.png" alt="" width="563"><figcaption></figcaption></figure>
 
-In this guide we are assuming that you already have a pool, so select the "Creating a new farm" option and click "Continue".
+In this guide we are assuming that you already have a pool, so select the `Creating a new farm` option and click `Continue`.
 
 <figure><img src="../.gitbook/assets/self-service-farming/create-type-new-farm.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -74,13 +74,13 @@ If the user decides to proceed, the **Farm Opening Cycle** will run from Cycle #
 
 ### Step 5: Confirm Farm Creation
 
-Once you're ready to move ahead, select the "Submit Rewards" button which will bring up the Confirmation panel. This panel provides a final overview of the farm creation, allowing you to double-check the total rewards and the farm opening period. If everything looks good, click "Confirm" 😎.
+Once you're ready to move ahead, select the `Submit Rewards` button which will bring up the Confirmation panel. This panel provides a final overview of the farm creation, allowing you to double-check the total rewards and the farm opening period. If everything looks good, click `Confirm` 😎.
 
 <figure><img src="../.gitbook/assets/self-service-farming/farm-create-confirmation-panel.png" alt="" width="371"><figcaption></figcaption></figure>
 
 ### Step 6: Confirm Transaction
 
-After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Remember, in this farm creation transaction, you are transferring the total amount of rewards to the ALEX smart contract.
+After clicking `Confirm`, you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Remember, in this farm creation transaction, you are transferring the total amount of rewards to the ALEX smart contract.
 
 Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
