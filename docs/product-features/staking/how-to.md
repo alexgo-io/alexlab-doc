@@ -1,4 +1,4 @@
-# How to Stake on ALEX
+# 🧑‍🏫  How to Stake on ALEX
 
 Staking on ALEX requires a few easy steps. In short, it consists of locking up your tokens temporarily to earn rewards. In staking, time is measured in cycles, and at the end of each cycle, you will be able to harvest your rewards. At that point, you may choose to transfer rewards to your wallet or to proceed to Liquid Staking with LiALEX.
 
@@ -90,7 +90,7 @@ Once you're on the Stake page, you'll find the **My Staking** panel, which displ
 
 ### Step 2: Harvest Your Principal & Your Rewards
 
-If a cycle has ended and you can claim rewards, you will see your $ALEX and APower on the `Harvest` button. If you have no rewards to claim yet, `Harvest` will be greyed out. The button will also display the amount of $ALEX and APower that are available for harvesting.
+If a cycle has ended and you can claim rewards, you will see your \$ALEX and APower on the `Harvest` button. If you have no rewards to claim yet, `Harvest` will be greyed out. The button will also display the amount of $ALEX and APower that are available for harvesting.
 
 Bear in mind that, if your staking period has ended, harvesting will also transfer your **Principal** (your staked $ALEX), to your wallet. It is not possible to collect only a portion of your principal or your rewards.
 
@@ -106,7 +106,7 @@ A confirmation panel will appear where you can double check the amount. If every
 
 #### Confirm Harvest
 
-* **Principal:** This is the amount of staked $ALEX that is no longer locked-up and can be transferred to your wallet. If you've staked 100 ALEX tokens for 4 cycles, and only the first cycle has ended, you will be able to harvest your rewards for that cycle while staked $ALEX remain locked-up for 3 more cycles. Hence, the principal would be 0 for this case. However, after the 4th cycle, the principal would be 100. &#x20;
+* **Principal:** This is the amount of staked \$ALEX that is no longer locked-up and can be transferred to your wallet. If you've staked 100 ALEX tokens for 4 cycles, and only the first cycle has ended, you will be able to harvest your rewards for that cycle while staked $ALEX remain locked-up for 3 more cycles. Hence, the principal would be 0 for this case. However, after the 4th cycle, the principal would be 100. &#x20;
 * **Reward:** The amount of ALEX tokens and APower you can claim as a reward for staking your $ALEX tokens. If you don't harvest your rewards, they will continue to accumulate.
 * **Total Claim:** The sum of your principal and rewards, in $ALEX and APower. This is the amount that will be transferred to your wallet.
 
