@@ -68,7 +68,7 @@ Wait for the transaction to be confirmed on the network.
 
 Your staked tokens could take between 20-40 minutes to appear on the [Stake page](https://app.alexlab.co/stake), but once the transaction is confirmed on the ALEX network, you will be able to see your staked tokens in the **My Staking** section.
 
-<figure><img src="../../.gitbook/assets/staking/stake-done.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/staking/stake-done.png" alt=""><figcaption>Recently staked $ALEX in "My Staking" panel</figcaption></figure>
 
 {% hint style="info" %}
 Recommended to track transaction status:
@@ -163,7 +163,7 @@ With the `Auto Stake` slider in green, click on the `Harvest` button to stake yo
 
 <div>
 
-<figure><img src="../../.gitbook/assets/staking/stake-harvest-lialex.png" alt=""><figcaption><p>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/staking/stake-harvest-lialex.png" alt=""><figcaption>Selected Auto Stake in "My Staking"</figcaption></figure>
 
 </div>
 
@@ -196,7 +196,9 @@ Wait for the transaction to be confirmed on the network.
 
 Your LiALEX could take between 20-40 minutes to appear on the [Stake page](https://app.alexlab.co/stake), but once the transaction is confirmed on the ALEX network, you will be able to see your staked tokens in the **My Staking** section.
 
-<figure><img src="../../.gitbook/assets/staking/stake-done.png" alt=""><figcaption>"My Staking" panel</figcaption></figure>
+<figure><img src="../../.gitbook/assets/staking/stake-harvest-auto-done.png" alt=""><figcaption>Your LiALEX in the "My Staking" panel</figcaption></figure>
+
+Note that Liquid Staking does not have a cooldown period, meaning your tokens start earning rewards from the current cycle onward. For more information, please refer to the [Staking FAQs](./faqs.md).
 
 {% hint style="info" %}
 Recommended to track transaction status:
