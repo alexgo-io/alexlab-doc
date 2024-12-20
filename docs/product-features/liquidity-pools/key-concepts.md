@@ -4,7 +4,7 @@ description: >-
   AMMs, and their function within the ALEX decentralized exchange.
 ---
 
-# Key Concepts
+# 💡 Key Concepts
 
 ## What Are Liquidity Pools?
 
@@ -47,15 +47,11 @@ Impermanent loss in decentralized finance (DeFi) occurs when a liquidity provide
 Here's how it works:
 
 * In most DeFi protocols, LPs provide two assets (e.g., STX and a stablecoin) in equal value to a liquidity pool.
-
 * If the price of one asset (e.g., STX) rises or falls relative to the other, arbitrage traders will trade against the pool, ensuring that the asset prices in the pool reflect current market conditions.
-
 * These trades lead to a different balance of assets in the pool (ratio). When the LP eventually withdraws their funds, they may receive a different amount of each asset than what they initially provided.
-
 * If the value of the assets in the pool has diverged significantly, the LP might have been better off simply holding the assets outside of the pool, resulting in a perceived **loss**.
-
 * This loss is termed **impermanent** because it can be mitigated if the token prices return to their original values. Additionally, this loss can be offset by trading fees earned from the pool, meaning the LP might still come out ahead if the accumulated fees exceed the loss.
 
 {% hint style="info" %}
-You can check a complete walkthrough example in the FAQs: [**How does impermanent loss happen?**](faqs.md#how-does-impermanent-loss-happen)
+You can check a complete walkthrough example in the FAQs: [**How does impermanent loss happen?**](broken-reference)
 {% endhint %}

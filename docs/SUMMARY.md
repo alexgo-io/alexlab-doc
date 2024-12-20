@@ -26,7 +26,8 @@
   * [💡 Key concepts](product-features/staking/key-concepts.md)
   * [🧑‍🏫 How to stake](product-features/staking/how-to.md)
   * [❓ FAQs](product-features/staking/faqs.md)
-* [🚀 Launchpad](product-features/launchpad.md)
+* [🚀 Launchpad](features/launchpad/README.md)
+  * [Join the ALEX Launchpad!](features/launchpad/join-the-alex-launchpad.md)
 
 ## Resources
 
@@ -34,14 +35,14 @@
 * [🪙 Token List](https://app.alexlab.co/token-list)
 * [🔮 ALEX Ecosystem Explorer](https://app.alexlab.co/explorer)
 * [✅ Security Audit](resources/security-audit.md)
-* 📃 Whitepapers
-  * [Whitepaper (1): Automated Market Making of the Yield Token Pool](whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md)
-  * [Whitepaper (2): Automated Market Making of the Collateral Rebalancing Pooltitled](whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md)
-  * [Whitepaper (3): Diving into Collateral Rebalancing Pools!](whitepapers/whitepaper-3-diving-into-collateral-rebalancing-pools.md)
+* [📃 Whitepapers](resources/whitepapers/README.md)
+  * [📃 Whitepaper (1): Automated Market Making of the Yield Token Pool](whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md)
+  * [📃 Whitepaper (2): Automated Market Making of the Collateral Rebalancing Pooltitled](whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md)
+  * [📃 Whitepaper (3): Diving into Collateral Rebalancing Pools!](whitepapers/whitepaper-3-diving-into-collateral-rebalancing-pools.md)
 
 ## Detailed Information
 
-* [Tokenomics](detailed-information/tokenomics.md)
+* [🪙 Tokenomics](detailed-information/tokenomics.md)
 * [ALEX DAO](detailed-information/alex-dao.md)
 * [ALEX AMM](detailed-information/alexs-automated-market-maker-amm.md)
 * [ALEX APower](detailed-information/what-is-alex-staking-power-and-how-do-i-use-it.md)

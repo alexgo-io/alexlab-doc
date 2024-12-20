@@ -2,7 +2,7 @@
 description: Common questions that may arise when trading tokens.
 ---
 
-# FAQs
+# ❓ FAQs
 
 <details>
 

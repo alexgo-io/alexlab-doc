@@ -4,7 +4,7 @@ description: >-
   to withdraw liquidity from ALEX DEX pools.
 ---
 
-# How to Add/Remove liquidity
+# 🧑‍🏫 How to Add/Remove liquidity
 
 When **adding liquidity**, you will deposit an equivalent value of both tokens into the pool. In return, you'll receive LP tokens, which represent your share of that specific liquidity pool.
 
@@ -27,7 +27,7 @@ All available pools will be displayed including information such as:
 * **Trading Pair:** The token pair that constitute liquidity pools to which you can add liquidity.
 * **Liquidity:** The total liquidity in the pool, expressed in USD value.
 * **Volume:** The trading volume between the token pair over the last 7 days. By hovering on the trading volume for a specific row/pool, the 24-hour volume is also displayed.
-* **Fee Rebate:** Potential LP earnings from swap fees over a year, based on the last week's average. This metric, also known as Pool APR, reflects the potential profitability of participating in a pool over a year, assuming similar trading activity continues.&#x20;
+* **Fee Rebate:** Potential LP earnings from swap fees over a year, based on the last week's average. This metric, also known as Pool APR, reflects the potential profitability of participating in a pool over a year, assuming similar trading activity continues.
 
 Select the token pair to which you want to add liquidity from the displayed list. Note you can sort by pool metrics.
 
@@ -39,7 +39,7 @@ When hovering over a pool, you might notice a +LP button. This serves as a visua
 
 ### Step 3: Add Liquidity
 
-After selecting a pool, you will be taken to a control panel for that specific liquidity pool, where you can add liquidity to the token pair and view more detailed metrics[^1].&#x20;
+After selecting a pool, you will be taken to a control panel for that specific liquidity pool, where you can add liquidity to the token pair and view more detailed metrics[^1].
 
 When you set the amount for one token, the corresponding amount for the other token is automatically calculated, as liquidity must be provided in equal value for both tokens.
 
@@ -77,50 +77,36 @@ To be completely sure, you can check:
 {% endhint %}
 
 <div>
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-6-add-to-position-post-con.png" alt="" width="375"><figcaption><p>Amounts to transfer and post conditions.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-6-add-to-position-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure>
+  
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-6-add-to-position-post-con.png" alt="" width="375"><figcaption><p>Amounts to transfer and post conditions.</p></figcaption></figure> 
+  
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-6-add-to-position-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure>
 
 </div>
 
 ### Step 7: Wait for Confirmation
 
-You may need to wait between 20-40 minutes for your balance to update in your wallet and on ALEX.&#x20;
+You may need to wait between 20-40 minutes for your balance to update in your wallet once it is confirmed on the network.&#x20;
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-7-tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Recommended to track transaction status:
 
-* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer). &#x20;
+* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 * Check your address activity on the wallet.
 {% endhint %}
 
 <!-- Real tx: https://explorer.hiro.so/txid/0x588d949ea697b325237eb20d5d3a6af5f6f496668cf0c7428ba79068573efba9?chain=mainnet -->
 
 <div>
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-7-tg-tx-pending.png" alt="" width="348"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-7-tg-tx-success.png" alt="" width="349"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tg-tx-pending.png" alt="" width="348"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> 
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tg-tx-success.png" alt="" width="349"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
 
 <div>
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> 
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure></div>
 
 ### Step 8: View Added LP Tokens
 
@@ -185,38 +171,34 @@ After clicking `Confirm`, you will need to confirm the transaction in your walle
 
 ### Step 7: Wait for Confirmation
 
-You may need to wait between 20-40 minutes for your balance to update in your wallet and on ALEX.&#x20;
+You may need to wait between 20-40 minutes for your balance to update in your wallet once it is confirmed on the network.&#x20;
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/adding-liquidity-7-tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Recommended to track transaction status:
 
-* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.&#x20;
-* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer). &#x20;
+* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.
+* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 * Check your address activity on the wallet.
 {% endhint %}
 
 <!-- Real tx: https://explorer.hiro.so/txid/0xd34372393d5467dc5a0e161beeb3d376222690d24ab964edbd7f5bc80835559b?chain=mainnet -->
 
 <div>
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-7-tg-tx-pending.png" alt="" width="344"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-7-tg-tx-success.png" alt="" width="361"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure>
-
+  
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-tg-tx-pending.png" alt="" width="344"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> 
+  
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-tg-tx-success.png" alt="" width="361"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure>
+  
 </div>
 
 <div>
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure>
-
+  
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure>
+  
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure>
+  
 </div>
 
 ### Step 8: View Changes

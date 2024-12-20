@@ -4,7 +4,7 @@ description: >-
   dashboard metrics!
 ---
 
-# Key Concepts
+# 💡 Key Concepts
 
 ## Farm Basics
 
