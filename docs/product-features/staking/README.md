@@ -21,7 +21,7 @@ You can think of $ALEX staking as depositing money into an interest-earning acco
 
 ALEX provides two different forms of staking to suit every user's need: [Manual Staking](./key-concepts#manual-staking) with $ALEX and [Liquid Staking](https://app.lisalab.io/li/alex/staking) with LiALEX. &#x20;
 
-[Lisa Protocol](https://www.lisalab.io/) is now providing liquid staking for ALEX Staking ($LiALEX).&#x20;
+[Lisa Protocol](https://www.lisalab.io/) is now providing liquid staking for ALEX Staking (LiALEX).&#x20;
 
 The protocol rewards are provided in the form of more $ALEX as well as [APower](faqs.md#what-is-apower) which is only available to stakers to be used in the ALEX launchpad.
 

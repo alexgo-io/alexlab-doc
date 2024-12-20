@@ -80,7 +80,7 @@ Recommended to track transaction status:
 
 ## :moneybag: Harvesting Your Staking Rewards (Manual Staking)
 
-Once your first staking cycle ends, you will be able to start harvesting your rewards. This section explains how to transfer your rewards to your wallet. To proceed to Liquid Staking with $LiALEX, refer to the [Auto-Stake section](how-to.md#auto-stake-liquid-staking).
+Once your first staking cycle ends, you will be able to start harvesting your rewards. This section explains how to transfer your rewards to your wallet. To proceed to Liquid Staking with LiALEX, refer to the [Auto-Stake section](how-to.md#auto-stake-liquid-staking).
 
 ### Step 1: Check My Staking
 
@@ -104,7 +104,7 @@ A confirmation panel will appear where you can double check the amount. If every
 
 <figure><img src="../../.gitbook/assets/staking/stake-harvest-confirm.png" alt=""><figcaption><p></p></figcaption></figure>
 
-#### Confirm harvest
+#### Confirm Harvest
 
 * **Principal:** This is the amount of staked $ALEX that is no longer locked-up and can be transferred to your wallet. If you've staked 100 ALEX tokens for 4 cycles, and only the first cycle has ended, you will be able to harvest your rewards for that cycle while staked $ALEX remain locked-up for 3 more cycles. Hence, the principal would be 0 for this case. However, after the 4th cycle, the principal would be 100. &#x20;
 * **Reward:** The amount of ALEX tokens and APower you can claim as a reward for staking your $ALEX tokens. If you don't harvest your rewards, they will continue to accumulate.
@@ -115,7 +115,7 @@ A confirmation panel will appear where you can double check the amount. If every
 
 After clicking `Confirm`, you will need to confirm the transaction in your wallet. 
 
-Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
+Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
 <figure><img src="../../.gitbook/assets/staking/stake-harvest-confirm-wallet.png" alt="" width="344"><figcaption><p>Transaction preview displayed on Leather wallet</p></figcaption></figure>
 
@@ -163,7 +163,7 @@ With the `Auto Stake` slider in green, click on the `Harvest` button to stake yo
 
 <div>
 
-<figure><img src="../../.gitbook/assets/staking/stake-harvest-lialex.png" alt="" width="361"><figcaption><p>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/staking/stake-harvest-lialex.png" alt=""><figcaption><p>.</p></figcaption></figure>
 
 </div>
 
@@ -177,18 +177,18 @@ A confirmation panel will appear where you can double check the amount. If every
 
 * **Harvest:** The amount of staked $ALEX that will be auto staked and the amount of APower that you have earned by staking. &#x20;
 * **Auto Stake (receive):** The amount of LiALEX tokens you will receive in exchange for continuing to stake your $ALEX. This allows you the benefit of maintaining liquidity while continuing to earn staking rewards.
-* **Stake Price:** The price of LiALEX relative to ALEX.
+* **Stake Price:** The price of LiALEX relative to $ALEX.
 * **Total Claim:** The amount of LiALEX and APower that will be transferred to your wallet. Your ALEX tokens will continue being staked.
 
 ### Step 4: Confirm Transaction
 
 After clicking `Confirm`, you will need to confirm the transaction in your wallet.
 
-Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
+Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
-<figure><img src="../../.gitbook/assets/staking/stake-harvest-auto-wallet.png" alt="" width="344"><figcaption><p>Transaction preview displayed on Leather wallet</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/staking/stake-harvest-auto-wallet.png" alt="" width="375"><figcaption><p>Transaction preview displayed on Leather wallet</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/staking/stake-harvest-auto-wallet-2.png" alt="" width="344"><figcaption><p>Function arguments and confirmation button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/staking/stake-harvest-auto-wallet-2.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button</p></figcaption></figure>
 
 ### Step 5: Confirm Transaction on Your Wallet
 
