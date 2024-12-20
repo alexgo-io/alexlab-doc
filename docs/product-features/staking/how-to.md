@@ -1,4 +1,4 @@
-# 🧑‍🏫 How to stake
+# 🧑‍🏫 How to Stake on ALEX
 
 Staking on ALEX takes a few easy steps. In short, it consists of locking up your tokens temporarily to earn rewards. In staking, time is measured in cycles, and at the end of each cycle, you will be able to harvest your rewards. 
 
@@ -68,7 +68,7 @@ A "Transaction Mining..." pop-up should appear on the top right corner of your s
 
 Wait for the transaction to be confirmed on the network. 
 
-Your staked tokens could take between 20-40 minutes to appear on the [Stake page](https://app.alexlab.co/stake), but once the transaction is confirmed on the ALEX network, you will be able to see your staked tokens in the **My Staking** section.
+Your staked tokens could take between 20-40 minutes to appear on the [Stake page](https://app.alexlab.co/stake), but once the transaction is confirmed on ALEX, you will be able to see your staked tokens in the **My Staking** section.
 
 <figure><img src="../../.gitbook/assets/staking/stake-done.png" alt=""><figcaption></figcaption></figure>
 
@@ -125,7 +125,7 @@ Here, your Stacks wallet is interacting with the ALEX smart contract and is aski
 
 Wait for the transaction to be confirmed on the network. 
 
-Transferring your rewards and staked tokens could take between 20-40 minutes, but once the transaction is confirmed on the ALEX network, you will be able to see your rewards in your wallet.
+Transferring your rewards and staked tokens could take between 20-40 minutes, but once the transaction is confirmed on ALEX, you will be able to see your rewards in your wallet.
 
 {% hint style="info" %}
 Recommended to track transaction status:

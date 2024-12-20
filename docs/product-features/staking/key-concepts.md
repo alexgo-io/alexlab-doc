@@ -1,4 +1,4 @@
-# 💡 Key concepts
+# 💡 Key Concepts
 
 ## Staking Basics
 
@@ -33,7 +33,7 @@ After the chosen cycles expire, you can claim your rewards and withdraw your sta
 
 ## Manual Staking
 
-Manual Staking is the conventional way of staking your tokens on the ALEX network. After each cycle, you will have the option to harvest your rewards, which you may re-stake manually to generate compound interest. When you harvest your rewards, those tokens are automatically transferred to your wallet.
+Manual Staking is the conventional way of staking your tokens on ALEX. After each cycle, you will have the option to harvest your rewards, which you may re-stake manually to generate compound interest. When you harvest your rewards, those tokens are automatically transferred to your wallet.
 
 ## Liquid Staking
 
