@@ -143,7 +143,7 @@ Recommended to track transaction status:
 
 </div>
 
-## Auto Stake (Liquid Staking)
+## :chart_with_upwards_trend: Auto Stake (Liquid Staking)
 
 ### Step 1: Check My Staking
 
