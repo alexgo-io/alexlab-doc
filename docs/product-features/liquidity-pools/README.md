@@ -31,7 +31,7 @@ Old cards layout, in case we want to revert it
 
 -->
 
-### Looking to create your own pool?
+### Looking to Create Your Own pool?
 
 The Self-Service Listing allows you to create your own trading pool within the ALEX decentralized exhange. Visit the dedicated page for more details.
 

@@ -4,15 +4,15 @@ description: >-
   AMMs, and their function within the ALEX decentralized exchange.
 ---
 
-# 💡 Key concepts
+# 💡 Key Concepts
 
-## What are Liquidity Pools?
+## What Are Liquidity Pools?
 
 Liquidity pools are crowdfunded collections of crypto assets held in a smart contract, designed to provide liquidity for decentralized exchanges (DEXs) and support various decentralized finance (DeFi) protocols.
 
 While their applications are diverse, ranging from lending and borrowing platforms to algorithmic protocols for stablecoins, their primary use is on DEXs. In this case, liquidity pools enable users to trade crypto assets without the need for a centralized intermediary, serving as reserves of assets that users can trade against.
 
-## Their role in Automated Market Makers (AMMs)
+## Their Role in Automated Market Makers (AMMs)
 
 Automated Market Makers (AMMs) are the predominant type of decentralized exchange (DEX). While other DEX designs exist, AMM-based DEXs have become extremely popular. These exchanges operate using liquidity pools and algorithmic mechanisms to determine prices and facilitate the trading of crypto assets between peers.
 
@@ -22,7 +22,7 @@ Smart contracts manage all trades executed within the AMM, including aspects suc
 
 The ALEX decentralized exchange is AMM-based and consists of a set of smart contracts built on top of the Stacks network. Each liquidity pool is composed of funds from a specific pair of cryptocurrencies, which are locked into a smart contract by voluntary depositors. These pools enable users to perform trustless swaps between the token pairs.
 
-For example, if a user wants to trade Stacks' native currency (STX) for ALEX's governance token (ALEX), they would interact with the STX-ALEX liquidity pool on ALEX's smart contracts. For more details on how to execute such swaps, refer to the [Token Swaps](../token-swaps/) section.
+For example, if a user wants to trade Stacks' native token (STX) for ALEX's governance token ($ALEX), they would interact with the STX-ALEX liquidity pool on ALEX's smart contracts. For more details on how to execute such swaps, refer to the [Token Swaps](../token-swaps/) section.
 
 The users who deposit their assets into these pools are known as liquidity providers (LPs). To incentivize participation, the ALEX AMM protocol rewards LPs with a portion of the trading fees collected on each swap. These fees are accrued every time a transaction occurs within the pool.
 
@@ -35,6 +35,10 @@ For example, if a user holds 5% of the pool’s total funds, they will earn 5% o
 {% hint style="info" %}
 **Note:** The initials "LP" are used both to abbreviate "liquidity provider" and to refer to the tokens these users receive, which represent their share of the contributed funds in the pool.
 {% endhint %}
+
+## My Liquidity
+
+Whenever you select a pool, you will be able to see the liquidity you've added in the **My Liquidity** section. You can access it by clicking on any pool from the [ALEX Lab Pool page](https://app.alexlab.co/pool).
 
 ## Impermanent Loss
 

@@ -32,7 +32,7 @@ Yes, farming rewards accumulate over time. It is not mandatory to harvest your r
 
 <summary>What is the cooldown period?</summary>
 
-The cooldown period refers to the time between when your LP tokens are staked into the farm and when a new farming cycle begins. Essentially, it is the remaining time (measured in Stacks blocks) of the current staking cycle. This implies that your staked tokens won't start generating rewards immediately but in next upcoming cycle. For more details, check the [Cycles and Cooldown Period](key-concepts.md#cycles-and-cooldown-period) section of the Key concepts page.
+The cooldown period refers to the time between when your LP tokens are staked into the farm and when a new farming cycle begins. Essentially, it is the remaining time (measured in Stacks blocks) of the current staking cycle. This implies that your staked tokens won't start generating rewards immediately, but in the next upcoming cycle. For more details, check the [Cycles and Cooldown Period](key-concepts.md#cycles-and-cooldown-period) section of the Key concepts page.
 
 </details>
 
@@ -103,7 +103,7 @@ When you stake your LP tokens in a yield farm, they are technically transferred 
 
 <summary>Why can't I see my LP tokens in the My Liquidity panel?</summary>
 
-Since LP tokens are held by the ALEX smart contract during farming, you must first unstake them from the farm for them to appear in the **My Liquidity** panel. To access this panel, navigate to the **Swap** > **Pool** tab. Once you select the desired pool from the list, it will appear just above the **Pool Info** panel.
+Since LP tokens are held by the ALEX smart contract during farming, you must first unstake them from the farm for them to appear in the **My Liquidity** panel. To access this panel, navigate to the `Swap` > `Pool` tab. Once you select the desired pool from the list, it will appear just above the **Pool Info** panel.
 
 </details>
 

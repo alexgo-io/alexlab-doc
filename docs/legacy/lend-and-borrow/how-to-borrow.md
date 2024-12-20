@@ -1,6 +1,6 @@
 # 💸 How To Borrow
 
-First， you’ll need to select the token you wish to borrow. Visit the[ ALEX DAPP](http://app.alexlab.co/), connect to Hiro wallet (upper right corner), go to the “LEND” tab on the top menu, and see a list of available tokens.
+First， you’ll need to select the token you wish to borrow. Visit the[ ALEX DAPP](http://app.alexlab.co/), connect to Hiro wallet (upper right corner), go to the `LEND` tab on the top menu, and see a list of available tokens.
 
 ### Borrow <a href="#id-7b15" id="id-7b15"></a>
 
@@ -8,7 +8,7 @@ Having selected your preferred token:
 
 1. Input the total amount you wish to borrow.
 2. The maximum amount you can borrow will be capped by the amount of collateral token wallet and LTV (Loan-to-Value Ratio)
-3. Confirm by selecting the “Borrow” button in the borrow panel and pop-up window.
+3. Confirm by selecting the `Borrow` button in the borrow panel and pop-up window.
 
 After the borrow transaction proceeds, you will receive the borrowed tokens immediately in your wallet.
 
@@ -33,7 +33,7 @@ The borrower can claim the collateral deposited upon maturity.
 
 **Claim Collateral**
 
-When the borrowing period gets to maturity, borrowers may claim their collateral by selecting the “Claim” button.
+When the borrowing period gets to maturity, borrowers may claim their collateral by selecting the `Claim` button.
 
 Borrowers do not need to manually repay the borrowed tokens when claiming their collateral, because Claim Value = Borrow Collateral Value — Borrowed Value.
 
