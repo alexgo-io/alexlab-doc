@@ -80,7 +80,7 @@ Once you're ready to move ahead, select the "Submit Rewards" button which will b
 
 ### Step 6: Confirm Transaction
 
-After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Remember, in this farm creation transaction, you are transferring the total amount of rewards to the ALEX smart contract.
+After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Remember, in this farm creation transaction, you are transferring the total amount of rewards to the ALEX smart contract.
 
 Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 

@@ -37,7 +37,7 @@ hidden: true
 
     <img src="https://miro.medium.com/max/1400/1*MNe6NjX25rJCGG-4xoT9pQ.png" alt="https://miro.medium.com/max/1400/1*MNe6NjX25rJCGG-4xoT9pQ.png" data-size="original">
 11. Of course your wallet is empty at this point, and an empty wallet isn’t useful for very much, so scroll over to the “Buy” button to add funds in the form of STX to your wallet (please see details in Appendix).
-12. With some STX deposited, you are now ready to proceed to the [ALEX](https://app.alexgo.io/) to experience full service DeFi on Bitcoin. Enjoy!
+12. With some STX deposited, you are now ready to proceed to the [ALEX Homepage](https://app.alexgo.io/) to experience full service DeFi on Bitcoin. Enjoy!
 
 #### Transaction Fees
 

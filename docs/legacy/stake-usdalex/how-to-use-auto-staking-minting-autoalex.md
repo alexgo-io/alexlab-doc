@@ -1,5 +1,5 @@
 ---
-description: This is how you stake ALEX into atALEX
+description: This is how you stake $ALEX into atALEX
 ---
 
 # How to Use Auto Staking (Minting AutoALEX)
@@ -10,9 +10,9 @@ description: This is how you stake ALEX into atALEX
 
 3\. Go to the Staking panel section and add an auto staking amount:
 
-* Enter the amount of ALEX you wish to stake.
-* The “Auto” section displays the atALEX you will mint for the ALEX amount you entered.
-* The “Current value” represents the “intrinsic value of 1 atALEX” when you mint or the current “minting rate” of ALEX into atALEX.
+* Enter the amount of $ALEX you wish to stake.
+* The “Auto” section displays the atALEX you will mint for the $ALEX amount you entered.
+* The “Current value” represents the “intrinsic value of 1 atALEX” when you mint or the current “minting rate” of $ALEX into atALEX.
 
 ![The numbers shown are for illustrative purposes only](https://miro.medium.com/max/1400/1\*uiLIKTh7XNDiuoXT4jrRpw.png)
 

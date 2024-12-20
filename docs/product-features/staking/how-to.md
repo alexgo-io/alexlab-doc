@@ -16,7 +16,7 @@ You can always change your wallet configuration from the Wallet Manager in the t
 
 ### Step 2: My Staking
 
-In **My Staking**, "Manual Staking" will indicate how much ALEX you're currently staking, along with its estimated Annual Percentage Rate (APR). Bear in mind that, unlike Annual Percentage Yield (APY), APR doesn't take into account the compounding effect of rewards.
+In **My Staking**, "Manual Staking" will indicate how much $ALEX you're currently staking, along with its estimated Annual Percentage Rate (APR). Bear in mind that, unlike Annual Percentage Yield (APY), APR doesn't take into account the compounding effect of rewards.
 
 On the right-hand side of **My Staking**, you will see the "Cycles" section, which indicates how much time is left for the upcoming cycle, as well as the number of the current one. You can expand this section to display "All Cycles." The timer indicates how much time is left of the current cycle. Bear in mind that your tokens will be staked on the upcoming cycle for the first time.
 
@@ -42,7 +42,7 @@ Once you've verified your current balances, APR, APY and cycle timing, you can p
 
 ### Step 3: Add ALEX Staking
 
-Select how much $ALEX you wish to stake and for how long. You can use the slider to personalize the amount of cycles, and you will see an estimate of how many days the selected amount of cycles will last. If you wish to stake ALEX tokens for different periods of time, you will need to execute two transactions. For example, if you wish to stake 100 ALEX for 8 cycles and 80 ALEX for 24 cycles, you will need to follow these steps twice. 
+Select how much $ALEX you wish to stake and for how long. You can use the slider to personalize the amount of cycles, and you will see an estimate of how many days the selected amount of cycles will last. If you wish to stake ALEX tokens for different periods of time, you will need to execute two transactions. For example, if you wish to stake 100 $ALEX for 8 cycles and 80 $ALEX for 24 cycles, you will need to follow these steps twice. 
 
 <figure><img src="../../.gitbook/assets/staking/stake-settings-preview.png" alt=""><figcaption></figcaption></figure>
 
@@ -115,7 +115,7 @@ A confirmation panel will appear where you can double check the amount. If every
 
 After clicking "Confirm", you will need to confirm the transaction in your wallet. 
 
-Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
+Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
 <figure><img src="../../.gitbook/assets/staking/stake-harvest-confirm-wallet.png" alt="" width="344"><figcaption><p>Transaction preview displayed on Leather wallet</p></figcaption></figure>
 

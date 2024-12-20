@@ -2,13 +2,13 @@
 
 ## Staking Basics
 
-Staking consists of locking your ALEX tokens temporarily to earn ALEX and APower tokens as rewards. Users can stake their tokens to earn passive income in the form of newly minted tokens and transaction fees. 
+Staking consists of locking your ALEX tokens temporarily to earn $ALEX and APower tokens as rewards. Users can stake their tokens to earn passive income in the form of newly minted tokens and transaction fees. 
 
 The ALEX staking pool offers two main options, each one rewarding stakers with a different token: manual staking with $ALEX or liquid staking with LiALEX. 
 
 ### Rewards
 
-Staking rewards are the compensation that you can receive in return for locking up your $ALEX tokens for a certain amount of staking cycles. The longer you stake your $ALEX, the greater the rewards. They are obtained from transaction fees and newly minted tokens. 
+Staking rewards are the compensation that you can receive in return for locking up your ALEX tokens for a certain amount of staking cycles. The longer you stake your $ALEX, the greater the rewards. They are obtained from transaction fees and newly minted tokens. 
 
 The network calculates each participant's reward share based on their staked amount. Rewards are either automatically reinvested in the case of **Liquid Staking** or can be claimed after **every cycle** in the case of **Manual Staking.** This means that, even if you decided to stake your tokens for 8 cycles, you will be able to claim rewards after each cycle concludes. 
 

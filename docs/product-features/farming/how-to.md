@@ -101,12 +101,12 @@ Once you have entered the amount, click the "Stake" button. Confirmation panel w
 
 After clicking "Confirm", you will need to confirm the transaction in your wallet. Remember that farming locks up LP tokens in a smart contract for the selected number of reward cycles.
 
-At this point, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
+At this point, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
 {% hint style="info" %}
 To be completely sure, you can check:
 
-* Transaction is requested by **"Alex app" (app.alexlab.co)**
+* Transaction is requested by **"ALEX app" (app.alexlab.co)**
 * The amounts you will transfer to the smart contract, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions).&#x20;
 {% endhint %}
 

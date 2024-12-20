@@ -67,7 +67,7 @@ One you decide the amount, click the "Add" button. Confirmation panel will appea
 
 ### Step 6: Confirm Transaction
 
-After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
+After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
 {% hint style="info" %}
 To be completely sure, you can check:
@@ -165,7 +165,7 @@ Once in the panel of the pool, select the "Remove Liquidity" tab.
 
 For this step, it's important to have in mind that the LP tokens you hold represent your share of the pool's funds. By entering the LP token amount, you're specifying the portion of the pooled funds you want to withdraw. Clicking the "Max" button sets your entire LP token balance, indicating you want to remove all liquidity from the pool.
 
-When you enter the amount of LP tokens, you are specifiyng amount you will transfer to ALEX smart contract in order to receive your funds and any accrued fees in return. These fees are the ones accrued while holding those LP tokens.
+When you enter the amount of LP tokens, you are specifiyng amount you will transfer to the ALEX smart contract in order to receive your funds and any accrued fees in return. These fees are the ones accrued while holding those LP tokens.
 
 Once you have decided the LP token amount, click the "Remove" button.
 
@@ -179,7 +179,7 @@ A confirmation panel will appear where you can double check the amount. If every
 
 ### Step 6: Confirm Transaction
 
-After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
+After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
 <figure><img src="../../.gitbook/assets/liquidity-providers/removing-liquidity-6-reduce-position-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure>
 
