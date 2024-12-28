@@ -6,7 +6,7 @@ Staking consists of locking your ALEX tokens temporarily to earn ALEX and APower
 
 The ALEX staking pool offers two main options, each one rewarding stakers with a different token: manual staking with $ALEX or liquid staking with LiALEX.
 
-#### Rewards <a href="#rewards" id="rewards"></a>
+### Rewards <a href="#rewards" id="rewards"></a>
 
 Staking rewards are the compensation that you can receive in return for locking up your $ALEX tokens for a certain amount of staking cycles. The longer you stake your $ALEX, the greater the rewards. They are obtained from transaction fees and newly minted tokens.
 
@@ -14,11 +14,11 @@ The network calculates each participant's reward share based on their staked amo
 
 To maximize your returns, you should claim and re-stake your rewards as soon as they are available to generate compounded returns. Unclaimed rewards do not expire, so you can claim them whenever you wish, but they do not generate returns either.
 
-#### APR <a href="#apr" id="apr"></a>
+### APR <a href="#apr" id="apr"></a>
 
 The average APR (Annual Percentage Rate) reflects the yearly interest of your investment minus fees. It does not include compounding interest. The longer the staking cycle, the higher the APR, since you will be skipping less cycles due to cool-down.
 
-#### Cycles & Cooldown Period <a href="#cycles-and-cooldown-period" id="cycles-and-cooldown-period"></a>
+### Cycles & Cooldown Period <a href="#cycles-and-cooldown-period" id="cycles-and-cooldown-period"></a>
 
 Staking is measured in cycles. Cycles are **525 Stacks blocks** or about **3.5 days long**, and both manual and auto-staking receive rewards when each cycle concludes. When you decide to stake your ALEX tokens, you need to select the amount of cycles you wish to stake for. In the case of **Manual Staking**, your $ALEX won't be accessible during that period.
 

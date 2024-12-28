@@ -38,7 +38,7 @@ Because of the cooldown period. If you plan to stake for multiple cycles, it is 
 
 Lets suppose you want to stake for 12 cycles and choose to stake thrice for 4-cycle periods, you will miss out on rewards for 3 cycles. This happens because each time you withdraw and restake, you enter a cooldown period. In contrast, if you stake directly for the full 12 cycles, you will only miss rewards for 1 cycle, the very first one.
 
-The more cycles you choose to stake for, the less cool-down cycles you will have in the middle. To avoid cool-down cycles altogether, you may use [Liquid Staking with LiALEX](https://coinfabrik.gitbook.io/alexlab-doc/stake/features/staking/key-concepts#liquid-staking).
+The more cycles you choose to stake for, the less cool-down cycles you will have in the middle. To avoid cool-down cycles altogether, you may use [Liquid Staking with LiALEX](https://docs.alexlab.co/features/staking/how-to#auto-stake-liquid-staking).
 
 ### I just staked $ALEX, when will I see my staked ALEX?
 
