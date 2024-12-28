@@ -30,7 +30,7 @@ Yes, rewards can be claimed after every cycle concludes, even if you've staked y
 
 The cooldown period refers to the time between when your ALEX tokens are staked and when a new cycle begins. Essentially, it is the remaining time (measured in Stacks blocks) of the current staking cycle. This implies that your staked tokens won't start generating rewards immediately, but in the next upcoming cycle.
 
-For example, if you staked your $ALEX for 32 cycles, you won't receive any rewards for the 33rd cycle. Afterwards, you will be able to earn rewards again if you choose to re-stake your tokens. For more details, check the [Cycles and Cooldown Period](https://coinfabrik.gitbook.io/alexlab-doc/stake/features/staking/key-concepts#cycles-and-cooldown-period) section of the Key concepts page.
+For example, if you staked your $ALEX for 32 cycles, you won't receive any rewards for the 33rd cycle. Afterwards, you will be able to earn rewards again if you choose to re-stake your tokens. For more details, check the [Cycles and Cooldown Period](https://docs.alexlab.co/features/staking/key-concepts#cycles-and-cooldown-period) section of the Key concepts page.
 
 ### Why is it more convenient to stake for longer period?&#x20;
 
