@@ -14,29 +14,33 @@ description: >-
 
 #### How does it work? <a href="#how-does-it-work" id="how-does-it-work"></a>
 
-Self-Service Listing allows you to **create your own liquidity pool** on the ALEX DEX, enabling the **permissionless trade** of the **listed token** with an **anchor token** within the exchange. The anchor token is typically one with a stable value, providing a reliable reference point for defining the price of the newly listed token.
+Self-Service Listing allows you to **create your own liquidity pool** on the ALEX DEX, enabling the **permissionless trade** of the **listed token** with an **anchor token** within the exchange.&#x20;
+
+The anchor token is typically one with a stable value, providing a reliable reference point for defining the price of the newly listed token.
 
 Pool creation usually takes between 24 to 48 hours. Once the pool is created and live, the price discovery phase begins: users can start trading the listed token against the anchor token and viceversa. Users interested in providing liquidity can contribute to the pool like any other ALEX pool.
 
-The pool owner is the initial liquidity provider and will receive the corresponding LP tokens upon successful pool creation. Once the pool is live and operational, the owner can withdraw funds just like any other liquidity provider.
+The pool owner is the initial liquidity provider and will receive the corresponding LP tokens upon successful pool creation.&#x20;
+
+Once the pool is live and operational, the owner can withdraw funds just like any other liquidity provider.
 
 **Available Anchor Tokens:** Native _STX_ token, _ALEX_ token and _aBTC_ token.
 
 {% hint style="info" %}
-Interested in having your own unique pairs out of the available anchor tokens? Please reach out to us.
+Interested in having your own unique pairs out of the available anchor tokens? Please reach out to us. Important to note that unique pairs are **subject to approval** by the ALEX Lab Foundation team.
 {% endhint %}
 
 The trading pool operates under the [ALEX Automated Market Maker (AMM)](../detailed-information/alexs-automated-market-maker-amm.md) algorithm, which dynamically determines the exchange rate (price) based on the trades.
 
 #### Minimum requirements <a href="#minimum-requirements" id="minimum-requirements"></a>
 
-👉 **Token Deployment.** Ensure your token is deployed on the Stacks blockchain, as you will need to provide the token contract.
+👉 **Token Deployment:** Ensure your token is deployed on the Stacks blockchain, as you will need to provide the token contract.
 
-👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native token _STX_, _ALEX_ token, or _aBTC_ token. Ensure you have at least 1,800 _STX_ or an equivalent value in _ALEX_ or _aBTC_ token to create the pool—this is the minimum anchor token liquidity.
+👉 **Select an Anchor Token:** Choose an anchor token from the available options: Stacks native token _STX_, _ALEX_ token, or _aBTC_ token. Ensure you have at least 1,800 _STX_ or an equivalent value in _ALEX_ or _aBTC_ token to create the pool—this is the minimum anchor token liquidity.
 
-👉 **Determine Initial Price.** Decide the initial price for your listing token in terms of anchor token units. This should answer the question: how many anchor tokens do users need to buy one listed token?
+👉 **Determine Initial Price:** Decide the initial price for your listing token in terms of anchor token units. This should answer the question: how many anchor tokens do users need to buy one listed token?
 
-👉 **Calculate Initial Liquidity.** Once the initial price is determined, you can set the initial liquidity amounts for both tokens in the pool. You may calculate this manually or use the ALEX Lab UI for assistance. If you're planning to [add farming to the pool](self-service-farming.md), make sure to reserve enough tokens for farm rewards.
+👉 **Calculate Initial Liquidity:** Once the initial price is determined, you can set the initial liquidity amounts for both tokens in the pool. You may calculate this manually or use the ALEX Lab UI for assistance. If you're planning to [add farming to the pool](self-service-farming.md), make sure to reserve enough tokens for farm rewards.
 
 <details>
 
@@ -53,8 +57,6 @@ The liquidity pool for the pair **Listed Token** 🚀 **- Anchor Token** ⚓ wil
 </details>
 
 🔎 For more details, check the [FAQs](liquidity-pools/faqs.md#self-service-listing) section.
-
-With that said, let's get hands-on!
 
 ### 🛠️ Procedure <a href="#procedure" id="procedure"></a>
 
