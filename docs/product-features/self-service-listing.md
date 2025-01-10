@@ -18,13 +18,15 @@ Self-Service Listing allows you to **create your own liquidity pool** on the ALE
 
 Pool creation usually takes between 24 to 48 hours. Once the pool is created and live, the price discovery phase begins: users can start trading the listed token against the anchor token and viceversa. Users interested in providing liquidity can contribute to the pool like any other ALEX pool.
 
-The pool owner is the initial liquidity provider and will receive the corresponding LP tokens upon successful pool creation. Once the pool is live and operational, the owner can withdraw funds just like any other liquidity provider.
+The pool owner is the initial liquidity provider and is responsible for selecting the settings for the initial LP tokens (see [Step 2: Choose LP Lock & Burn Settings](#step-2-choose-lp-lock--burn-settings)).
+
+The trading pool operates using the [ALEX Automated Market Maker (AMM)](../detailed-information/alexs-automated-market-maker-amm.md) algorithm, which dynamically determines the exchange rate (price) based on the trades.
+
+**Avaiblable Anchor Tokens:** Native STX token, ALEX token and aBTC token.
 
 {% hint style="info" %}
-Avaiblable Anchor Tokens: Native _STX_ token, _ALEX_ token and _aBTC_ token.
+Interested in having your own unique pairs out of the available anchor tokens? Please [reach out to us](https://t.me/ALEXselfservice). It is important to note that unique pairs are subject to approval by the ALEX Lab Foundation team.
 {% endhint %}
-
-The trading pool operates under the [ALEX Automated Market Maker (AMM)](../detailed-information/alexs-automated-market-maker-amm.md) algorithm, which dynamically determines the exchange rate (price) based on the trades.
 
 ### Minimum requirements
 
@@ -82,11 +84,11 @@ Provide the listed token contract address. Ensure it complies with the [SIP-010 
 
 Verify that the token information retrieved from the contract is correct. In the example:
 
-* **Token name** -> `RABBY Token`
-* **Token symbol** -> `RABBY`
-* **Description** -> Unlock the potential of programmable adventures within Bitcoin's rabbit holes.
-* **Token deployment address** -> `SP108J6F4C7JD93BGJ91TEB5D3CFB5XW39QHDJ3MV`
-* **Token logo**
+- **Token name** -> `RABBY Token`
+- **Token symbol** -> `RABBY`
+- **Description** -> Unlock the potential of programmable adventures within Bitcoin's rabbit holes.
+- **Token deployment address** -> `SP108J6F4C7JD93BGJ91TEB5D3CFB5XW39QHDJ3MV`
+- **Token logo**
 
 </details>
 
@@ -98,9 +100,9 @@ Enter the initial balances for both tokens. You can experiment with different am
 
 In the screenshot example, this is:
 
-* **Anchor Token ⚓** (a.k.a `token-x`) -> `4,000 STX ($7,200)`
-* **Listing Token 🚀** (a.k.a `token-y`) -> `200,000 RABBY`
-* **Exchange Rate ⚖️** -> `1 RABBY = 0.02 STX ($0.03)`
+- **Anchor Token ⚓** (a.k.a `token-x`) -> `4,000 STX ($7,200)`
+- **Listing Token 🚀** (a.k.a `token-y`) -> `200,000 RABBY`
+- **Exchange Rate ⚖️** -> `1 RABBY = 0.02 STX ($0.03)`
 
 Once the pool opens, the AMM algorithm will automatically rebalance the exchange rate as users trade the tokens.
 
@@ -126,9 +128,9 @@ Click `Submit` and scroll through the wallet transaction window, ensuring the pa
 
 Recommended to track transaction status:
 
-* Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.
-* Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
-* Check your address activity on the wallet.
+- Turn on [Telegram notifications](https://t.me/stacks_tx_notification_bot), you will get notified when the transaction is confirmed.
+- Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
+- Check your address activity on the wallet.
 
 </details>
 
@@ -136,7 +138,7 @@ Recommended to track transaction status:
 
 After submitting the Self-Service Listing Pool, a pop-up will appear, allowing the creator to choose whether to lock or burn the initial LP tokens, or to leave the liquidity pool unlocked. By default, the Self-Service Listing Pool is set to be locked for 6 months, as it is the recommended option. Users are prompted to select one of three settings:
 
-- **Do not lock LP 🔓**: There will be no lock-up period and the initial liquidity provider (the pool creator) will receive the corresponding LP tokens once the pool is live and operational. Since the pool is unlocked, the owner will be able to withdraw liquidity at any time. 
+- **Do not lock LP 🔓**: There will be no lock-up period and the initial liquidity provider (the pool creator) will receive the corresponding LP tokens once the pool is live and operational. Since the pool is unlocked, the owner will be able to withdraw liquidity at any time.
 
 - **LP is locked for 6 months 🔒** : This is the default option. It locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim after maturity. When the period concludes, the pool owner can withdraw liquidity as any other provider. This prevents unexpected withdrawals and protects liquidity providers from rug pulls.
 
@@ -174,9 +176,9 @@ To make your token visible on the ALEX Token List at [app.alexlab.co/token-list]
 
 ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
 
-Thanks for creating your pool on the ALEX DEX 🎉 📈 
+Thanks for creating your pool on the ALEX DEX 🎉 📈
 
-<!-- 
+<!--
 Summarized Steps:
 
 1) User submits token information, balances and config params. Within this same transaction, transfers the anchor token balance.
