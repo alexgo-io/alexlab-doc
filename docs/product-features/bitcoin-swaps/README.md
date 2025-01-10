@@ -1,5 +1,5 @@
 ---
-description: The new Bitcoin-native token swaps offers the most practical way to exchange tokens from the comfort of your favorite blockchain.
+description: 
 layout:
   title:
     visible: true
