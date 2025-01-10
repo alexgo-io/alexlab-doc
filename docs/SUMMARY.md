@@ -4,6 +4,7 @@
 
 ## Features
 
+* [🔥🌶️ Bitcoin Native Swaps 🌶️🔥](product-features/bitcoin-swaps/README.md)
 * [🔄 Token Swaps](product-features/token-swaps/README.md)
   * [💡 Key concepts](product-features/token-swaps/key-concepts.md)
   * [🧑‍🏫 How to swap](product-features/token-swaps/how-to.md)
