@@ -78,6 +78,8 @@ Liquidity providers can stake or lock up their LP tokens for a fixed period of t
 
 Yes, you can remove liquidity at any time. However, if you've staked your LP tokens for farming, you won't be able to withdraw them until the staking period has ended.
 
+For removing liquidity from pools **you have created**, please refer to the [Self-Service Listing Documentation](../self-service-listing.md).
+
 </details>
 
 <details>
@@ -114,7 +116,7 @@ Yes! [Self-Service Listing](../self-service-listing.md) allows you to create you
 
 <details>
 
-<summary>Which are the anchor tokens supported?</summary>
+<summary>Which are the supported anchor tokens?</summary>
 
 Native STX token, ALEX token and aBTC token.
 
@@ -153,7 +155,7 @@ Once the pool is created, the price discovery phase begins. Users can permission
 
 <details>
 
-<summary>Is there some requirement to make the listed token visible on <a href="https://app.alexlab.co/token-list">ALEX Token List</a>?</summary>
+<summary>Is there some requirement to make the listed token visible on ALEX Token List? </summary>
 
 Yes. ALEX requires a [Coingecko](https://www.coingecko.com/) or [CoinMarketCap](https://coinmarketcap.com/) token listing to verify the provided social media information before uploading it to the official list at [app.alexlab.co/token-list](https://app.alexlab.co/token-list).
 
@@ -166,5 +168,15 @@ Once that is done, click on `Customer Support` on the [Self-Service Listing page
 <summary>What is a wrapped version of a token contract?</summary>
 
 Wrapped token contracts refer to "pass-through" tokens that don't retain economics; their purpose is to simplify development and enhance security. ALEX is responsible for deploying wrapped contracts. As its primarily technical, it is not relevant from a user perspective other than it involves a whole step in the procedure and takes some time.
+
+</details>
+
+<details>
+
+<summary>Why would I lock or burn LP tokens when creating my Liquidity Pool?</summary>
+
+The Initial LP Smart Lock feature ensures that community-contributed funds remain secure for the 6 month lock-up period, preventing early withdrawals that could devalue the LP token. It shows commitment from the project's team, signaling that they don't intend to conduct a rug pull on their investors.
+
+Burning tokens reassures investors that the project's team is not holding LP tokens for a future sell-off. It also reduces the total amount of tokens in circulation, maintaining the token's value.
 
 </details>
