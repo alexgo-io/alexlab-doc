@@ -22,7 +22,7 @@ The pool owner is the initial liquidity provider and is responsible for selectin
 
 The trading pool operates using the [ALEX Automated Market Maker (AMM)](../detailed-information/alexs-automated-market-maker-amm.md) algorithm, which dynamically determines the exchange rate (price) based on the trades.
 
-**Avaiblable Anchor Tokens:** Native STX token, ALEX token and aBTC token.
+**Available Anchor Tokens:** Native STX token, ALEX token and aBTC token.
 
 {% hint style="info" %}
 Interested in having your own unique pairs out of the available anchor tokens? Please [reach out to us](https://t.me/ALEXselfservice). It is important to note that unique pairs are subject to approval by the ALEX Lab Foundation team.
