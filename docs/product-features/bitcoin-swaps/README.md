@@ -1,5 +1,5 @@
 ---
-description: Use the ALEX decentralized exchange (DEX) for trustless swaps.
+description: The new Bitcoin-native token swaps offers the most practical way to exchange tokens from the comfort of your favorite blockchain.
 layout:
   title:
     visible: true
