@@ -13,7 +13,7 @@ layout:
     visible: false
 ---
 
-# 🔥🌶️ Bitcoin Native Swaps 🌶️🔥
+# 🔥 Bitcoin Native Swaps
 
 The new Bitcoin-native token swaps offers the most practical way to exchange tokens. This method is easier, faster, and less exposed to price variations compared to bridging, swapping and bridging back. Best of all, you can complete the entire process securely in a single step—right from the comfort of your favorite blockchain.
 
