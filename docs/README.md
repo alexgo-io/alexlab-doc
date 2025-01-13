@@ -5,7 +5,7 @@ coverY: 0
 {% hint style="danger" %}
 🔥🌶️ Don't miss out! We've just launched the new [Bitcoin Native Token Swaps app](https://app.alexlab.co/bitcoin/swap)! 🌶️🔥
 
-[Read more here...](product-features%2Fbitcoin-swaps%2FREADME.md)
+[Read more here...](product-features/bitcoin-swaps/README.md)
 {% endhint %}
 
 ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with XLink, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.&#x20;
