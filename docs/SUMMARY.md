@@ -2,7 +2,7 @@
 
 * [What is ALEX](README.md)
 
-## What is new? 🌶️
+## 🌶️ What is new?
 * [🔥 Bitcoin Native Swaps](product-features/bitcoin-swaps/README.md)
 
 
