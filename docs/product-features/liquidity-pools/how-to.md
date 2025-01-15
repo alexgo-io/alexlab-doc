@@ -18,7 +18,7 @@ Ready to start? Let's get hands-on!
 
 Go to [https://app.alexlab.co/](https://app.alexlab.co/) and click on navbar's Swap -> Pool tab.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Step 2
 
@@ -31,7 +31,7 @@ All available pools will be displayed including information such as:
 
 Select the token pair to which you want to add liquidity from the displayed list. Note you can sort by pool metrics.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-2-select-pool.png" alt=""><figcaption><p>Selected STX-ALEX liquidity pool as example.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-2-select-pool.png" alt=""><figcaption><p>Selected STX-ALEX liquidity pool as example.</p></figcaption></figure>
 
 {% hint style="warning" %}
 When hovering over a pool, you might notice a "+LP" button. This serves as a visual indicator for the selected pool. Clicking it will take you to the same screen as clicking anywhere on the pool's row.
@@ -45,7 +45,7 @@ When you set the amount for one token, the corresponding amount for the other to
 
 **Need tokens?** Visit the [Token Swaps](../token-swaps/) docs section and to learn how to exchange tokens on ALEX Lab platform.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-3-pool-control-panel.png" alt=""><figcaption><p>Control panel example for STX-ALEX liquidity pool. Amount is set to 4 STX and ALEX token amount is automatically determined.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-3-pool-control-panel.png" alt=""><figcaption><p>Control panel example for STX-ALEX liquidity pool. Amount is set to 4 STX and ALEX token amount is automatically determined.</p></figcaption></figure>
 
 {% hint style="warning" %}
 Clicking the "Max" button will automatically set the amount to your total available balance.
@@ -55,15 +55,15 @@ Clicking the "Max" button will automatically set the amount to your total availa
 
 If you want to adjust slippage, select the "Settings" icon to open the Transaction Settings panel and set your desired tolerance. The default slippage tolerance for non-stable swap token pairs is set to 4%, meaning your transaction will revert if the exchange rate changes unfavourably by more than this percentage. The displayed number of LP tokens you will receive is approximate due to this potential variation.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-4-settings-icon.png" alt="" width="375"><figcaption><p>Transaction Settings icon.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-4-settings-icon.png" alt="" width="375"><figcaption><p>Transaction Settings icon.</p></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-4-adjust-slippage.png" alt="" width="375"><figcaption><p>Transaction Settings panel example, with slippage tolerance set to 3%.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-4-adjust-slippage.png" alt="" width="375"><figcaption><p>Transaction Settings panel example, with slippage tolerance set to 3%.</p></figcaption></figure>
 
 ### Step 5
 
 One you decide the amount, click the "Add" button. Confirmation panel will appear. Here you can double check balances, slippage and LP tokens. If everything it's okay, click "Confirm" :sunglasses:
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-5-confirm-add-liquidity.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-5-confirm-add-liquidity.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Step 6
 
@@ -82,7 +82,7 @@ To be completely sure, you can check:
 
 Wait for the transaction to be confirmed on the network.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Recommended to track transaction status:
@@ -105,7 +105,7 @@ After successfully adding liquidity, you will be able to see your LP tokens and 
 * The **My Pool Share** shows how much of the overall pool you own, as a percentage.
 * The **Indicative Value** reflects the value of your holdings in USD, which can change based on the price action of the underlying assets.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-8-my-liquidity.png" alt=""><figcaption><p>"My Liquidity" panel.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-8-my-liquidity.png" alt=""><figcaption><p>"My Liquidity" panel.</p></figcaption></figure>
 
 {% hint style="info" %}
 You can find the "My Liquidity" panel above the Liquidity Pool control panel (shown in Step 3). A summarized version is also available under the Swap -> Pool tab or at https://app.alexlab.co/pool.
@@ -117,23 +117,23 @@ You can find the "My Liquidity" panel above the Liquidity Pool control panel (sh
 
 As when adding liquidity, go to [https://app.alexlab.co/](https://app.alexlab.co/) and click on navbar's Swap -> Pool tab.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Once you're on the Pool page, you'll find the "My Liquidity" panel at the top of the pool list. This panel provides a summary of all your pool contributions.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-1-my-liquidity-main-panel.png" alt=""><figcaption><p>The pools where you are providing liquidity are displayed here. There is only one in this example.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-1-my-liquidity-main-panel.png" alt=""><figcaption><p>The pools where you are providing liquidity are displayed here. There is only one in this example.</p></figcaption></figure>
 
 ### Step 2
 
 Select the pool you would like to remove liquidity from, either through the "My Liquidity" panel or directly from the pool list.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-2-select-pool.png" alt=""><figcaption><p>STX-ALEX pool selection.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-2-select-pool.png" alt=""><figcaption><p>STX-ALEX pool selection.</p></figcaption></figure>
 
 ### Step 3
 
 Once in the panel of the pool, select the "Remove Liquidity" tab.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-3-remove-tab.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-3-remove-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Step 4
 
@@ -143,25 +143,25 @@ When you enter the amount of LP tokens, you are specifiyng amount you will trans
 
 Once you have decided the LP token amount, click the "Remove" button.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-4-enter-amount.png" alt="" width="375"><figcaption><p>Example of removing all liquidity; the amount matches the LP token balance.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-4-enter-amount.png" alt="" width="375"><figcaption><p>Example of removing all liquidity; the amount matches the LP token balance.</p></figcaption></figure>
 
 ### Step 5
 
 A confirmation panel will appear where you can double check the amount. If everything looks correct, click "Confirm" :sunglasses:
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-5-confirm-remove-liquidity.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-5-confirm-remove-liquidity.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Step 6
 
 After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-6-reduce-position-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-6-reduce-position-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure>
 
 ### Step 7
 
 Wait for the transaction to be confirmed on the network.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tx-broadcasted.png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Recommended to track transaction status:
@@ -179,6 +179,6 @@ Recommended to track transaction status:
 
 Once the transaction is completed, you will see the changes reflected in the "My Liquidity" panel, and the updated token balances should appear in your wallet.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-8-my-liquidity.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-8-my-liquidity.png" alt=""><figcaption></figcaption></figure>
 
 [^1]: The APR metric is the same as the displayed in the Fee Rebate column on the previous step.

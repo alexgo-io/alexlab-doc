@@ -50,7 +50,7 @@ Now that you've chosen a farm to stake in, you'll need LP tokens, which are obta
 
 1. Click on the Pool tab in the top navigation bar.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
 2. Find the pool that matches the **Trading Pair** you noted before. This is the liquidity pool linked to the farm you've selected.
 3. Click on the pool. This will open the pool control panel, where you can add liquidity.
