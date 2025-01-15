@@ -49,7 +49,7 @@ $ALEX holders have voting rights on, but not limited to:
 * Transaction fee rebate to liquidity providers
 * Staking policy
 * Reserve fund distribution policy
-* $ALEX token supply policy (including buyback and increase)
+* ALEX token supply policy (including buyback and increase)
 
 ## **Progressive Governance Decentralization**
 
@@ -107,7 +107,7 @@ Progressive liquidity decentralization is managing the transition from the conce
 
 ALEX will introduce a “cap” on the amount a single liquidity provider can contribute as well as “gates” that will manage an orderly exit of capital, with a view to ensuring that no single LP can be more than a certain percentage of total liquidity and a long-term liquidity commitment is rewarded.
 
-This serves to align the interest of our Liquidity Providers with the interests of the ALEX community and protocol, which best ensures the long term growth, prosperity and price appreciation of ALEX Token.
+This serves to align the interest of our Liquidity Providers with the interests of the ALEX community and protocol, which best ensures the long term growth, prosperity and price appreciation of the ALEX Token.
 
 ## **Risk Management of ALEX Reserve Pool**
 

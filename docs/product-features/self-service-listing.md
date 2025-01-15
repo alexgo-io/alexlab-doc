@@ -32,7 +32,7 @@ Interested in having your own unique pairs out of the available anchor tokens? P
 
 👉 **Token Deployment.** Ensure your token is deployed on the Stacks blockchain, as you will need to provide the token contract.
 
-👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native token _STX_, _ALEX_ token, or _aBTC_ token. Ensure you have at least 1,800 _STX_ or an equivalent value in _ALEX_ or _aBTC_ token to create the pool—this is the minimum anchor token liquidity.
+👉 **Select an Anchor Token.** Choose an anchor token from the available options: Stacks native token STX, ALEX token, or aBTC token. Ensure you have at least 1,800 STX or an equivalent value in ALEX or aBTC token to create the pool—this is the minimum anchor token liquidity.
 
 👉 **Determine Initial Price.** Decide the initial price for your listing token in terms of anchor token units. This should answer the question: how many anchor tokens do users need to buy one listed token?
 
@@ -84,11 +84,11 @@ Provide the listed token contract address. Ensure it complies with the [SIP-010 
 
 Verify that the token information retrieved from the contract is correct. In the example:
 
-- **Token name** -> `RABBY Token`
-- **Token symbol** -> `RABBY`
-- **Description** -> Unlock the potential of programmable adventures within Bitcoin's rabbit holes.
-- **Token deployment address** -> `SP108J6F4C7JD93BGJ91TEB5D3CFB5XW39QHDJ3MV`
-- **Token logo**
+* **Token name** -> `RABBY Token`
+* **Token symbol** -> `RABBY`
+* **Description** -> Unlock the potential of programmable adventures within Bitcoin's rabbit holes.
+* **Token deployment address** -> `SP108J6F4C7JD93BGJ91TEB5D3CFB5XW39QHDJ3MV`
+* **Token logo**
 
 </details>
 
@@ -100,9 +100,9 @@ Enter the initial balances for both tokens. You can experiment with different am
 
 In the screenshot example, this is:
 
-- **Anchor Token ⚓** (a.k.a `token-x`) -> `4,000 STX ($7,200)`
-- **Listing Token 🚀** (a.k.a `token-y`) -> `200,000 RABBY`
-- **Exchange Rate ⚖️** -> `1 RABBY = 0.02 STX ($0.03)`
+* **Anchor Token ⚓** (a.k.a `token-x`) -> `4,000 STX ($7,200)`
+* **Listing Token 🚀** (a.k.a `token-y`) -> `200,000 RABBY`
+* **Exchange Rate ⚖️** -> `1 RABBY = 0.02 STX ($0.03)`
 
 Once the pool opens, the AMM algorithm will automatically rebalance the exchange rate as users trade the tokens.
 
@@ -140,7 +140,7 @@ After submitting the Self-Service Listing Pool, a pop-up will appear, allowing t
 
 - **Do not lock LP 🔓**: There will be no lock-up period and the initial liquidity provider (the pool creator) will receive the corresponding LP tokens once the pool is live and operational. Since the pool is unlocked, the owner will be able to withdraw liquidity at any time.
 
-- **LP is locked for 6 months 🔒** : This is the default option. It locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim after maturity. When the period concludes, the pool owner can withdraw liquidity as any other provider. This prevents unexpected withdrawals and protects liquidity providers from rug pulls.
+- **LP is locked for 6 months 🔒** : This is the default option. It locks liquidity within decentralized smart contracts for a 6 month period, requiring a manual LP claim upon maturity. When the period concludes, the pool owner can withdraw liquidity as any other provider. This prevents unexpected withdrawals and protects liquidity providers from rug pulls.
 
 - **Burn LP 🔥** : Permanently burns a portion of tokens, ensuring that they can never be recovered or withdrawn. Since the initial liquidity vanishes, this option protects future liquidity providers from rug pulls and enhances trust and transparency.
 
@@ -150,7 +150,7 @@ In case of locking or burning tokens, there will be a highlighted banner that di
 
 ### Step 3: Contract creation
 
-Once the transaction from Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
+Once the transaction you executed in Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
 
 ### Step 4: Deposit listing token
 
