@@ -76,7 +76,7 @@ To be completely sure, you can check:
 * The amounts you will transfer to the smart contract, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions). Note that one transfer amount is exactly determined (STX in the example) while the other is subject to a "less than or equal to" condition. This accounts the potential slippage variation, and here you can see the exact upper bound. If these conditions are not met, the transaction will abort.
 {% endhint %}
 
-<div><figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-6-add-to-position-post-con.png" alt="" width="375"><figcaption><p>Amounts to transfer and post conditions.</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-6-add-to-position-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-6-add-to-position-post-con.png" alt="" width="375"><figcaption><p>Amounts to transfer and post conditions.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-6-add-to-position-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure></div>
 
 ### Step 7
 
@@ -92,9 +92,9 @@ Recommended to track transaction status:
 * Check your address activity on the wallet.
 {% endhint %}
 
-<div><figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tg-tx-pending.png" alt="" width="348"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tg-tx-success.png" alt="" width="349"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tg-tx-pending.png" alt="" width="348"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-tg-tx-success.png" alt="" width="349"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
 
-<div><figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/liquidity-pools/adding-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure></div>
 
 ### Step 8
 
@@ -171,9 +171,9 @@ Recommended to track transaction status:
 * Check your address activity on the wallet.
 {% endhint %}
 
-<div><figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-7-tg-tx-pending.png" alt="" width="344"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-7-tg-tx-success.png" alt="" width="361"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-tg-tx-pending.png" alt="" width="344"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-tg-tx-success.png" alt="" width="361"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
 
-<div><figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/liquidity-pools/removing-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure></div>
 
 ### Step 8
 

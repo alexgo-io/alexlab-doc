@@ -14,7 +14,7 @@ The **swap fee** is the total fee charged to users for executing a token swap. I
 
 On the other hand, the **fee rebate** is the portion of the swap fee that is distributed to liquidity providers as a reward for supplying liquidity to the pool. The remaining portion of the swap fee goes to the ALEX Lab Foundation. You can also find the fee rebate percentage in the Pool Info panel.
 
-<img src="../../../.gitbook/assets/liquidity-pools/faqs-pool-info-panel-fees.png" alt="Pool Info panel, with highligthed &#x22;Fees&#x22; box" data-size="original">
+<img src="../../.gitbook/assets/liquidity-pools/faqs-pool-info-panel-fees.png" alt="Pool Info panel, with highligthed &#x22;Fees&#x22; box" data-size="original">
 
 </details>
 
