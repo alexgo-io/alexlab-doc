@@ -10,7 +10,7 @@ That said, let's get hands-on!
 
 ## :currency\_exchange: :moneybag: Trade one token for another
 
-### Step 1
+### Step 1: Head to the Bitcoin Swap Panel
 
 Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. You can also navigate to it by clicking the `Swap` tab on the top menu bar. By default, the `Swap` section will be set to the Stacks Native Swap. For the **Bitcoin Native Swap**, select `Bitcoin` on the slider in the top left corner.
 
@@ -28,7 +28,7 @@ Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. 
 
 </div>
 
-### Step 2
+### Step 2: Select Tokens and Amount
 
 Select the tokens you want to exchange and enter the amount.
 
@@ -46,7 +46,7 @@ Clicking the `Max` button will automatically set the amount to your total availa
 
 <figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-token-list.png" alt=""><figcaption><p>Token search and selection panel.</p></figcaption></figure>
 
-### Step 3
+### Step 3: Check Transaction Details
 
 #### Transaction Details
 
@@ -71,22 +71,21 @@ Below the Details panel, you will see the **Network Fee**, which is the amount o
 
 If you want to adjust the **Swap Slippage**, select the "Edit" button to the right of the Swap Slippage field to open the **Transaction Settings** pop up. This will show a `Recommended` Slippage Tolerance, set at 4%, and an option to **Customize** the tolerance. Set your desired tolerance and click `Confirm`. This will determine your allowed range for price movement. Your transaction will revert if the price changes unfavourably by more than this percentage.
 
-<!-- remove or edit -->
 <div>
 <figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-edit-slippage.png" alt="" width="375"><figcaption>Edit Swap Slippage button</figcaption></figure></div>
 
 <figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-transaction-settings.png" alt="" width="375"><figcaption><p>Transaction Settings panel example, with slippage tolerance set to 2%.</p></figcaption></figure>
 </div>
 
-### Step 4
+### Step 4: Confirm Transaction
 
 Once you're ready to move ahead, select the `Swap` button which will bring up the Confirmation panel. This panel provides a final overview of your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click `Confirm` 😎.
 
-### Step 5
+### Step 5: Confirm Transaction in your Wallet
 
 After clicking `Confirm`, you will need to confirm the transaction in your wallet. Here, your Bitcoin wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
-### Step 6 <a href="#step-7" id="step-7"></a>
+### Step 6: Wait for Confirmation <a href="#step-7" id="step-7"></a>
 
 Wait for the transaction to be confirmed on the network.
 
@@ -98,7 +97,7 @@ Recommended to track transaction status:
 * Check your address activity on the wallet.
 {% endhint %}
 
-### Step 7
+### Step 7: Check the Updated Balance
 
 Once the transaction is completed, you will see the balance updated in your wallet.
 
