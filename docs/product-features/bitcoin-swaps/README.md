@@ -13,21 +13,17 @@ layout:
     visible: false
 ---
 
-# 🔥🌶️ Bitcoin Native Swaps 🌶️🔥
+# Bitcoin Native Swap
 
-The new Bitcoin-native token swaps offers the most practical way to exchange tokens. This method is easier, faster, and less exposed to price variations compared to bridging, swapping and bridging back. Best of all, you can complete the entire process securely in a single step—right from the comfort of your favorite blockchain.
+The Bitcoin Native Swap offers the most practical way to exchange tokens. This method is easier, faster, and less exposed to price variations compared to bridging, swapping and bridging back. Best of all, you can complete the entire process securely in a single step—right from the comfort of your favorite blockchain.
 
-👉 Get started now: Go to our swap dApp and select Bitcoin in the upper left corner of the page or go directly [here](https://app.alexlab.co/bitcoin/swap/).
-
-<!--
+👉 Get started now: Go to our swap dApp and select Bitcoin in the upper left corner of the page or go [here](https://app.alexlab.co/bitcoin/swap/).
 
 ## Explore
 
 {% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
 {% content-ref url="how-to.md" %} [how-to.md](how-to.md) {% endcontent-ref %}
 {% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
-
--->
 
 ## Support
 
