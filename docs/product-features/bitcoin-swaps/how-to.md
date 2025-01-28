@@ -8,7 +8,7 @@ When performing a token swap, you transfer an amount of the token you want to ex
 
 That said, let's get hands-on!
 
-## :currency\_exchange: :moneybag: Trade one token for another
+## :currency\_exchange: :moneybag: Trade One Token for Another
 
 ### Step 1: Head to the Bitcoin Swap Panel
 
