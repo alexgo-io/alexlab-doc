@@ -21,9 +21,17 @@ The Bitcoin Native Swap offers the most practical way to exchange tokens. This m
 
 ## Explore
 
-{% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
-{% content-ref url="how-to.md" %} [how-to.md](how-to.md) {% endcontent-ref %}
-{% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
+{% content-ref url="/bitcoin-native-swap/features/bitcoin-swaps/key-concepts" %}
+[key-concepts](bitcoin-native-swap/features/bitcoin-swaps/key-concepts)
+{% endcontent-ref %}
+
+{% content-ref url="/bitcoin-native-swap/features/bitcoin-swaps/how-to" %}
+[how-to](bitcoin-native-swap/features/bitcoin-swaps/how-to)
+{% endcontent-ref %}
+
+{% content-ref url="/bitcoin-native-swap/features/bitcoin-swaps/faqs" %}
+[faqs](bitcoin-native-swap/features/bitcoin-swaps/faqs)
+{% endcontent-ref %}
 
 ## Support
 
