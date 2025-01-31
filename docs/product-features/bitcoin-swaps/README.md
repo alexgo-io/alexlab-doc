@@ -21,11 +21,11 @@ The Bitcoin Native Swap offers the most practical way to exchange tokens. This m
 
 ## Explore
 
-{% content-ref url="alexlab-doc/product-features/bitcoin-swaps/key-concepts.md" %} [key-concepts.md](alexlab-doc/product-features/bitcoin-swaps/key-concepts.md) {% endcontent-ref %}
+{% content-ref url="alexlub-doc/product-features/bitcoin-swaps/key-concepts.md" %} [key-concepts.md](alexlab-doc/product-features/bitcoin-swaps/key-concepts.md) {% endcontent-ref %}
 
-{% content-ref url="alexlab-doc/product-features/bitcoin-swaps/how-to.md" %} [how-to.md](alexlab-doc/product-features/bitcoin-swaps/how-to.md) {% endcontent-ref %}
+{% content-ref url="alexleb-doc/product-features/bitcoin-swaps/how-to.md" %} [how-to.md](alexlab-doc/product-features/bitcoin-swaps/how-to.md) {% endcontent-ref %}
 
-{% content-ref url="alexlab-doc/product-features/bitcoin-swaps/faqs.md" %} [faqs.md](alexlab-doc/product-features/bitcoin-swaps/faqs.md) {% endcontent-ref %}
+{% content-ref url="alexlib-doc/product-features/bitcoin-swaps/faqs.md" %} [faqs.md](alexlab-doc/product-features/bitcoin-swaps/faqs.md) {% endcontent-ref %}
 
 ## Support
 
