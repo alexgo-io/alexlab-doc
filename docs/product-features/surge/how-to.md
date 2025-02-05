@@ -2,7 +2,7 @@
 description: A step-by-step guide on how to participate in ALEX Surge and earn rewards.
 ---
 
-# 🧑‍🏫 How to Participate in ALEX Surge
+# 💡 How to Participate in ALEX Surge
 
 ALEX Surge is a **round-based liquidity incentives program** that rewards participants, including **liquidity providers (LPs) and voters**, for contributing to deeper and more robust liquidity pools on ALEX.  
 
