@@ -25,9 +25,9 @@ To join the current Surge campaign and start earning rewards, visit the [ALEX Su
 
 ## Explore
 
-{% content-ref url="key-concepts.md" %} [ key-concepts.md](key-concepts.md) {% endcontent-ref %}
-{% content-ref url="how-to.md" %} [ how-to.md](how-to.md) {% endcontent-ref %}
-{% content-ref url="faqs.md" %} [ faqs.md](faqs.md) {% endcontent-ref %}
+{% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
+{% content-ref url="how-to.md" %} [how-to.md](how-to.md) {% endcontent-ref %}
+{% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
 
 ## Support
 
