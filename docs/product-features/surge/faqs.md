@@ -2,7 +2,7 @@
 description: Common questions you may have when participating in ALEX Surge.
 ---
 
-# ❓  FAQs
+# ? FAQs
 
 <details>
 <summary>What is ALEX Surge?</summary>
