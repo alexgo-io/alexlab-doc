@@ -30,7 +30,7 @@
   * [Join the ALEX Launchpad!](features/launchpad/join-the-alex-launchpad.md)
 * [⚡ Surge](product-features/surge/README.md)
   * [💡 Key concepts](product-features/surge/key-concepts.md)
-  * [🧑‍🏫 How to participate](product-features/surge/how-to.md)
+  * [💡 How to participate](product-features/surge/how-to.md)
   * [? FAQs](product-features/surge/faqs.md)
 
 ## Resources
