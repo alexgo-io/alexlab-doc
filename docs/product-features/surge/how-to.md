@@ -14,8 +14,17 @@ If you are a project owner or community member, you can register a liquidity poo
 
 ### 📌 How to Register:
 1. Go to the [ALEX Surge App](https://app.alexlab.co/surge) and click `Register for Surge`.
+<figure><img src="../../.gitbook/assets/surge/surge-register.png" alt=""><figcaption>Surge registration</figcaption></figure>
 2. Complete the registration process before the **cut-off date**.
+
+<figure><img src="../../.gitbook/assets/surge/surge-register-2.png" alt=""><figcaption>Surge registration</figcaption></figure>
+
 3. Optionally, **donate voter rewards** to encourage more votes for your pool. **Once donated, voter rewards cannot be revoked or withdrawn**.
+
+<figure><img src="../../.gitbook/assets/surge/voter-rewards.png" alt=""><figcaption>Donating voter rewards</figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/surge/voter-rewards-2.png" alt=""><figcaption>Confirming voter rewards donation</figcaption></figure>
+
 4. Promote your pool on **social media** by posting and engaging with tweets about your project.  
    - Use **@alexlabbtc** and **#ALEXSurge** in your tweets.  
    - Submit tweets via **Discord** or **Blocksurvey** to improve your ranking on the Social Leaderboard.
@@ -33,6 +42,10 @@ During the voting and staking phase, users can **vote for pools and stake their 
 2. Choose how to **split your voting power** (determined by your **ALEX and LiALEX holdings**) among different pools.
 3. **Submit your vote**. **You can only vote once per round per wallet**.
 
+<figure><img src="../../.gitbook/assets/surge/surge-vote.png" alt=""><figcaption>Voting interface</figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/surge/surge-vote-2.png" alt=""><figcaption>Allocating voting power</figcaption></figure>
+
 Pools that receive more votes will get a **higher share of the $ALEX rewards**.
 
 ### 📌 How to Stake LP Tokens:
@@ -40,6 +53,9 @@ Pools that receive more votes will get a **higher share of the $ALEX rewards**.
 2. Click `+ Stake LP` on the pool you want to stake in.
 3. You can stake LP tokens in **multiple pools**.
 4. Rewards will be distributed **proportionally** based on the amount staked.
+
+<figure><img src="../../.gitbook/assets/surge/surge-stake.png" alt=""><figcaption>Staking LP tokens in Surge pools</figcaption></figure>
+
 
 🚨 **Important Notes:**  
 - The **ALEX Lab Foundation** also votes but **does not receive voter rewards**.  
@@ -53,8 +69,13 @@ Once the voting and staking phase ends, the **reward emission phase** begins.
 
 ### 📌 How to Claim Rewards:
 1. **Wait for the rewards emission phase to complete** (usually **27–28 days**).
+
+<figure><img src="../../.gitbook/assets/surge/pre-rewards.png" alt=""><figcaption>Overview of pending rewards before claiming</figcaption></figure>
+
 2. Go to the **Surge App** and navigate to the `Claim Rewards` section.
 3. Click `Harvest All` to **claim your LP tokens and earned $ALEX rewards**.
+
+<figure><img src="../../.gitbook/assets/surge/rewards.png" alt=""><figcaption>Claiming rewards and LP tokens</figcaption></figure>
 
 Once a Surge round ends, a new round begins, following the same process.
 
