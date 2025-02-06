@@ -16,7 +16,7 @@ The Bitcoin Native Swap on ALEX simplifies the process of swapping tokens, since
 
 <summary>Why are my tokens being converted to other tokens before being swapped for my target token?</summary>
 
-The ALEX Bitcoin Native Swap may use intermediate tokens to complete the exchange because it is designed to find the most optimal route for the swap. Sometimes fees are lower between some token pairs over others or your rate can be improved by splitting the swap into smaller steps. The route, as well as the fee, will always be displayed before your transaction is confirmed.
+The ALEX Bitcoin Native Swap may use intermediate tokens to complete the exchange because it is designed to find the most optimal route for the swap. Sometimes, there may not be a liquidity pool trading both the base and the target token, so the **Bitcoin Native Swap** must use other liquidity pools to complete the exchange. The route, as well as the fee, will always be displayed before your transaction is confirmed.
 
 </details>
 
