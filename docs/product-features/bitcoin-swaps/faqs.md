@@ -8,15 +8,7 @@ description: Common questions you may have when dealing with the Bitcoin Native 
 
 <summary>Why should I use the ALEX Bitcoin Native Swap instead of performing the operations myself?</summary>
 
-The Bitcoin Native Swap on ALEX simplifies the process of swapping tokens, since it performs the swap in one simple operation instead of requiring you to interact with multiple wallets, networks, or contracts. ALEX’s optimization algorithms reduce unnecessary fees and improve the overall value of your swap.
-
-</details>
-
-<details>
-
-<summary>Will my fees be lower or higher?</summary>
-
-Fees depend on many variables, such as transaction size and pool liquidity. The Bitcoin Native Swap finds the most cost-effective route for your transaction, by searching for the pools with the most liquidity (and lower fees) or performing intermediate swaps with other tokens. However, there are edge cases where fees may be slightly higher than in a manual operation—for example, if network fees drop within the extra minutes it would have taken the user to perform the operation manually. Either way, the fees will always be displayed in the transaction Details panel.
+The Bitcoin Native Swap on ALEX simplifies the process of swapping tokens, since it performs the swap in one simple operation instead of requiring you to interact with multiple wallets, networks, or contracts. The main benefit of the **Bitcoin Native Swap** on ALEX is that it ensures you won't miss the chance of executing a transaction at your desired exchange rate. Since the swap is performed automatically, you don't have to worry about price fluctuations that may occur if you perform the operation manually. Besides, ALEX’s optimization algorithms reduce unnecessary fees and improve the overall value of your swap.
 
 </details>
 
