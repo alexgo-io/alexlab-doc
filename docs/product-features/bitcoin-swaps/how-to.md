@@ -58,12 +58,12 @@ Check the transaction details by clicking the dropdown `Details` arrow below the
 * **Swap Slippage:** The maximum percentage of price movement you'll accept between the time you submit the transaction and its execution. The default slippage tolerance setting is 4%, but you can select a custom percentage by clicking on the edit button. If price movement exceeds the slippage tolerance, the transaction will be reverted.
 * **Liquidity Provider Fee:** The portion of the fee that is distributed between the Liquidity Providers (LPs) to incentivize them to continue providing liquidity.
 * **Price Impact:** How much your swap affects the exchange rate.
-* **Minimum Received:** The minimum amount of target token you will receive considering the maximum slippage variation. For example, if you expect to receive 100 target tokens, the Minimum Received will be 96 target tokens.
+* **Minimum Received:** The minimum amount of target token you will receive considering the maximum slippage variation. For example, if the Swap Slippage is set to the default value of 4% and you expect to receive 100 target tokens, the Minimum Received will be 96 target tokens.
 * **Swap Fee:** The cost associated with performing a swap, excluding the Liquidity Provider Fee. It is deducted from the base token amount and it is distributed to the ALEX Lab Platform.
 
 You can find more information on the aforementioned fields on the [Key Concepts Section](./key-concepts.md). 
 
-Below the Details panel, you will see the **Network Fee**, which is the amount of tokens paid to the Bitcoin network to incentivize miners to continue validating transactions. You can set your preferred fee with the `:pencil2: Modify` button.
+Below the Details panel, you will see the **Network Fee**, which is the amount of tokens paid to the Bitcoin network to incentivize miners to continue validating transactions. You can set your preferred fee with the :pencil: "edit" button.
 
 <figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-edit-fee.png" alt=""><figcaption><p>Edit Fee panel</p></figcaption></figure>
 
@@ -101,4 +101,4 @@ Recommended to track transaction status:
 
 Once the transaction is completed, you will see the balance updated in your wallet.
 
-Thank you for successfully swapping on ALEX! :arrows\_counterclockwise: :moneybag: :white\_check\_mark:
+Thank you for successfully swapping on ALEX! :white\_check\_mark:

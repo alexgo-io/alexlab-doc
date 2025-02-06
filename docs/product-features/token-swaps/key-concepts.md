@@ -1,5 +1,5 @@
 ---
-description: Learn the key terms involved in ALEX swap operations.
+description: Learn the key terms involved in swap operations.
 ---
 
 # 💡 Key concepts
@@ -34,7 +34,7 @@ If a direct swap between your desired token pair isn't possible, ALEX DEX may us
 
 ### Slippage
 
-Since the exchange rate fluctuates due to ongoing trades and blockchain transactions are not instantaneous, the price at the moment of the swap transaction execution may differ from the price at the moment of submitting the transaction. This difference is called slippage and occurs when traders have to accept a different price than what they initially requested.
+Since blockchain transactions are not instantaneous, the price at the moment of executing a swap may differ from the price when the transaction was submitted. This occurs because ongoing trades cause fluctuations in the exchange rate between a token pair. This difference between the prices at the moment of submission and execution is known as slippage, and users may set it at whatever percentage they find most convenient.
 
 ### Slippage Tolerance
 

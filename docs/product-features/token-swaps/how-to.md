@@ -97,4 +97,4 @@ Recommended to track transaction status:
 
 Once the transaction is completed, you will see the balance updated in your wallet.
 
-Thank you for successfully swapping on ALEX! :arrows\_counterclockwise: :moneybag: :white\_check\_mark:
+Thank you for successfully swapping on ALEX! :white\_check\_mark:
