@@ -32,6 +32,6 @@ When you perform a swap on ALEX, you are interacting with liquidity pools. Each 
 
 <summary>What is the difference between a swap fee and a liquidity provider fee?</summary>
 
-The liquidity provider fee is the amount paid by the user to the liquidity providers of the pool that is being used for the swap. The swap fee, in this case, refers to the fee that is being distributed to the ALEX Lab Platform for facillitating the exchange.
+The liquidity provider fee is the amount paid by the user to the Liquidity Providers of the pool that is being used for the swap. The swap fee, in this case, refers to the fee that is being distributed to the ALEX Lab Platform for facillitating the exchange.
 
 </details>

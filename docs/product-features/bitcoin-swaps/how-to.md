@@ -56,7 +56,7 @@ Check the transaction details by clicking the dropdown `Details` arrow below the
 
 * **Route:** The exchange route to convert from the base token into the target token. In the example we see STX -> ALEX, indicating it is a one-step or direct swap. Bear in mind that some transactions may require intermediate swaps.
 * **Swap Slippage:** The maximum percentage of price movement you'll accept between the time you submit the transaction and its execution. The default slippage tolerance setting is 4%, but you can select a custom percentage by clicking on the edit button. If price movement exceeds the slippage tolerance, the transaction will be reverted.
-* **Liquidity Provider Fee:** The portion of the fee that is distributed between the liquidity providers (LPs) to incentivize them to continue providing liquidity.
+* **Liquidity Provider Fee:** The portion of the fee that is distributed between the Liquidity Providers (LPs) to incentivize them to continue providing liquidity.
 * **Price Impact:** How much your swap affects the exchange rate.
 * **Minimum Received:** The minimum amount of target token you will receive considering the maximum slippage variation. For example, if the Swap Slippage is set to the default value of 4% and you expect to receive 100 target tokens, the Minimum Received will be 96 target tokens.
 * **Swap Fee:** The cost associated with performing a swap, excluding the Liquidity Provider Fee. It is deducted from the base token amount and it is distributed to the ALEX Lab Platform.

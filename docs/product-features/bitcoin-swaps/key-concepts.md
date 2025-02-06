@@ -30,7 +30,7 @@ The exchange rate determines how many target tokens you would receive for one ba
 
 ### Swap Fee
 
-This is the cost associated with performing a swap. It is deducted from the base token amount and is tipically set at 0.5%, though it can vary depending on the token pair (liquidity pool) involved. **Swap Fees** are distributed among liquidity providers and the ALEX Lab Platform.
+This is the cost associated with performing a swap. It is deducted from the base token amount and is tipically set at 0.5%, though it can vary depending on the token pair (liquidity pool) involved. **Swap Fees** are distributed among Liquidity Providers and the ALEX Lab Platform.
 
 The swap fees on the Bitcoin Native Swap are expressed in sat/vB, or satoshis per virtual bytes. Satoshis are the smallest units of Bitcoin and virtual Bytes are a measure of transaction size on the Bitcoin Network.
 
