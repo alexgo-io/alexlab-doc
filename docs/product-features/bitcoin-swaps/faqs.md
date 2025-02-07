@@ -9,7 +9,7 @@ description: Common questions you may have when dealing with the Bitcoin Native 
 <summary>Why should I use the ALEX Bitcoin Native Swap instead of performing the operations myself?</summary>
 
 The main benefit of the **Bitcoin Native Swap** on ALEX is that it ensures you won't miss the chance to execute a transaction at your desired exchange rate. Since the swap is performed automatically, you don't have to worry about price fluctuations that may occur if you perform the operation manually. 
-The Bitcoin Native Swap also makes transactions simpler and more atomized. It performs the swap in just one operation instead of requiring you to interact with multiple wallets, networks, or contracts. Should any error occur in any of the intermediate steps, the whole process will revert, allowing you control over the entire swap.
+From a user perspective, the Bitcoin Native Swap also simplifies an otherwise lengthy process. You can execute the swap in just one operation instead of interacting with multiple wallets, networks, or contracts. Should any error occur in any of the intermediate steps, the whole process will revert, allowing you control over the entire swap.
 
 </details>
 
