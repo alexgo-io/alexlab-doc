@@ -11,7 +11,6 @@
 
 ## Features
 
-
 * [🌶️ Bitcoin Native Swap 🌶️](product-features/bitcoin-swaps/README.md)
   * [💡 Key concepts](product-features/bitcoin-swaps/key-concepts.md)
   * [🧑‍🏫 How to swap](product-features/bitcoin-swaps/how-to.md)
