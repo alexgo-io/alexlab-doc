@@ -27,11 +27,9 @@ in a single step—right from the comfort of your favorite blockchain.
 
 ## Explore
 
-<!-- 
 {% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
 {% content-ref url="how-to.md" %} [how-to.md](how-to.md) {% endcontent-ref %}
 {% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
- -->
 
 
 ## Support
