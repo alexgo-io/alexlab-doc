@@ -17,7 +17,7 @@ The Bitcoin Native Swap also makes transactions simpler and more atomized. It pe
 
 <summary>Will my fees be lower or higher than in a manual operation?</summary>
 
-Fees depend on many variables, such as transaction size and pool liquidity. The Bitcoin Native Swap performs the same operations as you would in a manual operation, so fees should be roughly equal. They may be slightly higher than in a manual operation if, for example, the fees drop in the extra minutes it takes you to complete the steps yourself. However, the difference is negligible. If anything, fees may be slightly lower since Bitcoin Native Swap finds the most optimal route for your transaction.
+Fees depend on many variables, such as transaction size and pool liquidity. The **Bitcoin Native Swap** performs the same operations as you would in a manual operation, so fees should be roughly equal. They may be slightly higher than in a manual operation if, for example, the fees drop in the extra minutes it takes you to complete the steps yourself. However, the difference is negligible. If anything, fees may be slightly lower since Bitcoin Native Swap finds the most optimal route for your transaction.
 
 </details>
 
