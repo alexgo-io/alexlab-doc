@@ -85,6 +85,8 @@ Once you're ready to move ahead, select the `Swap` button which will bring up th
 
 After clicking `Confirm`, you will need to confirm the transaction in your wallet. Here, your Bitcoin wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
+<div><figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-wallet-confirm-1.png" alt="" width="375"><figcaption><p>Transfer amounts involved and expandable details.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-wallet-confirm-2.png" alt="" width="375"><figcaption><p>Inputs and outputs and confirmation button.</p></figcaption></figure></div>
+
 ### Step 6: Wait for Confirmation <a href="#step-7" id="step-7"></a>
 
 Wait for the transaction to be confirmed on the network.
@@ -97,8 +99,14 @@ Recommended to track transaction status:
 * Check your address activity on the wallet.
 {% endhint %}
 
+<div><figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-pending.png" alt="" width="345"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-success.png" alt="" width="350"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
+
+<div><figure><img src="../../.gitbook/assets/token-swaps/6-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/token-swaps/6-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure></div>
+
 ### Step 7: Check the Updated Balance
 
 Once the transaction is completed, you will see the balance updated in your wallet.
 
 Thank you for successfully swapping on ALEX! :white\_check\_mark:
+
+
