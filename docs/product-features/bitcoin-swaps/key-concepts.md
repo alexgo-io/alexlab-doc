@@ -6,11 +6,7 @@ description: Learn the key terms involved in swap operations.
 
 ### Token Swap
 
-A Token Swap is the exchange or trade of a certain amount of one crypto asset for another. In ALEX Lab Platform, swaps are performed on the ALEX's decentralized exchange (DEX) and are facilitated by liquidity pools.
-
-### Swap Transaction
-
-The ALEX DEX operates through smart contracts built on the Stacks blockchain, so all interactions, including swaps, are carried out through blockchain transactions. When you confirm a swap transaction on the ALEX Lab Platform, you are submitting it to the Stacks network to interact with the ALEX DEX smart contract. Once the transaction is confirmed, it means the swap was executed successfully. If the transaction is reverted, no funds will be lost.
+A Token Swap is the exchange or trade of a certain amount of one crypto asset for another. In ALEX Lab Platform, swaps are performed on the ALEX's decentralized exchange (DEX) and are facilitated by liquidity pools. 
 
 ### Base Token
 
@@ -20,13 +16,23 @@ The token you currently hold and want to exchange. This is the token you will tr
 
 Also known as the "quoted token", this is the token you will receive in the swap transaction in exchange for the base token.
 
+### Swap Transaction
+
+All interactions on the ALEX DEX are carried out through smart contracts that operate on the Stacks blockchain. As you may know, it is not possible to deploy complex smart contracts on the Bitcoin blockchain, so ALEX uses Stacks to add a financial layer to Bitcoin. 
+
+**Bitcoin Native Swaps** operate by bridging the **base token** on Bitcoin to Stacks, where the swap is performed. Afterwards, the token will be bridged from Stacks to the **target token** on Bitcoin. From a user standpoint, this operation is seamlessly handled by the ALEX DEX, since you will send and receive tokens from the same Bitcoin address. Once the transaction is confirmed, it means the swap was executed successfully. If the transaction is reverted, no funds will be lost.
+
+The Bitcoing Native Swap eliminates the need for intermediate operations, saving time and protecting the user from fluctuations in prices. For more information on the benefits of the Bitcoin Native Swap, you can consult the [FAQs](./faqs.md).
+
 ### Exchange Rate
 
 The exchange rate determines how many target tokens you would receive for one base token. On the ALEX DEX, this rate is algorithmically determined by the [ALEX Automated Market Maker (AMM)](../../detailed-information/alexs-automated-market-maker-amm.md) protocol and is updated after each swap.
 
 ### Swap Fee
 
-This is the cost associated with performing a swap. It is deducted from the base token amount and is tipically set at 0.5%, though it can vary depending on the token pair (liquidity pool) involved.
+This is the cost associated with performing a swap. It is deducted from the base token amount and is tipically set at 0.5%, though it can vary depending on the token pair (liquidity pool) involved. **Swap Fees** are distributed among Liquidity Providers and the ALEX Lab Platform.
+
+The swap fees on the Bitcoin Native Swap are expressed in sat/vB, or satoshis per virtual bytes. Satoshis are the smallest units of Bitcoin and virtual Bytes are a measure of transaction size on the Bitcoin Network.
 
 ### Swap Route
 

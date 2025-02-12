@@ -2,12 +2,19 @@
 
 * [What is ALEX](README.md)
 
+<!-- 
 ## 🌶️ What is new?
 * [🔥 Bitcoin Native Swaps](product-features/bitcoin-swaps/README.md)
+ -->
+
 
 
 ## Features
 
+* [🌶️ Bitcoin Native Swap](product-features/bitcoin-swaps/README.md)
+  * [💡 Key concepts](product-features/bitcoin-swaps/key-concepts.md)
+  * [🧑‍🏫 How to swap](product-features/bitcoin-swaps/how-to.md)
+  * [❓ FAQs](product-features/bitcoin-swaps/faqs.md)
 * [🔄 Token Swaps](product-features/token-swaps/README.md)
   * [💡 Key concepts](product-features/token-swaps/key-concepts.md)
   * [🧑‍🏫 How to swap](product-features/token-swaps/how-to.md)
@@ -16,12 +23,12 @@
   * [💡 Key concepts](product-features/liquidity-pools/key-concepts.md)
   * [🧑‍🏫 How to add/remove liquidity](product-features/liquidity-pools/how-to.md)
   * [❓ FAQs](product-features/liquidity-pools/faqs.md)
-  * [📝 Self-Service Listing](product-features/self-service-listing.md)
+  * [📝 Self-service listing](product-features/self-service-listing.md)
 * [🌾 Farming](product-features/farming/README.md)
   * [💡 Key concepts](product-features/farming/key-concepts.md)
   * [🧑‍🏫 How to farm & harvest](product-features/farming/how-to.md)
   * [❓ FAQs](product-features/farming/faqs.md)
-  * [🧑‍🌾 Self-Service Farming](product-features/self-service-farming.md)
+  * [🧑‍🌾 Self-service farming](product-features/self-service-farming.md)
 * [⚓ Stake](product-features/staking/README.md)
   * [💡 Key concepts](product-features/staking/key-concepts.md)
   * [🧑‍🏫 How to stake](product-features/staking/how-to.md)
