@@ -34,7 +34,7 @@
   * [🧑‍🏫 How to stake](product-features/staking/how-to.md)
   * [❓ FAQs](product-features/staking/faqs.md)
 
-## Are You a Project Owner? Check This Out!
+## What Can You Do as a Project Owner?
 * [🚀 Launch Your Project](features/launchpad/join-the-alex-launchpad.md)
 * [📝 Create Your Own Pool](product-features/self-service-listing.md)
 * [🧑‍🌾 Add Farming to Your Pool](product-features/self-service-farming.md)
