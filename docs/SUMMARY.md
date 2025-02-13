@@ -2,19 +2,18 @@
 
 * [What is ALEX](README.md)
 
-## 🌶️ What's NEW?
-* [🔥 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
+* [🔥 What's NEW?](product-features/bitcoin-swaps/README.md)
 
 <!-- 
 ## Getting Started
-* [Connect Your Wallet]()
-* [Acquire Tokens]()
-* [Join the Community]()
-* [Give Feedback]()
+* [👛 Connect Your Wallet]()
+* [💰 Acquire Tokens]()
+* [👥 Join the Community]()
+* [💬 Give Feedback]()
  -->
 
 ## What Can You Do?
-* [🌶️ Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
+* [🪙 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
   * [💡 Key concepts](product-features/bitcoin-swaps/key-concepts.md)
   * [🧑‍🏫 How to swap](product-features/bitcoin-swaps/how-to.md)
   * [❓ FAQs](product-features/bitcoin-swaps/faqs.md)
