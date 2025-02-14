@@ -14,8 +14,8 @@
   * [❓ FAQs](product-features/token-swaps/faqs.md)
 * [🐋 Liquidity Pools](product-features/liquidity-pools/README.md)
   * [💡 Key concepts](product-features/liquidity-pools/key-concepts.md)
-  * [🧑‍🏫 How to add liquidity](product-features/liquidity-pools/how-to-add.md)
-  * [🧑‍🏫 How to remove liquidity](product-features/liquidity-pools/how-to-remove.md)
+  * [↘️ How to add liquidity](product-features/liquidity-pools/how-to-add.md)
+  * [↖️ How to remove liquidity](product-features/liquidity-pools/how-to-remove.md)
   * [❓ FAQs](product-features/liquidity-pools/faqs.md)
 * [🌾 Farming](product-features/farming/README.md)
   * [💡 Key concepts](product-features/farming/key-concepts.md)
@@ -29,7 +29,7 @@
 ## What Can You Do as a Project Owner?
 
 * [🚀 Launch Your Project](features/launchpad/join-the-alex-launchpad.md)
-* [📝 Create Your Own Pool](product-features/self-service-listing.md)
+* [💦 Create Your Own Pool](product-features/self-service-listing.md)
 * [🧑‍🌾 Add Farming to Your Pool](product-features/self-service-farming.md)
 
 ## Security
@@ -40,9 +40,9 @@
 ## Helpful Concepts
 
 * [💰 Tokenomics](detailed-information/tokenomics.md)
-* [ALEX DAO](detailed-information/alex-dao.md)
-* [ALEX AMM](detailed-information/alexs-automated-market-maker-amm.md)
-* [ALEX APower](detailed-information/what-is-alex-staking-power-and-how-do-i-use-it.md)
+* [👥 ALEX DAO](detailed-information/alex-dao.md)
+* [💱 ALEX AMM](detailed-information/alexs-automated-market-maker-amm.md)
+* [🏋️ ALEX APower](detailed-information/what-is-alex-staking-power-and-how-do-i-use-it.md)
 
 ## Resources
 
