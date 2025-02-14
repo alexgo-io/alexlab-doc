@@ -18,6 +18,10 @@ description: >-
 
 **Orderbook:** [https://app.alexlab.co/orderbook/](https://app.alexlab.co/orderbook/)
 
+**Token List:** [https://app.alexlab.co/token-list](https://app.alexlab.co/token-list)
+
+**Platform Explorer:** [https://app.alexlab.co/explorer](https://app.alexlab.co/explorer)
+
 
 ### Social Media&#x20;
 
