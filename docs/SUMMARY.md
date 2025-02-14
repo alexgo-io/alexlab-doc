@@ -1,18 +1,9 @@
 # Table of contents
 
 * [ALEX Labs](README.md)
-<!-- * [🔥 What's NEW?](product-features/bitcoin-swaps/README.md) -->
-
-
-<!-- 
-## Getting Started
-* [👛 Connect Your Wallet]()
-* [💰 Acquire Tokens]()
-* [👥 Join the Community]()
-* [💬 Give Feedback]()
- -->
 
 ## What Can You Do?
+
 * [💰 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
   * [💡 Key concepts](product-features/bitcoin-swaps/key-concepts.md)
   * [🧑‍🏫 How to swap](product-features/bitcoin-swaps/how-to.md)
@@ -23,7 +14,7 @@
   * [❓ FAQs](product-features/token-swaps/faqs.md)
 * [🐋 Liquidity Pools](product-features/liquidity-pools/README.md)
   * [💡 Key concepts](product-features/liquidity-pools/key-concepts.md)
-  * [🧑‍🏫 How to add/remove liquidity](product-features/liquidity-pools/how-to.md)
+  * [🧑‍🏫 How to add/remove liquidity](what-can-you-do/liquidity-pools/how-to-add-remove-liquidity.md)
   * [❓ FAQs](product-features/liquidity-pools/faqs.md)
 * [🌾 Farming](product-features/farming/README.md)
   * [💡 Key concepts](product-features/farming/key-concepts.md)
@@ -35,24 +26,24 @@
   * [❓ FAQs](product-features/staking/faqs.md)
 
 ## What Can You Do as a Project Owner?
+
 * [🚀 Launch Your Project](features/launchpad/join-the-alex-launchpad.md)
 * [📝 Create Your Own Pool](product-features/self-service-listing.md)
 * [🧑‍🌾 Add Farming to Your Pool](product-features/self-service-farming.md)
 
 ## Security
+
 * [✅ Audits](resources/security-audit.md)
 * [🐛 Bug Bounties](legacy/security-audit-and-bug-bounty/bug-bounty.md)
-<!-- 
-* [Risks]()
-* [Disclaimers]()
- -->
 
 ## Helpful Concepts
+
 * [💰 Tokenomics](detailed-information/tokenomics.md)
 * [ALEX DAO](detailed-information/alex-dao.md)
 * [ALEX AMM](detailed-information/alexs-automated-market-maker-amm.md)
 * [ALEX APower](detailed-information/what-is-alex-staking-power-and-how-do-i-use-it.md)
 
 ## Resources
+
 * [🔗 Official Links](resources/official-links.md)
 * [📃 Whitepapers](resources/whitepapers/README.md)
