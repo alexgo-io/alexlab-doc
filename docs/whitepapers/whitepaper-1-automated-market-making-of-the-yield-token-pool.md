@@ -1,6 +1,6 @@
-# 📃 Whitepaper (1): Automated Market Making of the Yield Token Pool
+# 📃 Whitepaper: Automated Market Making of the Yield Token Pool
 
-## Whitepaper (1): **Automated Market Making of the Yield Token Pool**
+## Whitepaper: **Automated Market Making of the Yield Token Pool**
 
 ## **Abstract**
 

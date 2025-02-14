@@ -1,8 +1,8 @@
-# 📃 Whitepaper (2): Automated Market Making of the Collateral Rebalancing Pooltitled
+# 📃 Whitepaper: Automated Market Making of the Collateral Rebalancing Pooltitled
 
 
 
-## Whitepaper (2): **Automated Market Making of the Collateral Rebalancing Pool**
+## Whitepaper: **Automated Market Making of the Collateral Rebalancing Pool**
 
 ## **Abstract**
 

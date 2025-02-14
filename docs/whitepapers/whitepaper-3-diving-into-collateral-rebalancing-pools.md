@@ -1,6 +1,6 @@
-# 📃 Whitepaper (3): Diving into Collateral Rebalancing Pools!
+# 📃 Whitepaper: Diving into Collateral Rebalancing Pools!
 
-## Whitepaper (3): **Diving into Collateral Rebalancing Pools!**
+## Whitepaper: **Diving into Collateral Rebalancing Pools!**
 
 ## **Abstract**
 
