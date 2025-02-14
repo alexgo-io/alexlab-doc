@@ -46,6 +46,8 @@ ALEX offers a suite of DeFi opportunities that includes:
 
 Just as Bitcoin is the “gold standard” of crypto, ALEX will become gold standard of DeFi.
 
+<figure><img src=".gitbook/assets/alexlab_landing_page.png" alt=""><figcaption></figcaption></figure>
+
 ## 🔗 Official Links
 
 ### Platform Links &#x20;
@@ -92,5 +94,3 @@ Rachel: [https://twitter.com/rachel\_alexgo](https://twitter.com/rachel_alexgo)
 If you are looking for help with something beyond our Gitbook resources or trying to report issues on the platform, you may reach out to our team with the ALEX Team role.
 
 Due to the high influx of Discord scammers impersonating team members to deceit other community members, be sure to stay safe and always double-check the user's roles.
-
-<figure><img src=".gitbook/assets/alexlab_landing_page.png" alt=""><figcaption></figcaption></figure>
