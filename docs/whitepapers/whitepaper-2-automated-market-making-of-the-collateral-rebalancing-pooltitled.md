@@ -6,7 +6,7 @@
 
 ## **Abstract**
 
-The collateral pools of many DeFi platforms are typically comprised of a single asset reflecting a borrower’s crypto ownership and risk appetite. While single asset pools benefit from asset appreciation, a pool’s value can diminish swiftly in volatile market conditions. The increasing chance of default and potential shortening of the loan term affect both borrowers and lenders who enter fixed-term and fixed-rate contracts hoping to remove uncertainties.
+The collateral pools of many DeFi platforms are typically comprised of a single asset reflecting a borrower’s crypto ownership and risk appetite. While single asset pools benefit from asset appreciation, a pool’s value can diminish swiftly in volatile market conditions. The increasing chance of default and potential shortening of the loan term affect both borrowers and lenders who enter fixed-term and fixed-rate contracts hoping to remove uncertainties. 
 
 Unlike many DeFi platforms, ALEX uses diversified rather than single collateral pools. Diversified pools consist of a risky asset and risk-free asset. As a result, diversified pools reduce default risk while maintaining potential upside gains. Diversified pools are similar to portfolios with equity and government bonds, where the former represents the risky asset while the latter represents the risk-free asset. Importantly, diversified collateral pools are systematically managed. An algorithmic engine dynamically adjusts the split of the risky and risk-free asset in the diversified pool, based on Black-Scholes’ model.
 

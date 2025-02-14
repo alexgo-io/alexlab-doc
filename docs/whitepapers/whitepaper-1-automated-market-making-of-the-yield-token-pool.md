@@ -4,7 +4,7 @@
 
 ## **Abstract**
 
-ALEX aims to provide fixed rate borrowing and lending services with pre-determined maturity in the world of decentralized finance (DeFi). We’ve included forward contracts in our trading pool, with an Automated Market Making (AMM) engine utilizing Generalized Mean. We have formalized the trading practice of swapping forward contracts on the underlying asset, and we’ve incorporated the latest innovation in DeFi — concentrated liquidity. Consequently, liquidity providers on ALEX are able to save significant capital by market making on a selected range of interest rates.
+ALEX aims to provide fixed rate borrowing and lending services with pre-determined maturity in the world of decentralized finance (DeFi). We’ve included forward contracts in our trading pool, with an Automated Market Making (AMM) engine utilizing Generalized Mean. We have formalized the trading practice of swapping forward contracts on the underlying asset, and we’ve incorporated the latest innovation in DeFi — concentrated liquidity. Consequently, liquidity providers on ALEX are able to save significant capital by market making on a selected range of interest rates. 
 
 ## **Introduction**
 
