@@ -6,7 +6,7 @@ description: >-
 
 # 🔗 Official Links
 
-**Platform Links:**&#x20;
+### Platform Links&#x20;
 
 **Landing Page:** [https://www.alexlab.co/](https://www.alexlab.co/)
 
@@ -19,8 +19,7 @@ description: >-
 **Orderbook:** [https://app.alexlab.co/orderbook/](https://app.alexlab.co/orderbook/)
 
 
-
-### **Social Media:**&#x20;
+### Social Media&#x20;
 
 **Twitter:** [https://twitter.com/ALEXLabBTC](https://twitter.com/ALEXLabBTC)
 
@@ -36,7 +35,7 @@ description: >-
 
 
 
-### **Verified Team Twitter Profiles:**&#x20;
+### Verified Team Twitter Profiles&#x20;
 
 Chiente Hsu: [https://twitter.com/RuleBasedInvest](https://twitter.com/RuleBasedInvest)
 
@@ -44,9 +43,9 @@ Rachel: [https://twitter.com/rachel\_alexgo](https://twitter.com/rachel_alexgo)
 
 
 
-### Verified Tag on Discord for Team Authenticity:&#x20;
+### Verified Tag on Discord for Team Authenticity&#x20;
 
-![Discord Role Verification](<.gitbook/assets/discord-role-verification.png>)
+[Discord Role Verification](<../.gitbook/assets/discord-role-verification.png>)
 
 If you are looking for help with something beyond our Gitbook resources or trying to report issues on the platform, you may reach out to our team with the ALEX Team role.
 
