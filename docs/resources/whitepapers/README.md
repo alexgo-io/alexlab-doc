@@ -1,5 +1,5 @@
 # 📃 Whitepapers
 
-{% content-ref url="whitepaper-1-automated-market-making-of-the-yield-token-pool.md" %} [📃 Whitepaper: Automated Market Making of the Yield Token Pool](../docs/whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md) {% endcontent-ref %}
-{% content-ref url="whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md" %} [📃 Whitepaper: Automated Market Making of the Collateral Rebalancing Pooltitled](../docs/whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md) {% endcontent-ref %}
-{% content-ref url="whitepaper-3-diving-into-collateral-rebalancing-pools.md" %} [📃 Whitepaper: Diving into Collateral Rebalancing Pools!](../docs/whitepapers/whitepaper-3-diving-into-collateral-rebalancing-pools.md) {% endcontent-ref %}
+{% content-ref url="whitepaper-1-automated-market-making-of-the-yield-token-pool.md" %} [📃 Whitepaper: Automated Market Making of the Yield Token Pool](../../whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md) {% endcontent-ref %}
+{% content-ref url="whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md" %} [📃 Whitepaper: Automated Market Making of the Collateral Rebalancing Pooltitled](../../whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md) {% endcontent-ref %}
+{% content-ref url="whitepaper-3-diving-into-collateral-rebalancing-pools.md" %} [📃 Whitepaper: Diving into Collateral Rebalancing Pools!](../../whitepapers/whitepaper-3-diving-into-collateral-rebalancing-pools.md) {% endcontent-ref %}
