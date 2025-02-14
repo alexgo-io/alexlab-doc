@@ -1,8 +1,8 @@
 # Table of contents
 
-* [What is ALEX](README.md)
+* [ALEX Labs](README.md)
+<!-- * [🔥 What's NEW?](product-features/bitcoin-swaps/README.md) -->
 
-* [🔥 What's NEW?](product-features/bitcoin-swaps/README.md)
 
 <!-- 
 ## Getting Started
@@ -13,7 +13,7 @@
  -->
 
 ## What Can You Do?
-* [🪙 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
+* [💰 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
   * [💡 Key concepts](product-features/bitcoin-swaps/key-concepts.md)
   * [🧑‍🏫 How to swap](product-features/bitcoin-swaps/how-to.md)
   * [❓ FAQs](product-features/bitcoin-swaps/faqs.md)
@@ -41,14 +41,14 @@
 
 ## Security
 * [✅ Audits](resources/security-audit.md)
-* [🪲 Bug Bounties](legacy/security-audit-and-bug-bounty/bug-bounty.md)
+* [🐛 Bug Bounties](legacy/security-audit-and-bug-bounty/bug-bounty.md)
 <!-- 
 * [Risks]()
 * [Disclaimers]()
  -->
 
 ## Helpful Concepts
-* [🪙 Tokenomics](detailed-information/tokenomics.md)
+* [💰 Tokenomics](detailed-information/tokenomics.md)
 * [ALEX DAO](detailed-information/alex-dao.md)
 * [ALEX AMM](detailed-information/alexs-automated-market-maker-amm.md)
 * [ALEX APower](detailed-information/what-is-alex-staking-power-and-how-do-i-use-it.md)
@@ -56,6 +56,6 @@
 ## Resources
 * [🔗 Official Links](resources/official-links.md)
 * [📃 Whitepapers](resources/whitepapers/README.md)
-  * [📃 Whitepaper (1): Automated Market Making of the Yield Token Pool](whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md)
-  * [📃 Whitepaper (2): Automated Market Making of the Collateral Rebalancing Pooltitled](whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md)
-  * [📃 Whitepaper (3): Diving into Collateral Rebalancing Pools!](whitepapers/whitepaper-3-diving-into-collateral-rebalancing-pools.md)
+  *  {% content-ref url="whitepaper-1-automated-market-making-of-the-yield-token-pool.md" %} [📃 Whitepaper: Automated Market Making of the Yield Token Pool](../docs/whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md) {% endcontent-ref %}
+  *  {% content-ref url="whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md" %} [📃 Whitepaper: Automated Market Making of the Collateral Rebalancing Pooltitled](../docs/whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md) {% endcontent-ref %}
+  *  {% content-ref url="whitepaper-3-diving-into-collateral-rebalancing-pools.md" %} [📃 Whitepaper: Diving into Collateral Rebalancing Pools!](../docs/whitepapers/whitepaper-3-diving-into-collateral-rebalancing-pools.md) {% endcontent-ref %}

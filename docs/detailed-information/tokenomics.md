@@ -1,4 +1,4 @@
-# 🪙 Tokenomics
+# 💰 Tokenomics
 
 ALEXnomics charts a course toward the decentralization and autonomy of the ALEX protocol. Given a common thread of an ALEX token to bind them, how does an amorphous community weave itself towards a tapestry? Tokenomics is not a series of binary “do or don’t” gates, but of incentives and self-governance as steering mechanisms to guide a community toward maximizing its utility.
 
@@ -65,9 +65,9 @@ The Issuer Co issues a total initial supply of 1,000,000,000 (one billion) ALEX 
 * 50% is reserved for the community staking $ALEX or Liquidity Tokens to earn $ALEX
 * 30% to employees, advisors and early investors and founding team
 
-[https://miro.medium.com/max/1400/0\*Ynnw5ieQlkFCCHzg](https://miro.medium.com/max/1400/0\*Ynnw5ieQlkFCCHzg)
+<figure><img src="../.gitbook/assets/tokenomics/alex-distribution.png" alt=""><figcaption><p></p></figcaption></figure>
 
-[https://miro.medium.com/max/1400/0\*ZA5e4UUGHvv5O5mL](https://miro.medium.com/max/1400/0\*ZA5e4UUGHvv5O5mL)
+<figure><img src="../.gitbook/assets/tokenomics/alex-token-allocation.png" alt=""><figcaption><p></p></figcaption></figure>
 
 ### **Community Token Emission Schedule**
 
@@ -77,7 +77,7 @@ The launch of a staking pool will require 20 unique wallets to signal activation
 
 Across all staking pools, the total emission of $ALEX will be capped to:
 
-![https://miro.medium.com/max/1400/1\*3BPzi9WgMyA7guxLTtLrfw.png](https://miro.medium.com/max/1400/1\*3BPzi9WgMyA7guxLTtLrfw.png)
+<figure><img src="../.gitbook/assets/tokenomics/emissions-cap.png" alt=""><figcaption><p></p></figcaption></figure>
 
 ## **Governance**
 
@@ -88,6 +88,10 @@ ALEX not only builds decentralized finance but is also committed to decentralizi
 The first step toward progressive decentralization of governance is the creation of ALEX Genesis DAO. Approximately 60 days after Mainnet launch, the Foundation will announce a Genesis Team as well as a formalized ALEX Growth Proposal (AGP) framework through which any $ALEX holder can submit a proposal for community consideration.
 
 The Genesis Team will consist of ALEX Team members that act as an intermediary between the community and the Foundation. AGPs may be as simple as a slight adjustment to transaction fees to as complex as adding new functionalities or adding cross-chain assets. The Genesis Team will review community-approved AGPs, and provide an implementation proposal on the feasibility and time required to execute the AGP. The implementation proposals will be open to a vote by $ALEX holders.
+
+<figure><img src="../.gitbook/assets/tokenomics/genesis-governance.png" alt=""><figcaption><p></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/tokenomics/proposal-state-flowchart.png" alt=""><figcaption><p></p></figcaption></figure>
 
 [https://miro.medium.com/max/1400/0\*4WIBBTw2mEzsiPaF](https://miro.medium.com/max/1400/0\*4WIBBTw2mEzsiPaF)
 
@@ -175,13 +179,17 @@ Figures 1 and 2 assume that loss occurs at 5% probability within the duration of
 
 Figures 3 and 4 studies the loss occurring at 1% probability during three months. Using the same assumption on jumps before, and a LTV of 75% LTV, 10% of the collateral would default.
 
-[https://miro.medium.com/max/1400/0\*YwY0krHMV2Bm5-Yw](https://miro.medium.com/max/1400/0\*YwY0krHMV2Bm5-Yw)
+<div><figure><img src="../.gitbook/assets/tokenomics/var-percent-95.png" alt="" width="375"><figcaption><p></p></figcaption></figure> <figure><img src="../.gitbook/assets/tokenomics/var-percent-95-percentile.png" alt="" width="375"><figcaption><p></p></figcaption></figure></div>
 
-[https://miro.medium.com/max/1400/0\*aAw75WeI-jeon2fw](https://miro.medium.com/max/1400/0\*aAw75WeI-jeon2fw)
+<div><figure><img src="../.gitbook/assets/tokenomics/var-percent-99.png" alt="" width="375"><figcaption><p></p></figcaption></figure> <figure><img src="../.gitbook/assets/tokenomics/var-percent-99-percentile.png" alt="" width="375"><figcaption><p></p></figcaption></figure></div>
 
-[https://miro.medium.com/max/1400/0\*x0JRxbdxyC3JJEPd](https://miro.medium.com/max/1400/0\*x0JRxbdxyC3JJEPd)
+<!-- <figure><img src="../.gitbook/assets/tokenomics/var-percent-95.png" alt=""><figcaption><p></p></figcaption></figure>
 
-[https://miro.medium.com/max/1400/0\*NK6mkfq2u1CiwOy\_](https://miro.medium.com/max/1400/0\*NK6mkfq2u1CiwOy\_)
+<figure><img src="../.gitbook/assets/tokenomics/var-percent-95-percentile.png" alt=""><figcaption><p></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/tokenomics/var-percent-99.png" alt=""><figcaption><p></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/tokenomics/var-percent-99-percentile.png" alt=""><figcaption><p></p></figcaption></figure> -->
 
 ### **How to Interpret the platform loss**
 
@@ -189,7 +197,7 @@ We hope to provide an intuitive framework to analyze the platform loss in case o
 
 Assuming TVL is $20mn, which is comparable to similar Defi projects in their initial launch stage. Annual fee revenue is assumed to be 30% of the TVL, of which 50% is allocated to the LP, and 50% would be left at ALEX Reserve Pool.
 
-[https://miro.medium.com/max/962/0\*BDyy1hRgXFqS74Ie](https://miro.medium.com/max/962/0\*BDyy1hRgXFqS74Ie)
+<figure><img src="../.gitbook/assets/tokenomics/fee-revenue.png" alt=""><figcaption><p></p></figcaption></figure>
 
 We assume an equal split of TVL, i.e. $10Mn, between DEX and borrowing/lending pool. The value of Token and yieldToken shouldn’t be distant, as long as the interest rate is kept within a reasonable range. Therefore, the value of the yield Token in ALEX is assumed to be 5mm. As minting yieldToken requires collateral, an LTV of 80% means that the collateral amount in the pool is equivalent to 6.25mm, a ratio of 31.25% to the total TVL of ALEX.
 
