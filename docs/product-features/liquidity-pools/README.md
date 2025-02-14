@@ -20,7 +20,8 @@ By adding liquidity to a pool, you will earn fees from all trades between a toke
 ## Explore
 
 {% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
-{% content-ref url="how-to.md" %} [how-to.md](how-to.md) {% endcontent-ref %}
+{% content-ref url="how-to.md" %} [how-to-add.md](how-to-add.md) {% endcontent-ref %}
+{% content-ref url="how-to.md" %} [how-to-remove.md](how-to-remove.md) {% endcontent-ref %}
 {% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
 
 <!-- 
