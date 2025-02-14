@@ -2,6 +2,18 @@
 cover: .gitbook/assets/alexlab_doc_cover.jpg
 coverY: 0
 
+description: 
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 
 ---
 
