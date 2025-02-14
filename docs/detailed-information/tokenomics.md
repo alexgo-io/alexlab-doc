@@ -93,10 +93,6 @@ The Genesis Team will consist of ALEX Team members that act as an intermediary b
 
 <figure><img src="../.gitbook/assets/tokenomics/proposal-state-flowchart.png" alt=""><figcaption><p></p></figcaption></figure>
 
-[https://miro.medium.com/max/1400/0\*4WIBBTw2mEzsiPaF](https://miro.medium.com/max/1400/0\*4WIBBTw2mEzsiPaF)
-
-[https://miro.medium.com/max/1394/0\*5Zh-29vUmGg6Kt4a](https://miro.medium.com/max/1394/0\*5Zh-29vUmGg6Kt4a)
-
 The Genesis DAO will be in place for the first 6–18 months after mainnet, empirically determining the best governance practices together with the community. Although every effort will be made to respect the finality of the governance vote, as a failsafe the Foundation will have veto power and the ability to suspend the governance system.
 
 Once the governance system is operating in a reliable, distributed manner, the transition to the formal ALEX DAO will begin. The Genesis Team will suggest that the fail-safe be removed and the community will vote on transferring all governance to the ALEX DAO.
