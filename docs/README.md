@@ -5,6 +5,8 @@ coverY: 0
 
 ---
 
+# What is ALEX?
+
 <!-- 
 {% hint style="danger" %}
 🔥🌶️ Don't miss out! We've just launched the new [Bitcoin Native Token Swaps app](https://app.alexlab.co/bitcoin/swap)! 🌶️🔥
