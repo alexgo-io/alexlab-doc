@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ALEX Labs](README.md)
+* [What is ALEX](README.md)
 <!-- * [🔥 What's NEW?](product-features/bitcoin-swaps/README.md) -->
 
 
