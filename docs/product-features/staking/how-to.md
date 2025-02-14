@@ -84,7 +84,7 @@ Once your first staking cycle ends, you will be able to start harvesting your re
 
 ### Step 1: Check My Staking
 
-As when staking, go to the [Stake page](https://app.alexlab.co/stake), or, alternatively, click on the navbar's `Earn` -> `Stake` tab from the [ALEX Labs homepage](https://app.alexlab.co).
+As when staking, go to the [Stake page](https://app.alexlab.co/stake), or, alternatively, click on the navbar's `Earn` -> `Stake` tab from the [ALEX Lab homepage](https://app.alexlab.co).
 
 Once you're on the Stake page, you'll find the **My Staking** panel, which displays your current stake. 
 
