@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ALEX Labs](README.md)
+* [ALEX Lab](README.md)
 
 ## What Can You Do?
 

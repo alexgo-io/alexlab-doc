@@ -17,7 +17,7 @@ layout:
 
 ---
 
-# ALEX Labs
+# ALEX Lab
 
 ## What is ALEX?
 
