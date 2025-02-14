@@ -5,97 +5,65 @@ description: >-
 
 # 💡 Key Concepts
 
-## What is ALEX Surge?
+## Surge Rounds & Phases ⏳
 
-**ALEX Surge** is a **liquidity incentives program** that rewards participants for their contributions to the ALEX decentralized exchange (DEX). It is designed to encourage deeper and more robust liquidity pools and active community engagement through a combination of **staking** and **voting** mechanisms.
+ALEX Surge operates in recurring rounds, with each round following a structured cycle that determines when pools can register, when users can vote, and when rewards are distributed. Each phase has a specific purpose, ensuring fair participation and smooth reward allocation.
 
-Participants can be:
-- **Liquidity Providers (LPs)** who stake LP tokens in Surge pools to earn rewards.
-- **Voters** who use their ALEX or LiALEX tokens to influence how rewards are distributed among the pools.
+## LP Tokens 💧
 
----
+LP (Liquidity Provider) tokens represent your ownership share in a liquidity pool. When you deposit assets into a pool on ALEX Lab, you receive LP tokens in return, which track your contribution relative to the total pool size.
 
-## What are LP Tokens? 💧
+In ALEX Surge, LP tokens play a crucial role in staking and rewards distribution. Liquidity providers can stake their LP tokens during a Surge round to earn a portion of the $ALEX rewards allocated to their chosen pool. The more LP tokens staked, the higher the potential rewards.
 
-**LP tokens** are tokens you receive when you provide funds to a **liquidity pool**. They represent your share of the pool’s assets and allow you to earn rewards from trading fees and incentive programs like **ALEX Surge**.
+Since LP tokens fluctuate in value based on pool activity and market conditions, liquidity providers should consider factors like impermanent loss before staking.
 
-When you stake LP tokens in ALEX Surge:
-- You **lock** your LP tokens in the Surge pools for the duration of the campaign.
-- You earn **$ALEX rewards** proportional to the amount of LP tokens you’ve staked.
+## Staking in Surge 🔹
 
-For a deeper understanding of these concepts, check out the [Liquidity Providers](../liquidity-pools/) section of the docs.
+Staking in ALEX Surge allows liquidity providers to commit their LP tokens to a specific pool in exchange for `$ALEX` rewards. By staking, participants help strengthen liquidity pools while earning rewards based on the total amount staked in each round.
 
-{% hint style="warning" %}
-**Note:** Providing liquidity involves the risk of **Impermanent Loss**. This occurs when the value of the assets in a liquidity pool fluctuates, potentially affecting the total value of your LP tokens. Learn more in the [Impermanent Loss subsection](../liquidity-pools/key-concepts.md#impermanent-loss).
-{% endhint %}
+Once staked, LP tokens remain locked until the end of the reward emission phase. At that point, stakers can harvest their rewards and unstake their LP tokens. Rewards are distributed proportionally, meaning pools with more staked LP tokens and higher votes receive a larger share of `$ALEX`.
 
----
+Staking is optional but offers an additional incentive for liquidity providers looking to maximize their returns in ALEX Surge.
+
+## Voting Power ⚖️
+
+Voting power in ALEX Surge determines how much influence a participant has when distributing `$ALEX` rewards across liquidity pools. It is calculated based on a user’s `ALEX` and `LiALEX` holdings at the start of each Surge round.
+
+Each user can allocate their voting power to one or multiple pools. The more votes a pool receives, the higher the share of rewards it earns. Once a vote is cast, the used voting power cannot be changed for that round.
+
+Additionally, the ALEX Lab Foundation contributes 5,000,000 voting power in every round, influencing the reward distribution based on Social Leaderboard rankings.
+
 
 ## Voting Mechanisms in ALEX Surge 🗳️
 
-Voting is a key component of ALEX Surge. It allows participants to influence how **$ALEX rewards** are distributed across different liquidity pools.
+Voting in ALEX Surge determines how `$ALEX` rewards are allocated among liquidity pools. Participants cast votes using their voting power, which is calculated at the start of each round based on their `ALEX` and `LiALEX` holdings. Once submitted, votes cannot be changed for that Surge cycle.
 
-### How Does Voting Work?
-- Users vote using their **ALEX** or **LiALEX** tokens.
-- Voting power can be split between multiple pools.
-- The **more votes** a pool receives, the **greater share of rewards** it earns.
+Pools with higher vote totals receive a larger share of the `$ALEX` emissions, influencing the distribution of rewards across the ecosystem.
 
-{% hint style="info" %}
-**Important:** The **ALEX Lab Foundation** has a significant voting power (5,000,000), but its votes are **excluded from receiving voter rewards**.
-{% endhint %}
+### Voter Rewards 🎁
+Voter rewards are additional incentives provided by liquidity pools to attract votes. Projects or pool creators can donate extra rewards, which are distributed among users who vote for their pool during a Surge round.
 
-### What Are Voter Rewards?
-Some pools offer **voter rewards** as incentives to attract more votes. These are additional rewards donated by the pool's project or community.
-
-- **Once donated, voter rewards cannot be withdrawn.**
-- Voters who support pools with voter rewards will share these extra incentives.
-
----
+Once voter rewards are allocated, they cannot be withdrawn or modified. Users who support pools offering these incentives receive their share of the donated rewards after the emission phase ends.
 
 ## The Social Leaderboard 📈
 
-The **Social Leaderboard** is a unique feature of ALEX Surge that rewards community engagement. Projects can boost their chances of receiving votes by promoting their pools on social media.
+The Social Leaderboard is a ranking system in ALEX Surge that rewards community engagement. Pools that actively promote their participation on Twitter/X can improve their ranking and increase their chances of receiving votes from the ALEX Lab Foundation.
 
-### How Does the Social Leaderboard Work?
-- Projects post about their pools on **Twitter/X** using **@alexlabbtc** and **#ALEXSurge**.
-- Engagement metrics (likes, reposts, replies) determine their ranking.
-- Higher-ranking projects receive **more votes from the ALEX Lab Foundation**.
+Leaderboard rankings are based on social media engagement, including likes, reposts, and replies. To be considered, projects must submit their social activity through Discord or Blocksurvey before the voting phase ends.
 
-### Social Engagement Metrics:
-- **Likes**: 0.5X multiplier
-- **Reposts/Quote Reposts**: 1.25X multiplier
-- **Replies**: 1.5X multiplier
+## Reward Distribution 💰
 
-{% hint style="info" %}
-To be included in the leaderboard, projects must submit their tweets via **Discord** or **Blocksurvey**.
-{% endhint %}
+In ALEX Surge, rewards are distributed based on the number of votes a liquidity pool receives and the amount of LP tokens staked. The total `$ALEX` rewards allocated to a Surge round are divided among pools according to their voting share.
 
----
+Liquidity providers who stake LP tokens in a winning pool earn rewards proportional to their stake. Additionally, some pools may offer voter rewards as extra incentives for participants who vote for them.
 
-## Reward Distribution in ALEX Surge 💰
+## Cut-off Dates 🚨
 
-Rewards in ALEX Surge are distributed based on **voting results** and **LP staking**.
-
-### Types of Rewards:
-1. **$ALEX Emissions**: Distributed to pools based on the percentage of votes received.
-2. **Voter Rewards**: Donated by projects to incentivize voters.
-3. **Staking Rewards**: LPs receive $ALEX proportional to the amount of LP tokens they staked in Surge pools.
-
-### Reward Emission Period:
-- The reward emission phase typically lasts **27–28 days**.
-- After the emission period ends, participants can **harvest** their rewards and **withdraw** their staked LP tokens.
-
----
+Cut-off dates in ALEX Surge define the deadlines for each phase. After the registration cut-off, no new pools can join. The voting cut-off locks votes, finalizing reward distribution. The staking cut-off is the last chance to stake LP tokens. These deadlines ensure a structured and fair process, with the current phase always visible on the Surge interface.
 
 ## Risks and Considerations ⚠️
 
-### Impermanent Loss:
-Providing liquidity and staking LP tokens comes with the risk of **impermanent loss**, where fluctuations in asset prices can reduce the value of your staked tokens. This risk is inherent in all liquidity provision activities on AMM-based DEXs like ALEX.
-
-### Finality of Voter Rewards:
-Once **voter rewards** are donated by projects, they **cannot be withdrawn**. This ensures transparency and fairness but requires careful consideration before contributing.
-
----
+Participating in ALEX Surge involves risks similar to providing liquidity in any AMM-based DEX. Impermanent loss can occur if token prices fluctuate, affecting the value of staked LP tokens. Additionally, once voter rewards are donated, they cannot be withdrawn. Understanding these risks helps participants make informed decisions before voting or staking.
 
 ## Need Help?
 

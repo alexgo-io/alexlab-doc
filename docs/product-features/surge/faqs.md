@@ -5,9 +5,10 @@ description: Common questions you may have when participating in ALEX Surge.
 # ❓  FAQs
 
 <details>
-<summary>What is ALEX Surge?</summary>
-
-**ALEX Surge** is a round-based liquidity incentives program that rewards participants for contributing to the ALEX decentralized exchange (DEX). It involves both **staking LP tokens** and **voting with ALEX/LiALEX tokens** to influence the distribution of rewards.
+<summary>What is ALEX Surge?</summary> 
+    
+**ALEX Surge** is a round-based liquidity incentives program designed to reward users who contribute to liquidity on the ALEX's decentralized exchange (DEX). Participants can vote with `ALEX` or `LiALEX` tokens to determine how `$ALEX` rewards are distributed among pools. Additionally, liquidity providers can stake their LP tokens to earn extra rewards.
+Each Surge round distributes approximately 5,000,000 `$ALEX` based on the voting results, making it a unique opportunity for liquidity providers to earn additional rewards beyond standard pool fees.
 
 </details>
 
@@ -16,17 +17,18 @@ description: Common questions you may have when participating in ALEX Surge.
 
 You can participate in ALEX Surge in two ways:
 
-1. **As a Liquidity Provider (LP)**: Provide liquidity to a pool and stake your LP tokens in the Surge pools to earn $ALEX rewards.
-2. **As a Voter**: Use your ALEX or LiALEX tokens to vote for your preferred pools. Pools with more votes receive a larger share of the $ALEX rewards.
+1. **As a Pool Registrant**: If you are a project owner or community member, you can register a liquidity pool to compete for `$ALEX` rewards. Once registered, users can vote for your pool, and liquidity providers can stake LP tokens in it. You may also donate voter rewards to attract more votes.
+2. **As a Liquidity Provider (LP)**: Provide liquidity to a pool and stake your LP tokens in Surge to earn `$ALEX` rewards. The more LP tokens you stake, the larger your share of the rewards.
+3. **As a Voter**: Use your `ALEX` or `LiALEX` tokens to vote for your preferred pools. Pools with more votes receive a larger share of the `$ALEX` rewards. Some pools may also offer Voter Rewards, which are additional incentives for users who vote for them.
 
 </details>
 
 <details>
 <summary>What are LP tokens?</summary>
 
-**LP tokens** are the tokens you receive when you provide liquidity to a trading pool on ALEX DEX. These tokens represent your share of the pool's assets. When you stake LP tokens in ALEX Surge, you earn a portion of the rewards allocated to that pool.
+**LP tokens** are the tokens you receive when you provide liquidity to a trading pool on the ALEX's decentralized exchange (DEX). These tokens represent your share of the pool's assets. In ALEX Surge, staking LP tokens allows liquidity providers to earn a share of the `$ALEX` rewards allocated to the pool, based on voting results and the total amount staked.
 
-For more information, refer to the [Liquidity Providers](../liquidity-pools/) section.
+For more information, refer to the [Liquidity Providers](../liquidity-pools/key-concepts#liquidity-providers-lps) section.
 
 </details>
 
@@ -35,19 +37,19 @@ For more information, refer to the [Liquidity Providers](../liquidity-pools/) se
 
 Rewards are distributed based on the voting results and the amount of LP tokens staked:
 
-1. **Voting Rewards**: Pools with more votes receive a higher percentage of the $ALEX rewards.
-2. **Staking Rewards**: LPs earn $ALEX proportional to the amount of LP tokens staked in the pools.
-3. **Voter Rewards**: Some pools donate additional rewards to attract voters. These rewards are distributed among the voters who supported the pool.
+1. **Voting Rewards**: pools that receive more votes get a larger share of the `$ALEX` rewards allocated for the round.
+2. **Staking Rewards**: Liquidity providers earn `$ALEX` rewards proportional to the amount of LP tokens they staked in the pool.
+3. **Voter Rewards**: Some pools donate additional rewards to attract voters. These rewards are distributed to the voters who supported that pool.
 
 </details>
 
 <details>
 <summary>What are Voter Rewards?</summary>
 
-**Voter Rewards** are additional incentives donated by projects to encourage users to vote for their pools. Voters who support these pools receive a share of the donated rewards. 
+**Voter Rewards** are additional incentives that projects voluntarily donate to attract votes for their liquidity pools. If a voter supports a pool that has donated voter rewards, they will receive a proportional share of those rewards.
 
 {% hint style="warning" %}
-**Note:** Once donated, voter rewards **cannot be withdrawn**.
+**Note:** Once donated, voter rewards **cannot be revoked or withdrawn**.
 {% endhint %}
 
 </details>
@@ -55,30 +57,21 @@ Rewards are distributed based on the voting results and the amount of LP tokens 
 <details>
 <summary>Can I vote for multiple pools?</summary>
 
-Yes, you can split your voting power between multiple pools. However, **you can only vote once per round per wallet**. Make sure to allocate your votes strategically before submitting.
+Yes, you can distribute your voting power across multiple pools in a single voting transaction. However, **you can only vote once per round per wallet**, meaning you cannot modify or add votes once they are submitted. Make sure to allocate your votes strategically before confirming.
 
 </details>
 
 <details>
 <summary>What happens if I don't harvest my rewards?</summary>
 
-Your rewards will **accumulate over time**. It is not mandatory to harvest them immediately after the emission phase ends. When you withdraw (unstake) your LP tokens, any unclaimed rewards will be automatically included.
+Your rewards will **accumulate over time**, and you are not required to harvest them immediately after the emission phase ends. If you staked LP tokens, any unclaimed rewards will be automatically claimed when you unstake your LP tokens.
 
 </details>
 
 <details>
 <summary>What is the Social Leaderboard?</summary>
 
-The **Social Leaderboard** ranks pools based on their engagement on **Twitter/X**. Pools with higher engagement are more likely to receive votes from the **ALEX Lab Foundation**, which has significant voting power.
-
-### How to improve your pool’s ranking:
-- Use **@alexlabbtc** and **#ALEXSurge** in your posts.
-- Submit your tweets via **Discord** or **Blocksurvey**.
-
-### Engagement multipliers:
-- **Likes**: 0.5X multiplier
-- **Reposts/Quote Reposts**: 1.25X multiplier
-- **Replies**: 1.5X multiplier
+The Social Leaderboard ranks pools based on their engagement on Twitter/X. Pools with higher engagement have a better chance of receiving votes from the ALEX Lab Foundation, which holds significant voting power.
 
 </details>
 
