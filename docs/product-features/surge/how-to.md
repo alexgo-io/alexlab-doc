@@ -2,7 +2,7 @@
 description: A step-by-step guide on how to participate in ALEX Surge and earn rewards.
 ---
 
-# 💡 How to Participate in ALEX Surge
+# 🧑‍🏫 How to Participate in ALEX Surge
 
 ALEX Surge is a **round-based liquidity incentives program** that rewards participants, including **liquidity providers (LPs) and voters**, for contributing to deeper and more robust liquidity pools on ALEX.
 
@@ -36,6 +36,8 @@ Go to the [ALEX Surge App](https://app.alexlab.co/surge) and click `Register for
 You can add extra rewards to incentivize users to vote for your pool.
 ⚠️ **Once donated, voter rewards cannot be revoked or withdrawn**.
 <figure><img src="../../.gitbook/assets/surge/voter-rewards.png" alt=""><figcaption>Donating voter rewards</figcaption></figure>
+
+Once you've decided on an amount of voter rewards, press the `Donate Rewards` button. A confirmation pop-up will appear. If you understand that your donated rewards cannot be revoked, click `Confirm`.
 <figure><img src="../../.gitbook/assets/surge/voter-rewards-2.png" alt=""><figcaption>Confirming voter rewards donation</figcaption></figure>
 
 ### Step 4: Promote Your Pool
@@ -138,16 +140,6 @@ ALEX Surge includes a **Social Leaderboard Campaign**, where pools can improve t
   - **Replies** → **1.5X multiplier**  
 
 Pools with higher engagement **receive more votes from the ALEX Lab Foundation**, increasing their rewards.
-
----
-
-## Need Help?  
-
-{% hint style="info" %}
-For more details about ALEX Surge, visit the [Surge FAQs](./faqs.md).
-{% endhint %}
-
-For assistance, please reach out to our Community Managers on [Discord](https://discord.com/invite/alexlab) and [Telegram Channel](https://t.me/AlexCommunity).  
 
 ---
 

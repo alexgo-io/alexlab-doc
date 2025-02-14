@@ -1,6 +1,5 @@
 ---
-description: >-
-  Understand the essential concepts behind ALEX Surge, including LP tokens, voting mechanisms, and reward structures.
+description: Understand the essential concepts behind ALEX Surge, including LP tokens, voting mechanisms, and reward structures.
 ---
 
 # 💡 Key Concepts
@@ -55,7 +54,7 @@ Leaderboard rankings are based on social media engagement, including likes, repo
 
 In ALEX Surge, rewards are distributed based on the number of votes a liquidity pool receives and the amount of LP tokens staked. The total `$ALEX` rewards allocated to a Surge round are divided among pools according to their voting share.
 
-Liquidity providers who stake LP tokens in a winning pool earn rewards proportional to their stake. Additionally, some pools may offer voter rewards as extra incentives for participants who vote for them.
+Liquidity providers who stake LP tokens in pools that receive votes earn rewards proportional to their stake. Additionally, some pools may offer voter rewards as extra incentives for participants who vote for them.
 
 ## Cut-off Dates 🚨
 
@@ -64,8 +63,3 @@ Cut-off dates in ALEX Surge define the deadlines for each phase. After the regis
 ## Risks and Considerations ⚠️
 
 Participating in ALEX Surge involves risks similar to providing liquidity in any AMM-based DEX. Impermanent loss can occur if token prices fluctuate, affecting the value of staked LP tokens. Additionally, once voter rewards are donated, they cannot be withdrawn. Understanding these risks helps participants make informed decisions before voting or staking.
-
-## Need Help?
-
-For assistance, please reach out to our Community Managers on [Discord](https://discord.com/invite/alexlab) and [Telegram Channel](https://t.me/AlexCommunity).
-

@@ -2,7 +2,7 @@
 description: Common questions you may have when participating in ALEX Surge.
 ---
 
-# ? FAQs
+# ❓ FAQs
 
 <details>
 <summary>What is ALEX Surge?</summary> 
@@ -126,9 +126,3 @@ For more details, check the [Impermanent Loss subsection](../liquidity-pools/key
 Yes, after each Surge round concludes, the process **repeats monthly**. You can participate in as many rounds as you like by registering pools, voting, and staking LP tokens in each new round.
 
 </details>
-
----
-
-## Need Help?
-
-For assistance, please reach out to our Community Managers on [Discord](https://discord.com/invite/alexlab) and [Telegram Channel](https://t.me/AlexCommunity).
