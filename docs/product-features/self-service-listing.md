@@ -18,7 +18,7 @@ Self-Service Listing allows you to **create your own liquidity pool** on the ALE
 
 Pool creation usually takes between 24 to 48 hours. Once the pool is created and live, the price discovery phase begins: users can start trading the listed token against the anchor token and viceversa. Users interested in providing liquidity can contribute to the pool like any other ALEX pool.
 
-The pool owner is the initial liquidity provider and is responsible for selecting the settings for the initial LP tokens (see [Step 2: Choose LP Lock & Burn Settings](#step-2-choose-lp-lock--burn-settings)).
+The pool owner is the initial liquidity provider and is responsible for selecting the settings for the initial LP tokens (see [Step 2: Choose LP Lock & Burn Settings](#step-2-choose-lp-lock-and-burn-settings)).
 
 The trading pool operates using the [ALEX Automated Market Maker (AMM)](../detailed-information/alexs-automated-market-maker-amm.md) algorithm, which dynamically determines the exchange rate (price) based on the trades.
 
@@ -134,7 +134,7 @@ Recommended to track transaction status:
 
 </details>
 
-### Step 2: Choose LP Lock & Burn Settings
+### Step 2: Choose LP Lock and Burn Settings
 
 After submitting the Self-Service Listing Pool, a pop-up will appear, allowing the creator to choose whether to lock or burn the initial LP tokens, or to leave the liquidity pool unlocked. By default, the Self-Service Listing Pool is set to be locked for 6 months, as it is the recommended option. Users are prompted to select one of three settings:
 

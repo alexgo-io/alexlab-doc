@@ -14,10 +14,10 @@ With this information in mind, choose the guide that best fits your needs.
 
 ## Guides
 
-* [🐥 Getting started (from scratch)](how-to.md#getting-started)
-* [🌻 How to put LP tokens in a farm (stake)](how-to.md#how-to-put-lp-tokens-in-a-farm-stake)
-* [🚜 Harvesting your farming rewards](how-to.md#tractor-harvesting-your-farming-rewards)
-* [🛎️ Withdrawing LP tokens (unstake)](how-to.md#withdrawing-lp-tokens-unstake)
+* [🐥 Getting started (from scratch)](#hatched_chick-getting-started)
+* [🌻 How to put LP tokens in a farm (stake)](#sunflower-how-to-put-lp-tokens-in-a-farm-stake)
+* [🚜 Harvesting your farming rewards](#tractor-harvesting-your-farming-rewards)
+* [🛎️ Withdrawing LP tokens (unstake)](#bellhop-withdrawing-lp-tokens-unstake)
 
 ## :hatched\_chick: Getting started
 
@@ -55,7 +55,7 @@ Now that you've chosen a farm to stake in, you'll need LP tokens, which are obta
 2. Find the pool that matches the **Trading Pair** you noted before. This is the liquidity pool linked to the farm you've selected.
 3. Click on the pool. This will open the pool control panel, where you can add liquidity.
 
-We have a [Guide to Adding Liquidity](../liquidity-pools/how-to.md#adding-liquidity) that you can follow to obtain LP tokens.
+We have a [Guide to Adding Liquidity](../liquidity-pools/how-to-add.md) that you can follow to obtain LP tokens.
 
 ## :sunflower: How to put LP tokens in a farm (stake)
 

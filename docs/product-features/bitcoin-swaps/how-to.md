@@ -16,7 +16,7 @@ Go to [https://app.alexlab.co/](https://app.alexlab.co/) to see the Swap panel. 
 
 <div>
 
-<figure><img src="../../.gitbook/assets/token-swaps/1-swap-tab.png" alt="" width="375"><figcaption></figcaption>Swap tab</figure>
+<figure><img src="../../.gitbook/assets/stacks-swaps/1-swap-tab.png" alt="" width="375"><figcaption></figcaption>Swap tab</figure>
 
 <figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-slider.png" alt="" width="375"><figcaption>Bitcoin Swap slider</figcaption></figure>
 
@@ -99,7 +99,7 @@ Recommended to track transaction status:
 * Check your address activity on the wallet.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-pending.png" alt="" width="345"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/token-swaps/6-tg-tx-success.png" alt="" width="350"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/stacks-swaps/6-tg-tx-pending.png" alt="" width="345"><figcaption><p>Telegram message with transaction pending status.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/stacks-swaps/6-tg-tx-success.png" alt="" width="350"><figcaption><p>Telegram message with transaction success status.</p></figcaption></figure></div>
 
 ### Step 7: Check the Updated Balance
 

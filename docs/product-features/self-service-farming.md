@@ -15,7 +15,7 @@ You can only add farming to liquidity pools that you have created via the ALEX S
 * The pool owner creates the farm by specifying the number of cycles and depositing the total reward amount. These two inputs determine the rewards distributed per cycle, which are equal for each cycle.
 * The pool's liquidity providers stake their LP tokens in the newly created farm, earning rewards at the end of each cycle, just like any other farm within the ALEX Lab Platform.
 
-For further details on how farms operate within ALEX, refer to the [Farming Key concepts](broken-reference) section of the docs.
+For further details on how farms operate within ALEX, refer to the [Farming Key concepts](farming/key-concepts.md) section of the docs.
 
 ### Considerations
 

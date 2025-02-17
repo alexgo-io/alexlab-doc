@@ -38,7 +38,7 @@ After selecting a pool, you will be taken to a control panel for that specific l
 
 When you set the amount for one token, the corresponding amount for the other token is automatically calculated, as liquidity must be provided in equal value for both tokens.
 
-**Need tokens?** Visit the [Token Swaps](../token-swaps/) docs section and to learn how to exchange tokens on ALEX Lab platform.
+**Need tokens?** Visit the [Token Swaps](../stacks-swaps/) docs section and to learn how to exchange tokens on ALEX Lab platform.
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-3-pool-control-panel.png" alt=""><figcaption><p>Control panel example for STX-ALEX liquidity pool. Amount is set to 4 STX and ALEX token amount is automatically determined.</p></figcaption></figure>
 
