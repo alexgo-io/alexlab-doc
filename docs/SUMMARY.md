@@ -4,7 +4,7 @@
 
 ## What Can You Do?
 
-* [💰 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
+* [🔥 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
   * [💡 Key concepts](product-features/bitcoin-swaps/key-concepts.md)
   * [🧑‍🏫 How to swap](product-features/bitcoin-swaps/how-to.md)
   * [❓ FAQs](product-features/bitcoin-swaps/faqs.md)
