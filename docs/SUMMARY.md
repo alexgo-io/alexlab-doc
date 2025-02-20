@@ -2,6 +2,11 @@
 
 * [ALEX Lab](README.md)
 
+## Getting Started
+
+* [👛 Connect Your Wallet](getting-started/how-to-connect-your-wallet.md)
+* [👥 Join the Community](getting-started/join-the-community.md)
+
 ## What Can You Do?
 
 * [💰 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)

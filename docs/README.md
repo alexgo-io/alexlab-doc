@@ -69,7 +69,7 @@ Just as Bitcoin is the “gold standard” of crypto, ALEX will become gold stan
 
 ### Social Media&#x20;
 
-**Twitter:** [https://twitter.com/ALEXLabBTC](https://twitter.com/ALEXLabBTC)
+**X/Twitter:** [https://x.com/ALEXLabBTC](https://twitter.com/ALEXLabBTC)
 
 **Discord:** [https://discord.gg/alexlab](https://discord.gg/alexlab)
 
@@ -83,13 +83,11 @@ Just as Bitcoin is the “gold standard” of crypto, ALEX will become gold stan
 
 
 
-### Verified Team Twitter Profiles&#x20;
+### Verified Team X/Twitter Profiles&#x20;
 
-Chiente Hsu: [https://twitter.com/RuleBasedInvest](https://twitter.com/RuleBasedInvest)
+Chiente Hsu: [https://x.com/RuleBasedInvest](https://x.com/RuleBasedInvest)
 
-Rachel: [https://twitter.com/rachel\_alexgo](https://twitter.com/rachel_alexgo)
-
-
+<!-- Rachel: [https://twitter.com/rachel\_alexgo](https://twitter.com/rachel_alexgo) -->
 
 ### Verified Tag on Discord for Team Authenticity&#x20;
 
