@@ -10,7 +10,7 @@ Follow these steps to connect your wallet to ALEX Lab.
 
 First, click on the **Wallet Manager** located in the top right corner of the ALEX Lab homepage. This is where you’ll manage all your wallet connections.
 
-![Select Wallet Manager](../../.gitbook/assets/connecting-your-wallet/0-select-wallet-manager.png)
+<figure><img src="../.gitbook/assets/wallet-how-to/select-wallet-manager.png" alt="" width="375"><figcaption><p>Click on the Wallet Manager Button</p></figcaption></figure>
 
 ### Step 2: Choose the Blockchain and Wallet
 
