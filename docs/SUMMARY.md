@@ -40,7 +40,7 @@
 ## Security
 
 * [✅ Audits](resources/security-audit.md)
-* [🐛 Bug Bounties](legacy/security-audit-and-bug-bounty/bug-bounty.md)
+* [🐛 Bug Bounties](resources/bug-bounty.md)
 
 ## Helpful Concepts
 
