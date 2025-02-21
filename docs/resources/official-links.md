@@ -43,7 +43,7 @@ description: >-
 
 Chiente Hsu: [https://x.com/RuleBasedInvest](https://x.com/RuleBasedInvest)
 
-<!-- Rachel: [https://twitter.com/rachel\_alexgo](https://twitter.com/rachel_alexgo) -->
+Rachel: [https://twitter.com/rachel_alexgo](https://twitter.com/rachel_alexgo)
 
 ### Verified Tag on Discord for Team Authenticity&#x20;
 

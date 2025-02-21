@@ -77,17 +77,17 @@ If you want to adjust the **Swap Slippage**, select the "Edit" button to the rig
 <figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-transaction-settings.png" alt="" width="375"><figcaption><p>Transaction Settings panel example, with slippage tolerance set to 2%.</p></figcaption></figure>
 </div>
 
-### Step 4: Confirm Transaction
+### Step 4: Confirm the Swap
 
 Once you're ready to move ahead, select the `Swap` button which will bring up the Confirmation panel. This panel provides a final overview of your transaction details, allowing you to double-check price, route, fees and slippage. If everything looks good, click `Confirm` 😎.
 
-### Step 5: Confirm Transaction in your Wallet
+### Step 5: Confirm the Transaction in Your Wallet
 
 After clicking `Confirm`, you will need to confirm the transaction in your wallet. Here, your Bitcoin wallet is interacting with the ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
 <div><figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-wallet-confirm-1.png" alt="" width="375"><figcaption><p>Transfer amounts involved and expandable details.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/bitcoin-swap/bitcoin-swap-wallet-confirm-2.png" alt="" width="375"><figcaption><p>Inputs and outputs and confirmation button.</p></figcaption></figure></div>
 
-### Step 6: Wait for Confirmation <a href="#step-7" id="step-7"></a>
+### Step 6: Wait for Transaction Confirmation <a href="#step-7" id="step-7"></a>
 
 Wait for the transaction to be confirmed on the network.
 

@@ -9,7 +9,7 @@ When **removing liquidity**, you will transfer your LP tokens back to the ALEX s
 
 Ready to start? Let's get hands-on!
 
-### Step 1
+### Step 1: Go to the Pool Page
 
 As when adding liquidity, go to [https://app.alexlab.co/](https://app.alexlab.co/) and click on navbar's Swap -> Pool tab.
 
@@ -19,21 +19,21 @@ Once you're on the Pool page, you'll find the "My Liquidity" panel at the top of
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-1-my-liquidity-main-panel.png" alt=""><figcaption><p>The pools where you are providing liquidity are displayed here. There is only one in this example.</p></figcaption></figure>
 
-### Step 2
+### Step 2: Select Pool
 
 Select the pool you would like to remove liquidity from, either through the "My Liquidity" panel or directly from the pool list.
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-2-select-pool.png" alt=""><figcaption><p>STX-ALEX pool selection.</p></figcaption></figure>
 
-### Step 3
+### Step 3: Open the Remove Liquidity Tab
 
 Once in the panel of the pool, select the "Remove Liquidity" tab.
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-3-remove-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Step 4
+### Step 4: Enter Amount to Withdraw
 
-For this step, it's important to have in mind that the LP tokens you hold represent your share of the pool's funds. By entering the LP token amount, you're specifying the portion of the pooled funds you want to withdraw. Clicking the "Max" button sets your entire LP token balance, indicating you want to remove all liquidity from the pool.
+For this step, it's important to have in mind that the LP tokens you hold represent your share of the pool's funds. By entering the LP token amount, you're specifying the portion of the pooled funds you want to withdraw. Clicking the `Max` button sets your entire LP token balance, indicating you want to remove all liquidity from the pool.
 
 When you enter the amount of LP tokens, you are specifiyng amount you will transfer to ALEX smart contract in order to receive your funds and any accrued fees in return. These fees are the ones accrued while holding those LP tokens.
 
@@ -41,19 +41,19 @@ Once you have decided the LP token amount, click the "Remove" button.
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-4-enter-amount.png" alt="" width="375"><figcaption><p>Example of removing all liquidity; the amount matches the LP token balance.</p></figcaption></figure>
 
-### Step 5
+### Step 5: Confirm Liquidity Removal
 
 A confirmation panel will appear where you can double check the amount. If everything looks correct, click "Confirm" :sunglasses:
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-5-confirm-remove-liquidity.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Step 6
+### Step 6: Confirm the Transaction in Your Wallet
 
 After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-6-reduce-position-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure>
 
-### Step 7
+### Step 7: Wait for Transaction Confirmation
 
 Wait for the transaction to be confirmed on the network.
 
@@ -71,7 +71,7 @@ Recommended to track transaction status:
 
 <div><figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/liquidity-pools/removing-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure></div>
 
-### Step 8
+### Step 8: Check the Updated Liquidity
 
 Once the transaction is completed, you will see the changes reflected in the "My Liquidity" panel, and the updated token balances should appear in your wallet.
 

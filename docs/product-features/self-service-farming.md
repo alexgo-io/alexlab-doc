@@ -2,7 +2,7 @@
 description: Add the farming feature to your pool and reward LPs with an additional yield!
 ---
 
-# 🧑‍🌾 Self-Service Farming
+# 🚜 Self-Service Farming
 
 {% hint style="warning" %}
 You can only add farming to liquidity pools that you have created via the ALEX Self-Service Listing. If you don't have your own pool yet and want to create one, check the [Self-Service Listing](broken-reference) page to find out how.
@@ -10,7 +10,7 @@ You can only add farming to liquidity pools that you have created via the ALEX S
 
 ## 🚀 Getting started
 
-### How does it work?
+### How Does It Work?
 
 * The pool owner creates the farm by specifying the number of cycles and depositing the total reward amount. These two inputs determine the rewards distributed per cycle, which are equal for each cycle.
 * The pool's liquidity providers stake their LP tokens in the newly created farm, earning rewards at the end of each cycle, just like any other farm within the ALEX Lab Platform.
@@ -28,29 +28,29 @@ Before you start, familiarize yourself with the basic rules of Self-Service Farm
 
 ## 📝 Procedure
 
-### Step 1
+### Step 1: Go to the Farm Page
 
-Go to the [Farms page](https://app.alexlab.co/farm) and click on the "Create" button.
+Go to the [Farm page](https://app.alexlab.co/farm) and click on the "Create" button.
 
 <figure><img src="../.gitbook/assets/self-service-farming/create-farm-button.png" alt="" width="563"><figcaption></figcaption></figure>
 
-In this guide we are assuming that you already have a pool, so select the "Creating a new farm" option and click "Continue".
+In this guide we are assuming that you already have a pool, so select the `Creating a new farm` option and click `Continue`.
 
 <figure><img src="../.gitbook/assets/self-service-farming/create-type-new-farm.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Step 2
+### Step 2: Select a Pool
 
 Select a pool from the ones you've created.
 
 <figure><img src="../.gitbook/assets/self-service-farming/step-1-select-a-pool.png" alt=""><figcaption></figcaption></figure>
 
-### Step 3
+### Step 3: Enter Rewards to Be Distributed
 
 Enter the total amount of rewards that will be distributed in your farm. This amount is deposited at farm creation. Also, remember that in Self-Service Farming, the reward token has to be the same as the listing token.
 
 <figure><img src="../.gitbook/assets/self-service-farming/enter-total-rewards-amount.png" alt=""><figcaption></figcaption></figure>
 
-### Step 4
+### Step 4: Enter Cycle Length and Amount
 
 Select the **Reward Cycle Length**, which is the number of cycles in which your farm will be active and distributing rewards. This number, along with the total farming rewards, determines the **Est. Farming Rewards Per Cycle**.
 
@@ -72,15 +72,15 @@ If the user submits, the farm will be created at Cycle #80, leaving 33 blocks fo
 
 If the user decides to proceed, the **Farm Opening Cycle** will run from Cycle #81 to Cycle #90, lasting approximately 35 days.
 
-### Step 5
+### Step 5: Confirm Rewards Submission
 
-Once you're ready to move ahead, select the "Submit Rewards" button which will bring up the Confirmation panel. This panel provides a final overview of the farm creation, allowing you to double-check the total rewards and the farm opening period. If everything looks good, click "Confirm" 😎.
+Once you're ready to move ahead, select the `Submit Rewards` button which will bring up the Confirmation panel. This panel provides a final overview of the farm creation, allowing you to double-check the total rewards and the farm opening period. If everything looks good, click `Confirm` 😎.
 
 <figure><img src="../.gitbook/assets/self-service-farming/farm-create-confirmation-panel.png" alt="" width="371"><figcaption></figcaption></figure>
 
-### Step 6
+### Step 6: Confirm the Transaction in Your Wallet
 
-After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Remember, in this farm creation transaction, you are transferring the total amount of rewards to the ALEX smart contract.
+After clicking `Confirm`, you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Remember, in this farm creation transaction, you are transferring the total amount of rewards to the ALEX smart contract.
 
 Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
@@ -91,7 +91,7 @@ To be completely sure, you can check:
 * The transfer amount, covered by [Stacks post conditions](https://docs.stacks.co/stacks-101/post-conditions). Note that the amount you transfer to the smart contract is exactly determined (DOGGY in the example). If this condition is not met, the transaction will abort.
 {% endhint %}
 
-### Step 7
+### Step 7: Wait for Transaction Confirmation
 
 Wait for the transaction to be confirmed on the network.
 
@@ -103,7 +103,7 @@ Recommended to track transaction status:
 * Check your address activity on the wallet.
 {% endhint %}
 
-### Step 8
+### Step 8: Check Successful Farm Creation
 
 Once the transaction is completed, your farm will have been successfully created. Your farm will appear on the [Farms](https://app.alexlab.co/farm) page and from that moment is open to the first farmers who want to join during the gathering period.
 

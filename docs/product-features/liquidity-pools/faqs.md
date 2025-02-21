@@ -4,7 +4,7 @@ description: Common questions you might have as a liquidity provider or pool cre
 
 # ❓ FAQs
 
-## Liquidity Pools & Providers
+## Liquidity Pools and Providers
 
 <details>
 

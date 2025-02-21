@@ -50,7 +50,7 @@ These are the only official profiles of ALEX team members on X (formerly Twitter
 
 Chiente Hsu: [https://x.com/RuleBasedInvest](https://x.com/RuleBasedInvest)
 
-<!-- Rachel: [https://twitter.com/rachel\_alexgo](https://twitter.com/rachel_alexgo) -->
+Rachel: [https://twitter.com/rachel_alexgo](https://twitter.com/rachel_alexgo)
 
 ### Discord
 

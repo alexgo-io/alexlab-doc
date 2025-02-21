@@ -25,7 +25,7 @@ The APY (Annual Percentage Yield) reflects your potential earnings from staking 
 
 -->
 
-### Cycles & Cooldown Period
+### Cycles and Cooldown Period
 
 Staking is measured in cycles. Cycles are **525 Stacks blocks** or about **3.5 days long**, and both manual and auto-staking receive rewards when each cycle concludes. When you decide to stake your ALEX tokens, you need to select the amount of cycles you wish to stake for. In the case of **Manual Staking**, your $ALEX won't be accessible during that period. 
 

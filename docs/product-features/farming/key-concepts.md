@@ -4,13 +4,13 @@ description: >-
   dashboard metrics!
 ---
 
-# 💡 Key concepts
+# 💡 Key Concepts
 
-## Farm basics
+## Farm Basics
 
 Yield farming works in a very similar way to standard staking, with the key difference being that the tokens you stake are LP tokens. As in traditional staking, you lock up your tokens for a certain period (measured in cycles) and earn rewards over time. After each cycle, you will have rewards available to harvest[^1].
 
-### What are LP tokens?
+### What Are LP Tokens?
 
 LP tokens are the tokens you receive when you provide funds to a liquidity pool. These tokens represent your share of the pool's assets. As a liquidity provider, you earn a portion of the fees charged to users who perform swaps within the pool. For a deeper understanding of these concepts, check out the [Liquidity Pools](../liquidity-pools/) section of the docs.
 
@@ -18,7 +18,7 @@ LP tokens are the tokens you receive when you provide funds to a liquidity pool.
 You may notice that farming often yields higher rewards than regular staking. Well, farming involves liquidity provision and comes with the risk of Impermanent Loss. It's not as scary as it sounds, but it is worth learning about the concept before you get started. Learn more in the [Impermanent Loss subsection](../liquidity-pools/key-concepts.md#impermanent-loss) from the Liquidity Pools page.
 {% endhint %}
 
-### What exactly is a farm?
+### What Exactly is a Farm?
 
 A farm is a staking pool for a specific LP token. Each liquidity pool has their specific native LP tokens. There are different LP tokens corresponding to each liquidity pool on the ALEX Lab Platform.
 
@@ -33,7 +33,7 @@ Farms only accept LP tokens of one kind. For example, the STX-ALEX farm only acc
 **Smart Contacts.** During farming, LP tokens are locked in the ALEX smart contract. Although they belong to you and only you have the authority to withdraw them, they are not held by your address during the lock-up period. As a result, you won't be able to view your LP tokens in the My Liquidity panel on the [ALEX Lab Pools page](https://app.alexlab.co/pool) during staking.
 {% endhint %}
 
-### Cycles and cooldown period
+### Cycles and Cooldown Period
 
 Farming is measured in cycles. **One cycle** is 525 Stacks blocks (after Stacks Nakamoto release, the farming cycle will be counted based on tenure height), which is approximately **3.5 days** or **525 Bitcoin blocks**. This means that when you stake tokens in a farm, you need to specify the number of cycles you want to lock up your tokens in the farm. Rewards are distributed after a cycle ends.
 
@@ -41,7 +41,7 @@ Your staked tokens will start generating yield in the next upcoming cycle, which
 
 Let's use an example. Assume you stake for one cycle at a time. When that cycle ends, you can claim the rewards associated with that cycle. To continue generating rewards, you will have to withdraw your LP tokens and restake them. However, when you restake them, the current cycle will not be eligible for you to earn rewards. Therefore, you will have to wait until the next cycle to acquire rewards. Over 100 cycles, this method would cause you to miss rewards for about 50 cycles. In contrast, if you stake for 32 cycles, you will only miss rewards for 3 cycles.
 
-### Reward distribution
+### Reward Distribution
 
 Farms may offer different types of reward tokens, and each farm has a predetermined amount of rewards. For simplicity, we can assume that the total rewards distributed to stakers during each cycle remains constant. At the end of each cycle, the rewards are available to be harvested by the farmers (stakers) in proportion to their share of LP tokens within that cycle.
 
@@ -78,7 +78,7 @@ Once you have staked LP tokens into a farm, it's important to familiarize yourse
 
 <figure><img src="../../.gitbook/assets/farming/my-farming-dashboard-example.png" alt=""><figcaption><p>My Farming dashboard example for ALEX - LiALEX farm. This user has accumulated rewards from previous cycles that are available to claim. Also, there are no LP tokens that have completed their staking period and are ready for withdrawal (LP to claim).</p></figcaption></figure>
 
-### Active farming LP
+### Active Farming LP
 
 The tokens you have staked in the farm. When your staking period ends for a certain amount, those tokens will move from here to the [LP to claim](key-concepts.md#lp-to-claim) section of the dashborad. If you staked multiple times at different cycles, the lock periods apply to each amount separately.
 
@@ -86,11 +86,11 @@ The tokens you have staked in the farm. When your staking period ends for a cert
 
 This metric represents the average of all your farming cycle APRs (both current and upcoming).
 
-### Rewards to claim
+### Rewards to Claim
 
 The rewards available for you to harvest. If you don't harvest, these rewards will accumulate over time. However, to maximize your returns, we recommend harvesting your rewards after every cycle ends. This way, you can stake them or buy more LP tokens to generate compound interest.
 
-### LP to claim
+### LP to Claim
 
 The tokens that have completed their staking period. These tokens are no longer in a farming state. To make them generate farming rewards again, you will have to withdraw and restake them.
 

@@ -9,13 +9,13 @@ When **adding liquidity**, you will deposit an equivalent value of both tokens i
 
 Ready to start? Let's get hands-on!
 
-### Step 1
+### Step 1: Go to the Pool Page
 
 Go to [https://app.alexlab.co/](https://app.alexlab.co/) and click on navbar's Swap -> Pool tab.
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Step 2
+### Step 2: Select Pool
 
 All available pools will be displayed including information such as:
 
@@ -32,7 +32,7 @@ Select the token pair to which you want to add liquidity from the displayed list
 When hovering over a pool, you might notice a "+LP" button. This serves as a visual indicator for the selected pool. Clicking it will take you to the same screen as clicking anywhere on the pool's row.
 {% endhint %}
 
-### Step 3
+### Step 3: Add Liquidity to Your Pool
 
 After selecting a pool, you will be taken to a control panel for that specific liquidity pool, where you can add liquidity to the token pair and view more detailed metrics[^1].
 
@@ -46,7 +46,7 @@ When you set the amount for one token, the corresponding amount for the other to
 Clicking the "Max" button will automatically set the amount to your total available balance.
 {% endhint %}
 
-### Step 4
+### Step 4: Adjust Transaction Settings
 
 If you want to adjust slippage, select the "Settings" icon to open the Transaction Settings panel and set your desired tolerance. The default slippage tolerance for non-stable swap token pairs is set to 4%, meaning your transaction will revert if the exchange rate changes unfavourably by more than this percentage. The displayed number of LP tokens you will receive is approximate due to this potential variation.
 
@@ -54,13 +54,13 @@ If you want to adjust slippage, select the "Settings" icon to open the Transacti
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-4-adjust-slippage.png" alt="" width="375"><figcaption><p>Transaction Settings panel example, with slippage tolerance set to 3%.</p></figcaption></figure>
 
-### Step 5
+### Step 5: Confirm Added Liquidity
 
 One you decide the amount, click the "Add" button. Confirmation panel will appear. Here you can double check balances, slippage and LP tokens. If everything it's okay, click "Confirm" :sunglasses:
 
 <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-5-confirm-add-liquidity.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Step 6
+### Step 6: Confirm the Transaction in Your Wallet
 
 After clicking "Confirm", you will need to confirm the transaction in your wallet. Here, your Stacks wallet is interacting with ALEX smart contract and is asking you for approval. Scroll through the wallet transaction window, review it and confirm the transaction. By doing this, you are allowing the wallet to sign and broadcast the transaction.
 
@@ -73,7 +73,7 @@ To be completely sure, you can check:
 
 <div><figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-6-add-to-position-post-con.png" alt="" width="375"><figcaption><p>Amounts to transfer and post conditions.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-6-add-to-position-function-args.png" alt="" width="375"><figcaption><p>Function arguments and confirmation button.</p></figcaption></figure></div>
 
-### Step 7
+### Step 7: Wait for Transaction Confirmation
 
 Wait for the transaction to be confirmed on the network.
 
@@ -91,7 +91,7 @@ Recommended to track transaction status:
 
 <div><figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-leather-tx-pending.png" alt="" width="375"><figcaption><p>Transaction pending displayed on Leather wallet.</p></figcaption></figure> <figure><img src="../../.gitbook/assets/liquidity-pools/adding-liquidity-7-leather-tx-success.png" alt="" width="375"><figcaption><p>Transaction completed, token transfers are visible.</p></figcaption></figure></div>
 
-### Step 8
+### Step 8: Check the Updated Liquidity
 
 After successfully adding liquidity, you will be able to see your LP tokens and related details in "My Liquidity" panel.
 
