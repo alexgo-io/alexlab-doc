@@ -1,10 +1,10 @@
-# 📃 Whitepaper (1): Automated Market Making of the Yield Token Pool
+# 📃 Whitepaper: Automated Market Making of the Yield Token Pool
 
-## Whitepaper (1): **Automated Market Making of the Yield Token Pool**
+## Whitepaper: **Automated Market Making of the Yield Token Pool**
 
 ## **Abstract**
 
-ALEX aims to provide fixed rate borrowing and lending services with pre-determined maturity in the world of decentralized finance (DeFi). We’ve included forward contracts in our trading pool, with an Automated Market Making (AMM) engine utilizing Generalized Mean. We have formalized the trading practice of swapping forward contracts on the underlying asset, and we’ve incorporated the latest innovation in DeFi — concentrated liquidity. Consequently, liquidity providers on ALEX are able to save significant capital by market making on a selected range of interest rates.
+ALEX aims to provide fixed rate borrowing and lending services with pre-determined maturity in the world of decentralized finance (DeFi). We’ve included forward contracts in our trading pool, with an Automated Market Making (AMM) engine utilizing Generalized Mean. We have formalized the trading practice of swapping forward contracts on the underlying asset, and we’ve incorporated the latest innovation in DeFi — concentrated liquidity. Consequently, liquidity providers on ALEX are able to save significant capital by market making on a selected range of interest rates. 
 
 ## **Introduction**
 
@@ -26,7 +26,7 @@ We will first review some desirable features of the AMM that ALEX hopes to exhib
 
 ![https://miro.medium.com/max/1400/1\*3YqkqWB-v4ItOamoGNwocQ.png](https://miro.medium.com/max/1400/1*3YqkqWB-v4ItOamoGNwocQ.png)
 
-Meanwhile, _f_ can usually be interpreted as a form of mean, for example, [mStable](https://docs.mstable.org/) relates to arithmetic mean, where _&#x78;_&#x2081;+_&#x78;_&#x2082;=L (constant sum formula); one of the most popular platforms [Uniswap](https://uniswap.org/whitepaper-v3.pdf) relates to geometric mean, where _&#x78;_&#x2081;_&#x78;_&#x2082;=L (constant product formula); [Balancer](https://balancer.fi/whitepaper.pdf), which our collateral rebalancing pool employs, applies weighted geometric mean. Its AMM is:
+Meanwhile, _f_ can usually be interpreted as a form of mean, for example, [mStable](https://docs.mstable.org/) relates to arithmetic mean, where _&#x78;_&#x2081;+_&#x78;_&#x2082;=L (constant sum formula); one of the most popular platforms [Uniswap](https://uniswap.org/whitepaper-v3.pdf) relates to geometric mean, where _&#x78;_&#x2081;_&#x78;_&#x2082;=L (constant product formula); [Balancer](https://docs.balancer.fi/whitepaper.pdf), which our collateral rebalancing pool employs, applies weighted geometric mean. Its AMM is:
 
 ![https://miro.medium.com/max/338/1\*PJRDEL52vRfvHKI7mjNYsA.png](https://miro.medium.com/max/338/1*PJRDEL52vRfvHKI7mjNYsA.png)
 

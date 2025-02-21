@@ -15,8 +15,4 @@ Check the audit reports here:
 - [2022-07 Orderbook](https://cdn.alexgo.io/pdf/AlexGo_Audit_20220709-Order_Book_(Spot).pdf)
 - [2022-10 Orderbook (perpetual)](https://cdn.alexgo.io/pdf/Alex_Audit_2022-10.pdf)
 
-## Immunefi Bounty Program
-
-If you are interested in participating ALEX bug bounty program, please head to [https://immunefi.com/bounty/alex/](https://immunefi.com/bounty/alex/) to learn more.
-
 

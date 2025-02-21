@@ -1,10 +1,10 @@
-# 📃 Whitepaper (3): Diving into Collateral Rebalancing Pools!
+# 📃 Whitepaper: Diving into Collateral Rebalancing Pools!
 
-## Whitepaper (3): **Diving into Collateral Rebalancing Pools!**
+## Whitepaper: **Diving into Collateral Rebalancing Pools!**
 
 ## **Abstract**
 
-ALEX eliminates liquidation risk through collateral rebalancing pools (CRP) that dynamically shift the balance between risky and risk-less asset in response to market conditions. Our protocol offers both lenders and borrowers more robust returns by smoothing out market “noise” in highly volatile environments.
+ALEX eliminates liquidation risk through collateral rebalancing pools (CRP) that dynamically shift the balance between risky and risk-less asset in response to market conditions. Our protocol offers both lenders and borrowers more robust returns by smoothing out market “noise” in highly volatile environments. 
 
 ## **Introduction**
 

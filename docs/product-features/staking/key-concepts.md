@@ -25,7 +25,7 @@ The APY (Annual Percentage Yield) reflects your potential earnings from staking 
 
 -->
 
-### Cycles & Cooldown Period
+### Cycles and Cooldown Period
 
 Staking is measured in cycles. Cycles are **525 Stacks blocks** or about **3.5 days long**, and both manual and auto-staking receive rewards when each cycle concludes. When you decide to stake your ALEX tokens, you need to select the amount of cycles you wish to stake for. In the case of **Manual Staking**, your $ALEX won't be accessible during that period. 
 
@@ -37,7 +37,7 @@ Manual Staking is the conventional way of staking your tokens on the ALEX networ
 
 ## Liquid Staking
 
-[Liquid Staking](https://app.lisalab.io/li/alex/staking) with LiALEX allows users to earn rewards just as in manual staking, but with the added benefits of maintaining liquidity and automatic re-staking. Liquid staking is made possible through LISA, a set of tools deployed by ALEX Labs on the Stacks blockchain.
+[Liquid Staking](https://app.lisalab.io/li/alex/staking) with LiALEX allows users to earn rewards just as in manual staking, but with the added benefits of maintaining liquidity and automatic re-staking. Liquid staking is made possible through LISA, a set of tools deployed by ALEX Lab on the Stacks blockchain.
 
 Liquid staking earns you passive compound interest on your investment, as you won't need to manually harvest and re-stake your rewards. Since your rewards are automatically reinvested, there is no cooldown period, which allows you to maximize your returns.
 

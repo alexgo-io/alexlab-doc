@@ -52,7 +52,7 @@ For example, if you want to farm for 12 cycles and choose to stake three times f
 
 You have several options for your rewards: you can hold them, trade them, or generate compound interest. Compound interest occurs when your rewards generate more rewards. Here are some ways to achieve this within the ALEX Lab Platform:
 
-* Stake the rewards on [ALEX Staking](../../../product-features/stake.md). You can even buy LiALEX for auto-compounding rewards, maximizing your long-term yield.
+* Stake the rewards on [ALEX Staking](../../product-features/staking/README.md). You can even buy LiALEX for auto-compounding rewards, maximizing your long-term yield.
 * Provide liquidity to a pool to earn a share of the trading fees. To further enhance your yield, stake the LP tokens in a farm.
 
 </details>

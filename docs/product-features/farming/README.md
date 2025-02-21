@@ -26,7 +26,8 @@ To get started with farming, you first deposit two tokens into a liquidity pool,
 ## Explore
 
 {% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
-{% content-ref url="how-to.md" %} [how-to.md](how-to.md) {% endcontent-ref %}
+{% content-ref url="how-to-farm.md" %} [how-to-farm.md](how-to-farm.md) {% endcontent-ref %}
+{% content-ref url="how-to-harvest.md" %} [how-to-harvest.md](how-to-harvest.md) {% endcontent-ref %}
 {% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
 
 <!-- 
