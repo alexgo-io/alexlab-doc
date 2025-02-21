@@ -57,5 +57,5 @@
 * [🔗 Official Links](resources/official-links.md)
 * [📃 Whitepapers](resources/whitepapers/README.md)
   * [📃 Automated Market Making of the Yield Token Pool](whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md)
-  * [📃 Automated Market Making of the Collateral Rebalancing Pooltitled](whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md)
+  * [📃 Automated Market Making of the Collateral Rebalancing Pool](whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md)
   * [📃 Diving into Collateral Rebalancing Pools!](whitepapers/whitepaper-3-diving-into-collateral-rebalancing-pools.md)
