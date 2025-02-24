@@ -10,9 +10,9 @@ The Surge dashboard will display the different rounds of the program, such as Su
 
 Each Surge round follows these phases:
 - **Registration**: projects can register their liquidity pools before the cut-off date.
-- **Voting**: users vote to decide how `$ALEX` rewards will be distributed.
+- **Voting**: users vote to decide how $ALEX rewards will be distributed.
 - **Staking**: liquidity providers stake LP tokens to earn additional rewards.
-- **Surge Rewards Emission**: `$ALEX` rewards are distributed based on the votes and staking amounts.
+- **Surge Rewards Emission**: $ALEX rewards are distributed based on the votes and staking amounts.
 
 The cut-off date is the deadline for registering liquidity pools in the current round. After this date, no new pools can enter, and the voting phase begins.
 You can check the timeline at the top of the Surge page to track the current phase of the program.
@@ -34,7 +34,10 @@ Go to the [ALEX Surge App](https://app.alexlab.co/surge) and click `Register for
 
 ### Step 3: (Optional) Donate Voter Rewards
 You can add extra rewards to incentivize users to vote for your pool.
-⚠️ **Once donated, voter rewards cannot be revoked or withdrawn**.
+
+{% hint style="warning" %}  
+**Once donated, voter rewards cannot be revoked or withdrawn.**  
+{% endhint %}
 <figure><img src="../../.gitbook/assets/surge/voter-rewards.png" alt=""><figcaption>Donating voter rewards</figcaption></figure>
 
 Once you've decided on an amount of voter rewards, press the `Donate Rewards` button. A confirmation pop-up will appear. If you understand that your donated rewards cannot be revoked, click `Confirm`.
@@ -51,16 +54,16 @@ Once registered, your pool will appear on the **Social Leaderboard**, where it w
 
 ## 🗳️ Voting for Emissions
 
-During the voting phase, users can vote for their preferred liquidity pools to influence the distribution of `$ALEX` rewards.
+During the voting phase, users can vote for their preferred liquidity pools to influence the distribution of $ALEX rewards.
 
 ### Step 1: Open the Surge Voting Section
 After the registration cut-off, go to the [Surge App](https://app.alexlab.co/surge) and click `Vote for Emissions`.
 <figure><img src="../../.gitbook/assets/surge/surge-vote.png" alt=""><figcaption>Voting interface</figcaption></figure>
 
 ### Step 2: Allocate Your Voting Power
-Your voting power is based on your `$ALEX` and `LiALEX` holdings.
+Your voting power is based on your $ALEX and `$LiALEX` holdings.
 - Choose how to distribute your votes among the available pools.
-- Pools with more votes receive a higher share of the `$ALEX` rewards.
+- Pools with more votes receive a higher share of the $ALEX rewards.
 
 ### Step 3: Submit Your Vote
 Click **Cast Votes** to finalize your selection. 
@@ -92,7 +95,7 @@ You can stake LP tokens in **multiple pools**, but each stake is separate.
 
 ### Step 4: Reward Distribution
 - Rewards are distributed proportionally based on your staked LP tokens relative to the total staked amount in that pool.
-- The more LP tokens you stake, the greater your share of the `$ALEX` rewards.
+- The more LP tokens you stake, the greater your share of the $ALEX rewards.
 
 {% hint style="info" %}
 🚨 **Important Notes:** 
@@ -115,7 +118,7 @@ Once the voting and staking phase ends, the **reward emission phase** begins.
 
 ### Step 2: Claim Your Rewards
 1. Go to the [Surge App](https://app.alexlab.co/surge) and navigate to the Claim Rewards section.
-2. Click **Harvest All** to claim your LP tokens and earned `$ALEX` rewards.
+2. Click **Harvest all** to claim your LP tokens and earned $ALEX rewards.
 <figure><img src="../../.gitbook/assets/surge/rewards.png" alt=""><figcaption>Claiming rewards and LP tokens</figcaption></figure>
 
 {% hint style="info" %}

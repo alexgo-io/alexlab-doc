@@ -20,7 +20,7 @@ Since LP tokens fluctuate in value based on pool activity and market conditions,
 
 Staking in ALEX Surge allows liquidity providers to commit their LP tokens to a specific pool in exchange for `$ALEX` rewards. By staking, participants help strengthen liquidity pools while earning rewards based on the total amount staked in each round.
 
-Once staked, LP tokens remain locked until the end of the reward emission phase. At that point, stakers can harvest their rewards and unstake their LP tokens. Rewards are distributed proportionally, meaning pools with more staked LP tokens and higher votes receive a larger share of `$ALEX`.
+**LP tokens can only be staked during the staking phase of each Surge round and remain locked until the end of the reward emission phase.** At that point, stakers can harvest their rewards and unstake their LP tokens. Rewards are distributed proportionally, meaning pools with more staked LP tokens and higher votes receive a larger share of `$ALEX`.
 
 Staking is optional but offers an additional incentive for liquidity providers looking to maximize their returns in ALEX Surge.
 
@@ -48,7 +48,8 @@ Once voter rewards are allocated, they cannot be withdrawn or modified. Users wh
 
 The Social Leaderboard is a ranking system in ALEX Surge that rewards community engagement. Pools that actively promote their participation on Twitter/X can improve their ranking and increase their chances of receiving votes from the ALEX Lab Foundation.
 
-Leaderboard rankings are based on social media engagement, including likes, reposts, and replies. To be considered, projects must submit their social activity through Discord or Blocksurvey before the voting phase ends.
+Leaderboard rankings are based on social media engagement, including likes, reposts, and replies. **To be considered in each Surge round, projects must submit their social activity through Discord or Blocksurvey before the voting phase ends.**
+
 
 ## Reward Distribution 💰
 
@@ -58,7 +59,7 @@ Liquidity providers who stake LP tokens in pools that receive votes earn rewards
 
 ## Cut-off Dates 🚨
 
-Cut-off dates in ALEX Surge define the deadlines for each phase. After the registration cut-off, no new pools can join. The voting cut-off locks votes, finalizing reward distribution. The staking cut-off is the last chance to stake LP tokens. These deadlines ensure a structured and fair process, with the current phase always visible on the Surge interface.
+For details on cut-off dates and deadlines, refer to the [Cut-off Dates section in the Surge README](../surge/README.md).
 
 ## Risks and Considerations ⚠️
 
