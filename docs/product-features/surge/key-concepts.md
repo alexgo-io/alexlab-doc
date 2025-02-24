@@ -18,15 +18,15 @@ Since LP tokens fluctuate in value based on pool activity and market conditions,
 
 ## Staking in Surge 🔹
 
-Staking in ALEX Surge allows liquidity providers to commit their LP tokens to a specific pool in exchange for `$ALEX` rewards. By staking, participants help strengthen liquidity pools while earning rewards based on the total amount staked in each round.
+Staking in ALEX Surge allows liquidity providers to commit their LP tokens to a specific pool in exchange for $ALEX rewards. By staking, participants help strengthen liquidity pools while earning rewards based on the total amount staked in each round.
 
-**LP tokens can only be staked during the staking phase of each Surge round and remain locked until the end of the reward emission phase.** At that point, stakers can harvest their rewards and unstake their LP tokens. Rewards are distributed proportionally, meaning pools with more staked LP tokens and higher votes receive a larger share of `$ALEX`.
+**LP tokens can only be staked during the staking phase of each Surge round and remain locked until the end of the reward emission phase.** At that point, stakers can harvest their rewards and unstake their LP tokens. Rewards are distributed proportionally, meaning pools with more staked LP tokens and higher votes receive a larger share of $ALEX.
 
 Staking is optional but offers an additional incentive for liquidity providers looking to maximize their returns in ALEX Surge.
 
 ## Voting Power ⚖️
 
-Voting power in ALEX Surge determines how much influence a participant has when distributing `$ALEX` rewards across liquidity pools. It is calculated based on a user’s `ALEX` and `LiALEX` holdings at the start of each Surge round.
+Voting power in ALEX Surge determines how much influence a participant has when distributing $ALEX rewards across liquidity pools. It is calculated based on a user’s $ALEX and $LiALEX holdings at the start of each Surge round.
 
 Each user can allocate their voting power to one or multiple pools. The more votes a pool receives, the higher the share of rewards it earns. Once a vote is cast, the used voting power cannot be changed for that round.
 
@@ -35,9 +35,9 @@ Additionally, the ALEX Lab Foundation contributes 5,000,000 voting power in ever
 
 ## Voting Mechanisms in ALEX Surge 🗳️
 
-Voting in ALEX Surge determines how `$ALEX` rewards are allocated among liquidity pools. Participants cast votes using their voting power, which is calculated at the start of each round based on their `ALEX` and `LiALEX` holdings. Once submitted, votes cannot be changed for that Surge cycle.
+Voting in ALEX Surge determines how $ALEX rewards are allocated among liquidity pools. Participants cast votes using their voting power, which is calculated at the start of each round based on their $ALEX and $LiALEX holdings. Once submitted, votes cannot be changed for that Surge cycle.
 
-Pools with higher vote totals receive a larger share of the `$ALEX` emissions, influencing the distribution of rewards across the ecosystem.
+Pools with higher vote totals receive a larger share of the $ALEX emissions, influencing the distribution of rewards across the ecosystem.
 
 ### Voter Rewards 🎁
 Voter rewards are additional incentives provided by liquidity pools to attract votes. Projects or pool creators can donate extra rewards, which are distributed among users who vote for their pool during a Surge round.
@@ -53,7 +53,7 @@ Leaderboard rankings are based on social media engagement, including likes, repo
 
 ## Reward Distribution 💰
 
-In ALEX Surge, rewards are distributed based on the number of votes a liquidity pool receives and the amount of LP tokens staked. The total `$ALEX` rewards allocated to a Surge round are divided among pools according to their voting share.
+In ALEX Surge, rewards are distributed based on the number of votes a liquidity pool receives and the amount of LP tokens staked. The total $ALEX rewards allocated to a Surge round are divided among pools according to their voting share.
 
 Liquidity providers who stake LP tokens in pools that receive votes earn rewards proportional to their stake. Additionally, some pools may offer voter rewards as extra incentives for participants who vote for them.
 

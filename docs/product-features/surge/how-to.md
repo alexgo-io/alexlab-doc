@@ -61,7 +61,7 @@ After the registration cut-off, go to the [Surge App](https://app.alexlab.co/sur
 <figure><img src="../../.gitbook/assets/surge/surge-vote.png" alt=""><figcaption>Voting interface</figcaption></figure>
 
 ### Step 2: Allocate Your Voting Power
-Your voting power is based on your $ALEX and `$LiALEX` holdings.
+Your voting power is based on your $ALEX and $LiALEX holdings.
 - Choose how to distribute your votes among the available pools.
 - Pools with more votes receive a higher share of the $ALEX rewards.
 
