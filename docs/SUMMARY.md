@@ -9,8 +9,8 @@
 
 ## What Can You Do?
 
-* [💰 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
-  * [💡 Key Concepts](product-features/bitcoin-swaps/key-concepts.md)
+* [🔥 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
+  * [💡 Key concepts](product-features/bitcoin-swaps/key-concepts.md)
   * [📖 How to Swap](product-features/bitcoin-swaps/how-to.md)
   * [❓ FAQs](product-features/bitcoin-swaps/faqs.md)
 * [🔄 Stacks Swaps](product-features/stacks-swaps/README.md)

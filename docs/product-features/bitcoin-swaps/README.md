@@ -14,7 +14,7 @@ layout:
 ---
 
 
-# 💰 Bitcoin Swaps
+# 🔥 Bitcoin Swaps
 
 
 The Bitcoin Native Swap offers the most practical way to exchange tokens. This method is easier, faster, and less exposed to 
