@@ -38,7 +38,7 @@ For more information, refer to the [Liquidity Providers](../liquidity-pools/key-
 
 Each Surge round distributes a fixed amount of $ALEX rewards among the participating pools based on the voting results:
 
-1. **Voting Rewards**:: The total $ALEX emissions for the round are allocated to pools proportionally to the votes received. Pools with more votes get a larger share of the rewards.
+1. **Voting Rewards**: The total $ALEX emissions for the round are allocated to pools proportionally to the votes received. Pools with more votes get a larger share of the rewards.
 2. **Staking Rewards**: Within each pool, the allocated $ALEX rewards are distributed among liquidity providers based on their staked LP tokens.
 3. **Voter Rewards**: Some pools donate additional rewards to attract voters. These rewards are distributed proportionally to those who voted for that pool.
 
