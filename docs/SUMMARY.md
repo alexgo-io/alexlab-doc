@@ -25,6 +25,12 @@
   * [💡 Key concepts](product-features/staking/key-concepts.md)
   * [🧑‍🏫 How to stake](product-features/staking/how-to.md)
   * [❓ FAQs](product-features/staking/faqs.md)
+* [🚀 Launchpad](features/launchpad/README.md)
+  * [Join the ALEX Launchpad!](features/launchpad/join-the-alex-launchpad.md)
+* [⚡ Surge](product-features/surge/README.md)
+  * [💡 Key concepts](product-features/surge/key-concepts.md)
+  * [🧑‍🏫 How to participate](product-features/surge/how-to.md)
+  * [❓ FAQs](product-features/surge/faqs.md)
 
 ## What Can You Do as a Project Owner?
 
