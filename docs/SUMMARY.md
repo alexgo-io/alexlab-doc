@@ -10,7 +10,7 @@
 ## What Can You Do?
 
 * [🔥 Bitcoin Swaps](product-features/bitcoin-swaps/README.md)
-  * [💡 Key concepts](product-features/bitcoin-swaps/key-concepts.md)
+  * [💡 Key Concepts](product-features/bitcoin-swaps/key-concepts.md)
   * [📖 How to Swap](product-features/bitcoin-swaps/how-to.md)
   * [❓ FAQs](product-features/bitcoin-swaps/faqs.md)
 * [🔄 Stacks Swaps](product-features/stacks-swaps/README.md)
@@ -19,7 +19,7 @@
   * [❓ FAQs](product-features/stacks-swaps/faqs.md)
 * [🐋 Liquidity Pools](product-features/liquidity-pools/README.md)
   * [💡 Key Concepts](product-features/liquidity-pools/key-concepts.md)
-  * [↘️ How to Add liquidity](product-features/liquidity-pools/how-to-add.md)
+  * [↘️ How to Add Liquidity](product-features/liquidity-pools/how-to-add.md)
   * [↖️ How to Remove Liquidity](product-features/liquidity-pools/how-to-remove.md)
   * [❓ FAQs](product-features/liquidity-pools/faqs.md)
 * [🌾 Farming](product-features/farming/README.md)
@@ -31,7 +31,7 @@
   * [💡 Key Concepts](product-features/staking/key-concepts.md)
   * [↘️ How to Stake](product-features/staking/how-to-stake.md)
   * [↖️ How to Harvest](product-features/staking/how-to-harvest.md)
-  * [⚙️ How to Auto Stake](product-features/staking/how-to-auto-stake.md)
+  * [💧 How to Liquid Stake](product-features/staking/how-to-auto-stake.md)
   * [❓ FAQs](product-features/staking/faqs.md)
 
 ## What Can You Do as a Project Owner?

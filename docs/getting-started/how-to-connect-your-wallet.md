@@ -1,9 +1,7 @@
 ---
 description: Follow these steps to connect your wallet to ALEX Lab.
 ---
-
-# How to Connect your Wallet
-
+# How to Connect Your Wallet
 
 [**🚀 Connect to ALEX Now!**](https://app.alexlab.co)
 
@@ -27,7 +25,6 @@ In the Wallet Manager, select the blockchain you are using (e.g., **Stacks Chain
 
 For this example we will choose **Stacks Chain** and **Leather** wallet, but the steps are roughly equal for all supported wallets.
 
-
 ### Step 3: Enter Your Password
 
 After selecting your wallet, you will be prompted to enter your wallet’s password.
@@ -36,7 +33,7 @@ After selecting your wallet, you will be prompted to enter your wallet’s passw
 
 ### Step 4: Select Your Account
 
-Once the password is entered, choose the specific account you want to connect. This account will be used for executing transactions on ALEX Lab.
+Once the password is entered, choose the specific account you want to connect. This account will be used for executing transactions on the bridge.
 
 <div><figure><img src="../.gitbook/assets/wallet-how-to/select-account.png" alt="" width="375"><figcaption><p>Connect wallet to ALEX Lab App</p></figcaption></figure> <figure><img src="../.gitbook/assets/wallet-how-to/choose-account.png" alt="" width="375"><figcaption><p>Select account</p></figcaption></figure></div>
 
@@ -45,3 +42,5 @@ Once the password is entered, choose the specific account you want to connect. T
 Once the wallet is successfully connected, you will notice the blockchain icon in the top right corner of the screen, confirming that your wallet has been successfully linked.
 
 <figure><img src="../.gitbook/assets/wallet-how-to/connected-wallet.png" alt="" width="375"><figcaption><p>Check wallet connection</p></figcaption></figure>
+
+{% hint style="info" %} Keep in mind that, for bridging, you will need to connect wallets for both the source and destination blockchains (e.g., Stacks, Bitcoin, and EVM). Once connected, you will see the respective blockchain icons in the top right corner of the app. {% endhint %}

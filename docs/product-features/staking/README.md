@@ -33,7 +33,7 @@ ALEX provides two different forms of staking to suit every user's need.
 {% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
 {% content-ref url="how-to-stake.md" %} [how-to-stake.md](how-to-stake.md) {% endcontent-ref %}
 {% content-ref url="how-to-harvest.md" %} [how-to-harvest.md](how-to-harvest.md) {% endcontent-ref %}
-{% content-ref url="how-to-auto-stake.md" %} [how-to-auto-stake.md](how-to-auto-stake.md) {% endcontent-ref %}
+{% content-ref url="how-to-liquid-stake.md" %} [how-to-liquid-stake.md](how-to-liquid-stake.md) {% endcontent-ref %}
 {% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
 
 ## Support

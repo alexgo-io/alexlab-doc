@@ -54,10 +54,12 @@ Rachel: [https://twitter.com/rachel_alexgo](https://twitter.com/rachel_alexgo)
 
 ### Discord
 
-### Verified Tag on Discord for Team Authenticity
+#### Verified Tag on Discord for Team Authenticity
 
 ![Discord Role Verification](<../.gitbook/assets/discord-role-verification.png>)
 
 If you are looking for help with something beyond our Gitbook resources or trying to report issues on the platform, you may reach out to our team with the ALEX Team role.
 
+{% hint style="danger" %}
 Due to the high influx of Discord scammers impersonating team members to deceit other community members, be sure to stay safe and always double-check the user's roles.
+{% endhint %}
