@@ -11,17 +11,19 @@ description: Follow these steps to connect your wallet to ALEX Lab.
 
 First, click on the **Wallet Manager** located in the top right corner of the ALEX Lab homepage. This is where you’ll manage all your wallet connections.
 
-<figure><img src="../.gitbook/assets/wallet-how-to/select-wallet-manager.png" alt="" width="375"><figcaption><p>Click on the Wallet Manager Button</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/wallet-how-to/homepage-wallet-manager.png" alt="" ><figcaption><p>Homepage with Wallet Manager button</p></figcaption></figure>
 
 ### Step 2: Choose the Blockchain and Wallet
 
 By default, the ALEX Lab homepage opens the **Stacks Swap**, so the **Wallet Manager** will display wallets for the **Stacks Chain**. For the **Bitcoin Chain**, click on the slider in the top left corner to open the [Bitcoin Swap](https://app.alexlab.co/bitcoin/swap).
 
+<figure><img src="../.gitbook/assets/wallet-how-to/homepage-bitcoin-stacks-slider.png" alt="" ><figcaption><p>Homepage with highlighted slider</p></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/bitcoin-swap/bitcoin-swap-slider.png" alt="" width="375"><figcaption><p>Slider for selecting Bitcoin or Stacks swap</p></figcaption></figure>
 
 In the Wallet Manager, select the blockchain you are using (e.g., **Stacks Chain**, **Bitcoin Chain** or **EVM Chain**), then choose the wallet that you want to connect. Supported wallets include Leather, Xverse, OKX and others.
 
-<div><figure><img src="../.gitbook/assets/wallet-how-to/wallet-manager-stacks-2.png" alt="" width="375"><figcaption><p>Stacks Wallet Manager</p></figcaption></figure> <figure><img src="../.gitbook/assets/wallet-how-to/wallet-manager-bitcoin-2.png" alt="" width="375"><figcaption><p>Bitcoin Wallet Manager</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-stacks.png" alt="" width="375"><figcaption><p>Stacks Wallet Manager</p></figcaption></figure> <figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-bitcoin.png" alt="" width="375"><figcaption><p>Bitcoin Wallet Manager</p></figcaption></figure></div>
 
 For this example we will choose **Stacks Chain** and **Leather** wallet, but the steps are roughly equal for all supported wallets.
 
