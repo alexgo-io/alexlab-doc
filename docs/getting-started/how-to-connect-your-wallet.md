@@ -23,7 +23,9 @@ By default, the ALEX Lab homepage opens the **Stacks Swap**, so the **Wallet Man
 
 In the Wallet Manager, select the blockchain you are using (e.g., **Stacks Chain**, **Bitcoin Chain** or **EVM Chain**), then choose the wallet that you want to connect. Supported wallets include Leather, Xverse, OKX and others.
 
-<div><figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-stacks.png" alt=""><figcaption><p>Stacks Wallet Manager</p></figcaption></figure> <figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-bitcoin.png" alt=""><figcaption><p>Bitcoin Wallet Manager</p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-stacks.png" alt=""><figcaption><p>Stacks Wallet Manager</p></figcaption></figure> 
+
+<figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-bitcoin.png" alt=""><figcaption><p>Bitcoin Wallet Manager</p></figcaption></figure>
 
 For this example we will choose **Stacks Chain** and **Leather** wallet, but the steps are roughly equal for all supported wallets.
 
