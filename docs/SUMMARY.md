@@ -31,7 +31,7 @@
   * [💡 Key Concepts](product-features/staking/key-concepts.md)
   * [↘️ How to Stake](product-features/staking/how-to-stake.md)
   * [↖️ How to Harvest](product-features/staking/how-to-harvest.md)
-  * [💧 How to Liquid Stake](product-features/staking/how-to-auto-stake.md)
+  * [💧 How to Liquid Stake](product-features/staking/how-to-liquid-stake.md)
   * [❓ FAQs](product-features/staking/faqs.md)
 
 ## What Can You Do as a Project Owner?

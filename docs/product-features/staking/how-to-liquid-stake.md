@@ -1,4 +1,4 @@
-## :chart_with_upwards_trend: Liquid Staking (Auto Staking)
+## 💧 Liquid Staking (Auto Staking)
 
 Once your first staking cycle has concluded, you will have the option to continue earning rewards via **Liquid Staking**. Liquid Staking allows you to earn rewards while maintaining liquidity as you receive LiALEX in exchange for your stake. You can start liquid staking directly from the [LISA Lab Homepage](https://app.lisalab.io/li/alex/staking), or from the [ALEX Lab Homepage](https://app.alexlab.co/stake) if you've manually staked before. This section explains how to start liquid staking your rewards from manual staking. For more information, you can refer to the [Key Concepts](key-concepts.md) section.
 
