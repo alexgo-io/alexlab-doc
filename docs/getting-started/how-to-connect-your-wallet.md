@@ -23,7 +23,7 @@ By default, the ALEX Lab homepage opens the **Stacks Swap**, so the **Wallet Man
 
 In the Wallet Manager, select the blockchain you are using (e.g., **Stacks Chain**, **Bitcoin Chain** or **EVM Chain**), then choose the wallet that you want to connect. Supported wallets include Leather, Xverse, OKX and others.
 
-<div><figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-stacks.png" alt="" width="375"><figcaption><p>Stacks Wallet Manager</p></figcaption></figure> <figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-bitcoin.png" alt="" width="375"><figcaption><p>Bitcoin Wallet Manager</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-stacks.png" alt=""><figcaption><p>Stacks Wallet Manager</p></figcaption></figure> <figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-bitcoin.png" alt=""><figcaption><p>Bitcoin Wallet Manager</p></figcaption></figure></div>
 
 For this example we will choose **Stacks Chain** and **Leather** wallet, but the steps are roughly equal for all supported wallets.
 
@@ -41,8 +41,8 @@ Once the password is entered, choose the specific account you want to connect. T
 
 ### Step 5: Confirm Your Connection
 
-Once the wallet is successfully connected, you will notice the blockchain icon in the top right corner of the screen, confirming that your wallet has been successfully linked.
+Once the wallet is successfully connected, you will notice the icon in the top right corner of the screen, confirming that your wallet has been successfully linked.
 
-<figure><img src="../.gitbook/assets/wallet-how-to/connected-wallet.png" alt="" width="375"><figcaption><p>Check wallet connection</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/wallet-how-to/homepage-connected-wallet.png" alt=""><figcaption><p>Check wallet connection</p></figcaption></figure>
 
 {% hint style="info" %} Keep in mind that, for bridging, you will need to connect wallets for both the source and destination blockchains (e.g., Stacks, Bitcoin, and EVM). Once connected, you will see the respective blockchain icons in the top right corner of the app. {% endhint %}
