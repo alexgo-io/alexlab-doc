@@ -4,7 +4,7 @@ description: Common questions you might have as a liquidity provider or pool cre
 
 # ❓ FAQs
 
-## Liquidity Pools & Providers
+## Liquidity Pools and Providers
 
 <details>
 
@@ -68,7 +68,7 @@ In this panel, the **Pooled** amount reflects your total token holdings in the l
 
 <summary>How is liquidity provision related to farming?</summary>
 
-Liquidity providers can stake or lock up their LP tokens for a fixed period of time (a selected number of ALEX cycles) to earn additional rewards. These rewards are separate from the earnings generated through liquidity provision, that come from swap operations fees (trading fees). This process is known as Yield Farming, or simply 'Farming'. For more details, explore the [ALEX Farming](../../../product-features/farm.md) feature.
+Liquidity providers can stake or lock up their LP tokens for a fixed period of time (a selected number of ALEX cycles) to earn additional rewards. These rewards are separate from the earnings generated through liquidity provision, that come from swap operations fees (trading fees). This process is known as Yield Farming, or simply 'Farming'. For more details, explore the [ALEX Farming](../../product-features/farming/README.md) feature.
 
 </details>
 
