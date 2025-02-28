@@ -2,6 +2,17 @@
 
 * [ALEX Lab](README.md)
 
+
+<!--
+do not remove what is new section, hide it!
+-->
+## What is New?
+
+* [🆓 Permission-Less Self Listing](whatsnew/permission-less.md)
+<!--
+do not remove what is new section, hide it!
+-->
+
 ## Getting Started
 
 * [👛 Connect Your Wallet](getting-started/how-to-connect-your-wallet.md)
