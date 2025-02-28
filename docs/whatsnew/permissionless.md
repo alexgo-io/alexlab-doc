@@ -13,14 +13,14 @@ layout:
     visible: false
 ---
 
-# 🆓🌶️ Permission-Less Self Listing
+# 🌶️ Permissionless Pool Creation 🤸 
 
-The _Permission-less_ feature allows anyone to create their own liquidity pool, as already available on XLink.
+The _Permissionless Pool Creation_ feature allows anyone to create their own liquidity pool, as already available on Alex Platform.
 
 What’s new is that no additional processes or manual approvals are required, making the process easier and faster than ever.
 
 
-👉 Get started now: Go to our Permission-Less Self Listing dApp directly [here](https://app.alexlab.co/self-service-listing).
+👉 Get started now: Go to our Permissionless Self Service Listing dApp directly [here](https://app.alexlab.co/self-service-listing).
 
 <!--
 

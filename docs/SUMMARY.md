@@ -8,7 +8,7 @@ do not remove what is new section, hide it!
 -->
 ## What is New?
 
-* [🌶️ Permission-Less Self Listing](whatsnew/permission-less.md)
+* [🌶️ Permissionless Pool Creation 🤸](whatsnew/permissionless.md)
 <!--
 do not remove what is new section, hide it!
 -->
