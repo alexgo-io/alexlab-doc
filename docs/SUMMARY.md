@@ -8,7 +8,7 @@ do not remove what is new section, hide it!
 -->
 ## What is New?
 
-* [🆓 Permission-Less Self Listing](whatsnew/permission-less.md)
+* [🌶️ Permission-Less Self Listing](whatsnew/permission-less.md)
 <!--
 do not remove what is new section, hide it!
 -->
