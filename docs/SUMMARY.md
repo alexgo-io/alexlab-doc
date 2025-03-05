@@ -41,8 +41,8 @@ Please do not remove the "What is New?" section, just hide it.
   * [↖️ How to Harvest](product-features/staking/how-to-harvest.md)
   * [💧 How to Liquid Stake](product-features/staking/how-to-liquid-stake.md)
   * [❓ FAQs](product-features/staking/faqs.md)
-* [🚀 Launchpad](features/launchpad/README.md)
-  * [Join the ALEX Launchpad!](features/launchpad/join-the-alex-launchpad.md)
+* [🚀 Launchpad](product-features/launchpad/README.md)
+  * [Join the ALEX Launchpad!](product-features/launchpad/join-the-alex-launchpad.md)
 * [⚡ Surge](product-features/surge/README.md)
   * [💡 Key concepts](product-features/surge/key-concepts.md)
   * [🧑‍🏫 How to participate](product-features/surge/how-to.md)
@@ -50,7 +50,7 @@ Please do not remove the "What is New?" section, just hide it.
 
 ## What Can You Do as a Project Owner?
 
-* [🚀 Launch Your Project](features/launchpad/join-the-alex-launchpad.md)
+* [🚀 Launch Your Project](product-features/launchpad/join-the-alex-launchpad.md)
 * [💦 Create Your Own Pool](product-features/self-service-listing.md)
 * [🚜 Add Farming to Your Pool](product-features/self-service-farming.md)
 

@@ -170,7 +170,7 @@ If you have added a custom `start-block` configuration, the pool will be unavail
 
 ### Step 6: Provide Additional Token Information (Optional)
 
-To make your token visible on the ALEX Token List at [app.alexlab.co/token-list](https://app.alexlab.co/token-list), provide additional token information. Click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice ](https://t.me/ALEXselfservice)to submit the information (e.g. X accont, Discord, official website).
+To make your token visible on the ALEX Token List at [app.alexlab.co/token-list](https://app.alexlab.co/token-list), provide additional token information. Click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice](https://t.me/ALEXselfservice) to submit the information (e.g. X accont, Discord, official website).
 
 <figure><img src="../.gitbook/assets/self-service-listing/token-list.png" alt="Token List example"><figcaption><p>Token List example.</p></figcaption></figure>
 
