@@ -2,16 +2,13 @@
 
 * [ALEX Lab](README.md)
 
-
 <!--
-do not remove what is new section, hide it!
+Please do not remove the "What is New?" section, just hide it.
 -->
+
 ## What is New?
 
-* [🌶️ Permissionless Pool Creation 🤸](whatsnew/permissionless.md)
-<!--
-do not remove what is new section, hide it!
--->
+* [🤸 Permissionless Pool Creation](whats-new/permissionless.md)
 
 ## Getting Started
 
