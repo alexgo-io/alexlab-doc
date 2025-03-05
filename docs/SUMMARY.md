@@ -8,7 +8,7 @@ Please do not remove the "What is New?" section, just hide it.
 
 ## What is New?
 
-* [🤸 Permissionless Pool Creation](whats-new/permissionless.md)
+* [🕺 Permissionless Pool Creation](whats-new/permissionless.md)
 
 ## Getting Started
 

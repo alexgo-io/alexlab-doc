@@ -13,7 +13,7 @@ layout:
     visible: false
 ---
 
-# :man_dancing: Permissionless Pool Creation
+# 🕺 Permissionless Pool Creation
 
 The **Permissionless Token Listing** feature enables anyone to create a liquidity pool with instant verification of token contract's safety—**no delays, no intermediaries.**
 
@@ -21,7 +21,7 @@ Built on top of Marvin Janssen's latest work, [clarity-stacks](https://github.co
 
 Now, there is no need to rely on an off-chain deployer or manually verify a token's contract safety. No additional processes or manual approvals are required, streamlining the listing process on Stacks like never before.
 
-## :white_check_mark: What Does This Enable?
+## ✅ What Does This Enable?
 
 🔸 Trustless token launches  
 🔸 Automated liquidity pools  
