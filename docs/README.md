@@ -21,13 +21,11 @@ layout:
 
 ## What is ALEX?
 
-<!-- 
 {% hint style="danger" %}
-🔥🌶️ Don't miss out! We've just launched the new [Bitcoin Native Token Swaps app](https://app.alexlab.co/bitcoin/swap)! 🌶️🔥
+🔥🌶️ Don't miss out! The new [Permissionless Token Listing](https://app.alexlab.co/self-service-listing) is LIVE! 🌶️🔥
 
-[Read more here...](product-features/bitcoin-swaps/README.md)
+[Learn more here...](./whats-new/permissionless.md)
 {% endhint %}
- -->
 
 ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with XLink, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.&#x20;
 

@@ -27,10 +27,10 @@ Now, there is no need to rely on an off-chain deployer or manually verify a toke
 🔸 Automated liquidity pools  
 🔸 Permissionless derivatives and lending markets
 
-## 🪩 Get Started Now
+## ▶️ Get Started Now
 
-Visit our [Self-Service Listing page](https://app.alexlab.co/self-service-listing) to list your token instantly!  
+Visit our [Pool Creation page](https://app.alexlab.co/self-service-listing) to list your token instantly!  
 
 ## Support
 
-For assistance, please reach out to our Community Managers on [Discord](https://discord.com/invite/alexlab) or the [Self-Service Telegram Channel](t.me/ALEXselfservice).
+For assistance, please reach out to our Community Managers on [Discord](https://discord.com/invite/alexlab) or the [Self-Service Telegram Channel](https://t.me/ALEXselfservice).
