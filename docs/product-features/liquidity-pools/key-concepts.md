@@ -1,24 +1,25 @@
 ---
 description: >-
-  Learn the basics of liquidity pools and providers, their role in DEXs and
-  AMMs, and their function within the ALEX decentralized exchange.
+  Learn the key concepts behind liquidity pools, AMMs, and DAMM strategies in the ALEX ecosystem.
 ---
 
 # 💡 Key concepts
 
-## What Are Liquidity Pools?
+## Pool Basics and the Traditional Model
+
+### What Are Liquidity Pools?
 
 Liquidity pools are crowdfunded collections of crypto assets held in a smart contract, designed to provide liquidity for decentralized exchanges (DEXs) and support various decentralized finance (DeFi) protocols.
 
 While their applications are diverse, ranging from lending and borrowing platforms to algorithmic protocols for stablecoins, their primary use is on DEXs. In this case, liquidity pools enable users to trade crypto assets without the need for a centralized intermediary, serving as reserves of assets that users can trade against.
 
-## Their Role in Automated Market Makers (AMMs)
+### Their Role in Automated Market Makers (AMMs)
 
 Automated Market Makers (AMMs) are the predominant type of decentralized exchange (DEX). While other DEX designs exist, AMM-based DEXs have become extremely popular. These exchanges operate using liquidity pools and algorithmic mechanisms to determine prices and facilitate the trading of crypto assets between peers.
 
 Smart contracts manage all trades executed within the AMM, including aspects such as fees, prices, and minimum target token amounts. In AMM-based DEXs, there is no need for direct counterparties as in traditional order book trading. Instead, liquidity pools act as the counterparties, providing instant liquidity when needed.
 
-## ALEX Liquidity Pools
+### ALEX Liquidity Pools
 
 The ALEX decentralized exchange is AMM-based and consists of a set of smart contracts built on top of the Stacks network. Each liquidity pool is composed of funds from a specific pair of cryptocurrencies, which are locked into a smart contract by voluntary depositors. These pools enable users to perform trustless swaps between the token pairs.
 
@@ -26,7 +27,7 @@ For example, if a user wants to trade Stacks' native token (STX) for ALEX's gove
 
 The users who deposit their assets into these pools are known as liquidity providers (LPs). To incentivize participation, the ALEX AMM protocol rewards LPs with a portion of the trading fees collected on each swap. These fees are accrued every time a transaction occurs within the pool.
 
-## Liquidity Providers (LPs)
+### Liquidity Providers (LPs)
 
 In exchange for providing funds to a pool, liquidity providers receive an amount of LP tokens that represent their share of assets within that pool. LP token holders earn a proportional share of all transaction fees charged to traders who perform swaps within the pool. Liquidity can be removed at any time, and the earnings associated with those LP tokens are also withdrawn at this point.
 
@@ -36,7 +37,7 @@ For example, if a user holds 5% of the pool’s total funds, they will earn 5% o
 **Note:** The initials "LP" are used both to abbreviate "liquidity provider" and to refer to the tokens these users receive, which represent their share of the contributed funds in the pool.
 {% endhint %}
 
-## Impermanent Loss
+### Impermanent Loss
 
 Impermanent loss in decentralized finance (DeFi) occurs when a liquidity provider (LP) supplies assets to a liquidity pool and the price of those assets changes relative to when they were deposited. This loss is termed "impermanent" because it only becomes permanent if the LP withdraws their funds when prices have diverged significantly.
 
@@ -51,3 +52,30 @@ Here's how it works:
 {% hint style="info" %}
 You can check a complete walkthrough example in the FAQs: [**How does impermanent loss happen?**](faqs.md#how-does-impermanent-loss-happen)
 {% endhint %}
+
+
+## Discrete AMM Concepts
+
+### Spot Strategy
+
+In DAMM, the Spot Strategy is the simplest way to provide liquidity.
+
+With this approach, you choose a **single price bin** (also called a "tick") where you want your liquidity to be active.  
+Your assets are available for trading **only when the market price is inside that selected bin**.
+
+- If the price is inside your bin → you earn trading fees from swaps.
+- If the price moves outside your bin → your liquidity becomes inactive (no trades, no fees) until the price comes back.
+
+This strategy is ideal for users who expect the token price to stay close to a certain value and want to maximize fee generation while the price remains stable.
+
+### Curve Strategy
+
+The Curve Strategy allows you to distribute your liquidity **across multiple bins** instead of just one.
+
+You can create a **custom curve** by selecting several adjacent price bins, covering a wider price range.  
+This makes your liquidity active even if the price moves slightly up or down.
+
+- Wider coverage = more time with active liquidity
+- Narrower coverage = more concentrated liquidity and potentially higher fees (but more risk if price moves away)
+
+The Curve Strategy is a good option if you want to keep your liquidity active even if the price moves a little up or down, without needing to pick just one exact price.

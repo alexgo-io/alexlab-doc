@@ -112,6 +112,32 @@ Yes! [Self-Service Listing](../self-service-listing.md) allows you to create you
 
 </details>
 
+<details>
+
+<summary>Which strategy should I choose: AMM or DAMM?</summary>
+
+<!-- Placeholder: strategy -->
+
+</details>
+
+## DAMM Strategy
+
+<details>
+
+<summary>What is a Bin?</summary>
+
+<!-- Placeholder: explanation of bin -->
+
+</details>
+
+<details>
+
+<summary>How is APR determined in DAMM pools?</summary>
+
+<!-- Placeholder: explanation of APR determined in DAMM -->
+
+</details>
+
 ## Self-Service Listing
 
 <details>

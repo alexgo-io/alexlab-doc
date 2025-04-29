@@ -1,5 +1,5 @@
 ---
-description: Participate in ALEX DEX liquidity pools and earn a share of the trading fees!
+description: Choose between traditional AMMs or the new DAMM model to provide liquidity on ALEX.
 layout:
   title:
     visible: true
@@ -15,26 +15,35 @@ layout:
 
 # 🐋 Liquidity Pools
 
-By adding liquidity to a pool, you will earn fees from all trades between a token pair proportional to your share of the pool. Fees are added to the pool, automatically accrued in real-time and can be claimed by withdrawing back your liquidity.
+ALEX supports **two types of liquidity pools**:  
+→ the **traditional AMM model**, and  
+→ the new **DAMM (Discrete Automated Market Maker)**.
+
+Both options let you earn fees by providing liquidity — but they differ in how your capital is used:
+
+- **AMM** distributes your liquidity evenly across the full price range.  
+  It’s simple and passive — ideal for users who prefer a “set and forget” strategy.
+
+- **DAMM** lets you concentrate your liquidity in specific price ranges, called *ticks*.  
+  It’s more advanced — perfect for users seeking greater efficiency and control.
 
 ## Explore
 
 {% content-ref url="key-concepts.md" %} [key-concepts.md](key-concepts.md) {% endcontent-ref %}
-{% content-ref url="how-to-add.md" %} [how-to-add.md](how-to-add.md) {% endcontent-ref %}
-{% content-ref url="how-to-remove.md" %} [how-to-remove.md](how-to-remove.md) {% endcontent-ref %}
+{% content-ref url="amm-guides/README.md" %} [amm-guides.md](amm-guides/README.md) {% endcontent-ref %}
+{% content-ref url="damm-guides/README.md" %} [damm-guides.md](damm-guides/README.md) {% endcontent-ref %}
 {% content-ref url="faqs.md" %} [faqs.md](faqs.md) {% endcontent-ref %}
 
-<!-- 
+## Not Sure Which One to Use?
 
-Old cards layout, in case we want to revert it
+- Choose **AMM** for simplicity and passive earning.
+- Choose **DAMM** for precision and better capital efficiency.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Key concepts</td><td><a href="key-concepts.md">key-concepts.md</a></td><td><a href="../../.gitbook/assets/cards/key-concepts.png">cards/key-concepts.png</a></td></tr><tr><td>How to add/remove liquidity</td><td><a href="how-to.md">how-to.md</a></td><td><a href="../../.gitbook/assets/cards/how-to.png">cards/how-to.png</a></td></tr><tr><td>FAQs</td><td><a href="faqs.md">faqs.md</a></td><td><a href="../../.gitbook/assets/cards/faqs.png">cards/faqs.png</a></td></tr></tbody></table> 
-
--->
+You can try both and see which works best for your strategy!
 
 ### Looking to Create Your Own Pool?
 
-The Self-Service Listing allows you to create your own trading pool within the ALEX decentralized exhange. Visit the dedicated page for more details.
+The Self-Service Listing allows you to create your own trading pool within the ALEX decentralized exchange. Visit the dedicated page for more details.
 
 {% content-ref url="../self-service-listing.md" %} [../self-service-listing.md](../self-service-listing.md) {% endcontent-ref %}
 
