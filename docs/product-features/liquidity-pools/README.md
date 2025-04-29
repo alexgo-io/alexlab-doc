@@ -24,7 +24,7 @@ Both options let you earn fees by providing liquidity — but they differ in how
 - **AMM** distributes your liquidity evenly across the full price range.  
   It’s simple and passive — ideal for users who prefer a “set and forget” strategy.
 
-- **DAMM** lets you concentrate your liquidity in specific price ranges, called *ticks*.  
+- **DAMM** lets you concentrate your liquidity in specific price ranges, called _ticks_.  
   It’s more advanced — perfect for users seeking greater efficiency and control.
 
 ## Explore

@@ -116,7 +116,12 @@ Yes! [Self-Service Listing](../self-service-listing.md) allows you to create you
 
 <summary>Which strategy should I choose: AMM or DAMM?</summary>
 
-<!-- Placeholder: strategy -->
+It depends on how actively you want to manage your liquidity:
+
+- Choose **AMM** if you prefer a simple, passive approach where your liquidity is spread across all prices.
+- Choose **DAMM** if you want more control, concentrating your liquidity into specific price ranges for potentially better fee earnings.
+
+If you’re new to liquidity providing, starting with AMM is easier. If you're comfortable managing price ranges and want higher efficiency, DAMM might suit you better.
 
 </details>
 
@@ -126,7 +131,11 @@ Yes! [Self-Service Listing](../self-service-listing.md) allows you to create you
 
 <summary>What is a Bin?</summary>
 
-<!-- Placeholder: explanation of bin -->
+In DAMM, a **bin** represents a specific price range where liquidity is provided.
+
+Each bin covers a small interval between two prices. When the market price moves into your bin, your liquidity becomes active and you earn trading fees. If the market price moves outside your bin, your liquidity becomes inactive until the price returns.
+
+Think of bins like "zones" that you can target to focus your liquidity where you expect most trading to happen.
 
 </details>
 
@@ -134,7 +143,12 @@ Yes! [Self-Service Listing](../self-service-listing.md) allows you to create you
 
 <summary>How is APR determined in DAMM pools?</summary>
 
-<!-- Placeholder: explanation of APR determined in DAMM -->
+APR (Annual Percentage Rate) in DAMM pools depends mainly on two factors:
+
+- **Trading volume inside your bin**: You earn fees only when the market price is inside your active bin(s) and swaps happen there.
+- **Size of your liquidity share**: The more liquidity you provide in a bin compared to others, the larger your share of the collected fees.
+
+If the market stays inside your bin and trading activity is high, your APR will generally be higher. If the price moves away from your bin, you might temporarily stop earning fees.
 
 </details>
 
@@ -166,8 +180,8 @@ For instance, if the creator provides 8,000 listing tokens and 2,000 anchor toke
 
 We can think of this initial ratio in two ways (and they are both equivalent):
 
-* 4 listing tokens equals 1 anchor token.
-* 1 listing token equals 0.25 anchor tokens.
+- 4 listing tokens equals 1 anchor token.
+- 1 listing token equals 0.25 anchor tokens.
 
 </details>
 
