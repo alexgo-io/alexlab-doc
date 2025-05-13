@@ -14,6 +14,7 @@ Please do not remove the "What is New?" section, just hide it.
 
 * [👛 Connect Your Wallet](getting-started/how-to-connect-your-wallet.md)
 * [👥 Join the Community](getting-started/join-the-community.md)
+* [🪙 Buy Alex tokens](getting-started/how-to-buy-alex-tokens.md)
 
 ## What Can You Do?
 
