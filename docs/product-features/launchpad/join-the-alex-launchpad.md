@@ -28,7 +28,7 @@ Welcome to the ALEX Launchpad — the best launchpad built on Bitcoin!
 
 ### What is the ALEX Launchpad?&#x20;
 
-The ALEX Launchpad is a community-based IDO integrated with [XLink](https://www.xlink.network/) to enable multichain support for projects to raise funds and launch their projects on up to 18 different networks, including Bitcoin (BRC20, Runes), Stacks, Ethereum, BNB, Base, Core, Bsqure, BOB, Bitlayer, Merlin, AILayer, Mode, X Layer, Arbitrum, Aurora, Manta, Linea  and more to come.&#x20;
+The ALEX Launchpad is a community-based IDO integrated with [Brolocol](https://brotocol.xyz/about) to enable multichain support for projects to raise funds and launch their projects on up to 18 different networks, including Bitcoin (BRC20, Runes), Stacks, Ethereum, BNB, Base, Core, Bsqure, BOB, Bitlayer, Merlin, AILayer, Mode, X Layer, Arbitrum, Aurora, Manta, Linea  and more to come.&#x20;
 
 <figure><img src="../../.gitbook/assets/Stacks_network (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -50,7 +50,7 @@ As of December 2024, the ALEX Ecosystem is ranked the #1 for the highest, here a
 * **TVL :** $219.8M
 * **Total Trading Volume:** $2.4B+
 * **Active Users:** 69K+
-* **Supported Networks:** 19+ Network (via XLink)
+* **Supported Networks:** 19+ Network (via Brotocol)
 * **Funds Raised:** 11.32 BTC , 400K USDT, 16.5K ALEX
 * **Appx. Funds Committed:** \~355.9 BTC (_Excluding other tokens_)&#x20;
 * **Average Oversubscribed Ratio:** 5X+
@@ -62,7 +62,7 @@ As of December 2024, the ALEX Ecosystem is ranked the #1 for the highest, here a
     * 500+ Members on Chinese TG
     * 1.6K Members on Korean TG
     * 1.3K Members on Japan TG
-  * 46.5K Followers on XLink's 𝕏
+  * 46.5K Followers on Brotocol's 𝕏
 
 <figure><img src="../../.gitbook/assets/Launchpad_06_12.png" alt=""><figcaption><p>Oversubscription for IDO</p></figcaption></figure>
 
@@ -97,7 +97,7 @@ At average, our DEX receives up to:
 * \~$30-40M weekly trading volume
 * \~$80-110M monthly trading volume&#x20;
 
-_These volumes does not include Bridge volume from XLink._&#x20;
+_These volumes does not include Bridge volume from Brotocol._&#x20;
 
 ### #3: Support from the ALEX Lab Foundation
 

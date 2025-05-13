@@ -27,7 +27,7 @@ layout:
 [Learn more here...](./whats-new/permissionless.md)
 {% endhint %}
 
-ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with XLink, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.&#x20;
+ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with Brotocol, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.&#x20;
 
 We’re creating a seamless user experience, enabling one-click trading and asset transfer across blockchains that abstract away wallet and network complexity. All roads lead to Bitcoin, and all roads on Bitcoin meet on ALEX.
 
@@ -38,7 +38,7 @@ ALEX offers a suite of DeFi opportunities that includes:
 * Discover and participate in the IDO rounds of emerging projects through the Launchpad
 * AMM DEX with deep liquidity
 * Earn exciting returns through providing liquidity, $ALEX staking, and yield farming
-* Cross-chain bridging through XLink from Bitcoin L1, to L2s and EVM chains.
+* Cross-chain bridging through Brotocol from Bitcoin L1, to L2s and EVM chains.
 * Liquid token staking through LISA.
 * Advanced order-book DEX allows limited orders and market orders.
 
