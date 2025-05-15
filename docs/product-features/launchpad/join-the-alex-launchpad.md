@@ -18,7 +18,7 @@ layout:
 
 # Join the ALEX Launchpad!
 
-<figure><img src="../../.gitbook/assets/ALEX_Launchpad_XLINK.png" alt=""><figcaption><p>Welcome to the ALEX Launchpad!</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ALEX_launchpad.png" alt=""><figcaption><p>Welcome to the ALEX Launchpad!</p></figcaption></figure>
 
 Welcome to the ALEX Launchpad — the best launchpad built on Bitcoin!
 
