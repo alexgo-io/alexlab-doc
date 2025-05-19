@@ -11,10 +11,10 @@ The ALEX Lab Foundation is a non-profit organization supporting the governance a
 
 ## What is ALEX
 
-ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with XLink, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.
+ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with Brotocol, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.
 
 🔗 [alexgo.io](https://alexgo.io/) \
-🌉 [xlink.network](https://www.xlink.network/) \
+👥 [brotocol.network](https://brotocol.xyz/about) \
 🌸 [lisalab.io](https://www.lisalab.io/)
 
 ## Contributing
