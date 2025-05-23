@@ -1,4 +1,7 @@
 ---
+cover: .gitbook/assets/alexlab-doc-damm.jpg
+coverY: 0
+
 description: ALEX DAMM introduces discrete liquidity bins, improved LP mechanics, and advanced swap types. Built for precision.
 layout:
   title:
