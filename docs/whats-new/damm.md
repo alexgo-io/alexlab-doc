@@ -23,12 +23,21 @@ To learn about the math and architecture behind DAMM, check out the detailed bre
 
 ## ✅ What Can You Do with DAMM?
 
-🔸 **Add liquidity to specific price ranges** — instead of spreading it across the full curve  
-🔸 **Enjoy smoother trades** — virtual balances help reduce slippage  
-🔸 **Adjust your positions anytime** — add or remove just a portion if you want  
-🔸 **Each pool has its own fee setup** — defined when it's created by the DAO  
- 
+**🔸 Discrete Liquidity Bins**  
+LPs no longer need to spread their liquidity across the entire price curve. Instead, they can choose specific “bins” (price ranges where they expect trading to occur). This lets them use their capital more efficiently by focusing it where it's most likely to be used.
 
+**🔸 Virtual Balances (Smoother Price Curves)**  
+Even when liquidity is focused in specific bins, virtual balances help smooth out price changes. This means more stable prices for traders and a better overall experience without affecting how LPs manage their positions.
+
+**🔸 Improved Position Management**  
+LPs can update their positions at any time by adding or removing a portion of their liquidity. They can also choose which price bins to use, making it easier to stay active and adjust to the market without needing to withdraw everything.
+
+**🔸 Flexible Fee Structure with LP Incentives**  
+Each pool on DAMM can set its own trading fees when it’s created. A portion of those fees can be given back to LPs as rewards, helping attract and keep liquidity in a more sustainable way.
+
+**🔸 Advanced Swap Mechanics (IOC/FOK Orders and More)**  
+DAMM lets traders use smart swap options like Immediate-or-Cancel (IOC), and soon Fill-or-Kill (FOK). These features help make trades more precise, reducing slippage and improving how orders get filled.
+ 
 ## ▶️ Get Started Now
 
 Head to the [DAMM Pools section](https://app.alexlab.co/pool) on ALEX DEX to try it out!
