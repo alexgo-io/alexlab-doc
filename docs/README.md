@@ -22,6 +22,14 @@ layout:
 ## What is ALEX?
 
 {% hint style="danger" %}
+⚡ **DAMM is live!**  
+Explore ALEX's new Discrete AMM with concentrated liquidity and smarter swaps.  
+
+[Learn more here...](./whats-new/damm.md)
+{% endhint %}
+
+
+{% hint style="danger" %}
 🔥🌶️ Don't miss out! The new [Permissionless Token Listing](https://app.alexlab.co/self-service-listing) is LIVE! 🌶️🔥
 
 [Learn more here...](./whats-new/permissionless.md)
