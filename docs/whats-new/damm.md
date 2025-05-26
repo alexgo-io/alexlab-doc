@@ -38,9 +38,9 @@ Each pool on DAMM can set its own trading fees when it’s created. These fees c
 **🔸 Advanced Swap Mechanics (IOC/FOK Orders and More)**  
 DAMM preserves the simple experience of swapping tokens with a slippage setting, but also adds advanced features like Immediate-or-Cancel (IOC) and, in the future, Fill-or-Kill (FOK). These tools give traders more control over execution, helping avoid bad fills and improving trade precision.
  
-## ▶️ Get Started Now
+## ▶️ Coming Soon
 
-Head to the [DAMM Pools section](https://app.alexlab.co/pool) on ALEX DEX to try it out!
+DAMM goes live this July on ALEX DEX. Get ready for smarter swaps and concentrated liquidity!
 
 ## Support
 
