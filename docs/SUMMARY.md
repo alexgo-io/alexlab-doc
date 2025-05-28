@@ -9,6 +9,7 @@ Please do not remove the "What is New?" section, just hide it.
 ## What is New?
 
 * [🕺 Permissionless Pool Creation](whats-new/permissionless.md)
+* [⚡ DAMM](whats-new/damm.md)
 
 ## Getting Started
 
