@@ -65,16 +65,15 @@ Your assets are available for trading **only when the market price is inside tha
 - If the price is inside your bin → you earn trading fees from swaps.
 - If the price moves outside your bin → your liquidity becomes inactive (no trades, no fees) until the price comes back.
 
-This strategy is ideal for users who expect the token price to stay close to a certain value and want to maximize fee generation while the price remains stable.
+This is ideal if you want to concentrate your liquidity at one expected price level, maximizing fee generation as long as the market stays near that point.
 
 ### Curve Strategy
 
 The Curve Strategy allows you to distribute your liquidity **across multiple bins** instead of just one.
 
-You can create a **custom curve** by selecting several adjacent price bins, covering a wider price range.  
-This makes your liquidity active even if the price moves slightly up or down.
+By selecting several adjacent price bins, you can cover a wider price range and keep your liquidity active even as the price fluctuates slightly up or down.
 
 - Wider coverage = more time with active liquidity
 - Narrower coverage = more concentrated liquidity and potentially higher fees (but more risk if price moves away)
 
-The Curve Strategy is a good option if you want to keep your liquidity active even if the price moves a little up or down, without needing to pick just one exact price.
+This approach is useful if you're unsure about a precise price point or want to stay active during moderate price movements.  

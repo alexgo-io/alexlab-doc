@@ -141,6 +141,21 @@ Think of bins like "zones" that you can target to focus your liquidity where you
 
 <details>
 
+<summary>What is a Bin Step?</summary>
+
+The **bin step** defines how wide each price bin is in a DAMM pool.
+
+A **lower bin step** (e.g. 1) means narrower price intervals, allowing you to provide liquidity with more precision — ideal if you want to closely follow market price movements.
+
+A **higher bin step** (e.g. 10 or 20) means wider price intervals. These are easier to manage and require fewer bins to cover a price range, but are less precise.
+
+Choosing the right bin step is a tradeoff between **control and simplicity**.  
+Smaller steps give you more control, larger steps give you broader coverage with less management.
+
+</details>
+
+<details>
+
 <summary>How is APR determined in DAMM pools?</summary>
 
 APR (Annual Percentage Rate) in DAMM pools depends mainly on two factors:

@@ -19,12 +19,12 @@ ALEX supports **two types of liquidity pools**:
 → the **traditional AMM model**, and  
 → the new **DAMM (Discrete Automated Market Maker)**.
 
-Both options let you earn fees by providing liquidity — but they differ in how your capital is used:
+Both options let you earn fees by providing liquidity — but they differ in how your liquidity is allocated and how actively you manage it:
 
 - **AMM** distributes your liquidity evenly across the full price range.  
   It’s simple and passive — ideal for users who prefer a “set and forget” strategy.
 
-- **DAMM** lets you concentrate your liquidity in specific price ranges, called _ticks_.  
+- **DAMM** lets you concentrate your liquidity in specific price ranges, called _bins_.  
   It’s more advanced — perfect for users seeking greater efficiency and control.
 
 ## Explore
@@ -37,7 +37,7 @@ Both options let you earn fees by providing liquidity — but they differ in how
 ## Not Sure Which One to Use?
 
 - Choose **AMM** for simplicity and passive earning.
-- Choose **DAMM** for precision and better capital efficiency.
+- Choose **DAMM** for more control, tighter price targeting, and better capital efficiency.
 
 You can try both and see which works best for your strategy!
 

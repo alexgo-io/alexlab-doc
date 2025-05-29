@@ -15,11 +15,16 @@ layout:
 
 # 💧 AMM Liquidity Guides
 
-The traditional AMM model on ALEX allows you to add liquidity across the entire price range of a token pair.
+The traditional AMM (Automated Market Maker) model on ALEX spreads your liquidity **evenly across the full price curve** of a token pair.
 
-This approach is simple and passive — a good fit if you want to earn trading fees without worrying about market price movements.
+This is a **simple and passive** strategy — ideal if you want to earn trading fees without selecting price ranges or actively managing your position.
 
-Once your liquidity is added, you’ll receive LP tokens representing your share of the pool. You can remove your liquidity at any time to redeem your tokens and your share of the earned fees.
+Once you provide liquidity:
+- You receive **LP tokens** that represent your share of the pool.
+- Your share grows automatically as trading fees are collected.
+- You can remove your liquidity at any time to redeem your tokens and earned rewards.
+
+This guide will walk you through the steps to **add** and **remove** liquidity using the AMM model.
 
 ## Explore
 
