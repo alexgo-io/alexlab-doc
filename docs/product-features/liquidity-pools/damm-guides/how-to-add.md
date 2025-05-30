@@ -15,7 +15,7 @@ Ready to start? Let's get hands-on!
 
 Go to [https://app.alexlab.co/](https://app.alexlab.co/) and click on navbar's Swap -> ammv3 tab.
 
-<figure><img src="../../../.gitbook/assets/liquidity-pools/amm/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure>
+<!-- <figure><img src="../../../.gitbook/assets/liquidity-pools/amm/adding-liquidity-1-pool-tab.png" alt="" width="375"><figcaption></figcaption></figure> -->
 
 ### Step 2: Select the Trading Pair
 
