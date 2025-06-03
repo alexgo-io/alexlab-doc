@@ -16,7 +16,9 @@ description: >-
 
 Self-Service Listing allows you to **create your own liquidity pool** on the ALEX DEX, enabling the **permissionless trade** of the **listed token** with an **anchor token** within the exchange. The anchor token is typically one with a stable value, providing a reliable reference point for defining the price of the newly listed token.
 
-Pool creation usually takes between 24 to 48 hours. Once the pool is created and live, the price discovery phase begins: users can start trading the listed token against the anchor token and viceversa. Users interested in providing liquidity can contribute to the pool like any other ALEX pool.
+Depending on the token you provide, the system will automatically determine the appropriate method to create the pool. Pool creation is handled instantly, whether using a previously approved token or a new token that meets the permissionless listing requirements. Please ensure all information is accurate before confirming on-chain, as transactions are irreversible.
+
+Once the pool is created and live, the price discovery phase begins: users can start trading the listed token against the anchor token and viceversa. Users interested in providing liquidity can contribute to the pool like any other ALEX pool.
 
 The pool owner is the initial liquidity provider and is responsible for selecting the settings for the initial LP tokens (see [Step 2: Choose LP Lock & Burn Settings](#step-2-choose-lp-lock-and-burn-settings)).
 
@@ -25,7 +27,11 @@ The trading pool operates using the [ALEX Automated Market Maker (AMM)](../detai
 **Available Anchor Tokens:** Native STX token, ALEX token and aBTC token.
 
 {% hint style="info" %}
-Interested in having your own unique pairs out of the available anchor tokens? Please [reach out to us](https://t.me/ALEXselfservice). It is important to note that unique pairs are subject to approval by the ALEX Lab Foundation team.
+Interested in having your own unique pairs out of the available anchor tokens? You can freely create a pool using your token paired with any of the available anchor tokens. No manual approval is required.
+
+Your token must meet the requirements for permissionless listing, such as using the official wrapped token template.
+
+Need help or have questions? Feel free to [reach out to us on Telegram](https://t.me/ALEXselfservice).
 {% endhint %}
 
 ### Minimum requirements
@@ -66,7 +72,7 @@ Head to the [Self-Service Listing page](https://app.alexlab.co/self-service-list
 
 ### Step 1: Submit Token Information and Deposit the Anchor Token
 
-In this step, you will set up the pool trading pair and configuration parameters. As part of this same transaction, you will transfer the anchor token's initial liquidity :moneybag: :anchor:.
+In this step, you will set up the pool trading pair and configuration parameters. Based on your token, the system will automatically choose the appropriate method to create the pool. As part of this same transaction, you will transfer the anchor token's initial liquidity :moneybag: :anchor:.
 
 <figure><img src="../.gitbook/assets/self-service-listing/step-1-submit.png" alt="Self-Service Listing page"><figcaption></figcaption></figure>
 
@@ -132,6 +138,10 @@ Recommended to track transaction status:
 - Search for the transaction on the [ALEX Explorer](https://app.alexlab.co/explorer).
 - Check your address activity on the wallet.
 
+{% hint style="warning" %}
+Please ensure all token details and liquidity values are accurate before confirming the transaction. These parameters are immutable once recorded on-chain.
+{% endhint %}
+
 </details>
 
 ### Step 2: Choose LP Lock and Burn Settings
@@ -150,7 +160,17 @@ In case of locking or burning tokens, there will be a highlighted banner that di
 
 ### Step 3: Contract Creation
 
-Once the transaction you executed in Step 1 is completed, you will see the checkbox labeled `Deposit Anchor Token ✅` marked as done. The ALEX team will review the submitted information and create a specific contract (a wrapped version) for your token to interact with the AMM DEX. This process may take between 24 and 48 hours.
+Once the transaction you executed in Step 1 is confirmed, the system will automatically proceed with creating the pool on-chain.
+
+If the token you provided has already been approved by ALEX, the standard pool creation function will be used.
+
+If the token is new, it must meet the permissionless listing requirements — including using the approved wrapped token template and submitting valid deployment proof. Once verified, the system will recognize the contract and finalize pool creation without any manual intervention from the ALEX team.
+
+You’ll see the `Deposit Anchor Token ✅` checkbox marked as done, confirming this step is complete.
+
+{% hint style="info" %}
+Need help or have questions about listing requirements? [Reach out to the ALEX team on Telegram](https://t.me/ALEXselfservice).
+{% endhint %}
 
 ### Step 4: Deposit Listing Token
 
@@ -162,15 +182,13 @@ Once the `Deposit Listing Token ✅` transaction is completed and the `Open pool
 
 🤝 After completing this step, you (and everyone) can start trading the token pair on ALEX DEX 🤝
 
-<figure><img src="../.gitbook/assets/self-service-listing/pool-creation-successful.jpg" alt="Pool creation successful"><figcaption><p>Pool creation successful.</p></figcaption></figure>
-
 {% hint style="warning" %}
-If you have added a custom `start-block` configuration, the pool will be unavailabe until that block is reached.
+If you have added a custom `start-block` configuration, the pool will be unavailable until that block is reached.
 {% endhint %}
 
 ### Step 6: Provide Additional Token Information (Optional)
 
-To make your token visible on the ALEX Token List at [app.alexlab.co/token-list](https://app.alexlab.co/token-list), provide additional token information. Click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice](https://t.me/ALEXselfservice) to submit the information (e.g. X accont, Discord, official website).
+To make your token visible on the ALEX Token List at [app.alexlab.co/token-list](https://app.alexlab.co/token-list), provide additional token information. Click on `Customer Support` on the [Self-Service Listing page](https://app.alexlab.co/self-service-listing) or contact us via Telegram at [t.me/ALEXselfservice](https://t.me/ALEXselfservice) to submit the information (e.g. X account, Discord, official website).
 
 <figure><img src="../.gitbook/assets/self-service-listing/token-list.png" alt="Token List example"><figcaption><p>Token List example.</p></figcaption></figure>
 
