@@ -5,7 +5,7 @@ description: >-
 
 # 🧑‍🏫 How to remove liquidity
 
-When **removing liquidity**, you will transfer your LP tokens back to the ALEX smart contract and withdraw an equivalent value of the token pair plus any fees accrued while holding those LP tokens. Since the relative balance of the tokens in the liquidity pool may have changed since your initial deposit, you could experience what's known as [Impermanent Loss](key-concepts.md#impermanent-loss).
+When **removing liquidity**, you will transfer your LP tokens back to the ALEX smart contract and withdraw an equivalent value of the token pair plus any fees accrued while holding those LP tokens. Since the relative balance of the tokens in the liquidity pool may have changed since your initial deposit, you could experience what's known as [Impermanent Loss](../key-concepts.md#impermanent-loss).
 
 Ready to start? Let's get hands-on!
 

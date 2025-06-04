@@ -13,7 +13,7 @@ Depending on how the market price moved during the time your bins were active, y
 
 In both cases, the withdrawn amount includes any **fees accrued** while your bins were active.
 
-Since the relative balance of tokens can shift based on price action, you might experience what’s known as [Impermanent Loss](key-concepts.md#impermanent-loss) — especially when withdrawing after major market moves.
+Since the relative balance of tokens can shift based on price action, you might experience what’s known as [Impermanent Loss](../key-concepts.md#impermanent-loss) — especially when withdrawing after major market moves.
 
 Ready to start? Let's get hands-on!
 
