@@ -2,7 +2,7 @@
 
 This repository hosts the documentation website. It is built using [Gitbook](https://www.gitbook.com/).
 
-![ALEX Lab Foundation Banner](./docs/.gitbook/assets/alexlab_doc_cover_github.jpg)
+![ALEX Lab Foundation Banner](./users/.gitbook/assets/alexlab_doc_cover_github.jpg)
 
 The ALEX Lab Foundation is a non-profit organization supporting the governance and growth of the ALEX DeFi protocol. 
 
