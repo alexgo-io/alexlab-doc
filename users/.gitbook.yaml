@@ -1,4 +1,4 @@
-root: ./docs/ 
+root: ./ 
 # All other options that specify paths will be relative to this root folder.
 
 structure:
