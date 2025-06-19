@@ -64,9 +64,6 @@ Please do not remove the "What is New?" section, just hide it.
 ## Helpful Concepts
 
 * [💰 Tokenomics](detailed-information/tokenomics.md)
-* [👥 ALEX DAO](detailed-information/alex-dao.md)
-* [💱 ALEX AMM](detailed-information/alexs-automated-market-maker-amm.md)
-* [🏋️ ALEX APower](detailed-information/what-is-alex-staking-power-and-how-do-i-use-it.md)
 
 ## Resources
 

@@ -5,7 +5,7 @@
 ## Products
 
 * [AMM](automated-market-making/README.md)
-  * [Overview](automated-market-making/short-version.md)
+  * [Overview](automated-market-making/alexs-automated-market-maker-amm.md)
   * [Trading Pool](automated-market-making/trading-pool.md)
 * [DAMM]()
   * [Overview]()
@@ -15,7 +15,7 @@
 
 ## Bonbori
 
-* [What is Bonbori](bonbori/what-is-bonbori.md)
+* [What is Bonbori](https://docs.brotocol.xyz/overview/bonbori)
 
 ## ALEX Contracts
 
@@ -26,6 +26,7 @@
   * [farming-campaign-v2-02.clar](developers/protocol-contracts/farming-campaign-v2-02.clar.md)
   * [amm-pool-v3.clar](developers/protocol-contracts/amm-pool-v3.clar.md)
   * [self-listing-helper-v3a.clar](developers/protocol-contracts/self-listing-helper-v3a.clar.md)
+* [ALEX DAO](developers/alex-dao.md)
 * [Security Audits]()
 
 ## Resources
