@@ -1,4 +1,4 @@
-# What is the Bitcoin Oracle
+# What is the Bonbori
 
 ## Cross-chain messaging and consensus layer for all and any off-chain computation engines
 
@@ -13,7 +13,7 @@ The consensus is deemed to have reached when a minimum threshold (i.e. "_m-of-n_
 
 End consumers can then verify the consensus before making a decision or taking an action with respect to that particular event, thus enhancing the security assumptions.
 
-For example, Bitcoin Oracle secures [Xlink](what-is-the-bitcoin-oracle.md#example-xlink). When Xlink identifies a particular cross-chain transfer to process, it pulls the relevant consensus data from Bitcoin Oracle, verify them using its smart contract before processing them on the relevant destination chain.
+For example, Bitcoin Oracle secures [Xlink](what-is-bonbori.md#example-xlink). When Xlink identifies a particular cross-chain transfer to process, it pulls the relevant consensus data from Bitcoin Oracle, verify them using its smart contract before processing them on the relevant destination chain.
 
 ## Flexible threshold-based consensus model
 
@@ -25,7 +25,7 @@ Each end consumer may specify a number of required (i.e. trusted) and optional (
 
 For example, for each event to validate, the end consumer may specify that the required validators must agree and a certain threshold (say 51%) of all validators (including required and optional) must agree.
 
-A fast derivation of consensus is achieved through [Threshold Sampling](what-is-the-bitcoin-oracle.md#threshold-sampling) among nodes.
+A fast derivation of consensus is achieved through [Threshold Sampling](what-is-bonbori.md#threshold-sampling) among nodes.
 
 Some may choose to have only required validators, in which case, effectively, a federated concensus model is run. In this case, a trust element is introduced to eliminate the security budget constraint.&#x20;
 
