@@ -42,5 +42,5 @@
 
 ## Partners
 
-* [Brotocol](https://docs.xlink.network)
-* [LISA]()
+* [Brotocol](https://docs.brotocol.xyz/)
+* [LISA](https://docs.lisalab.io/)
