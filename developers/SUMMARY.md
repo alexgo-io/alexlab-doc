@@ -8,17 +8,14 @@
   * [Overview](automated-market-making/short-version.md)
   * [Trading Pool](automated-market-making/trading-pool.md)
 * [DAMM]()
+  * [Overview]()
 * [Orderbook](orderbook/what-is-orderbook.md)
   * [Understanding the Orderbook](orderbook/understanding-the-orderbook.md)
 * [Launchpad](launchpad/what-is-the-launchpad.md)
-  * [Using the Launchpad](launchpad/using-the-launchpad.md)
 
 ## Bonbori
 
 * [What is Bonbori](bonbori/what-is-bonbori.md)
-* ["On Demand" Consensus Data](bonbori/on-demand-consensus-data.md)
-* [Security Audits](bonbori/security-audits.md)
-* [Why Bitcoin Oracle - BRC20](bonbori/what-is-the-bitcoin-oracle-1.md)
 
 ## ALEX Contracts
 

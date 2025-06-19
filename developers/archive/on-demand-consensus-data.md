@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # "On Demand" Consensus Data
 
 ## End consumer of consensus data dictates how it is validated and verified

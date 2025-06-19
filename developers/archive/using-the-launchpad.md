@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Using the Launchpad
 
 ## Deployment

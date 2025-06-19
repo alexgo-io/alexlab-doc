@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Using the Orderbook
 
 ALEX Orderbook is available at [https://app.alexlab.co/orderbook](https://app.alexlab.co/orderbook).

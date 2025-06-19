@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Our Design
 
 ALEX allows for implementation of arbitrary trading strategies and borrows its design from [Balancer V2](https://docs.balancer.fi).
