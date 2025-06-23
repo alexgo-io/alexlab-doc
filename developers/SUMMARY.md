@@ -4,11 +4,9 @@
 
 ## Products
 
-* [AMM](automated-market-making/README.md)
-  * [Overview](automated-market-making/alexs-automated-market-maker-amm.md)
+* [AMM](automated-market-making/alexs-automated-market-maker-amm.md)
   * [Trading Pool](automated-market-making/trading-pool.md)
 * [DAMM]()
-  * [Overview]()
 * [Orderbook](orderbook/what-is-orderbook.md)
   * [Understanding the Orderbook](orderbook/understanding-the-orderbook.md)
 * [Launchpad](launchpad/what-is-the-launchpad.md)
