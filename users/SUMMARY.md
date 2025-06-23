@@ -58,7 +58,7 @@ Please do not remove the "What is New?" section, just hide it.
 
 ## Security
 
-* [✅ Audits](resources/security-audit.md)
+* [✅ Audits](../developers/developers/security-audit.md)
 * [🐛 Bug Bounties](resources/bug-bounty.md)
 
 ## Helpful Concepts

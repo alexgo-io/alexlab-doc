@@ -27,7 +27,7 @@
   * [amm-pool-v3.clar](developers/protocol-contracts/amm-pool-v3.clar.md)
   * [self-listing-helper-v3a.clar](developers/protocol-contracts/self-listing-helper-v3a.clar.md)
 * [ALEX DAO](developers/alex-dao.md)
-* [Security Audits]()
+* [Security Audits](developers/security-audit.md)
 
 ## Resources
 
