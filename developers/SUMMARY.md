@@ -6,7 +6,6 @@
 
 ## Products
 
-* [Overview](products/README.md)
 * [AMM](products/automated-market-making/alexs-automated-market-maker-amm.md)
   * [Trading Pool](products/automated-market-making/trading-pool.md)
 * [DAMM]()
@@ -17,6 +16,7 @@
 ## Bonbori
 
 * [What is Bonbori](https://docs.brotocol.xyz/overview/bonbori)
+* [Bonbori Consensus Model](https://docs.brotocol.xyz/developers/bonbori/bonbori-consensus-model)
 
 ## ALEX Contracts
 

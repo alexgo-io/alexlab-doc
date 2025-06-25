@@ -62,10 +62,10 @@ Please do not remove the "What is New?" section, just hide it.
 
 ## Resources
 
-* [✅ Audits](https://docs.alexlab.co/developers/developers/alex-contracts/security-audit)
+* [✅ Audits](https://docs.alexlab.co/developers/alex-contracts/security-audit)
 * [🐛 Bug Bounties](resources/bug-bounty.md)
 * [🔗 Official Links](resources/official-links.md)
-* [📃 Whitepapers](resources/whitepapers/README.md)
+* [📃 Whitepapers](https://docs.alexlab.co/developers/resources/whitepaper)
   * [📃 Automated Market Making of the Yield Token Pool](whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md)
   * [📃 Automated Market Making of the Collateral Rebalancing Pool](whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md)
   * [📃 Diving into Collateral Rebalancing Pools!](whitepapers/whitepaper-3-diving-into-collateral-rebalancing-pools.md)
