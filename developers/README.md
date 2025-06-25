@@ -8,10 +8,12 @@ Our architecture allows decentralized trading, cross-chain swaps, yield generati
 
 This documentation is designed for developers building on or integrating with the ALEX ecosystem. Here you'll find:
 
-🏗️ [Deployment information and contract addresses](developers/protocol-contracts/README.md)
-
-🧬 [Integration guides](developers/api-references.md)
+🧩 [Core products](products/README.md)
 
 🏛️ [Smart contracts documentation](developers/protocol-contracts/README.md)
 
 🛡️ [Security audit reports](developers/security-audit.md)
+
+## Need Help?
+
+If you have questions or need assistance, join our developer community on [GitHub](https://github.com/alexgo-io) or reach out to our team through [Discord](https://discord.gg/alexlab).

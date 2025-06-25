@@ -17,23 +17,7 @@ layout:
 
 ---
 
-# ALEX Lab
-
-{% hint style="danger" %}
-🚀 **DAMM is coming soon!**
-  
-ALEX's next-gen Discrete AMM is almost here, bringing concentrated liquidity and smarter swap mechanics to the DEX.  
-
-[See what’s coming...](./whats-new/damm.md)
-{% endhint %}
-
-{% hint style="danger" %}
-🔥🌶️ Don't miss out! The new [Permissionless Token Listing](https://app.alexlab.co/self-service-listing) is LIVE! 🌶️🔥
-
-[Learn more here...](./whats-new/permissionless.md)
-{% endhint %}
-
-## What is ALEX?
+# What is ALEX?
 
 ALEX is building the finance layer on Bitcoin. The ALEX DEX is the largest on Bitcoin layers (Stacks Chain) fully integrated with Brotocol, our cross-chain bridge aggregating liquidity across L2s and multi-chain, with LISA as our liquid staking platform.&#x20;
 

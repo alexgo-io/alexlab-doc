@@ -1,15 +1,18 @@
 # Table of contents
 
+## Introduction
+
 * [Overview](README.md)
 
 ## Products
 
-* [AMM](automated-market-making/alexs-automated-market-maker-amm.md)
-  * [Trading Pool](automated-market-making/trading-pool.md)
+* [Overview](products/README.md)
+* [AMM](products/automated-market-making/alexs-automated-market-maker-amm.md)
+  * [Trading Pool](products/automated-market-making/trading-pool.md)
 * [DAMM]()
-* [Orderbook](orderbook/what-is-orderbook.md)
-  * [Understanding the Orderbook](orderbook/understanding-the-orderbook.md)
-* [Launchpad](launchpad/what-is-the-launchpad.md)
+* [Orderbook](products/orderbook/what-is-orderbook.md)
+  * [Understanding the Orderbook](products/orderbook/understanding-the-orderbook.md)
+* [Launchpad](products/launchpad/what-is-the-launchpad.md)
 
 ## Bonbori
 
@@ -41,5 +44,5 @@
 
 ## Partners
 
-* [Brotocol](https://docs.brotocol.xyz/)
-* [LISA](https://docs.lisalab.io/)
+* [Brotocol](https://brotocol.xyz/about)
+* [LISA](https://www.lisalab.io/)

@@ -32,7 +32,7 @@ Trading Pool is permission-less in that anyone can register a pair with initial 
 
 Certain privileged functions are available to `pool-owner` to govern the pool. The `pool-owner` address is set at the time of a pool creation. ALEX DAO, as part of its governance, has the power to update and replace the `pool-owner` address. Therefore, you can view this as ALEX DAO delegating the governance of each pool to its respective `pool-owner`.
 
-[Refer to the comprehensive list of pool-governed setters](../developers/protocol-contracts/amm-pool-v2-01.clar.md#setters).
+[Refer to the comprehensive list of pool-governed setters](../../developers/protocol-contracts/amm-pool-v2-01.clar.md#setters).
 
 ## Pool liquidity operations
 

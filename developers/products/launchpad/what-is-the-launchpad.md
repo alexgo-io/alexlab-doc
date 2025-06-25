@@ -1,6 +1,6 @@
 # What is the Launchpad
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 Every project needs a platform to launch their project tokens and our Launchpad is a lottery-based token launch platform that uses a hybrid off-chain / on-chain model.
 
