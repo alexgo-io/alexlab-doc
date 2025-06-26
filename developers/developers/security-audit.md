@@ -15,4 +15,6 @@ Check the audit reports here:
 - [2022-07 Orderbook](https://cdn.alexgo.io/pdf/AlexGo_Audit_20220709-Order_Book_(Spot).pdf)
 - [2022-10 Orderbook (perpetual)](https://cdn.alexgo.io/pdf/Alex_Audit_2022-10.pdf)
 
-
+{% hint style="info" %}
+🔍 Looking to report a vulnerability or earn rewards for finding bugs? Check out our [Bug Bounty Program](../developers/bug-bounty.md), hosted in collaboration with Immunefi.
+{% endhint %}

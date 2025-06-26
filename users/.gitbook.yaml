@@ -1,3 +1,5 @@
+# ⚙️ IMPORTANT: When setting up GitBook GitHub sync, be sure to set the site directory to `./users/` in the GitBook UI.
+
 root: ./ 
 # All other options that specify paths will be relative to this root folder.
 
