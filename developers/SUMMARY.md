@@ -8,7 +8,7 @@
 
 * [AMM](products/automated-market-making/alexs-automated-market-maker-amm.md)
   * [Trading Pool](products/automated-market-making/trading-pool.md)
-* [DAMM]()
+* [DAMM](products/damm/amm-v3.md)
 * [Orderbook](products/orderbook/what-is-orderbook.md)
   * [Understanding the Orderbook](products/orderbook/understanding-the-orderbook.md)
 * [Launchpad](products/launchpad/what-is-the-launchpad.md)
