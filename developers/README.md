@@ -8,7 +8,9 @@ Our architecture allows decentralized trading, cross-chain swaps, yield generati
 
 This documentation is designed for developers building on or integrating with the ALEX ecosystem. Here you'll find:
 
-🧩 Technical overviews of [amm](products/automated-market-making/alexs-automated-market-maker-amm.md), [orderbook](products/orderbook/what-is-orderbook.md) and [launchpad](products/launchpad/what-is-the-launchpad.md)
+🧩 Technical overviews of [AMM](products/automated-market-making/alexs-automated-market-maker-amm.md), [Orderbook](products/orderbook/what-is-orderbook.md) and [Launchpad](products/launchpad/what-is-the-launchpad.md)
+
+📡 [REST API reference](developers/api-references.md) to access the latest market data on ALEX.
 
 🏛️ [Smart contracts documentation](developers/protocol-contracts/README.md)
 

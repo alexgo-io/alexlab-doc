@@ -13,11 +13,6 @@
   * [Understanding the Orderbook](products/orderbook/understanding-the-orderbook.md)
 * [Launchpad](products/launchpad/what-is-the-launchpad.md)
 
-## Bonbori
-
-* [What is Bonbori](https://docs.brotocol.xyz/overview/bonbori)
-* [Bonbori Consensus Model](https://docs.brotocol.xyz/developers/bonbori/bonbori-consensus-model)
-
 ## ALEX Contracts
 
 * [Stacks](developers/protocol-contracts/README.md)
@@ -30,17 +25,21 @@
 * [ALEX DAO](developers/alex-dao.md)
 * [Security Audits](developers/security-audit.md)
 
-## Resources
+## Integrations
 
 * [REST API](developers/api-references.md)
 * [Networks](developers/networks/README.md)
   * [Mainnet](developers/networks/mainnet.md)
   * [Testnet](developers/networks/testnet.md)
+
+## Resources
+
 * [Whitepapers](whitepaper/README.md)
   * [Automated Market Making of Trading Pool](whitepaper/automated-market-making-of-alex/README.md)
   * [Automated Market Making of Yield Token Pool](whitepaper/automated-market-making-of-alex/automated-market-making-of-alex.md)
   * [Automated Market Making of Collateral Rebalancing Pool](whitepaper/automated-market-making-of-collateral-rebalancing-pool.md)
   * [Dive Into Collateral Rebalancing Pool!](whitepaper/dive-into-collateral-rebalancing-pool.md)
+* [Bonbori Consensus Model](https://docs.brotocol.xyz/developers/bonbori/bonbori-consensus-model)
 * [Bug Bounties](developers/bug-bounty.md)
 
 ## Partners
