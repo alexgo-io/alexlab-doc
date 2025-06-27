@@ -15,3 +15,8 @@
 {% content-ref url="../whitepaper/dive-into-collateral-rebalancing-pool.md" %}
 [Dive Into Collateral Rebalancing Pool!](../whitepaper/dive-into-collateral-rebalancing-pool.md)
 {% endcontent-ref %}
+
+<!-- markdownlint-disable-next-line MD034 -->
+{% content-ref url="https://github.com/alexgo-io/cdn/blob/main/pdf/alex-v3-whitepaper.pdf" %}
+[Discrete Automated Market Maker](https://github.com/alexgo-io/cdn/blob/main/pdf/alex-v3-whitepaper.pdf)
+{% endcontent-ref %}
