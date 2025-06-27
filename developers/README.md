@@ -10,7 +10,7 @@ This documentation is designed for developers building on or integrating with th
 
 🧩 Technical overviews of [AMM](products/automated-market-making/alexs-automated-market-maker-amm.md), [Orderbook](products/orderbook/what-is-orderbook.md) and [Launchpad](products/launchpad/what-is-the-launchpad.md)
 
-📡 [REST API reference](developers/api-references.md) to access the latest market data on ALEX.
+📡 [REST API reference](developers/api-references.md) to access the latest market data on ALEX
 
 🏛️ [Smart contracts documentation](developers/protocol-contracts/README.md)
 
