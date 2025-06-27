@@ -39,6 +39,7 @@
   * [Automated Market Making of Yield Token Pool](whitepaper/automated-market-making-of-alex/automated-market-making-of-alex.md)
   * [Automated Market Making of Collateral Rebalancing Pool](whitepaper/automated-market-making-of-collateral-rebalancing-pool.md)
   * [Dive Into Collateral Rebalancing Pool!](whitepaper/dive-into-collateral-rebalancing-pool.md)
+  * [Discrete Automated Market Maker](https://github.com/alexgo-io/cdn/blob/main/pdf/alex-v3-whitepaper.pdf)
 * [Bonbori Consensus Model](https://docs.brotocol.xyz/developers/bonbori/bonbori-consensus-model)
 * [Bug Bounties](developers/bug-bounty.md)
 
