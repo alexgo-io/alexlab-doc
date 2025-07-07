@@ -1,15 +1,15 @@
 # Table of contents
 
-* [ALEX Lab](README.md)
+* [What is ALEX?](README.md)
 
 <!--
 Please do not remove the "What is New?" section, just hide it.
 -->
 
-## What is New?
+<!-- ## What is New?
 
 * [🕺 Permissionless Pool Creation](whats-new/permissionless.md)
-* [⚡ DAMM](whats-new/damm.md)
+* [⚡ DAMM](whats-new/damm.md) -->
 
 ## Getting Started
 
@@ -56,22 +56,12 @@ Please do not remove the "What is New?" section, just hide it.
 * [💦 Create Your Own Pool](product-features/self-service-listing.md)
 * [🚜 Add Farming to Your Pool](product-features/self-service-farming.md)
 
-## Security
-
-* [✅ Audits](resources/security-audit.md)
-* [🐛 Bug Bounties](resources/bug-bounty.md)
-
 ## Helpful Concepts
 
 * [💰 Tokenomics](detailed-information/tokenomics.md)
-* [👥 ALEX DAO](detailed-information/alex-dao.md)
-* [💱 ALEX AMM](detailed-information/alexs-automated-market-maker-amm.md)
-* [🏋️ ALEX APower](detailed-information/what-is-alex-staking-power-and-how-do-i-use-it.md)
 
 ## Resources
 
+* [✅ Audits](https://docs.alexlab.co/developers/alex-contracts/security-audit)
 * [🔗 Official Links](resources/official-links.md)
-* [📃 Whitepapers](resources/whitepapers/README.md)
-  * [📃 Automated Market Making of the Yield Token Pool](whitepapers/whitepaper-1-automated-market-making-of-the-yield-token-pool.md)
-  * [📃 Automated Market Making of the Collateral Rebalancing Pool](whitepapers/whitepaper-2-automated-market-making-of-the-collateral-rebalancing-pooltitled.md)
-  * [📃 Diving into Collateral Rebalancing Pools!](whitepapers/whitepaper-3-diving-into-collateral-rebalancing-pools.md)
+* [📃 Whitepapers](https://docs.alexlab.co/developers/resources/whitepaper)
