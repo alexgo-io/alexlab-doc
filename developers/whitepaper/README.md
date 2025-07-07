@@ -1,4 +1,4 @@
-# 📃 Whitepapers
+# Whitepapers
 
 {% content-ref url="../whitepaper/automated-market-making-of-alex/README.md" %}
 [Automated Market Making of Trading Pool](../whitepaper/automated-market-making-of-alex/README.md)
