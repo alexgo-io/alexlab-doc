@@ -1,4 +1,4 @@
-# ✅ Security Audit
+# Security Audit
 
 ALEX has reached out to three security audit firms for a complete smart contract and code audit.
 
