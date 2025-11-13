@@ -1,4 +1,4 @@
-# Welcome to ALEX Developer Docs
+# Overview
 
 **ALEX** is building the financial infrastructure on Bitcoin by combining Bitcoin L1 with Stacks L2 to unlock smart contract capabilities, DeFi primitives, and permissionless financial tools for Bitcoin users.
 
@@ -8,11 +8,11 @@ Our architecture allows decentralized trading, cross-chain swaps, yield generati
 
 This documentation is designed for developers building on or integrating with the ALEX ecosystem. Here you'll find:
 
-🧩 Technical overviews of [AMM](products/automated-market-making/alexs-automated-market-maker-amm.md), [Orderbook](products/orderbook/what-is-orderbook.md) and [Launchpad](products/launchpad/what-is-the-launchpad.md)
+🧩 Technical overviews of [AMM](products/alexs-automated-market-maker-amm/), [Orderbook](products/what-is-orderbook/) and [Launchpad](products/what-is-the-launchpad.md)
 
 📡 [REST API reference](developers/api-references.md) to access the latest market data on ALEX
 
-🏛️ [Smart contracts documentation](developers/protocol-contracts/README.md)
+🏛️ [Smart contracts documentation](developers/protocol-contracts/)
 
 🛡️ [Security audit reports](developers/security-audit.md)
 
