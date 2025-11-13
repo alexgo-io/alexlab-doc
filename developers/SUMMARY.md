@@ -7,7 +7,8 @@
 ## Products
 
 * [AMM](products/alexs-automated-market-maker-amm/README.md)
-  * [Trading Pool](products/alexs-automated-market-maker-amm/trading-pool.md)
+  * [Trading Pool v1](products/alexs-automated-market-maker-amm/trading-pool.md)
+  * [Trading Pool v2](products/automated-market-making/trading-pool-v2.md)
 * [DAMM](products/amm-v3.md)
 * [Orderbook](products/what-is-orderbook/README.md)
   * [Understanding the Orderbook](products/what-is-orderbook/understanding-the-orderbook.md)
