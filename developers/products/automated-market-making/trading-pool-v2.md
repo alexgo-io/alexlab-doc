@@ -2,7 +2,7 @@
 
 ## What It Is
 
-Trading Pool v2 is the next generation of ALEX's automated market maker (AMM) for token swaps. It's a smart contract upgrade that makes swaps more reliable, cheaper, and safer for all users.
+Trading Pool v2 is an upgrade to ALEX's automated market maker (AMM) for token swaps. It implements the Solidly formula and Clarity v4 security features.
 
 ---
 
@@ -16,7 +16,7 @@ Trading Pool v2 is the next generation of ALEX's automated market maker (AMM) fo
 - Precision issues with decimal amounts
 - Formula: $$x^{1-t} + y^{1-t} = L$$
 
-**Now (v2)**: Uses the Solidly formula, proven in production by major DEXs
+**Now (v2)**: Uses the Solidly formula, used by Velodrome and Aerodrome DEXs
 - All swap sizes work correctly, even tiny amounts
 - 60% lower gas costs for most swaps
 - Perfect precision for all transaction sizes
@@ -31,7 +31,7 @@ Trading Pool v2 is the next generation of ALEX's automated market maker (AMM) fo
 - Protection against reentrancy attacks
 - Enforced swap amounts—what you see is what you get
 
-Even if a malicious token is listed, it can't drain the pool or steal your funds.
+Malicious tokens cannot transfer more than the specified amount due to `restrict-assets?` enforcement.
 
 ### 3. **Better Price Accuracy**
 
@@ -48,17 +48,17 @@ Even if a malicious token is listed, it can't drain the pool or steal your funds
 
 ### Problem 1: Small Swaps Were Failing
 
-**User experience**: "I tried to swap 0.001 STX for aUSD and got nothing back"
+**Issue**: Small swaps (0.001 STX or less) failed or returned zero.
 
-**Root cause**: The power calculation in v1 loses precision when numbers are very close together. Mathematically, this is known as "catastrophic cancellation" - when you subtract two nearly equal numbers in fixed-point arithmetic, you lose significant digits.
+**Root cause**: Power calculations in v1 lose precision when numbers are close together. Subtracting nearly equal numbers in fixed-point arithmetic causes precision loss.
 
 **Solution**: Solidly formula uses square roots instead of powers, which Stacks blockchain handles natively and accurately through the `sqrti` function. The formula can be solved directly without subtraction of similar numbers.
 
 ### Problem 2: Gas Costs Were Too High
 
-**User experience**: "Why does my $10 swap cost $5 in fees?"
+**Issue**: High gas costs relative to swap size.
 
-**Root cause**: Complex power calculations require many computational steps and multiple iterations to achieve acceptable precision.
+**Root cause**: Power calculations require multiple iterations to achieve acceptable precision.
 
 **Solution**: Solidly formula has direct mathematical solutions (no iteration needed):
 - Volatile pairs ($$t \geq 0.8$$, mapped to $$n=1$$): 77% gas reduction
@@ -66,9 +66,9 @@ Even if a malicious token is listed, it can't drain the pool or steal your funds
 
 ### Problem 3: Security Concerns
 
-**User experience**: "How do I know a new token won't drain the pool?"
+**Issue**: Risk of malicious token behavior.
 
-**Root cause**: Current system trusts that tokens follow the rules. While ALEX pre-approves tokens, an additional layer of enforcement at the smart contract level provides defense in depth.
+**Root cause**: v1 relies on tokens following expected behavior. Contract-level enforcement adds an additional security layer.
 
 **Solution**: Clarity v4's `restrict-assets?` enforces rules at the blockchain level:
 - Tokens can't transfer more than specified amounts
@@ -77,9 +77,9 @@ Even if a malicious token is listed, it can't drain the pool or steal your funds
 
 ### Problem 4: Inconsistent Behavior
 
-**User experience**: "Why does the same swap give different results in different pools?"
+**Issue**: Inconsistent swap results across pools of different sizes.
 
-**Root cause**: v1 formula's behavior could vary depending on absolute pool size due to fixed-point precision limitations.
+**Root cause**: v1 formula behavior varies with absolute pool size due to fixed-point precision limitations.
 
 **Solution**: Solidly formula is "scale-invariant"—works the same whether the pool has $100 or $100M in liquidity.
 
@@ -96,11 +96,13 @@ Even if a malicious token is listed, it can't drain the pool or steal your funds
 - All existing v1 features working
 - Comprehensive test suite passing
 
-🔄 **Development Environment**: In Progress
+⏸️ **Development Environment**: Blocked
 - Clarity v4 is already activated on Stacks mainnet
-- Clarinet SDK support for `restrict-assets?` is still maturing
-- We need better tooling support to complete comprehensive testing before deployment
-- Once SDK support improves, we can finalize testing
+- Clarinet CLI v3.10.0 includes full `restrict-assets?` support (type-checking works)
+- **Blocker**: Clarinet SDK v3.8.1 (used by test runner) does not yet support `restrict-assets?`
+- Cannot run comprehensive tests until SDK is updated to match CLI capabilities
+- Contract compiles and type-checks successfully, but test execution fails
+- Waiting for SDK update before implementing comprehensive test coverage
 
 📋 **Security Audit**: Pending
 - Will be scheduled once development environment testing is completed
@@ -173,10 +175,10 @@ All existing pools will automatically benefit from the improved formula and enha
 ## Frequently Asked Questions
 
 **Q: Will my existing LP positions be affected?**  
-A: No action required. This is a logic-only upgrade—your existing positions will automatically benefit from the improved formula without any migration.
+A: No action required. Logic-only upgrade. Existing positions benefit from the improved formula without migration.
 
 **Q: Will the pool parameter $$t$$ still exist?**  
-A: Yes! The $$t$$ parameter remains for backward compatibility and familiarity. It's internally mapped to $$n$$ (1 or 2) in v2:
+A: The $$t$$ parameter remains for backward compatibility. It's internally mapped to $$n$$ (1 or 2) in v2:
 - $$t \geq 0.8$$ → $$n=1$$ (volatile, constant product-like)
 - $$t < 0.8$$ → $$n=2$$ (stable, enhanced curve)
 
@@ -190,26 +192,26 @@ A: Higher $$n$$ values require iterative Newton's method calculations, which wou
 The $$n=1$$ and $$n=2$$ cases cover all practical use cases with closed-form solutions.
 
 **Q: Is this battle-tested?**  
-A: Yes! The Solidly formula is used by major DEXs including:
+A: The Solidly formula is used by:
 - Velodrome Finance: ~$50M daily volume
 - Aerodrome: ~$100M daily volume
-- Solidly (original): Proven in production
+- Solidly (original): Production deployment
 
-Our implementation has been thoroughly tested on Stacks testnet with comprehensive test coverage and will be subject to a comprehensive security audit before mainnet deployment.
+Implementation tested on Stacks testnet. Security audit scheduled before mainnet deployment.
 
 **Q: When can we expect deployment?**  
 A: Deployment timeline depends on:
-1. Clarinet SDK improving `restrict-assets?` support (monitoring actively)
-2. Completing comprehensive testing once tooling is ready
+1. ⏸️ **Current Blocker**: Clarinet SDK update to support `restrict-assets?` (CLI v3.10.0 supports it, but SDK v3.8.1 does not)
+2. Completing comprehensive testing with the updated SDK tooling
 3. Security audit scheduling and completion
 
-We'll provide updates as each milestone is reached.
+Updates will be provided as milestones are reached.
 
 **Q: Will there be any downtime during the upgrade?**  
-A: No. The upgrade is designed to be seamless with no service interruption. All pools continue operating normally throughout the process.
+A: No. Seamless upgrade with no service interruption. Pools continue operating normally.
 
 **Q: Can I still use the same helper functions?**  
-A: Yes! All v1 helper functions remain:
+A: All v1 helper functions remain:
 - `swap-helper` (automatic routing)
 - `swap-helper-a`, `swap-helper-b`, `swap-helper-c` (multi-hop)
 - `get-oracle-instant`, `get-oracle-resilient` (price oracles)
@@ -226,8 +228,8 @@ Plus four new functions for advanced use cases.
 |-------|--------|-------|
 | Core Development | ✅ Complete | Solidly formula + restrict-assets? implemented |
 | Initial Testing | ✅ Complete | Comprehensive test suite passing |
-| SDK Tooling | 🔄 In Progress | Waiting for better Clarinet support |
-| Final Testing | 📋 Planned | After SDK tooling improves |
+| SDK Tooling | ⏸️ Blocked | Clarinet CLI v3.10.0 supports restrict-assets?, but SDK v3.8.1 does not |
+| Final Testing | ⏸️ Blocked | Waiting for SDK update to run tests |
 | Security Audit | 📋 Planned | After testing completion |
 | Mainnet Deployment | 📋 Planned | After audit approval |
 
@@ -235,7 +237,7 @@ Plus four new functions for advanced use cases.
 
 ## Summary
 
-Trading Pool v2 represents a significant improvement in reliability, cost, and security:
+Trading Pool v2 improvements:
 
 1. **Better Math**: Solidly formula fixes precision issues and reduces gas costs by 60-77%
 2. **Enhanced Security**: Clarity v4's `restrict-assets?` provides built-in protection against malicious tokens
@@ -243,9 +245,9 @@ Trading Pool v2 represents a significant improvement in reliability, cost, and s
 4. **Seamless Upgrade**: Logic-only replacement—no pool migration required
 5. **Backward Compatible**: Same API, same $$t$$ parameter, familiar interface
 
-The upgrade will be deployed as a seamless contract replacement once development tooling matures and security audits are complete. Users will experience better swaps, lower costs, and enhanced security without any action required on their part.
+Deployment occurs as a contract replacement after tooling support and security audits are complete. No user action required.
 
-The $$t$$ parameter you know from v1 remains—it's simply mapped more efficiently to the underlying formula. This means existing integrations continue working while benefiting from the improved mathematics and security.
+The $$t$$ parameter from v1 remains, mapped to the underlying formula. Existing integrations continue working.
 
 ---
 
@@ -270,13 +272,13 @@ Where $$n$$ is derived from $$t$$:
 
 ### Why Solidly?
 
-We conducted an extensive evaluation of alternative AMM formulas to address v1's limitations.
+Alternative AMM formulas were evaluated to address v1 limitations.
 
 #### Alternatives Explored
 
 **1. Wombat Exchange**
 - **Formula**: $$(x - A/x) + (y - A/y) = D$$
-- **Pros**: Good precision for stable pairs, battle-tested in production
+- **Pros**: Good precision for stable pairs, production deployment
 - **Cons**: Not scale-invariant (parameter $$A$$ must scale with pool size: $$A = \alpha \times L^2$$), requires custom square root implementation
 
 **2. Curve StableSwap**
@@ -291,7 +293,7 @@ We conducted an extensive evaluation of alternative AMM formulas to address v1's
 
 **4. Solidly (Selected)**
 - **Formula**: $$x^n \cdot y + x \cdot y^n = k$$
-- **Pros**: Scale-invariant, closed-form solutions for $$n=1,2$$, uses native `sqrti`, proven in production
+- **Pros**: Scale-invariant, closed-form solutions for $$n=1,2$$, uses native `sqrti`, production deployment
 - **Cons**: Limited to $$n \leq 2$$ for closed-form solutions
 
 **5. Hybrid Constant Function**
